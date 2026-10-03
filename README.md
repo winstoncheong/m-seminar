@@ -50,11 +50,11 @@ YouTube channel, then update `data/`:
    `extra` (lecture-series schedules, room info, …), `source` (page URL),
    `order` (position on the source page, for stable sorting).
    Endowed lectures name the lecture, not the speaker (`William J. Spencer
-   Lecture`): put that in `extra` and the real speaker in `speaker`.
+Lecture`): put that in `extra` and the real speaker in `speaker`.
 2. **`videos.json`** — one object per channel video: `id` (YouTube id),
    `title`, `duration` (seconds), `views`, `url`.
 3. **`match.json`** — `{"talk": <index into talks.json>, "videos":
-   [{"id", "part", "title"}]}`. Multi-part series go on the single series
+[{"id", "part", "title"}]}`. Multi-part series go on the single series
    talk, ordered by `part`. A talk with no recording gets `"videos": []` —
    the site then says so explicitly.
 4. **`speakers.json`** — plain `{name: homepage URL}` map. Prefer the
