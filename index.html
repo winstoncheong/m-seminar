@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>M-Seminar · Kansas State University</title>
+    <meta
+      name="description"
+      content="Archive of the K-State M-Seminar: talks, abstracts, slides and video recordings."
+    />
+    <link rel="preconnect" href="https://i.ytimg.com" />
+    <link rel="stylesheet" href="assets/style.css" />
+    <script>
+      // Apply the stored theme before first paint to avoid a flash.
+      try {
+        var t = localStorage.getItem("mseminar-theme");
+        if (t === "light" || t === "dark") {
+          document.documentElement.dataset.theme = t;
+          document.documentElement.style.colorScheme = t;
+        }
+      } catch (e) {}
+    </script>
+    <script>
+      window.MathJax = {
+        tex: {
+          inlineMath: [
+            ["$", "$"],
+            ["\\(", "\\)"],
+          ],
+          displayMath: [["$$", "$$"]],
+          macros: {
+            Bbb: "\\mathbb",
+            CC: "\\mathbb{C}",
+            RR: "\\mathbb{R}",
+            ZZ: "\\mathbb{Z}",
+            QQ: "\\mathbb{Q}",
+            NN: "\\mathbb{N}",
+          },
+        },
+        options: { skipHtmlTags: ["script", "noscript", "style", "textarea", "pre", "code"] },
+      };
+    </script>
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <div class="brand">
+          <span class="mark">M</span>
+          <div>
+            <h1>M-Seminar</h1>
+            <p class="sub">Kansas State University · M-Center</p>
+          </div>
+        </div>
+        <nav class="header-links">
+          <a
+            href="https://www.math.ksu.edu/research/research-centers/m-center/"
+            target="_blank"
+            rel="noopener"
+            >M-Center</a
+          >
+          <a href="https://www.youtube.com/@m-seminar_ksu" target="_blank" rel="noopener"
+            >YouTube</a
+          >
+          <a
+            href="https://www.math.ksu.edu/research/research-centers/m-center/seminars.html"
+            target="_blank"
+            rel="noopener"
+            >Original page</a
+          >
+          <button id="theme-toggle" class="theme-toggle" type="button" title="Color theme">
+            ◐
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <main class="wrap">
+      <section class="hero">
+        <p id="next-talk" class="next-talk" hidden></p>
+        <div class="controls">
+          <label class="search">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <circle cx="11" cy="11" r="7" />
+              <path d="M21 21l-4.3-4.3" />
+            </svg>
+            <input
+              id="q"
+              type="search"
+              placeholder="Search title, speaker, abstract…  (press /)"
+              autocomplete="off"
+            />
+          </label>
+          <select id="year" aria-label="Filter by year">
+            <option value="">All years</option>
+          </select>
+          <label class="check"><input id="hasVideo" type="checkbox" /> With video</label>
+          <label class="check"><input id="upcomingOnly" type="checkbox" /> Upcoming</label>
+          <label class="check"
+            ><input id="hideCancelled" type="checkbox" checked /> Hide cancelled</label
+          >
+          <select id="sort" aria-label="Sort">
+            <option value="new">Newest first</option>
+            <option value="old">Oldest first</option>
+            <option value="speaker">By speaker</option>
+          </select>
+        </div>
+        <p id="stats" class="stats"></p>
+      </section>
+
+      <section id="results" class="results"></section>
+      <p id="empty" class="empty" hidden>No talks match your filters.</p>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <p>
+          Programme data scraped from
+          <a
+            href="https://www.math.ksu.edu/research/research-centers/m-center/seminars.html"
+            target="_blank"
+            rel="noopener"
+            >math.ksu.edu</a
+          >. Video recordings from the
+          <a href="https://www.youtube.com/@m-seminar_ksu" target="_blank" rel="noopener"
+            >M-Seminar YouTube channel</a
+          >.
+        </p>
+        <p class="muted">
+          Last built <span id="built"></span>. Unofficial mirror; not affiliated with K-State.
+        </p>
+      </div>
+    </footer>
+
+    <script src="assets/data.js"></script>
+    <script src="assets/app.js"></script>
+  </body>
+</html>

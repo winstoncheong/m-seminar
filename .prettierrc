@@ -1,0 +1,10 @@
+{
+  "printWidth": 100,
+  "proseWrap": "preserve",
+  "overrides": [
+    {
+      "files": "data/*.json",
+      "options": { "printWidth": 120 }
+    }
+  ]
+}

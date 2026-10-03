@@ -1,0 +1,2576 @@
+[
+  {
+    "talk": 0,
+    "videos": []
+  },
+  {
+    "talk": 1,
+    "videos": []
+  },
+  {
+    "talk": 2,
+    "videos": []
+  },
+  {
+    "talk": 3,
+    "videos": [
+      {
+        "id": "pdRUxmNCLeE",
+        "part": 1,
+        "title": "Anton Kapustin - From locality to homotopy theory"
+      }
+    ]
+  },
+  {
+    "talk": 4,
+    "videos": []
+  },
+  {
+    "talk": 5,
+    "videos": []
+  },
+  {
+    "talk": 6,
+    "videos": [
+      {
+        "id": "iMdUL8j4cKw",
+        "part": 1,
+        "title": "Christopher Beem - Graded Unitarity"
+      }
+    ]
+  },
+  {
+    "talk": 7,
+    "videos": [
+      {
+        "id": "v9O2k5lOkjE",
+        "part": 1,
+        "title": "Alexander Goncharov - Non-commutative cluster Lagrangians"
+      }
+    ]
+  },
+  {
+    "talk": 8,
+    "videos": [
+      {
+        "id": "zNLKlOcXs8M",
+        "part": 1,
+        "title": "Vladimir Roubtsov - Product Formulas for the Higher Bessel Functions"
+      }
+    ]
+  },
+  {
+    "talk": 9,
+    "videos": [
+      {
+        "id": "zcM5z_ep76E",
+        "part": 1,
+        "title": "Bertrand Eynard - Topological Recursion, CFT and principal bundles"
+      }
+    ]
+  },
+  {
+    "talk": 10,
+    "videos": [
+      {
+        "id": "J5iSlmMtvjw",
+        "part": 1,
+        "title": "Sam DeHority - Orientifold lines from CoHA modules (Part 1 of 3)"
+      },
+      {
+        "id": "2SKKyZt9iks",
+        "part": 2,
+        "title": "Sam DeHority - Orientifold lines from CoHA modules (Part 2 of 3)"
+      },
+      {
+        "id": "4LrDmTPVowE",
+        "part": 3,
+        "title": "Sam DeHority - Orientifold lines from CoHA modules (Part 3 of 3)"
+      }
+    ]
+  },
+  {
+    "talk": 11,
+    "videos": [
+      {
+        "id": "qiMsBrvmHfU",
+        "part": 1,
+        "title": "Vasily Krylov - Higgs and Coulomb branches for quiver gauge theories (part 1 of 3)"
+      },
+      {
+        "id": "9746Tf6Gcm8",
+        "part": 2,
+        "title": "Vasily Krylov - Higgs and Coulomb branches for quiver gauge theories (part 2 of 3)"
+      },
+      {
+        "id": "MYK-esWEmug",
+        "part": 3,
+        "title": "Vasily Krylov  - Higgs and Coulomb branches for quiver gauge theories (part 3 of 3)"
+      }
+    ]
+  },
+  {
+    "talk": 12,
+    "videos": [
+      {
+        "id": "q1WhtjlURHE",
+        "part": 1,
+        "title": "Tudor Dimofte -  Tannaka/Koszul duality and line operators (part 1)"
+      },
+      {
+        "id": "IfPmy05RlYo",
+        "part": 2,
+        "title": "Tudor Dimofte -  Tannaka/Koszul duality and line operators (part 2)"
+      },
+      {
+        "id": "orNRSLnqCrU",
+        "part": 3,
+        "title": "Tudor Dimofte -  Tannaka/Koszul duality and line operators (part 3)"
+      }
+    ]
+  },
+  {
+    "talk": 13,
+    "videos": [
+      {
+        "id": "EJ69IXparPo",
+        "part": 1,
+        "title": "Davide Gaiotto - The categorical 't Hooft expansion"
+      },
+      {
+        "id": "rRwpVaPH3zc",
+        "part": 2,
+        "title": "Davide Gaiotto -  The categorical 't Hooft expansion (Lec 2)"
+      },
+      {
+        "id": "_FrkR-mPtMQ",
+        "part": 3,
+        "title": "Davide Gaiotto -  The categorical 't Hooft expansion (Lec 3)"
+      }
+    ]
+  },
+  {
+    "talk": 14,
+    "videos": [
+      {
+        "id": "azXqbRSSG-k",
+        "part": 1,
+        "title": "Rina Anno - The Hochschild homology of a noncommutative symmetric quotient stack"
+      }
+    ]
+  },
+  {
+    "talk": 15,
+    "videos": []
+  },
+  {
+    "talk": 16,
+    "videos": [
+      {
+        "id": "XJJsAb-BmQQ",
+        "part": 1,
+        "title": "Ilya Dumanski - Perverse coherent sheaves on symplectic singularities (part 1 of 3)"
+      },
+      {
+        "id": "LcvNv9Hlri8",
+        "part": 2,
+        "title": "Ilya Dumanski - Perverse coherent sheaves on symplectic singularities (part 2 of 3)"
+      },
+      {
+        "id": "3DSqlYcI8cQ",
+        "part": 3,
+        "title": "Ilya Dumanski - Perverse coherent sheaves on symplectic singularities (part 3 of 3)"
+      }
+    ]
+  },
+  {
+    "talk": 17,
+    "videos": [
+      {
+        "id": "qWauRz5onIQ",
+        "part": 1,
+        "title": "Boris Tsygan - The Gauss-Manin connection in noncommutative geometry"
+      }
+    ]
+  },
+  {
+    "talk": 18,
+    "videos": [
+      {
+        "id": "1q-RkpTCsXQ",
+        "part": 1,
+        "title": "Piotr Sulkowski - Symmetric quivers for 2d, 3d and 4d theories and topological strings (Lec 1)"
+      },
+      {
+        "id": "9Cxd8sARDfU",
+        "part": 2,
+        "title": "Piotr Sulkowski - Symmetric quivers for 2d, 3d and 4d theories and topological strings (Lec 2)"
+      }
+    ]
+  },
+  {
+    "talk": 19,
+    "videos": [
+      {
+        "id": "dsY_jbpaKn8",
+        "part": 1,
+        "title": "Andrey Smirnov - Frobenius structures for quantum differential and q-difference equations (Lec 1)"
+      },
+      {
+        "id": "7Px--2MA9qI",
+        "part": 2,
+        "title": "Andrey Smirnov - Frobenius structures for quantum differential and q-difference equations (Lec 2)"
+      },
+      {
+        "id": "tS7_k0Pplho",
+        "part": 3,
+        "title": "Andrey Smirnov - Frobenius structures for quantum differential and q-difference equations (Lec 3)"
+      }
+    ]
+  },
+  {
+    "talk": 20,
+    "videos": [
+      {
+        "id": "zTZLBPiZY7M",
+        "part": 1,
+        "title": "Tudor Padurariu - BPS cohomology and quasi-BPS categories (Lecture 1 of 4)"
+      },
+      {
+        "id": "S1DLfg3PUQQ",
+        "part": 2,
+        "title": "Tudor Padurariu - BPS cohomology and quasi-BPS categories (Lecture 2 of 4)"
+      },
+      {
+        "id": "Q_Z9LgO9ahE",
+        "part": 3,
+        "title": "Tudor Padurariu - BPS cohomology and quasi-BPS categories (Lecture 3 of 4)"
+      },
+      {
+        "id": "n_oOuj5mk04",
+        "part": 4,
+        "title": "Tudor Padurariu - BPS cohomology and quasi-BPS categories (Lecture 4 of 4)"
+      }
+    ]
+  },
+  {
+    "talk": 21,
+    "videos": [
+      {
+        "id": "5Nlmr0a7KHw",
+        "part": 1,
+        "title": "Sergey Alexandrov - Mock modularity of Calabi-Yau threefolds (part 1 of 3)"
+      },
+      {
+        "id": "bqLCORd8IjE",
+        "part": 2,
+        "title": "Sergey Alexandrov - Mock modularity of Calabi-Yau threefolds (part 2 of 3)"
+      },
+      {
+        "id": "EjdNdMbRp54",
+        "part": 3,
+        "title": "Sergey Alexandrov - Mock modularity of Calabi-Yau threefolds (part 3 of 3)"
+      }
+    ]
+  },
+  {
+    "talk": 22,
+    "videos": [
+      {
+        "id": "rCrUWCsbyGg",
+        "part": 1,
+        "title": "Ruoxi Li - Motivic classes of varieties and stacks with applications to Higgs bundles and more"
+      }
+    ]
+  },
+  {
+    "talk": 23,
+    "videos": []
+  },
+  {
+    "talk": 24,
+    "videos": [
+      {
+        "id": "pDg8CtzQWjw",
+        "part": 1,
+        "title": "Chiu-Chu Melissa Liu - Remodeling Conjecture with descendants"
+      }
+    ]
+  },
+  {
+    "talk": 25,
+    "videos": [
+      {
+        "id": "db-F3TojFlo",
+        "part": 1,
+        "title": "Sabin Cautis - Abelian Hall categories (part 1 of 3)"
+      },
+      {
+        "id": "r08duH34uX8",
+        "part": 2,
+        "title": "Sabin Cautis - Abelian Hall categories (part 2 of 3)"
+      },
+      {
+        "id": "CWhMG8Q27qE",
+        "part": 3,
+        "title": "Sabin Cautis - Abelian Hall categories (part 3 of 3)"
+      }
+    ]
+  },
+  {
+    "talk": 26,
+    "videos": [
+      {
+        "id": "3qcWjWmoht0",
+        "part": 1,
+        "title": "Pierre Descombes - Hyperbolic localization in Donaldson-Thomas theory (part 1 of 3)"
+      },
+      {
+        "id": "VgVFrBq1HU8",
+        "part": 2,
+        "title": "Pierre Descombes - Hyperbolic localization in Donaldson-Thomas theory (part 2 of 3)"
+      },
+      {
+        "id": "GkkG0xZwPU0",
+        "part": 3,
+        "title": "Pierre Descombes - Hyperbolic localization in Donaldson-Thomas theory (part 3 of 3)"
+      }
+    ]
+  },
+  {
+    "talk": 27,
+    "videos": [
+      {
+        "id": "hCJv2tyWQR4",
+        "part": 1,
+        "title": "Yash Deshmukh - Categorical and geometric enumerative invariants"
+      }
+    ]
+  },
+  {
+    "talk": 28,
+    "videos": []
+  },
+  {
+    "talk": 29,
+    "videos": [
+      {
+        "id": "91RgbWRkTjU",
+        "part": 2,
+        "title": "Dominic Joyce - Orientations on moduli spaces of coherent sheaves on Calabi-Yau 4-folds - Part II"
+      }
+    ]
+  },
+  {
+    "talk": 30,
+    "videos": [
+      {
+        "id": "rSOWnzdPDVY",
+        "part": 1,
+        "title": "Dominic Joyce - Orientations on moduli spaces of coherent sheaves on Calabi-Yau 4-folds - Part I"
+      }
+    ]
+  },
+  {
+    "talk": 31,
+    "videos": [
+      {
+        "id": "JYy2cGUh4Jw",
+        "part": 2,
+        "title": "Wenjun Niu - Quantum algebras, spectral R-matrices from equivariant affine Grassmannians  (Part 2)"
+      }
+    ]
+  },
+  {
+    "talk": 32,
+    "videos": [
+      {
+        "id": "kIk4TyYH0m0",
+        "part": 1,
+        "title": "Wenjun Niu - Quantum algebras and spectral R-matrices from equivariant affine Grassmannians - Part 1"
+      }
+    ]
+  },
+  {
+    "talk": 33,
+    "videos": [
+      {
+        "id": "R3XaBN9MKN4",
+        "part": 1,
+        "title": "Martijn Kool - Virtual structure on Hilbert schemes of affine 4-space"
+      }
+    ]
+  },
+  {
+    "talk": 34,
+    "videos": [
+      {
+        "id": "tkXDFES_uQM",
+        "part": 1,
+        "title": "Sebastian Haney - Infinity inner products and open Gromov-Witten invariants"
+      }
+    ]
+  },
+  {
+    "talk": 35,
+    "videos": [
+      {
+        "id": "fy9tHpYNurk",
+        "part": 2,
+        "title": "Fabian Haiden - Counting in Calabi-Yau categories  (Part 2)"
+      }
+    ]
+  },
+  {
+    "talk": 36,
+    "videos": [
+      {
+        "id": "Yj0Up2Todc8",
+        "part": 1,
+        "title": "Fabian Haiden - Counting in Calabi-Yau categories  (Part 1)"
+      }
+    ]
+  },
+  {
+    "talk": 37,
+    "videos": [
+      {
+        "id": "OWz9FVC2vEo",
+        "part": 1,
+        "title": "Ilya Dumanski - From quantum loop group to coherent Satake category via fusion product"
+      }
+    ]
+  },
+  {
+    "talk": 38,
+    "videos": [
+      {
+        "id": "xvzyyAq6bho",
+        "part": 2,
+        "title": "Nikita Nikolaev - Geometry and Resurgence of WKB Solutions of Schrödinger Equations  (Part 2)"
+      }
+    ]
+  },
+  {
+    "talk": 39,
+    "videos": [
+      {
+        "id": "fpeAKTUgovc",
+        "part": 1,
+        "title": "Nikita Nikolaev - Geometry and Resurgence of WKB Solutions of Schrödinger Equations  (Part 1)"
+      }
+    ]
+  },
+  {
+    "talk": 40,
+    "videos": [
+      {
+        "id": "A9XPTseoel0",
+        "part": 1,
+        "title": "Nikita Markarian  - Multiplicative convolution and double shuffle relations"
+      }
+    ]
+  },
+  {
+    "talk": 41,
+    "videos": []
+  },
+  {
+    "talk": 42,
+    "videos": [
+      {
+        "id": "Qg5EJbAYB20",
+        "part": 1,
+        "title": "Andrei Grekov - Moduli spaces of instantons and integrable systems"
+      }
+    ]
+  },
+  {
+    "talk": 43,
+    "videos": [
+      {
+        "id": "lP2ti6onmhI",
+        "part": 1,
+        "title": "Ran Tessler - Open Mirror Symmetry for Landau-Ginzburg Models"
+      }
+    ]
+  },
+  {
+    "talk": 44,
+    "videos": [
+      {
+        "id": "zH7HNphw7E8",
+        "part": 1,
+        "title": "Francesco Sala - Cohomological Hall algebras, their representations, and Nakajima operators"
+      }
+    ]
+  },
+  {
+    "talk": 45,
+    "videos": [
+      {
+        "id": "dMcYqLbynAA",
+        "part": 1,
+        "title": "Zihong Chen - The exponential type conjecture for quantum connections"
+      }
+    ]
+  },
+  {
+    "talk": 46,
+    "videos": [
+      {
+        "id": "vT-FbIHEaqw",
+        "part": 1,
+        "title": "Victoria Hoskins - Moduli spaces of bundles on curves with abelian motives"
+      }
+    ]
+  },
+  {
+    "talk": 47,
+    "videos": [
+      {
+        "id": "bhweDxMHRKE",
+        "part": 1,
+        "title": "Mark Mclean - Symplectic Orbifold Gromov-Witten Invariants"
+      }
+    ]
+  },
+  {
+    "talk": 48,
+    "videos": [
+      {
+        "id": "dqKrOyH78-E",
+        "part": 1,
+        "title": "Shivang Jindal - CoHA of cyclic quivers and an integral form of affine Yangians"
+      }
+    ]
+  },
+  {
+    "talk": 49,
+    "videos": [
+      {
+        "id": "9JYYA7voWpA",
+        "part": 1,
+        "title": "Jeff Hicks - Superabundance and Unobstructedness"
+      }
+    ]
+  },
+  {
+    "talk": 50,
+    "videos": [
+      {
+        "id": "OKp6eCJTeWw",
+        "part": 1,
+        "title": "Hulya Arguz - The KSBA moduli space of stable log Calabi-Yau surfaces"
+      }
+    ]
+  },
+  {
+    "talk": 51,
+    "videos": [
+      {
+        "id": "W6TEIJTXoH8",
+        "part": 1,
+        "title": "Mingyuan Hu - Skein valued open Gromov-Witten invariants and cluster mutations"
+      }
+    ]
+  },
+  {
+    "talk": 52,
+    "videos": [
+      {
+        "id": "lKjYplZzn8M",
+        "part": 1,
+        "title": "Gwyn Bellamy - Koszul Duality on quantizations of bionic symplectic varieties"
+      }
+    ]
+  },
+  {
+    "talk": 53,
+    "videos": [
+      {
+        "id": "9ugyn6KHDPI",
+        "part": 1,
+        "title": "Sheel Ganatra - Arclike Lagrangians in Liouville sectors"
+      }
+    ]
+  },
+  {
+    "talk": 54,
+    "videos": [
+      {
+        "id": "dl-8UbB3xyU",
+        "part": 1,
+        "title": "Murad Alim - From Gromov-Witten to Donaldson-Thomas invariants via resurgence"
+      }
+    ]
+  },
+  {
+    "talk": 55,
+    "videos": []
+  },
+  {
+    "talk": 56,
+    "videos": [
+      {
+        "id": "uEWVpI7Xu34",
+        "part": 1,
+        "title": "Daniel Halpern-Leistner  - Dispatches from the ends of the stability manifold (Lec 1)"
+      },
+      {
+        "id": "2HYxF6bJCDs",
+        "part": 2,
+        "title": "Alekos Robotis - Dispatches from the ends of the stability manifold (Lec 2)"
+      },
+      {
+        "id": "aodOZz8OdNU",
+        "part": 3,
+        "title": "Daniel Halpern-Leistner - Dispatches from the ends of the stability manifold (Lec 3)"
+      },
+      {
+        "id": "be1XzUCbOwE",
+        "part": 4,
+        "title": "Daniel Halpern-Leistner - Dispatches from the ends of the stability manifold (Lec 4)"
+      }
+    ],
+    "note": "Lec 2 was uploaded under the name 'Alekos Robotis'; it belongs to this series"
+  },
+  {
+    "talk": 57,
+    "videos": [
+      {
+        "id": "pNEYSpYnJ8M",
+        "part": 1,
+        "title": "Nikita Nekrasov - Infinite-dimensional spin chains from gauge theory"
+      }
+    ]
+  },
+  {
+    "talk": 58,
+    "videos": [
+      {
+        "id": "k0sEOGXLVcw",
+        "part": 1,
+        "title": "Zhiwei Yun - An irregular Deligne-Simpson problem"
+      }
+    ]
+  },
+  {
+    "talk": 59,
+    "videos": [
+      {
+        "id": "2245JN84zFs",
+        "part": 1,
+        "title": "Tommaso Botta - Maulik-Okounkov Lie algebras and BPS Lie algebras"
+      }
+    ]
+  },
+  {
+    "talk": 60,
+    "videos": [
+      {
+        "id": "ABQKq8LQpg0",
+        "part": 1,
+        "title": "Alexandre Minets - COHAs of 0-dimensional sheaves on surfaces"
+      }
+    ]
+  },
+  {
+    "talk": 61,
+    "videos": [
+      {
+        "id": "Vd0QyM0FVZ8",
+        "part": 1,
+        "title": "Pavel Etingof - Periodic pencils of flat connections and their p-curvature"
+      }
+    ]
+  },
+  {
+    "talk": 62,
+    "videos": [
+      {
+        "id": "6ZxVF1X-XAc",
+        "part": 1,
+        "title": "Lucien Hennecart - Cohomological Hall algebras of 2-Calabi-Yau categories and applications (Lec 1)"
+      },
+      {
+        "id": "SzxhVO8mgJo",
+        "part": 2,
+        "title": "Lucien Hennecart - Cohomological Hall algebras of 2-Calabi-Yau categories and applications (Lec 2)"
+      },
+      {
+        "id": "VCKZrMKaIYA",
+        "part": 3,
+        "title": "Lucien Hennecart - Cohomological Hall algebras of 2-Calabi-Yau categories and applications (Lec 3)"
+      },
+      {
+        "id": "jMNSaParW3s",
+        "part": 4,
+        "title": "Lucien Hennecart - Cohomological Hall algebras of 2-Calabi-Yau categories and applications (Lec 4)"
+      }
+    ]
+  },
+  {
+    "talk": 63,
+    "videos": [
+      {
+        "id": "ZJJj1cBnSb4",
+        "part": 1,
+        "title": "Gus Schrader - Skeins, clusters and wavefunctions"
+      }
+    ]
+  },
+  {
+    "talk": 64,
+    "videos": [
+      {
+        "id": "StEIMbgWbco",
+        "part": 1,
+        "title": "Pavel Safronov - Perverse sheaves in deformation quantization"
+      }
+    ]
+  },
+  {
+    "talk": 65,
+    "videos": [
+      {
+        "id": "RO2eaCnZUHY",
+        "part": 1,
+        "title": "John Pardon -  Universally counting curves in Calabi-Yau threefolds"
+      }
+    ]
+  },
+  {
+    "talk": 66,
+    "videos": [
+      {
+        "id": "qS0JIOosAvo",
+        "part": 1,
+        "title": "Jake Solomon - Counting holomorphic disks with boundary on the Chiang Lagrangian"
+      }
+    ]
+  },
+  {
+    "talk": 67,
+    "videos": [
+      {
+        "id": "r52AOdSZbcA",
+        "part": 1,
+        "title": "Harold Williams - Differential operators on the base affine space and quantized Coulomb branches"
+      }
+    ]
+  },
+  {
+    "talk": 68,
+    "videos": [
+      {
+        "id": "64tUwzYqOdo",
+        "part": 1,
+        "title": "Mikhail Kapranov - Resurgent perverse sheaves"
+      }
+    ]
+  },
+  {
+    "talk": 69,
+    "videos": [
+      {
+        "id": "E6vPw3IH5M0",
+        "part": 1,
+        "title": "Dylan Butson - Vertex algebras from divisors on CY threefolds and perverse coherent extensions - 1"
+      },
+      {
+        "id": "eBQxl2LkvMc",
+        "part": 2,
+        "title": "Dylan Butson - Vertex algebras from divisors on CY threefolds and perverse coherent extensions - 2"
+      },
+      {
+        "id": "jKWh3jm4x2Q",
+        "part": 3,
+        "title": "Dylan Butson - Vertex algebras from divisors on CY threefolds and perverse coherent extensions - 3"
+      },
+      {
+        "id": "hOqbRI07htE",
+        "part": 4,
+        "title": "Dylan Butson - Vertex algebras from divisors on CY threefolds and perverse coherent extensions - 4"
+      }
+    ]
+  },
+  {
+    "talk": 70,
+    "videos": [
+      {
+        "id": "U33fi7CM4nQ",
+        "part": 1,
+        "title": "Jim Bryan -  The geometry and arithmetic of banana nano-manifolds"
+      }
+    ]
+  },
+  {
+    "talk": 71,
+    "videos": [
+      {
+        "id": "hQpzoRiK9Eg",
+        "part": 1,
+        "title": "Niclas Garner - Non-semisimple TQFTs from 3d N=4 QFTs, part 1"
+      },
+      {
+        "id": "6rgj6LEUX2Y",
+        "part": 2,
+        "title": "Niclas Garner - Non-semisimple TQFTs from 3d N=4 QFTs, part 2"
+      },
+      {
+        "id": "vLS9qhcbTGk",
+        "part": 3,
+        "title": "Niclas Garner - Non-semisimple TQFTs from 3d N=4 QFTs, part 3"
+      }
+    ]
+  },
+  {
+    "talk": 72,
+    "videos": [
+      {
+        "id": "k9sWvGYhaTM",
+        "part": 1,
+        "title": "Linhui Shen -  Cluster Nature of Quantum Groups"
+      }
+    ]
+  },
+  {
+    "talk": 73,
+    "videos": [
+      {
+        "id": "WkV4QBt8UeI",
+        "part": 1,
+        "title": "Constantin Teleman - Condensed Thoughts"
+      }
+    ]
+  },
+  {
+    "talk": 74,
+    "videos": [
+      {
+        "id": "D75wFXjcuOA",
+        "part": 1,
+        "title": "Henry Liu - The K-theoretic DT/PT vertex correspondence"
+      }
+    ]
+  },
+  {
+    "talk": 75,
+    "videos": [
+      {
+        "id": "Wa8FgDJxqAo",
+        "part": 1,
+        "title": "Roman Bezrukavnikov - On Springer theory for homogeneous affine Springer fibers"
+      }
+    ]
+  },
+  {
+    "talk": 76,
+    "videos": [
+      {
+        "id": "3EyOrWmMOb4",
+        "part": 1,
+        "title": "Rina Anno - Defining A-infinity structures in monoidal DG categories"
+      }
+    ]
+  },
+  {
+    "talk": 77,
+    "videos": [
+      {
+        "id": "Q4lg51R8XIA",
+        "part": 1,
+        "title": "Ilia Itenberg - Empty real plane sextic curves"
+      }
+    ]
+  },
+  {
+    "talk": 78,
+    "videos": [
+      {
+        "id": "PR3LgrPOLdQ",
+        "part": 1,
+        "title": "Emanuel Diaconescu - Flops and Hilbert scheme of space curve singularities"
+      }
+    ]
+  },
+  {
+    "talk": 79,
+    "videos": [
+      {
+        "id": "9oxl_btQwy8",
+        "part": 1,
+        "title": "Kai Hugtenburg - (open) Gromov-Witten invariants from the Fukaya category"
+      }
+    ]
+  },
+  {
+    "talk": 80,
+    "videos": [
+      {
+        "id": "RCbmeHi4fjs",
+        "part": 1,
+        "title": "Pierrick Bousseau - Quivers, flow trees and log curves"
+      }
+    ]
+  },
+  {
+    "talk": 81,
+    "videos": [
+      {
+        "id": "G2JfMD3Z9LA",
+        "part": 1,
+        "title": "Umut Varolgunes - Mirror symmetry via Floer theoretic invariants"
+      }
+    ]
+  },
+  {
+    "talk": 82,
+    "videos": [
+      {
+        "id": "-v54osG5Oig",
+        "part": 1,
+        "title": "Benjamin Gammage - Structural features of 3d mirror symmetry"
+      }
+    ]
+  },
+  {
+    "talk": 83,
+    "videos": [
+      {
+        "id": "qqL6wzNboh4",
+        "part": 1,
+        "title": "Miguel Moreira - Virasoro constraints in sheaf theory"
+      }
+    ]
+  },
+  {
+    "talk": 84,
+    "videos": [
+      {
+        "id": "ipWaNuFGD9c",
+        "part": 1,
+        "title": "Anton Mellit - $P=W$ via $H_2$"
+      }
+    ]
+  },
+  {
+    "talk": 85,
+    "videos": [
+      {
+        "id": "G1c2OVHO36U",
+        "part": 1,
+        "title": "Yoel Groman - The closed string mirror construction"
+      }
+    ]
+  },
+  {
+    "talk": 86,
+    "videos": [
+      {
+        "id": "oehsATH9T8U",
+        "part": 1,
+        "title": "Nicolai Reshetikhin - Solitons in infinite relativistic Toda system"
+      }
+    ]
+  },
+  {
+    "talk": 87,
+    "videos": [
+      {
+        "id": "Q-1wonU5CFU",
+        "part": 1,
+        "title": "Ivan Danilenko - Stable envelopes from 2d mirror symmetry"
+      }
+    ]
+  },
+  {
+    "talk": 88,
+    "videos": [
+      {
+        "id": "8oTbAz56Qa4",
+        "part": 1,
+        "title": "Semon Rezchikov - Categorical aspects of the Fueter Equation"
+      }
+    ]
+  },
+  {
+    "talk": 89,
+    "videos": [
+      {
+        "id": "N6RzToQphxg",
+        "part": 1,
+        "title": "Lino Amorim - Enumerative invariants from categories"
+      }
+    ]
+  },
+  {
+    "talk": 90,
+    "videos": [
+      {
+        "id": "Pwl2eKvC5qI",
+        "part": 1,
+        "title": "Yan Soibelman - Holomorphic Floer Theory and exponential integrals"
+      }
+    ]
+  },
+  {
+    "talk": 91,
+    "videos": [
+      {
+        "id": "LOaf4MlXfMc",
+        "part": 1,
+        "title": "Yanki Lekili - Equivariant Fukaya categories at the singular value"
+      }
+    ]
+  },
+  {
+    "talk": 92,
+    "videos": [
+      {
+        "id": "q9JA91F1aec",
+        "part": 1,
+        "title": "Olivier Schiffmann - COHA of zero dimensional sheaves on surfaces and the P=W conjecture"
+      }
+    ]
+  },
+  {
+    "talk": 93,
+    "videos": [
+      {
+        "id": "8KJ0oxzrclE",
+        "part": 1,
+        "title": "Ben Davison - Affine BPS algebras and W algebras"
+      }
+    ]
+  },
+  {
+    "talk": 94,
+    "videos": [
+      {
+        "id": "6iqJTkTfvNE",
+        "part": 1,
+        "title": "Arkadij Bojko - Wall-crossing for Calabi-Yau fourfolds and applications"
+      }
+    ]
+  },
+  {
+    "talk": 95,
+    "videos": [
+      {
+        "id": "zIWbuxVuWiY",
+        "part": 1,
+        "title": "Tom Bridgeland - Geometry from Donaldson-Thomas invariants"
+      }
+    ]
+  },
+  {
+    "talk": 96,
+    "videos": [
+      {
+        "id": "X9koQLftc0U",
+        "part": 1,
+        "title": "Justin Hilburn - Towards 2-Categorical 3d Mirror Symmetry"
+      }
+    ]
+  },
+  {
+    "talk": 97,
+    "videos": [
+      {
+        "id": "N1xi9TTKZz0",
+        "part": 1,
+        "title": "Alexander Soibelman - Quantized integrable systems, normal forms, and variation of Hodge structures"
+      }
+    ]
+  },
+  {
+    "talk": 98,
+    "videos": [
+      {
+        "id": "nfshR6rAjWg",
+        "part": 1,
+        "title": "Daniel Pomerleano - Singularities of the quantum connection on a Fano variety"
+      }
+    ]
+  },
+  {
+    "talk": 99,
+    "videos": [
+      {
+        "id": "rslliU7h3XU",
+        "part": 1,
+        "title": "Marco Robalo - Categorification of Donaldson-Thomas invariants"
+      }
+    ]
+  },
+  {
+    "talk": 100,
+    "videos": []
+  },
+  {
+    "talk": 101,
+    "videos": [
+      {
+        "id": "t7Bm5f1u4yY",
+        "part": 1,
+        "title": "Oscar Kivinen - Weight polynomials of compactified Jacobians and link invariants"
+      }
+    ]
+  },
+  {
+    "talk": 102,
+    "videos": [
+      {
+        "id": "-ZxFKs--VpU",
+        "part": 1,
+        "title": "Aleksander Doan - Holomorphic Floer theory and the Fueter equation"
+      }
+    ]
+  },
+  {
+    "talk": 103,
+    "videos": [
+      {
+        "id": "xo3q9VDI1hg",
+        "part": 1,
+        "title": "Nick Sheridan - Quantum cohomology as a deformation of symplectic cohomology"
+      }
+    ]
+  },
+  {
+    "talk": 104,
+    "videos": [
+      {
+        "id": "a4dM1I7YtsI",
+        "part": 1,
+        "title": "Adeel Khan - Cohomology and intersection theory on stacks"
+      }
+    ]
+  },
+  {
+    "talk": 105,
+    "videos": [
+      {
+        "id": "9bmNaVl8QNI",
+        "part": 1,
+        "title": "Ivan Losev - Harish-Chandra modules and quantizations"
+      }
+    ]
+  },
+  {
+    "talk": 106,
+    "videos": [
+      {
+        "id": "S0IrUN13oxU",
+        "part": 1,
+        "title": "Peter Koroteev - q-Opers — what they are and what are they good for?"
+      }
+    ]
+  },
+  {
+    "talk": 107,
+    "videos": [
+      {
+        "id": "TyrMW1Hsl60",
+        "part": 1,
+        "title": "Fabian Haiden - Quadratic differentials, stability conditions, and DT invariants (Lecture 1)"
+      },
+      {
+        "id": "0B4_s8In6G4",
+        "part": 2,
+        "title": "Fabian Haiden - Quadratic differentials, stability conditions, and DT invariants  (Lecture 2)"
+      },
+      {
+        "id": "ZN-02nc3jfI",
+        "part": 3,
+        "title": "Fabian Haiden - Quadratic differentials, stability conditions, and DT invariants (Lecture 3)"
+      },
+      {
+        "id": "Jhy8f1eZ2bo",
+        "part": 4,
+        "title": "Fabian Haiden - Quadratic differentials, stability conditions, and DT invariants  (Lecture 4)"
+      }
+    ]
+  },
+  {
+    "talk": 108,
+    "videos": [
+      {
+        "id": "tIUjeBk4J3I",
+        "part": 1,
+        "title": "Alexander Voronov - Mysterious Triality"
+      }
+    ]
+  },
+  {
+    "talk": 109,
+    "videos": [
+      {
+        "id": "wZRYB_p0Ldg",
+        "part": 1,
+        "title": "Eugene Gorsky - Algebraic weaves and braid varieties"
+      }
+    ]
+  },
+  {
+    "talk": 110,
+    "videos": [
+      {
+        "id": "8I0VmJHnWHE",
+        "part": 1,
+        "title": "Dmitrii Galakhov - Quiver BPS Algebras"
+      }
+    ]
+  },
+  {
+    "talk": 111,
+    "videos": [
+      {
+        "id": "9UpVgClrOcA",
+        "part": 1,
+        "title": "Alexei Latyntsev - Quantum vertex algebras and cohomological Hall algebras"
+      }
+    ]
+  },
+  {
+    "talk": 112,
+    "videos": [
+      {
+        "id": "jZEXCF-raeU",
+        "part": 1,
+        "title": "Sergei Gukov - Quantum Topology at generic q  (Lecture 1)"
+      },
+      {
+        "id": "vq2znSzzwz0",
+        "part": 2,
+        "title": "Sergei Gukov - Quantum Topology at generic q  (Lecture 2)"
+      },
+      {
+        "id": "pkTlMPTSsEw",
+        "part": 3,
+        "title": "Sergei Gukov - Quantum Topology at generic q  (Lecture 3)"
+      },
+      {
+        "id": "9wE6U6wsQ98",
+        "part": 4,
+        "title": "Sergei Gukov - Quantum Topology at generic q  (Lecture 4)"
+      }
+    ]
+  },
+  {
+    "talk": 113,
+    "videos": [
+      {
+        "id": "dbqBNzceJQ8",
+        "part": 1,
+        "title": "Sergey Mozgovoy - DT invariants and vertex algebras"
+      }
+    ]
+  },
+  {
+    "talk": 114,
+    "videos": [
+      {
+        "id": "SXU_icjed_A",
+        "part": 1,
+        "title": "Lev Rozansky - Link homology from a stack of D2 branes with a B-twist"
+      }
+    ]
+  },
+  {
+    "talk": 115,
+    "videos": [
+      {
+        "id": "YlN1iOZ2uWU",
+        "part": 1,
+        "title": "Victor Ginzburg - Chern classes of quantizable sheaves and characteristic cycles"
+      }
+    ]
+  },
+  {
+    "talk": 116,
+    "videos": [
+      {
+        "id": "f9jlYom1Xlo",
+        "part": 1,
+        "title": "Kenji Fukaya - A note on homological mirror symmetry over Novikov ring"
+      }
+    ]
+  },
+  {
+    "talk": 117,
+    "videos": [
+      {
+        "id": "Shpx_pVqmWM",
+        "part": 1,
+        "title": "Miroslav Rapcak -  W-infinity modules and melted crystals of DT and PT"
+      }
+    ]
+  },
+  {
+    "talk": 118,
+    "videos": [
+      {
+        "id": "nfqSigZUVmo",
+        "part": 1,
+        "title": "Tudor Padurariu - Relative stable pairs and a non-Calabi-Yau wall crossing"
+      }
+    ]
+  },
+  {
+    "talk": 119,
+    "videos": [
+      {
+        "id": "PKPjdTrrH10",
+        "part": 1,
+        "title": "Alexander Goncharov - Spectral description of non-commutative local systems on surfaces"
+      }
+    ]
+  },
+  {
+    "talk": 120,
+    "videos": [
+      {
+        "id": "N-mP1UmOk9w",
+        "part": 1,
+        "title": "Maxim Kontsevich - On the perturbation theory for spectra in quantum mechanics"
+      }
+    ]
+  },
+  {
+    "talk": 121,
+    "videos": [
+      {
+        "id": "cDsg298kkl4",
+        "part": 1,
+        "title": "Ben Davison - Cohomological DT theory and nonabelian Hodge theory for stacks (Lecture 1)"
+      },
+      {
+        "id": "qX-7Gua68zg",
+        "part": 2,
+        "title": "Ben Davison - Cohomological DT theory and nonabelian Hodge theory for stacks (Lecture 2)"
+      },
+      {
+        "id": "yaqFM9uxQRI",
+        "part": 3,
+        "title": "Ben Davison - Cohomological DT theory and nonabelian Hodge theory for stacks (Lecture 3)"
+      }
+    ]
+  },
+  {
+    "talk": 122,
+    "videos": [
+      {
+        "id": "Ml22ySRFkbQ",
+        "part": 1,
+        "title": "Alexander Odesskii - Multiplication kernels"
+      }
+    ]
+  },
+  {
+    "talk": 123,
+    "videos": [
+      {
+        "id": "EiMfihZ_ktE",
+        "part": 1,
+        "title": "Vivek Shende - Localization of Fukaya categories and quantizing the Hitchin system"
+      }
+    ]
+  },
+  {
+    "talk": 124,
+    "videos": [
+      {
+        "id": "RYh8aNJPsac",
+        "part": 1,
+        "title": "Tamas Hausel - Explicit Hitchin System on Lagrangians"
+      }
+    ]
+  },
+  {
+    "talk": 125,
+    "videos": [
+      {
+        "id": "iN-fM51Q2lk",
+        "part": 1,
+        "title": "Alexander Braverman - Universal Coulomb branch and theta-sheaves"
+      }
+    ]
+  },
+  {
+    "talk": 126,
+    "videos": [
+      {
+        "id": "-fXjpDE8C70",
+        "part": 1,
+        "title": "Greg Moore - 2d Categorical Wall-Crossing With Twisted Masses"
+      }
+    ]
+  },
+  {
+    "talk": 127,
+    "videos": [
+      {
+        "id": "W4vT1FhOvb0",
+        "part": 1,
+        "title": "Denis Auroux  - Lagrangian Floer theory for trivalent graphs and HMS for curves"
+      }
+    ]
+  },
+  {
+    "talk": 128,
+    "videos": [
+      {
+        "id": "3F0eD4kpq9Q",
+        "part": 1,
+        "title": "Ivan Mirković - Loop Grassmannians of lattices"
+      }
+    ]
+  },
+  {
+    "talk": 129,
+    "videos": [
+      {
+        "id": "83aROj3bcrA",
+        "part": 1,
+        "title": "Carlos Simpson - On some Fukaya categories of singular Lagrangians with coefficients"
+      }
+    ]
+  },
+  {
+    "talk": 130,
+    "videos": [
+      {
+        "id": "viG8iCCsCxE",
+        "part": 1,
+        "title": "Paul Seidel - Fukaya categories of Calabi-Yau hypersurfaces"
+      }
+    ]
+  },
+  {
+    "talk": 131,
+    "videos": [
+      {
+        "id": "hD-DLkTBIlQ",
+        "part": 1,
+        "title": "Mohammed Abouzaid - Arnol'd Conjecture and Morava K-theory"
+      }
+    ]
+  },
+  {
+    "talk": 132,
+    "videos": [
+      {
+        "id": "z6gxDeiHJ6M",
+        "part": 1,
+        "title": "Ben Webster - Knot homology and coherent sheaves on Coulomb branches"
+      }
+    ]
+  },
+  {
+    "talk": 133,
+    "videos": [
+      {
+        "id": "lDgVNAF_WLs",
+        "part": 1,
+        "title": "Richard Rimanyi - 3d mirror symmetry for characteristic classes of bow varieties"
+      }
+    ]
+  },
+  {
+    "talk": 134,
+    "videos": [
+      {
+        "id": "QTArTqJgHPM",
+        "part": 1,
+        "title": "Alexander Polishchuk - Supermeasure on moduli of supercurves"
+      }
+    ]
+  },
+  {
+    "talk": 135,
+    "videos": [
+      {
+        "id": "5yeTmFU4yLE",
+        "part": 1,
+        "title": "Alexander Soibelman - Motivic invariants for moduli of parabolic Higgs bundles"
+      }
+    ]
+  },
+  {
+    "talk": 136,
+    "videos": [
+      {
+        "id": "RQJRufrNjkQ",
+        "part": 1,
+        "title": "Andrei Caldararu - A survey of categorical enumerative invariants"
+      }
+    ]
+  },
+  {
+    "talk": 137,
+    "videos": [
+      {
+        "id": "9-wQDe1rtkI",
+        "part": 1,
+        "title": "Alex Weekes - Coulomb branches for quiver gauge theories with symmetrizers"
+      }
+    ]
+  },
+  {
+    "talk": 138,
+    "videos": [
+      {
+        "id": "jy3BthBds9Y",
+        "part": 1,
+        "title": "David Nadler - Verlinde formulas in Betti Geometric Langlands"
+      }
+    ]
+  },
+  {
+    "talk": 139,
+    "videos": [
+      {
+        "id": "ysYlwXrhXOQ",
+        "part": 1,
+        "title": "Alexander Efimov - Nuclear modules over proper DG algebras (Part 1)"
+      },
+      {
+        "id": "T8835SU3_iQ",
+        "part": 2,
+        "title": "Alexander Efimov - Nuclear modules over proper DG algebras  (Part 2)"
+      },
+      {
+        "id": "o8GleU4MQjw",
+        "part": 3,
+        "title": "Alexander Efimov - Nuclear modules over proper DG algebras  (Part 3)"
+      }
+    ]
+  },
+  {
+    "talk": 140,
+    "videos": [
+      {
+        "id": "XLhD9eyDnOc",
+        "part": 1,
+        "title": "Dominic Joyce - Enumerative invariants in Algebraic Geometry and wall crossing formulae"
+      }
+    ]
+  },
+  {
+    "talk": 141,
+    "videos": [
+      {
+        "id": "EwwGAf2K1uQ",
+        "part": 1,
+        "title": "Davide Gaiotto - Brane quantization"
+      }
+    ]
+  },
+  {
+    "talk": 142,
+    "videos": [
+      {
+        "id": "OufejX1p0qk",
+        "part": 1,
+        "title": "Nicolas Addington - Derived autoequivalences of moduli spaces of sheaves on K3 surfaces"
+      }
+    ]
+  },
+  {
+    "talk": 143,
+    "videos": [
+      {
+        "id": "lHqYqS0KkPc",
+        "part": 1,
+        "title": "Nikita Nekrasov - Towards Lefschets thimbles in field theory"
+      }
+    ]
+  },
+  {
+    "talk": 144,
+    "videos": [
+      {
+        "id": "AgHzF5qpL5A",
+        "part": 1,
+        "title": "Vivek Shende - Sheaf quantization in Weinstein symplectic manifolds"
+      }
+    ]
+  },
+  {
+    "talk": 145,
+    "videos": [
+      {
+        "id": "M9fSJebc8yQ",
+        "part": 1,
+        "title": "Yoosik Kim - Disc potential functions of Quadrics"
+      }
+    ]
+  },
+  {
+    "talk": 146,
+    "videos": [
+      {
+        "id": "LF2zRaOqPBs",
+        "part": 1,
+        "title": "Dennis Gaitsgory - The moduli space of l-adic local systems and application to Langlands theory"
+      }
+    ]
+  },
+  {
+    "talk": 147,
+    "videos": [
+      {
+        "id": "vTXx0MARrVU",
+        "part": 1,
+        "title": "Tony Yue Yu - Frobenius structure conjecture and application to cluster algebras"
+      }
+    ]
+  },
+  {
+    "talk": 148,
+    "videos": [
+      {
+        "id": "zjKFFGtNxoI",
+        "part": 1,
+        "title": "Zack Sylvan - Homological mirror symmetry near SYZ singularities"
+      }
+    ]
+  },
+  {
+    "talk": 149,
+    "videos": [
+      {
+        "id": "W00n2l_qz4M",
+        "part": 1,
+        "title": "Ron Donagi - Families of Hitchin systems and N=2 theories"
+      }
+    ]
+  },
+  {
+    "talk": 150,
+    "videos": [
+      {
+        "id": "dCbw-y2gIvA",
+        "part": 1,
+        "title": "Sergey Cherkis - Doubly Periodic Monopoles and Exploded Geometry"
+      }
+    ]
+  },
+  {
+    "talk": 151,
+    "videos": [
+      {
+        "id": "u5tQ1Wf2j_k",
+        "part": 1,
+        "title": "Andrei Okounkov - Monodromy: yesterday, today, and tomorrow"
+      }
+    ]
+  },
+  {
+    "talk": 152,
+    "videos": [
+      {
+        "id": "09N2DOzPdQk",
+        "part": 1,
+        "title": "Junxiao Wang - The Gamma Conjecture for the Tropical 1-cycles in Local Mirror Symmetry"
+      }
+    ]
+  },
+  {
+    "talk": 153,
+    "videos": [
+      {
+        "id": "2Lvvx4ukCG4",
+        "part": 1,
+        "title": "Anton Mellit - The curious hard Lefschetz property for character varieties"
+      }
+    ]
+  },
+  {
+    "talk": 154,
+    "videos": [
+      {
+        "id": "QIzKAsPEEcs",
+        "part": 1,
+        "title": "Joel Kamnitzer - Categorical g-actions for modules over truncated shifted Yangians"
+      }
+    ]
+  },
+  {
+    "talk": 155,
+    "videos": [
+      {
+        "id": "gGpfrNRxims",
+        "part": 1,
+        "title": "Alexander Goncharov - The second universal motivic Chern class and cluster structure of moduli space"
+      }
+    ]
+  },
+  {
+    "talk": 156,
+    "videos": [
+      {
+        "id": "IDwkaI8piEE",
+        "part": 1,
+        "title": "Pyongwon Sun - The coherent-constructible correspondence for toric projective bundles"
+      }
+    ]
+  },
+  {
+    "talk": 157,
+    "videos": [
+      {
+        "id": "_55Ur_LVWhk",
+        "part": 1,
+        "title": "Hiraku Nakajima - Bow varieties and representations of affine Lie algebras"
+      }
+    ]
+  },
+  {
+    "talk": 158,
+    "videos": [
+      {
+        "id": "HJUVRR-yOog",
+        "part": 1,
+        "title": "Michael McBreen - Symplectic duality and twisted quasimaps"
+      }
+    ]
+  },
+  {
+    "talk": 159,
+    "videos": [
+      {
+        "id": "SaoB-NF7wI4",
+        "part": 1,
+        "title": "Tobias Ekholm - Holomorphic curves on knot conormals"
+      }
+    ]
+  },
+  {
+    "talk": 160,
+    "videos": [
+      {
+        "id": "qklkJRVSZfE",
+        "part": 1,
+        "title": "Eric Zaslow - A Diagrammatic Calculus For Legendrian Surfaces"
+      }
+    ]
+  },
+  {
+    "talk": 161,
+    "videos": [
+      {
+        "id": "TacmfkADb0I",
+        "part": 1,
+        "title": "Tudor Dimofte - 3D Mirror Symmetry and HOMFLY-PT Homology"
+      }
+    ]
+  },
+  {
+    "talk": 162,
+    "videos": [
+      {
+        "id": "z_zmfvWAjcc",
+        "part": 1,
+        "title": "Sergei Gukov  -  Rozansky-Witten geometry of Coulomb branches"
+      }
+    ]
+  },
+  {
+    "talk": 163,
+    "videos": [
+      {
+        "id": "VPqW0yNjovw",
+        "part": 1,
+        "title": "Andrey Smirnov - Elliptic stable envelopes and symplectic duality"
+      }
+    ]
+  },
+  {
+    "talk": 164,
+    "videos": [
+      {
+        "id": "NTcjhaZXU2Q",
+        "part": 1,
+        "title": "Maxim Kontsevich - On higher critical points in calculus of variations"
+      }
+    ]
+  },
+  {
+    "talk": 165,
+    "videos": [
+      {
+        "id": "DXHdGSBh0Hg",
+        "part": 1,
+        "title": "Dima Arinkin - Singular support of categories"
+      }
+    ]
+  },
+  {
+    "talk": 166,
+    "videos": [
+      {
+        "id": "X6dWRA8vuTA",
+        "part": 1,
+        "title": "Mina Aganagic - Knot categorification and mirror symmetry"
+      }
+    ]
+  },
+  {
+    "talk": 167,
+    "videos": [
+      {
+        "id": "eNRlIafIUQE",
+        "part": 1,
+        "title": "Tony Pantev - Enhanced moduli of D-branes and superpotentials"
+      }
+    ]
+  },
+  {
+    "talk": 168,
+    "videos": [
+      {
+        "id": "MxoRkx0nikQ",
+        "part": 1,
+        "title": "Andrei Negut - A brief survey of 2D K-HAs"
+      }
+    ]
+  },
+  {
+    "talk": 169,
+    "videos": [
+      {
+        "id": "FRiqVIrYzVc",
+        "part": 1,
+        "title": "Umut Varolgunes - Non-archimedean mirrors of symplectic cluster manifolds in real dimension four"
+      }
+    ]
+  },
+  {
+    "talk": 170,
+    "videos": [
+      {
+        "id": "wfIYgJ_2KKs",
+        "part": 1,
+        "title": "Andy Neitzke - Abelianization of flat connections, and its q-deformation"
+      }
+    ]
+  },
+  {
+    "talk": 171,
+    "videos": [
+      {
+        "id": "EepOcxmdUWc",
+        "part": 1,
+        "title": "Emanuel Diaconescu - McKay correspondence and cohomological Hall algebras"
+      }
+    ]
+  },
+  {
+    "talk": 172,
+    "videos": [
+      {
+        "id": "NktoSeDUEeM",
+        "part": 1,
+        "title": "Gabe Kerr -  Phase tropical hypersurfaces"
+      }
+    ]
+  },
+  {
+    "talk": 173,
+    "videos": [
+      {
+        "id": "6I2WGdG9rBI",
+        "part": 1,
+        "title": "Ivan Cheltsov -  K-stability of Fano 3-folds"
+      }
+    ]
+  },
+  {
+    "talk": 174,
+    "videos": [
+      {
+        "id": "kcT5UHKCYcc",
+        "part": 1,
+        "title": "Peng Zhou - Variations of toric GIT quotient and variation of Lagrangian skeleton"
+      }
+    ]
+  },
+  {
+    "talk": 175,
+    "videos": [
+      {
+        "id": "Scj12TYBMoA",
+        "part": 1,
+        "title": "Yan Soibelman - Holomorphic Floer theory and deformation quantization"
+      }
+    ]
+  },
+  {
+    "talk": 176,
+    "videos": []
+  },
+  {
+    "talk": 177,
+    "videos": []
+  },
+  {
+    "talk": 178,
+    "videos": []
+  },
+  {
+    "talk": 179,
+    "videos": []
+  },
+  {
+    "talk": 180,
+    "videos": []
+  },
+  {
+    "talk": 181,
+    "videos": []
+  },
+  {
+    "talk": 182,
+    "videos": []
+  },
+  {
+    "talk": 183,
+    "videos": []
+  },
+  {
+    "talk": 184,
+    "videos": []
+  },
+  {
+    "talk": 185,
+    "videos": []
+  },
+  {
+    "talk": 186,
+    "videos": []
+  },
+  {
+    "talk": 187,
+    "videos": []
+  },
+  {
+    "talk": 188,
+    "videos": []
+  },
+  {
+    "talk": 189,
+    "videos": []
+  },
+  {
+    "talk": 190,
+    "videos": []
+  },
+  {
+    "talk": 191,
+    "videos": []
+  },
+  {
+    "talk": 192,
+    "videos": []
+  },
+  {
+    "talk": 193,
+    "videos": []
+  },
+  {
+    "talk": 194,
+    "videos": []
+  },
+  {
+    "talk": 195,
+    "videos": []
+  },
+  {
+    "talk": 196,
+    "videos": []
+  },
+  {
+    "talk": 197,
+    "videos": []
+  },
+  {
+    "talk": 198,
+    "videos": []
+  },
+  {
+    "talk": 199,
+    "videos": []
+  },
+  {
+    "talk": 200,
+    "videos": []
+  },
+  {
+    "talk": 201,
+    "videos": []
+  },
+  {
+    "talk": 202,
+    "videos": []
+  },
+  {
+    "talk": 203,
+    "videos": []
+  },
+  {
+    "talk": 204,
+    "videos": []
+  },
+  {
+    "talk": 205,
+    "videos": []
+  },
+  {
+    "talk": 206,
+    "videos": []
+  },
+  {
+    "talk": 207,
+    "videos": []
+  },
+  {
+    "talk": 208,
+    "videos": []
+  },
+  {
+    "talk": 209,
+    "videos": []
+  },
+  {
+    "talk": 210,
+    "videos": []
+  },
+  {
+    "talk": 211,
+    "videos": []
+  },
+  {
+    "talk": 212,
+    "videos": []
+  },
+  {
+    "talk": 213,
+    "videos": []
+  },
+  {
+    "talk": 214,
+    "videos": []
+  },
+  {
+    "talk": 215,
+    "videos": []
+  },
+  {
+    "talk": 216,
+    "videos": []
+  },
+  {
+    "talk": 217,
+    "videos": []
+  },
+  {
+    "talk": 218,
+    "videos": []
+  },
+  {
+    "talk": 219,
+    "videos": []
+  },
+  {
+    "talk": 220,
+    "videos": []
+  },
+  {
+    "talk": 221,
+    "videos": []
+  },
+  {
+    "talk": 222,
+    "videos": []
+  },
+  {
+    "talk": 223,
+    "videos": []
+  },
+  {
+    "talk": 224,
+    "videos": []
+  },
+  {
+    "talk": 225,
+    "videos": []
+  },
+  {
+    "talk": 226,
+    "videos": []
+  },
+  {
+    "talk": 227,
+    "videos": []
+  },
+  {
+    "talk": 228,
+    "videos": []
+  },
+  {
+    "talk": 229,
+    "videos": []
+  },
+  {
+    "talk": 230,
+    "videos": []
+  },
+  {
+    "talk": 231,
+    "videos": []
+  },
+  {
+    "talk": 232,
+    "videos": []
+  },
+  {
+    "talk": 233,
+    "videos": []
+  },
+  {
+    "talk": 234,
+    "videos": []
+  },
+  {
+    "talk": 235,
+    "videos": []
+  },
+  {
+    "talk": 236,
+    "videos": []
+  },
+  {
+    "talk": 237,
+    "videos": []
+  },
+  {
+    "talk": 238,
+    "videos": []
+  },
+  {
+    "talk": 239,
+    "videos": []
+  },
+  {
+    "talk": 240,
+    "videos": []
+  },
+  {
+    "talk": 241,
+    "videos": []
+  },
+  {
+    "talk": 242,
+    "videos": []
+  },
+  {
+    "talk": 243,
+    "videos": []
+  },
+  {
+    "talk": 244,
+    "videos": []
+  },
+  {
+    "talk": 245,
+    "videos": []
+  },
+  {
+    "talk": 246,
+    "videos": []
+  },
+  {
+    "talk": 247,
+    "videos": []
+  },
+  {
+    "talk": 248,
+    "videos": []
+  },
+  {
+    "talk": 249,
+    "videos": []
+  },
+  {
+    "talk": 250,
+    "videos": []
+  },
+  {
+    "talk": 251,
+    "videos": []
+  },
+  {
+    "talk": 252,
+    "videos": []
+  },
+  {
+    "talk": 253,
+    "videos": []
+  },
+  {
+    "talk": 254,
+    "videos": []
+  },
+  {
+    "talk": 255,
+    "videos": []
+  },
+  {
+    "talk": 256,
+    "videos": []
+  },
+  {
+    "talk": 257,
+    "videos": []
+  },
+  {
+    "talk": 258,
+    "videos": []
+  },
+  {
+    "talk": 259,
+    "videos": []
+  },
+  {
+    "talk": 260,
+    "videos": []
+  },
+  {
+    "talk": 261,
+    "videos": []
+  },
+  {
+    "talk": 262,
+    "videos": []
+  },
+  {
+    "talk": 263,
+    "videos": []
+  },
+  {
+    "talk": 264,
+    "videos": []
+  },
+  {
+    "talk": 265,
+    "videos": []
+  },
+  {
+    "talk": 266,
+    "videos": []
+  },
+  {
+    "talk": 267,
+    "videos": []
+  },
+  {
+    "talk": 268,
+    "videos": []
+  },
+  {
+    "talk": 269,
+    "videos": []
+  },
+  {
+    "talk": 270,
+    "videos": []
+  },
+  {
+    "talk": 271,
+    "videos": []
+  },
+  {
+    "talk": 272,
+    "videos": []
+  },
+  {
+    "talk": 273,
+    "videos": []
+  },
+  {
+    "talk": 274,
+    "videos": []
+  },
+  {
+    "talk": 275,
+    "videos": []
+  },
+  {
+    "talk": 276,
+    "videos": []
+  },
+  {
+    "talk": 277,
+    "videos": []
+  },
+  {
+    "talk": 278,
+    "videos": []
+  },
+  {
+    "talk": 279,
+    "videos": []
+  },
+  {
+    "talk": 280,
+    "videos": []
+  },
+  {
+    "talk": 281,
+    "videos": []
+  },
+  {
+    "talk": 282,
+    "videos": []
+  },
+  {
+    "talk": 283,
+    "videos": []
+  },
+  {
+    "talk": 284,
+    "videos": []
+  },
+  {
+    "talk": 285,
+    "videos": []
+  },
+  {
+    "talk": 286,
+    "videos": []
+  },
+  {
+    "talk": 287,
+    "videos": []
+  },
+  {
+    "talk": 288,
+    "videos": []
+  },
+  {
+    "talk": 289,
+    "videos": []
+  },
+  {
+    "talk": 290,
+    "videos": []
+  },
+  {
+    "talk": 291,
+    "videos": []
+  },
+  {
+    "talk": 292,
+    "videos": []
+  },
+  {
+    "talk": 293,
+    "videos": []
+  },
+  {
+    "talk": 294,
+    "videos": []
+  },
+  {
+    "talk": 295,
+    "videos": []
+  },
+  {
+    "talk": 296,
+    "videos": []
+  },
+  {
+    "talk": 297,
+    "videos": []
+  },
+  {
+    "talk": 298,
+    "videos": []
+  },
+  {
+    "talk": 299,
+    "videos": []
+  },
+  {
+    "talk": 300,
+    "videos": []
+  },
+  {
+    "talk": 301,
+    "videos": []
+  },
+  {
+    "talk": 302,
+    "videos": []
+  },
+  {
+    "talk": 303,
+    "videos": []
+  },
+  {
+    "talk": 304,
+    "videos": []
+  },
+  {
+    "talk": 305,
+    "videos": []
+  },
+  {
+    "talk": 306,
+    "videos": []
+  },
+  {
+    "talk": 307,
+    "videos": []
+  },
+  {
+    "talk": 308,
+    "videos": []
+  },
+  {
+    "talk": 309,
+    "videos": []
+  },
+  {
+    "talk": 310,
+    "videos": []
+  },
+  {
+    "talk": 311,
+    "videos": []
+  },
+  {
+    "talk": 312,
+    "videos": []
+  },
+  {
+    "talk": 313,
+    "videos": []
+  },
+  {
+    "talk": 314,
+    "videos": []
+  },
+  {
+    "talk": 315,
+    "videos": []
+  },
+  {
+    "talk": 316,
+    "videos": []
+  },
+  {
+    "talk": 317,
+    "videos": []
+  },
+  {
+    "talk": 318,
+    "videos": []
+  },
+  {
+    "talk": 319,
+    "videos": []
+  },
+  {
+    "talk": 320,
+    "videos": []
+  },
+  {
+    "talk": 321,
+    "videos": []
+  },
+  {
+    "talk": 322,
+    "videos": []
+  },
+  {
+    "talk": 323,
+    "videos": []
+  },
+  {
+    "talk": 324,
+    "videos": []
+  },
+  {
+    "talk": 325,
+    "videos": []
+  },
+  {
+    "talk": 326,
+    "videos": []
+  },
+  {
+    "talk": 327,
+    "videos": []
+  },
+  {
+    "talk": 328,
+    "videos": []
+  },
+  {
+    "talk": 329,
+    "videos": []
+  },
+  {
+    "talk": 330,
+    "videos": []
+  },
+  {
+    "talk": 331,
+    "videos": []
+  },
+  {
+    "talk": 332,
+    "videos": []
+  },
+  {
+    "talk": 333,
+    "videos": []
+  },
+  {
+    "talk": 334,
+    "videos": []
+  },
+  {
+    "talk": 335,
+    "videos": []
+  },
+  {
+    "talk": 336,
+    "videos": []
+  },
+  {
+    "talk": 337,
+    "videos": []
+  },
+  {
+    "talk": 338,
+    "videos": []
+  },
+  {
+    "talk": 339,
+    "videos": []
+  },
+  {
+    "talk": 340,
+    "videos": []
+  },
+  {
+    "talk": 341,
+    "videos": []
+  }
+]
