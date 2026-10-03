@@ -1,5 +1,5 @@
 window.MSEMINAR = {
-  generated: "2026-10-03 18:05",
+  generated: "2026-10-03 18:30",
   today: "2026-10-03",
   channel: "https://www.youtube.com/@m-seminar_ksu",
   base: "https://www.math.ksu.edu/research/research-centers/m-center",
@@ -769,7 +769,7 @@ window.MSEMINAR = {
       affiliation: "KSU",
       title: "The Hochschild homology of a noncommutative symmetric quotient stack",
       abstract:
-        "For a small DG category $A$, its symmetric power $S^nA$ may be considered a noncommutative symmetric quotient stack of $A$. We establish an isomorphism between $\\bigoplus$ HH_\\bullet(S^nA)$$ and the symmetric algebra $S^*(HH_\\bullet(A) \\otimes t k[t])$ by chaining explicit maps of complexes. These graded vector spaces being isomorphic has been established before by Baranovsky in the commutative case and conjectured by Belmans, Fu, and Krug in the form that we prove it. The explicit nature of the isomorphism allows us to transfer a number of structures from the symmetric algebra to $\\bigoplus$ HH_\\bullet(S^nA)$$, since the former is a Hopf algebra, the Fock space for the Heisenberg algebra of $A$, and a $\\lambda$-ring. In this talk, I will go over (some of the) history of the results this one is building upon, describe the quasiisomorphism, and compare the result to the (much more studied) commutative case. This talk is based on a joint work with V. Baranovsky and T. Logvinenko, https://arxiv.org/abs/2512.25039",
+        "For a small DG category $A$, its symmetric power $S^nA$ may be considered a noncommutative symmetric quotient stack of $A$. We establish an isomorphism between $\\bigoplus HH_\\bullet(S^nA)$ and the symmetric algebra $S^*(HH_\\bullet(A) \\otimes t k[t])$ by chaining explicit maps of complexes. These graded vector spaces being isomorphic has been established before by Baranovsky in the commutative case and conjectured by Belmans, Fu, and Krug in the form that we prove it. The explicit nature of the isomorphism allows us to transfer a number of structures from the symmetric algebra to $\\bigoplus HH_\\bullet(S^nA)$, since the former is a Hopf algebra, the Fock space for the Heisenberg algebra of $A$, and a $\\lambda$-ring. In this talk, I will go over (some of the) history of the results this one is building upon, describe the quasiisomorphism, and compare the result to the (much more studied) commutative case. This talk is based on a joint work with V. Baranovsky and T. Logvinenko, https://arxiv.org/abs/2512.25039",
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -2858,7 +2858,7 @@ window.MSEMINAR = {
       affiliation: "USC",
       title: "Differential operators on the base affine space and quantized Coulomb branches",
       abstract:
-        'We discuss joint work with Tom Gannon, showing that the algebra $D(SL_n/U)$ of differential operators on the base affine space of $SL_n$ is the quantized Coulomb branch of a certain 3d $\\mathcal{N} = 4$ quiver gauge theory. In the semiclassical limit this confirms a conjecture of Dancer-Hanany-Kirwan on the universal hyperk\\"ahler implosion of $SL_n$. In fact, we prove a generalization interpreting an arbitrary unipotent reduction of $T^*$ SL_n$$ as a Coulomb branch. These results also provide a new interpretation of the Gelfand-Graev Weyl group symmetry of $D(SL_n/U)$.',
+        'We discuss joint work with Tom Gannon, showing that the algebra $D(SL_n/U)$ of differential operators on the base affine space of $SL_n$ is the quantized Coulomb branch of a certain 3d $\\mathcal{N} = 4$ quiver gauge theory. In the semiclassical limit this confirms a conjecture of Dancer-Hanany-Kirwan on the universal hyperk\\"ahler implosion of $SL_n$. In fact, we prove a generalization interpreting an arbitrary unipotent reduction of $T^*SL_n$ as a Coulomb branch. These results also provide a new interpretation of the Gelfand-Graev Weyl group symmetry of $D(SL_n/U)$.',
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -7292,7 +7292,7 @@ window.MSEMINAR = {
       affiliation: "KSU",
       title: "Tailoring a pair-of-pants",
       abstract:
-        "The complex pair-of-pants is a hypersurface in $(\\mathbb{C}^*)^n$ defined by the equation $1+z_1+\\dots+z_n=0$. It projects to the amoeba $A$ in $\\mathbb{R}^n$ and the coamoeba $C$ in the torus $T^n$. The amoeba has a skeleton $SkA$, also known as the tropical hyperplane, and the coamoeba has a skeleton $SkC$, known as the boundary of the permutahedron. I will introduce a new object, the obertropical pair-of-pants, in $SkA \\times$ SkC$$, which is isotopic to the original pair-of-pants and discuss its application for making the discriminant in a topological SYZ fibration to be of codimension 2. This is a joint project with H. Ruddat.",
+        "The complex pair-of-pants is a hypersurface in $(\\mathbb{C}^*)^n$ defined by the equation $1+z_1+\\dots+z_n=0$. It projects to the amoeba $A$ in $\\mathbb{R}^n$ and the coamoeba $C$ in the torus $T^n$. The amoeba has a skeleton $SkA$, also known as the tropical hyperplane, and the coamoeba has a skeleton $SkC$, known as the boundary of the permutahedron. I will introduce a new object, the obertropical pair-of-pants, in $SkA \\times SkC$, which is isotopic to the original pair-of-pants and discuss its application for making the discriminant in a topological SYZ fibration to be of codimension 2. This is a joint project with H. Ruddat.",
       extra: [],
       cancelled: false,
       upcoming: false,

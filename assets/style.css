@@ -389,23 +389,8 @@ a.speaker-link:hover {
   font-size: 14.5px;
   color: color-mix(in srgb, var(--ink) 88%, var(--muted));
 }
-.abstract.clamped {
-  display: -webkit-box;
-  -webkit-line-clamp: 4;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-}
-.more {
-  margin-top: 6px;
-  background: none;
-  border: none;
-  padding: 0;
-  color: var(--accent-2);
-  font: inherit;
-  font-size: 13.5px;
-  cursor: pointer;
-}
-.more:hover {
+.abstract a:hover,
+.talk-title a:hover {
   text-decoration: underline;
 }
 .extra {

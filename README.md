@@ -53,10 +53,11 @@ YouTube channel, then update `data/`:
 Lecture`): put that in `extra` and the real speaker in `speaker`.
 2. **`videos.json`** — one object per channel video: `id` (YouTube id),
    `title`, `duration` (seconds), `views`, `url`.
-3. **`match.json`** — `{"talk": <index into talks.json>, "videos":
-[{"id", "part", "title"}]}`. Multi-part series go on the single series
-   talk, ordered by `part`. A talk with no recording gets `"videos": []` —
-   the site then says so explicitly.
+3. **`match.json`** — `{"id": <talk id>, "videos": [{"id", "part",
+"title"}]}` (keyed by id, so inserting talks never breaks it).
+   Multi-part series go on the single series talk, ordered by `part`.
+   A talk with no recording gets `"videos": []` — the site then says so
+   explicitly.
 4. **`speakers.json`** — plain `{name: homepage URL}` map. Prefer the
    speaker's own page; university faculty pages are fine. Never link
    Wikipedia, Scholar, LinkedIn, arXiv, or conference pages. Only add a URL
@@ -83,6 +84,38 @@ Pass `--strict` to also fail on warnings. Serve the folder over HTTP to view:
 python -m http.server 8765
 ```
 
+### Weekly update
+
+Once a week (or on request), re-scan the two sources and fold in what changed:
+
+1. **Programme.** Open the official seminars page. Compare its talk list
+   against `talks.json` (which is newest-first):
+   - New talks go at the **top**. Give each a stable `id`
+     (`{year}-{speaker-slug}-{title-slug}`, lowercase, truncated ~60 chars).
+     Because `match.json` is keyed by id, existing entries are unaffected.
+   - Backfill talks whose abstracts or `Notes` PDFs appeared after listing.
+   - Mark cancellations (`cancelled: true`); fix postponements/room changes.
+   - If a season rolled over (e.g. a new `past_seminars/2026.html` link
+     appeared), check it for talks the current page dropped.
+2. **Recordings.** List the YouTube channel's videos and compare against
+   `videos.json` by video id. For each new upload: append to `videos.json`
+   (`id`, `title`, `duration`, `views`, `url`) and add/extend the matching
+   `match.json` entry. Multi-part series (`Part N`, `Lec N`, roman numerals
+   like `Part II`) belong on the single series talk, ordered by `part`.
+   Also check past talks with empty `"videos": []` — recordings are often
+   uploaded weeks late.
+3. **Speakers.** New names need a `speakers.json` entry: find the speaker's
+   own homepage (university faculty pages are fine; never Wikipedia,
+   Scholar, LinkedIn, arXiv, conference pages). Fetch the page and confirm
+   the name appears before adding — no link beats a wrong link.
+4. **Rebuild and verify** with the three commands above (`validate` must
+   report 0 errors), spot-check the new/changed cards in a browser
+   (abstract math renders, players load, no-recording notices where
+   expected), then publish per `AGENTS.md` (push here first, then bump the
+   vault pointer).
+
+If nothing changed, do nothing — say so and stop.
+
 ## Deploying
 
 The site is fully static (no build step at serve time), so any static host
@@ -94,3 +127,6 @@ command, output directory `./` (the repo root). Every push redeploys.
 - Unofficial mirror; not affiliated with K-State. Programme text belongs to the
   M-Seminar.
 - The abstract text may contain LaTeX; the page renders it with MathJax.
+- arXiv references in titles/abstracts (`arXiv:YYMM.NNNNN`, old-style
+  `archive/YYMMNNN`, and arxiv.org URLs) are auto-linked to the arXiv
+  abstract page at render time — leave them as plain text in `data/`.

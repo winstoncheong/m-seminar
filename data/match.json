@@ -1,18 +1,18 @@
 [
   {
-    "talk": 0,
+    "id": "2026-tatsuki-kuwagaki-sheaf-theory-for-non-exact-lagrangians",
     "videos": []
   },
   {
-    "talk": 1,
+    "id": "2026-markus-reineke-stability-and-expansion",
     "videos": []
   },
   {
-    "talk": 2,
+    "id": "2026-shivang-jindal-the-loop-nilpotent-cohomological-hall-algebra",
     "videos": []
   },
   {
-    "talk": 3,
+    "id": "2026-anton-kapustin-from-locality-to-homotopy-theory-higher-symme",
     "videos": [
       {
         "id": "pdRUxmNCLeE",
@@ -22,15 +22,15 @@
     ]
   },
   {
-    "talk": 4,
+    "id": "2026-maxim-kontsevich-towards-large-fukaya-category-case-of-tori",
     "videos": []
   },
   {
-    "talk": 5,
+    "id": "2026-amanda-hirschi-an-open-closed-deligne-mumford-field-theory-a",
     "videos": []
   },
   {
-    "talk": 6,
+    "id": "2026-christopher-beem-graded-unitarity",
     "videos": [
       {
         "id": "iMdUL8j4cKw",
@@ -40,7 +40,7 @@
     ]
   },
   {
-    "talk": 7,
+    "id": "2026-alexander-goncharov-non-commutative-cluster-lagrangians",
     "videos": [
       {
         "id": "v9O2k5lOkjE",
@@ -50,7 +50,7 @@
     ]
   },
   {
-    "talk": 8,
+    "id": "2026-vladimir-roubtsov-product-formulas-for-the-higher-bessel-fun",
     "videos": [
       {
         "id": "zNLKlOcXs8M",
@@ -60,7 +60,7 @@
     ]
   },
   {
-    "talk": 9,
+    "id": "2026-bertrand-eynard-topological-recursion-cft-and-principal-bund",
     "videos": [
       {
         "id": "zcM5z_ep76E",
@@ -70,7 +70,7 @@
     ]
   },
   {
-    "talk": 10,
+    "id": "2026-sam-dehority-orientifold-lines-from-coha-modules",
     "videos": [
       {
         "id": "J5iSlmMtvjw",
@@ -90,7 +90,7 @@
     ]
   },
   {
-    "talk": 11,
+    "id": "2026-vasily-krylov-higgs-and-coulomb-branches-for-quiver-gauge-th",
     "videos": [
       {
         "id": "qiMsBrvmHfU",
@@ -110,7 +110,7 @@
     ]
   },
   {
-    "talk": 12,
+    "id": "2026-tudor-dimofte-tannaka-koszul-duality-and-line-operators",
     "videos": [
       {
         "id": "q1WhtjlURHE",
@@ -130,7 +130,7 @@
     ]
   },
   {
-    "talk": 13,
+    "id": "2026-davide-gaiotto-the-categorical-t-hooft-expansion",
     "videos": [
       {
         "id": "EJ69IXparPo",
@@ -150,7 +150,7 @@
     ]
   },
   {
-    "talk": 14,
+    "id": "2026-rina-anno-the-hochschild-homology-of-a-noncommutative-symmet",
     "videos": [
       {
         "id": "azXqbRSSG-k",
@@ -160,11 +160,11 @@
     ]
   },
   {
-    "talk": 15,
+    "id": "2026-erkao-bao-equivariant-transversality-in-morse-homology-via-s",
     "videos": []
   },
   {
-    "talk": 16,
+    "id": "2026-ilya-dumanski-perverse-coherent-sheaves-on-symplectic-singul",
     "videos": [
       {
         "id": "XJJsAb-BmQQ",
@@ -184,7 +184,7 @@
     ]
   },
   {
-    "talk": 17,
+    "id": "2026-boris-tsygan-the-gauss-manin-connection-in-noncommutative-ge",
     "videos": [
       {
         "id": "qWauRz5onIQ",
@@ -194,7 +194,7 @@
     ]
   },
   {
-    "talk": 18,
+    "id": "2025-piotr-sulkowski-symmetric-quivers-for-2d-3d-and-4d-theories-",
     "videos": [
       {
         "id": "1q-RkpTCsXQ",
@@ -209,7 +209,7 @@
     ]
   },
   {
-    "talk": 19,
+    "id": "2025-andrey-smirnov-frobenius-structures-for-quantum-differential",
     "videos": [
       {
         "id": "dsY_jbpaKn8",
@@ -229,7 +229,7 @@
     ]
   },
   {
-    "talk": 20,
+    "id": "2025-tudor-padurariu-bps-cohomology-and-quasi-bps-categories",
     "videos": [
       {
         "id": "zTZLBPiZY7M",
@@ -254,7 +254,7 @@
     ]
   },
   {
-    "talk": 21,
+    "id": "2025-sergey-alexandrov-mock-modularity-of-calabi-yau-threefolds",
     "videos": [
       {
         "id": "5Nlmr0a7KHw",
@@ -274,7 +274,7 @@
     ]
   },
   {
-    "talk": 22,
+    "id": "2025-ruoxi-li-motivic-classes-of-varieties-and-stacks-with-applic",
     "videos": [
       {
         "id": "rCrUWCsbyGg",
@@ -284,11 +284,11 @@
     ]
   },
   {
-    "talk": 23,
+    "id": "2025-tony-yue-yu-f-bundles-mirror-symmetry-and-birational-invaria",
     "videos": []
   },
   {
-    "talk": 24,
+    "id": "2025-chiu-chu-melissa-liu-remodeling-conjecture-with-descendants",
     "videos": [
       {
         "id": "pDg8CtzQWjw",
@@ -298,7 +298,7 @@
     ]
   },
   {
-    "talk": 25,
+    "id": "2025-sabin-cautis-abelian-hall-categories",
     "videos": [
       {
         "id": "db-F3TojFlo",
@@ -318,7 +318,7 @@
     ]
   },
   {
-    "talk": 26,
+    "id": "2025-pierre-descombes-hyperbolic-localization-in-donaldson-thomas",
     "videos": [
       {
         "id": "3qcWjWmoht0",
@@ -338,7 +338,7 @@
     ]
   },
   {
-    "talk": 27,
+    "id": "2025-yash-deshmukh-categorical-and-geometric-enumerative-invarian",
     "videos": [
       {
         "id": "hCJv2tyWQR4",
@@ -348,11 +348,11 @@
     ]
   },
   {
-    "talk": 28,
+    "id": "2025-ailsa-keating-homological-mirror-symmetry-for-projective-k3-",
     "videos": []
   },
   {
-    "talk": 29,
+    "id": "2025-dominic-joyce-orientations-on-moduli-spaces-of-coherent-shea",
     "videos": [
       {
         "id": "91RgbWRkTjU",
@@ -362,7 +362,7 @@
     ]
   },
   {
-    "talk": 30,
+    "id": "2025-dominic-joyce-orientations-on-moduli-spaces-of-coherent-shea-2",
     "videos": [
       {
         "id": "rSOWnzdPDVY",
@@ -372,7 +372,7 @@
     ]
   },
   {
-    "talk": 31,
+    "id": "2025-wenjun-niu-quantum-algebras-and-spectral-r-matrices-from-equ",
     "videos": [
       {
         "id": "JYy2cGUh4Jw",
@@ -382,7 +382,7 @@
     ]
   },
   {
-    "talk": 32,
+    "id": "2025-wenjun-niu-quantum-algebras-and-spectral-r-matrices-from-equ-2",
     "videos": [
       {
         "id": "kIk4TyYH0m0",
@@ -392,7 +392,7 @@
     ]
   },
   {
-    "talk": 33,
+    "id": "2025-martijn-kool-virtual-structure-on-hilbert-schemes-of-affine-",
     "videos": [
       {
         "id": "R3XaBN9MKN4",
@@ -402,7 +402,7 @@
     ]
   },
   {
-    "talk": 34,
+    "id": "2025-sebastian-haney-infinity-inner-products-and-open-gromov-witt",
     "videos": [
       {
         "id": "tkXDFES_uQM",
@@ -412,7 +412,7 @@
     ]
   },
   {
-    "talk": 35,
+    "id": "2025-fabian-haiden-counting-in-calabi-yau-categories-part-2",
     "videos": [
       {
         "id": "fy9tHpYNurk",
@@ -422,7 +422,7 @@
     ]
   },
   {
-    "talk": 36,
+    "id": "2025-fabian-haiden-counting-in-calabi-yau-categories-part-1",
     "videos": [
       {
         "id": "Yj0Up2Todc8",
@@ -432,7 +432,7 @@
     ]
   },
   {
-    "talk": 37,
+    "id": "2025-ilya-dumanski-from-quantum-loop-group-to-coherent-satake-cat",
     "videos": [
       {
         "id": "OWz9FVC2vEo",
@@ -442,7 +442,7 @@
     ]
   },
   {
-    "talk": 38,
+    "id": "2025-nikita-nikolaev-geometry-and-resurgence-of-wkb-solutions-of-",
     "videos": [
       {
         "id": "xvzyyAq6bho",
@@ -452,7 +452,7 @@
     ]
   },
   {
-    "talk": 39,
+    "id": "2025-nikita-nikolaev-geometry-and-resurgence-of-wkb-solutions-of--2",
     "videos": [
       {
         "id": "fpeAKTUgovc",
@@ -462,7 +462,7 @@
     ]
   },
   {
-    "talk": 40,
+    "id": "2025-nikita-markarian-multiplicative-convolution-and-double-shuff",
     "videos": [
       {
         "id": "A9XPTseoel0",
@@ -472,11 +472,11 @@
     ]
   },
   {
-    "talk": 41,
+    "id": "2024-amina-abdurrahman-hyperbolic-homology-3-spheres-spectral-gap",
     "videos": []
   },
   {
-    "talk": 42,
+    "id": "2024-andrei-grekov-many-body-integrable-systems-and-the-moduli-sp",
     "videos": [
       {
         "id": "Qg5EJbAYB20",
@@ -486,7 +486,7 @@
     ]
   },
   {
-    "talk": 43,
+    "id": "2024-ran-tessler-open-mirror-symmetry-for-landau-ginzburg-models",
     "videos": [
       {
         "id": "lP2ti6onmhI",
@@ -496,7 +496,7 @@
     ]
   },
   {
-    "talk": 44,
+    "id": "2024-francesco-sala-cohomological-hall-algebras-their-representat",
     "videos": [
       {
         "id": "zH7HNphw7E8",
@@ -506,7 +506,7 @@
     ]
   },
   {
-    "talk": 45,
+    "id": "2024-zihong-chen-the-exponential-type-conjecture-for-quantum-conn",
     "videos": [
       {
         "id": "dMcYqLbynAA",
@@ -516,7 +516,7 @@
     ]
   },
   {
-    "talk": 46,
+    "id": "2024-victoria-hoskins-moduli-spaces-of-bundles-on-curves-with-abe",
     "videos": [
       {
         "id": "vT-FbIHEaqw",
@@ -526,7 +526,7 @@
     ]
   },
   {
-    "talk": 47,
+    "id": "2024-mark-mclean-symplectic-orbifold-gromov-witten-invariants",
     "videos": [
       {
         "id": "bhweDxMHRKE",
@@ -536,7 +536,7 @@
     ]
   },
   {
-    "talk": 48,
+    "id": "2024-shivang-jindal-coha-of-cyclic-quivers-and-an-integral-form-o",
     "videos": [
       {
         "id": "dqKrOyH78-E",
@@ -546,7 +546,7 @@
     ]
   },
   {
-    "talk": 49,
+    "id": "2024-jeff-hicks-superabundance-and-unobstructedness",
     "videos": [
       {
         "id": "9JYYA7voWpA",
@@ -556,7 +556,7 @@
     ]
   },
   {
-    "talk": 50,
+    "id": "2024-hulya-arguz-the-ksba-moduli-space-of-stable-log-calabi-yau-s",
     "videos": [
       {
         "id": "OKp6eCJTeWw",
@@ -566,7 +566,7 @@
     ]
   },
   {
-    "talk": 51,
+    "id": "2024-mingyuan-hu-skein-valued-open-gromov-witten-invariants-and-c",
     "videos": [
       {
         "id": "W6TEIJTXoH8",
@@ -576,7 +576,7 @@
     ]
   },
   {
-    "talk": 52,
+    "id": "2024-gwyn-bellamy-koszul-duality-on-quantizations-of-bionic-sympl",
     "videos": [
       {
         "id": "lKjYplZzn8M",
@@ -586,7 +586,7 @@
     ]
   },
   {
-    "talk": 53,
+    "id": "2024-sheel-ganatra-arclike-lagrangians-in-liouville-sectors",
     "videos": [
       {
         "id": "9ugyn6KHDPI",
@@ -596,7 +596,7 @@
     ]
   },
   {
-    "talk": 54,
+    "id": "2024-murad-alim-from-gromov-witten-to-donaldson-thomas-invariants",
     "videos": [
       {
         "id": "dl-8UbB3xyU",
@@ -606,11 +606,11 @@
     ]
   },
   {
-    "talk": 55,
+    "id": "2024-hiroshi-iritani-decomposition-of-quantum-cohomology-under-bl",
     "videos": []
   },
   {
-    "talk": 56,
+    "id": "2024-daniel-halpern-leistner-dispatches-from-the-ends-of-the-stab",
     "videos": [
       {
         "id": "uEWVpI7Xu34",
@@ -636,7 +636,7 @@
     "note": "Lec 2 was uploaded under the name 'Alekos Robotis'; it belongs to this series"
   },
   {
-    "talk": 57,
+    "id": "2024-nikita-nekrasov-infinite-dimensional-spin-chains-from-gauge-",
     "videos": [
       {
         "id": "pNEYSpYnJ8M",
@@ -646,7 +646,7 @@
     ]
   },
   {
-    "talk": 58,
+    "id": "2024-zhiwei-yun-an-irregular-deligne-simpson-problem",
     "videos": [
       {
         "id": "k0sEOGXLVcw",
@@ -656,7 +656,7 @@
     ]
   },
   {
-    "talk": 59,
+    "id": "2024-tommaso-botta-maulik-okounkov-lie-algebras-and-bps-lie-lageb",
     "videos": [
       {
         "id": "2245JN84zFs",
@@ -666,7 +666,7 @@
     ]
   },
   {
-    "talk": 60,
+    "id": "2024-alexandre-minets-cohas-of-0-dimensional-sheaves-on-surfaces",
     "videos": [
       {
         "id": "ABQKq8LQpg0",
@@ -676,7 +676,7 @@
     ]
   },
   {
-    "talk": 61,
+    "id": "2024-pavel-etingof-periodic-pencils-of-flat-connections-and-their",
     "videos": [
       {
         "id": "Vd0QyM0FVZ8",
@@ -686,7 +686,7 @@
     ]
   },
   {
-    "talk": 62,
+    "id": "2024-lucien-hennecart-cohomological-hall-algebras-of-2-calabi-yau",
     "videos": [
       {
         "id": "6ZxVF1X-XAc",
@@ -711,7 +711,7 @@
     ]
   },
   {
-    "talk": 63,
+    "id": "2024-gus-schrader-skeins-clusters-and-wavefunctions",
     "videos": [
       {
         "id": "ZJJj1cBnSb4",
@@ -721,7 +721,7 @@
     ]
   },
   {
-    "talk": 64,
+    "id": "2024-pavel-safronov-perverse-sheaves-in-deformation-quantization",
     "videos": [
       {
         "id": "StEIMbgWbco",
@@ -731,7 +731,7 @@
     ]
   },
   {
-    "talk": 65,
+    "id": "2023-john-pardon-universally-counting-curves-in-calabi-yau-threef",
     "videos": [
       {
         "id": "RO2eaCnZUHY",
@@ -741,7 +741,7 @@
     ]
   },
   {
-    "talk": 66,
+    "id": "2023-jake-solomon-counting-holomorphic-disks-with-boundary-on-the",
     "videos": [
       {
         "id": "qS0JIOosAvo",
@@ -751,7 +751,7 @@
     ]
   },
   {
-    "talk": 67,
+    "id": "2023-harold-williams-differential-operators-on-the-base-affine-sp",
     "videos": [
       {
         "id": "r52AOdSZbcA",
@@ -761,7 +761,7 @@
     ]
   },
   {
-    "talk": 68,
+    "id": "2023-mikhail-kapranov-resurgent-perverse-sheaves",
     "videos": [
       {
         "id": "64tUwzYqOdo",
@@ -771,7 +771,7 @@
     ]
   },
   {
-    "talk": 69,
+    "id": "2023-dylan-butson-vertex-algebras-from-divisors-on-calabi-yau-thr",
     "videos": [
       {
         "id": "E6vPw3IH5M0",
@@ -796,7 +796,7 @@
     ]
   },
   {
-    "talk": 70,
+    "id": "2023-jim-bryan-the-geometry-and-arithmetic-of-banana-nano-manifol",
     "videos": [
       {
         "id": "U33fi7CM4nQ",
@@ -806,7 +806,7 @@
     ]
   },
   {
-    "talk": 71,
+    "id": "2023-niklas-garner-non-semisimple-tqfts-from-3d-n-4-qfts",
     "videos": [
       {
         "id": "hQpzoRiK9Eg",
@@ -826,7 +826,7 @@
     ]
   },
   {
-    "talk": 72,
+    "id": "2023-linhui-shen-cluster-nature-of-quantum-groups",
     "videos": [
       {
         "id": "k9sWvGYhaTM",
@@ -836,7 +836,7 @@
     ]
   },
   {
-    "talk": 73,
+    "id": "2023-constantin-teleman-condensed-thoughts",
     "videos": [
       {
         "id": "WkV4QBt8UeI",
@@ -846,7 +846,7 @@
     ]
   },
   {
-    "talk": 74,
+    "id": "2023-henry-liu-the-k-theoretic-dt-pt-vertex-correspondence",
     "videos": [
       {
         "id": "D75wFXjcuOA",
@@ -856,7 +856,7 @@
     ]
   },
   {
-    "talk": 75,
+    "id": "2023-roman-bezrukavnikov-on-springer-theory-for-homogeneous-affin",
     "videos": [
       {
         "id": "Wa8FgDJxqAo",
@@ -866,7 +866,7 @@
     ]
   },
   {
-    "talk": 76,
+    "id": "2023-rina-anno-defining-a-infty-structures-in-monoidal-dg-categor",
     "videos": [
       {
         "id": "3EyOrWmMOb4",
@@ -876,7 +876,7 @@
     ]
   },
   {
-    "talk": 77,
+    "id": "2023-ilia-itenberg-empty-real-plane-sextic-curves",
     "videos": [
       {
         "id": "Q4lg51R8XIA",
@@ -886,7 +886,7 @@
     ]
   },
   {
-    "talk": 78,
+    "id": "2023-emanuel-diaconescu-flops-and-hilbert-scheme-of-space-curve-s",
     "videos": [
       {
         "id": "PR3LgrPOLdQ",
@@ -896,7 +896,7 @@
     ]
   },
   {
-    "talk": 79,
+    "id": "2023-kai-hugtenburg-open-gromov-witten-invariants-from-the-fukaya",
     "videos": [
       {
         "id": "9oxl_btQwy8",
@@ -906,7 +906,7 @@
     ]
   },
   {
-    "talk": 80,
+    "id": "2023-pierrick-bousseau-quivers-flow-trees-and-log-curves",
     "videos": [
       {
         "id": "RCbmeHi4fjs",
@@ -916,7 +916,7 @@
     ]
   },
   {
-    "talk": 81,
+    "id": "2023-umut-varolgunes-mirror-symmetry-via-relative-floer-theoretic",
     "videos": [
       {
         "id": "G2JfMD3Z9LA",
@@ -926,7 +926,7 @@
     ]
   },
   {
-    "talk": 82,
+    "id": "2023-benjamin-gammage-structural-features-of-3d-mirror-symmetry",
     "videos": [
       {
         "id": "-v54osG5Oig",
@@ -936,7 +936,7 @@
     ]
   },
   {
-    "talk": 83,
+    "id": "2023-miguel-moreira-virasoro-constraints-in-sheaf-theory",
     "videos": [
       {
         "id": "qqL6wzNboh4",
@@ -946,7 +946,7 @@
     ]
   },
   {
-    "talk": 84,
+    "id": "2023-anton-mellit-p-w-via-h2",
     "videos": [
       {
         "id": "ipWaNuFGD9c",
@@ -956,7 +956,7 @@
     ]
   },
   {
-    "talk": 85,
+    "id": "2023-yoel-groman-the-closed-string-mirror-construction",
     "videos": [
       {
         "id": "G1c2OVHO36U",
@@ -966,7 +966,7 @@
     ]
   },
   {
-    "talk": 86,
+    "id": "2023-nicolai-reshetikhin-solitons-in-infinite-relativistic-toda-s",
     "videos": [
       {
         "id": "oehsATH9T8U",
@@ -976,7 +976,7 @@
     ]
   },
   {
-    "talk": 87,
+    "id": "2023-ivan-danilenko-stable-envelopes-from-2d-mirror-symmetry",
     "videos": [
       {
         "id": "Q-1wonU5CFU",
@@ -986,7 +986,7 @@
     ]
   },
   {
-    "talk": 88,
+    "id": "2023-semon-rezchikov-categorical-aspects-of-the-fueter-equation",
     "videos": [
       {
         "id": "8oTbAz56Qa4",
@@ -996,7 +996,7 @@
     ]
   },
   {
-    "talk": 89,
+    "id": "2023-lino-amorim-enumerative-invariants-from-categories",
     "videos": [
       {
         "id": "N6RzToQphxg",
@@ -1006,7 +1006,7 @@
     ]
   },
   {
-    "talk": 90,
+    "id": "2022-yan-soibelman-holomorphic-floer-theory-and-exponential-integ",
     "videos": [
       {
         "id": "Pwl2eKvC5qI",
@@ -1016,7 +1016,7 @@
     ]
   },
   {
-    "talk": 91,
+    "id": "2022-yanki-lekili-equivariant-fukaya-categories-at-the-singular-v",
     "videos": [
       {
         "id": "LOaf4MlXfMc",
@@ -1026,7 +1026,7 @@
     ]
   },
   {
-    "talk": 92,
+    "id": "2022-olivier-schiffmann-coha-of-zero-dimensional-sheaves-on-surfa",
     "videos": [
       {
         "id": "q9JA91F1aec",
@@ -1036,7 +1036,7 @@
     ]
   },
   {
-    "talk": 93,
+    "id": "2022-ben-davison-affine-bps-algebras-and-w-algebras",
     "videos": [
       {
         "id": "8KJ0oxzrclE",
@@ -1046,7 +1046,7 @@
     ]
   },
   {
-    "talk": 94,
+    "id": "2022-arkadij-bojko-wall-crossing-for-calabi-yau-fourfolds-and-app",
     "videos": [
       {
         "id": "6iqJTkTfvNE",
@@ -1056,7 +1056,7 @@
     ]
   },
   {
-    "talk": 95,
+    "id": "2022-tom-bridgeland-geometry-from-donaldson-thomas-invariants",
     "videos": [
       {
         "id": "zIWbuxVuWiY",
@@ -1066,7 +1066,7 @@
     ]
   },
   {
-    "talk": 96,
+    "id": "2022-justin-hilburn-towards-2-categorical-3d-mirror-symmetry",
     "videos": [
       {
         "id": "X9koQLftc0U",
@@ -1076,7 +1076,7 @@
     ]
   },
   {
-    "talk": 97,
+    "id": "2022-alexander-soibelman-quantized-integrable-systems-normal-form",
     "videos": [
       {
         "id": "N1xi9TTKZz0",
@@ -1086,7 +1086,7 @@
     ]
   },
   {
-    "talk": 98,
+    "id": "2022-daniel-pomerleano-singularities-of-the-quantum-connection-on",
     "videos": [
       {
         "id": "nfshR6rAjWg",
@@ -1096,7 +1096,7 @@
     ]
   },
   {
-    "talk": 99,
+    "id": "2022-marco-robalo-categorification-of-donaldson-thomas-invariants",
     "videos": [
       {
         "id": "rslliU7h3XU",
@@ -1106,11 +1106,11 @@
     ]
   },
   {
-    "talk": 100,
+    "id": "2022-hiro-lee-tanaka-stable-weinstein-geometry-through-localizati",
     "videos": []
   },
   {
-    "talk": 101,
+    "id": "2022-oscar-kivinen-weight-polynomials-of-compactified-jacobians-a",
     "videos": [
       {
         "id": "t7Bm5f1u4yY",
@@ -1120,7 +1120,7 @@
     ]
   },
   {
-    "talk": 102,
+    "id": "2022-aleksander-doan-holomorphic-floer-theory-and-the-fueter-equa",
     "videos": [
       {
         "id": "-ZxFKs--VpU",
@@ -1130,7 +1130,7 @@
     ]
   },
   {
-    "talk": 103,
+    "id": "2022-nick-sheridan-quantum-cohomology-as-a-deformation-of-symplec",
     "videos": [
       {
         "id": "xo3q9VDI1hg",
@@ -1140,7 +1140,7 @@
     ]
   },
   {
-    "talk": 104,
+    "id": "2022-adeel-khan-cohomology-and-intersection-theory-on-stacks",
     "videos": [
       {
         "id": "a4dM1I7YtsI",
@@ -1150,7 +1150,7 @@
     ]
   },
   {
-    "talk": 105,
+    "id": "2022-ivan-losev-harish-chandra-modules-and-quantizations",
     "videos": [
       {
         "id": "9bmNaVl8QNI",
@@ -1160,7 +1160,7 @@
     ]
   },
   {
-    "talk": 106,
+    "id": "2022-peter-koroteev-q-opers-what-they-are-and-what-are-they-good-",
     "videos": [
       {
         "id": "S0IrUN13oxU",
@@ -1170,7 +1170,7 @@
     ]
   },
   {
-    "talk": 107,
+    "id": "2022-fabian-haiden-quadratic-differentials-stability-conditions-a",
     "videos": [
       {
         "id": "TyrMW1Hsl60",
@@ -1195,7 +1195,7 @@
     ]
   },
   {
-    "talk": 108,
+    "id": "2022-alexander-voronov-mysterious-triality",
     "videos": [
       {
         "id": "tIUjeBk4J3I",
@@ -1205,7 +1205,7 @@
     ]
   },
   {
-    "talk": 109,
+    "id": "2022-evgeny-gorsky-algebraic-weaves-and-braid-varieties",
     "videos": [
       {
         "id": "wZRYB_p0Ldg",
@@ -1215,7 +1215,7 @@
     ]
   },
   {
-    "talk": 110,
+    "id": "2022-dmitrii-galakhov-quiver-bps-algebras",
     "videos": [
       {
         "id": "8I0VmJHnWHE",
@@ -1225,7 +1225,7 @@
     ]
   },
   {
-    "talk": 111,
+    "id": "2022-alexei-latyntsev-quantum-vertex-algebras-and-cohomological-h",
     "videos": [
       {
         "id": "9UpVgClrOcA",
@@ -1235,7 +1235,7 @@
     ]
   },
   {
-    "talk": 112,
+    "id": "2022-sergei-gukov-quantum-topology-at-generic-q",
     "videos": [
       {
         "id": "jZEXCF-raeU",
@@ -1260,7 +1260,7 @@
     ]
   },
   {
-    "talk": 113,
+    "id": "2022-sergey-mozgovoy-dt-invariants-and-vertex-algebras",
     "videos": [
       {
         "id": "dbqBNzceJQ8",
@@ -1270,7 +1270,7 @@
     ]
   },
   {
-    "talk": 114,
+    "id": "2022-lev-rozansky-link-homology-from-a-stack-of-d2-branes-with-a-",
     "videos": [
       {
         "id": "SXU_icjed_A",
@@ -1280,7 +1280,7 @@
     ]
   },
   {
-    "talk": 115,
+    "id": "2022-victor-ginzburg-chern-classes-of-quantizable-sheaves-and-cha",
     "videos": [
       {
         "id": "YlN1iOZ2uWU",
@@ -1290,7 +1290,7 @@
     ]
   },
   {
-    "talk": 116,
+    "id": "2021-kenji-fukaya-a-note-on-homological-mirror-symmetry-over-novi",
     "videos": [
       {
         "id": "f9jlYom1Xlo",
@@ -1300,7 +1300,7 @@
     ]
   },
   {
-    "talk": 117,
+    "id": "2021-miroslav-rapcak-w-infty-modules-and-melted-crystals-of-dt-an",
     "videos": [
       {
         "id": "Shpx_pVqmWM",
@@ -1310,7 +1310,7 @@
     ]
   },
   {
-    "talk": 118,
+    "id": "2021-tudor-padurariu-relative-stable-pairs-and-a-non-calabi-yau-w",
     "videos": [
       {
         "id": "nfqSigZUVmo",
@@ -1320,7 +1320,7 @@
     ]
   },
   {
-    "talk": 119,
+    "id": "2021-alexander-goncharov-spectral-description-of-non-commutative-",
     "videos": [
       {
         "id": "PKPjdTrrH10",
@@ -1330,7 +1330,7 @@
     ]
   },
   {
-    "talk": 120,
+    "id": "2021-maxim-kontsevich-on-the-perturbation-theory-for-spectra-in-q",
     "videos": [
       {
         "id": "N-mP1UmOk9w",
@@ -1340,7 +1340,7 @@
     ]
   },
   {
-    "talk": 121,
+    "id": "2021-ben-davison-cohomological-dt-theory-and-nonabelian-hodge-the",
     "videos": [
       {
         "id": "cDsg298kkl4",
@@ -1360,7 +1360,7 @@
     ]
   },
   {
-    "talk": 122,
+    "id": "2021-alexander-odesskii-multiplication-kernels",
     "videos": [
       {
         "id": "Ml22ySRFkbQ",
@@ -1370,7 +1370,7 @@
     ]
   },
   {
-    "talk": 123,
+    "id": "2021-vivek-shende-localization-of-fukaya-categories-and-quantizin",
     "videos": [
       {
         "id": "EiMfihZ_ktE",
@@ -1380,7 +1380,7 @@
     ]
   },
   {
-    "talk": 124,
+    "id": "2021-tamas-hausel-explicit-hitchin-system-on-lagrangians",
     "videos": [
       {
         "id": "RYh8aNJPsac",
@@ -1390,7 +1390,7 @@
     ]
   },
   {
-    "talk": 125,
+    "id": "2021-alexander-braverman-universal-coulomb-branch-and-theta-sheav",
     "videos": [
       {
         "id": "iN-fM51Q2lk",
@@ -1400,7 +1400,7 @@
     ]
   },
   {
-    "talk": 126,
+    "id": "2021-greg-moore-2d-categorical-wall-crossing-with-twisted-masses",
     "videos": [
       {
         "id": "-fXjpDE8C70",
@@ -1410,7 +1410,7 @@
     ]
   },
   {
-    "talk": 127,
+    "id": "2021-denis-auroux-lagrangian-floer-theory-for-trivalent-graphs-an",
     "videos": [
       {
         "id": "W4vT1FhOvb0",
@@ -1420,7 +1420,7 @@
     ]
   },
   {
-    "talk": 128,
+    "id": "2021-ivan-mirkovi-loop-grassmannians-of-lattices",
     "videos": [
       {
         "id": "3F0eD4kpq9Q",
@@ -1430,7 +1430,7 @@
     ]
   },
   {
-    "talk": 129,
+    "id": "2021-carlos-simpson-on-some-fukaya-categories-of-singular-lagrang",
     "videos": [
       {
         "id": "83aROj3bcrA",
@@ -1440,7 +1440,7 @@
     ]
   },
   {
-    "talk": 130,
+    "id": "2021-paul-seidel-fukaya-categories-of-calabi-yau-hypersurfaces",
     "videos": [
       {
         "id": "viG8iCCsCxE",
@@ -1450,7 +1450,7 @@
     ]
   },
   {
-    "talk": 131,
+    "id": "2021-mohammed-abouzaid-arnol-d-conjecture-and-morava-k-theory",
     "videos": [
       {
         "id": "hD-DLkTBIlQ",
@@ -1460,7 +1460,7 @@
     ]
   },
   {
-    "talk": 132,
+    "id": "2021-ben-webster-knot-homology-and-coherent-sheaves-on-coulomb-br",
     "videos": [
       {
         "id": "z6gxDeiHJ6M",
@@ -1470,7 +1470,7 @@
     ]
   },
   {
-    "talk": 133,
+    "id": "2021-richard-rimanyi-3d-mirror-symmetry-for-characteristic-classe",
     "videos": [
       {
         "id": "lDgVNAF_WLs",
@@ -1480,7 +1480,7 @@
     ]
   },
   {
-    "talk": 134,
+    "id": "2021-alexander-polishchuk-supermeasure-on-moduli-of-supercurves",
     "videos": [
       {
         "id": "QTArTqJgHPM",
@@ -1490,7 +1490,7 @@
     ]
   },
   {
-    "talk": 135,
+    "id": "2021-alexander-soibelman-motivic-invariants-for-moduli-of-parabol",
     "videos": [
       {
         "id": "5yeTmFU4yLE",
@@ -1500,7 +1500,7 @@
     ]
   },
   {
-    "talk": 136,
+    "id": "2021-andrei-caldararu-a-survey-of-categorical-enumerative-invaria",
     "videos": [
       {
         "id": "RQJRufrNjkQ",
@@ -1510,7 +1510,7 @@
     ]
   },
   {
-    "talk": 137,
+    "id": "2021-alex-weekes-coulomb-branches-for-quiver-gauge-theories-with-",
     "videos": [
       {
         "id": "9-wQDe1rtkI",
@@ -1520,7 +1520,7 @@
     ]
   },
   {
-    "talk": 138,
+    "id": "2021-david-nadler-verlinde-formulas-in-betti-geometric-langlands",
     "videos": [
       {
         "id": "jy3BthBds9Y",
@@ -1530,7 +1530,7 @@
     ]
   },
   {
-    "talk": 139,
+    "id": "2021-alexander-efimov-nuclear-modules-over-proper-dg-algebras",
     "videos": [
       {
         "id": "ysYlwXrhXOQ",
@@ -1550,7 +1550,7 @@
     ]
   },
   {
-    "talk": 140,
+    "id": "2021-dominic-joyce-enumerative-invariants-in-algebraic-geometry-a",
     "videos": [
       {
         "id": "XLhD9eyDnOc",
@@ -1560,7 +1560,7 @@
     ]
   },
   {
-    "talk": 141,
+    "id": "2021-davide-gaiotto-brane-quantization",
     "videos": [
       {
         "id": "EwwGAf2K1uQ",
@@ -1570,7 +1570,7 @@
     ]
   },
   {
-    "talk": 142,
+    "id": "2021-nicolas-addington-derived-autoequivalences-of-moduli-spaces-",
     "videos": [
       {
         "id": "OufejX1p0qk",
@@ -1580,7 +1580,7 @@
     ]
   },
   {
-    "talk": 143,
+    "id": "2020-nikita-nekrasov-towards-lefschetz-thimbles-in-field-theory",
     "videos": [
       {
         "id": "lHqYqS0KkPc",
@@ -1590,7 +1590,7 @@
     ]
   },
   {
-    "talk": 144,
+    "id": "2020-vivek-shende-sheaf-quantization-in-weinstein-symplectic-mani",
     "videos": [
       {
         "id": "AgHzF5qpL5A",
@@ -1600,7 +1600,7 @@
     ]
   },
   {
-    "talk": 145,
+    "id": "2020-yoosik-kim-disc-potential-functions-of-quadrics",
     "videos": [
       {
         "id": "M9fSJebc8yQ",
@@ -1610,7 +1610,7 @@
     ]
   },
   {
-    "talk": 146,
+    "id": "2020-dennis-gaitsgory-the-moduli-space-of-l-adic-local-systems-an",
     "videos": [
       {
         "id": "LF2zRaOqPBs",
@@ -1620,7 +1620,7 @@
     ]
   },
   {
-    "talk": 147,
+    "id": "2020-tony-yue-yu-frobenius-structure-conjecture-and-application-t",
     "videos": [
       {
         "id": "vTXx0MARrVU",
@@ -1630,7 +1630,7 @@
     ]
   },
   {
-    "talk": 148,
+    "id": "2020-zack-sylvan-homological-mirror-symmetry-near-syz-singulariti",
     "videos": [
       {
         "id": "zjKFFGtNxoI",
@@ -1640,7 +1640,7 @@
     ]
   },
   {
-    "talk": 149,
+    "id": "2020-ron-donagi-families-of-hitchin-systems-and-n-2-theories",
     "videos": [
       {
         "id": "W00n2l_qz4M",
@@ -1650,7 +1650,7 @@
     ]
   },
   {
-    "talk": 150,
+    "id": "2020-sergey-cherkis-doubly-periodic-monopoles-and-exploded-geomet",
     "videos": [
       {
         "id": "dCbw-y2gIvA",
@@ -1660,7 +1660,7 @@
     ]
   },
   {
-    "talk": 151,
+    "id": "2020-andrei-okounkov-monodromy-yesterday-today-and-tomorrow",
     "videos": [
       {
         "id": "u5tQ1Wf2j_k",
@@ -1670,7 +1670,7 @@
     ]
   },
   {
-    "talk": 152,
+    "id": "2020-junxiao-wang-the-gamma-conjecture-for-the-tropical-1-cycles-",
     "videos": [
       {
         "id": "09N2DOzPdQk",
@@ -1680,7 +1680,7 @@
     ]
   },
   {
-    "talk": 153,
+    "id": "2020-anton-mellit-the-curious-hard-lefschetz-property-for-charact",
     "videos": [
       {
         "id": "2Lvvx4ukCG4",
@@ -1690,7 +1690,7 @@
     ]
   },
   {
-    "talk": 154,
+    "id": "2020-joel-kamnitzer-categorical-g-actions-for-modules-over-trunca",
     "videos": [
       {
         "id": "QIzKAsPEEcs",
@@ -1700,7 +1700,7 @@
     ]
   },
   {
-    "talk": 155,
+    "id": "2020-alexander-goncharov-the-second-universal-motivic-chern-class",
     "videos": [
       {
         "id": "gGpfrNRxims",
@@ -1710,7 +1710,7 @@
     ]
   },
   {
-    "talk": 156,
+    "id": "2020-pyongwon-suh-the-coherent-constructible-correspondence-for-t",
     "videos": [
       {
         "id": "IDwkaI8piEE",
@@ -1720,7 +1720,7 @@
     ]
   },
   {
-    "talk": 157,
+    "id": "2020-hiraku-nakajima-bow-varieties-and-representations-of-affine-",
     "videos": [
       {
         "id": "_55Ur_LVWhk",
@@ -1730,7 +1730,7 @@
     ]
   },
   {
-    "talk": 158,
+    "id": "2020-michael-mcbreen-symplectic-duality-and-twisted-quasimaps",
     "videos": [
       {
         "id": "HJUVRR-yOog",
@@ -1740,7 +1740,7 @@
     ]
   },
   {
-    "talk": 159,
+    "id": "2020-tobias-ekholm-holomorphic-curves-on-knot-conormals",
     "videos": [
       {
         "id": "SaoB-NF7wI4",
@@ -1750,7 +1750,7 @@
     ]
   },
   {
-    "talk": 160,
+    "id": "2020-eric-zaslow-a-diagrammatic-calculus-for-legendrian-surfaces",
     "videos": [
       {
         "id": "qklkJRVSZfE",
@@ -1760,7 +1760,7 @@
     ]
   },
   {
-    "talk": 161,
+    "id": "2020-tudor-dimofte-3d-mirror-symmetry-and-homfly-pt-homology",
     "videos": [
       {
         "id": "TacmfkADb0I",
@@ -1770,7 +1770,7 @@
     ]
   },
   {
-    "talk": 162,
+    "id": "2020-sergei-gukov-rozansky-witten-geometry-of-coulomb-branches",
     "videos": [
       {
         "id": "z_zmfvWAjcc",
@@ -1780,7 +1780,7 @@
     ]
   },
   {
-    "talk": 163,
+    "id": "2020-andrey-smirnov-elliptic-stable-envelopes-and-symplectic-dual",
     "videos": [
       {
         "id": "VPqW0yNjovw",
@@ -1790,7 +1790,7 @@
     ]
   },
   {
-    "talk": 164,
+    "id": "2020-maxim-kontsevich-on-higher-critical-points-in-calculus-of-va",
     "videos": [
       {
         "id": "NTcjhaZXU2Q",
@@ -1800,7 +1800,7 @@
     ]
   },
   {
-    "talk": 165,
+    "id": "2020-dima-arinkin-singular-support-of-categories",
     "videos": [
       {
         "id": "DXHdGSBh0Hg",
@@ -1810,7 +1810,7 @@
     ]
   },
   {
-    "talk": 166,
+    "id": "2020-mina-aganagic-knot-categorification-and-mirror-symmetry",
     "videos": [
       {
         "id": "X6dWRA8vuTA",
@@ -1820,7 +1820,7 @@
     ]
   },
   {
-    "talk": 167,
+    "id": "2020-tony-pantev-enhanced-moduli-of-d-branes-and-superpotentials",
     "videos": [
       {
         "id": "eNRlIafIUQE",
@@ -1830,7 +1830,7 @@
     ]
   },
   {
-    "talk": 168,
+    "id": "2020-andrei-negut-a-brief-survey-of-2d-k-has",
     "videos": [
       {
         "id": "MxoRkx0nikQ",
@@ -1840,7 +1840,7 @@
     ]
   },
   {
-    "talk": 169,
+    "id": "2020-umut-varolgunes-non-archimedean-mirrors-of-symplectic-cluste",
     "videos": [
       {
         "id": "FRiqVIrYzVc",
@@ -1850,7 +1850,7 @@
     ]
   },
   {
-    "talk": 170,
+    "id": "2020-andy-neitzke-abelianization-of-flat-connections-and-its-q-de",
     "videos": [
       {
         "id": "wfIYgJ_2KKs",
@@ -1860,7 +1860,7 @@
     ]
   },
   {
-    "talk": 171,
+    "id": "2020-emanuel-diaconescu-mckay-correspondence-and-cohomological-ha",
     "videos": [
       {
         "id": "EepOcxmdUWc",
@@ -1870,7 +1870,7 @@
     ]
   },
   {
-    "talk": 172,
+    "id": "2020-gabe-kerr-phase-tropical-hypersurfaces",
     "videos": [
       {
         "id": "NktoSeDUEeM",
@@ -1880,7 +1880,7 @@
     ]
   },
   {
-    "talk": 173,
+    "id": "2020-ivan-cheltsov-k-stability-of-fano-3-folds",
     "videos": [
       {
         "id": "6I2WGdG9rBI",
@@ -1890,7 +1890,7 @@
     ]
   },
   {
-    "talk": 174,
+    "id": "2020-peng-zhou-variation-of-toric-git-quotient-and-variation-of-l",
     "videos": [
       {
         "id": "kcT5UHKCYcc",
@@ -1900,7 +1900,7 @@
     ]
   },
   {
-    "talk": 175,
+    "id": "2020-yan-soibelman-holomorphic-floer-theory-and-deformation-quant",
     "videos": [
       {
         "id": "Scj12TYBMoA",
@@ -1910,667 +1910,667 @@
     ]
   },
   {
-    "talk": 176,
+    "id": "2020-rina-anno-nil-hecke-algebra-in-the-category-of-bimodules",
     "videos": []
   },
   {
-    "talk": 177,
+    "id": "2020-lino-amorim-mirror-symmetry-in-characteristic-2",
     "videos": []
   },
   {
-    "talk": 178,
+    "id": "2020-helge-ruddat-topological-mirror-symmetry",
     "videos": []
   },
   {
-    "talk": 179,
+    "id": "2020-ilia-zharkov-tropical-abelian-varieties-weil-classes-and-the",
     "videos": []
   },
   {
-    "talk": 180,
+    "id": "2020-yan-soibelman-algebra-and-geometry-of-3d-n-4-gauge-theories",
     "videos": []
   },
   {
-    "talk": 181,
+    "id": "2020-cheol-hyun-cho-homological-mirror-symmetry-for-invertible-cu",
     "videos": []
   },
   {
-    "talk": 182,
+    "id": "2020-ilia-zharkov-tropical-abelian-varieties-weil-classes-and-the-2",
     "videos": []
   },
   {
-    "talk": 183,
+    "id": "2020-rina-anno-deconstructing-braid-group-actions-on-triangulated",
     "videos": []
   },
   {
-    "talk": 184,
+    "id": "2019-ilia-zharkov-tailoring-a-pair-of-pants",
     "videos": []
   },
   {
-    "talk": 185,
+    "id": "2019-natalie-paquette-koszul-duality-in-field-theory-holography",
     "videos": []
   },
   {
-    "talk": 186,
+    "id": "2019-sergey-arkhipov-equivariant-dg-modules-over-differential-for",
     "videos": []
   },
   {
-    "talk": 187,
+    "id": "2019-erik-carlsson-nabla-positivity-and-tor-groups",
     "videos": []
   },
   {
-    "talk": 188,
+    "id": "2019-gabe-kerr-hms-and-vgit-3-an-overview-techniques-and-results",
     "videos": []
   },
   {
-    "talk": 189,
+    "id": "2019-gabe-kerr-hms-and-vgit-2-an-overview-techniques-and-results",
     "videos": []
   },
   {
-    "talk": 190,
+    "id": "2019-gabe-kerr-homological-mirror-symmetry-and-variations-of-git-",
     "videos": []
   },
   {
-    "talk": 191,
+    "id": "2019-bernd-siebert-intrinsic-mirror-symmetry",
     "videos": []
   },
   {
-    "talk": 192,
+    "id": "2019-yijia-liu-on-pseudo-anosov-autoequivalences-ii",
     "videos": []
   },
   {
-    "talk": 193,
+    "id": "2019-ben-webster-tilting-bundles-and-3-dimensional-field-theory",
     "videos": []
   },
   {
-    "talk": 194,
+    "id": "2019-yijia-liu-on-pseudo-anosov-autoequivalences",
     "videos": []
   },
   {
-    "talk": 195,
+    "id": "2019-ilia-zharkov-equal-rights-the-case-of-pair-of-pants",
     "videos": []
   },
   {
-    "talk": 196,
+    "id": "2019-lino-amorim-gromov-witten-invariants-for-calabi-yau-categori",
     "videos": []
   },
   {
-    "talk": 197,
+    "id": "2019-lino-amorim-gromov-witten-invariants-for-calabi-yau-categori-2",
     "videos": []
   },
   {
-    "talk": 198,
+    "id": "2019-nikita-nekrasov-magnificent-four-with-colors",
     "videos": []
   },
   {
-    "talk": 199,
+    "id": "2019-ilia-zharkov-improving-topological-syz-fibrations-discrimina",
     "videos": []
   },
   {
-    "talk": 200,
+    "id": "2019-tudor-dimofte-categories-of-line-operators-in-3d-n-4-gauge-t",
     "videos": []
   },
   {
-    "talk": 201,
+    "id": "2019-ilia-zharkov-improving-topological-syz-fibrations-discrimina-2",
     "videos": []
   },
   {
-    "talk": 202,
+    "id": "2019-matthew-ballard-exceptional-collections-on-arithmetic-variet",
     "videos": []
   },
   {
-    "talk": 203,
+    "id": "2019-helge-ruddat-periods-integrals-from-wall-structures",
     "videos": []
   },
   {
-    "talk": 204,
+    "id": "2019-rina-anno-mathbb-p-twists-and-where-to-find-them",
     "videos": []
   },
   {
-    "talk": 205,
+    "id": "2019-sheel-ganatra-structural-results-for-wrapped-fukaya-categori",
     "videos": []
   },
   {
-    "talk": 206,
+    "id": "2019-rina-anno-mathbb-p-n-functors-and-mathbb-p-n-twists",
     "videos": []
   },
   {
-    "talk": 207,
+    "id": "2019-yan-soibelman-deformation-quantization-and-fukaya-categories",
     "videos": []
   },
   {
-    "talk": 208,
+    "id": "2018-yan-soibelman-fukaya-category-with-singular-lagrangians",
     "videos": []
   },
   {
-    "talk": 209,
+    "id": "2018-vivek-shende-user-s-guide-to-the-wrapped-fukaya-category-ii",
     "videos": []
   },
   {
-    "talk": 210,
+    "id": "2018-vivek-shende-user-s-guide-to-the-wrapped-fukaya-category",
     "videos": []
   },
   {
-    "talk": 211,
+    "id": "2018-lino-amorim-mirror-symmetry-for-an-orbifold-sphere",
     "videos": []
   },
   {
-    "talk": 212,
+    "id": "2018-jamie-peabody-the-polytope-associated-to-the-git-fan-of-a-mo",
     "videos": []
   },
   {
-    "talk": 213,
+    "id": "2018-hansol-hong-mirror-construction-via-gluing-of-lagrangian-def",
     "videos": []
   },
   {
-    "talk": 214,
+    "id": "2018-david-ben-zvi-algebraic-geometry-of-topological-field-theory",
     "videos": []
   },
   {
-    "talk": 215,
+    "id": "2018-jamie-peabody-the-polytope-associated-to-the-git-fan-of-a-mo-2",
     "videos": []
   },
   {
-    "talk": 216,
+    "id": "2018-qiang-wang-splitting-attractor-flows-and-dt-invariants-in-su",
     "videos": []
   },
   {
-    "talk": 217,
+    "id": "2018-qiang-wang-wall-crossing-structures-in-seiberg-witten-integr",
     "videos": []
   },
   {
-    "talk": 218,
+    "id": "2018-qiang-wang-wall-crossing-structures-in-seiberg-witten-integr-2",
     "videos": []
   },
   {
-    "talk": 219,
+    "id": "2018-peter-koroteev-daha-and-brane-quantization",
     "videos": []
   },
   {
-    "talk": 220,
+    "id": "2018-gabriel-kerr-spheres-in-complex-hypersurfaces-ii",
     "videos": []
   },
   {
-    "talk": 221,
+    "id": "2018-gabriel-kerr-spheres-in-complex-hypersurfaces",
     "videos": []
   },
   {
-    "talk": 222,
+    "id": "2018-timothy-logvinenko-perverse-schobers-and-orbifolds",
     "videos": []
   },
   {
-    "talk": 223,
+    "id": "2018-yan-soibelman-fukaya-categories-of-complex-symplectic-surfac",
     "videos": []
   },
   {
-    "talk": 224,
+    "id": "2018-jamie-peabody-git-fan-for-mori-dream-space",
     "videos": []
   },
   {
-    "talk": 225,
+    "id": "2018-nikon-kurnosov-generalized-kuga-satake-construction-for-hype",
     "videos": []
   },
   {
-    "talk": 226,
+    "id": "2018-yu-wei-fan-systoles-special-lagrangians-and-bridgeland-stabi",
     "videos": []
   },
   {
-    "talk": 227,
+    "id": "2018-junwu-tu-gromov-witten-invariants-of-calabi-yau-categories",
     "videos": []
   },
   {
-    "talk": 228,
+    "id": "2018-ludmil-katzarkov-categrical-brill-noether-invariants",
     "videos": []
   },
   {
-    "talk": 229,
+    "id": "2018-benjamin-gammage-two-perspectives-on-mirror-symmetry-for-hyp",
     "videos": []
   },
   {
-    "talk": 230,
+    "id": "2018-rina-anno-geometric-invariant-theory-iii",
     "videos": []
   },
   {
-    "talk": 231,
+    "id": "2018-weiwei-wu-spherical-twists-and-projective-twists-in-fukaya-c",
     "videos": []
   },
   {
-    "talk": 232,
+    "id": "2018-rina-anno-geometric-invariant-theory-ii",
     "videos": []
   },
   {
-    "talk": 233,
+    "id": "2018-rina-anno-geometric-invariant-theory-i",
     "videos": []
   },
   {
-    "talk": 234,
+    "id": "2018-gabriel-kerr-homological-mirror-symmetry-of-birational-cobor",
     "videos": []
   },
   {
-    "talk": 235,
+    "id": "2018-gabriel-kerr-homological-mirror-symmetry-of-birational-cobor-2",
     "videos": []
   },
   {
-    "talk": 236,
+    "id": "2015-yan-soibelman-algebraicity-in-wall-crossing-formulas-and-clu",
     "videos": []
   },
   {
-    "talk": 237,
+    "id": "2015-roman-fedorov-variations-of-hodge-structures-for-hypergeomet",
     "videos": []
   },
   {
-    "talk": 238,
+    "id": "2015-emanuel-diaconescu-donaldson-thomas-invariants-and-character",
     "videos": []
   },
   {
-    "talk": 239,
+    "id": "2015-gabriel-kerr-constructions-in-floer-theory-i-ii",
     "videos": []
   },
   {
-    "talk": 240,
+    "id": "2015-zack-sylvan-gluing-fukaya-categories",
     "videos": []
   },
   {
-    "talk": 241,
+    "id": "2015-gabriel-kerr-partially-wrapped-fukaya-categories-associated-",
     "videos": []
   },
   {
-    "talk": 242,
+    "id": "2015-gabriel-kerr-partially-wrapped-fukaya-categories-associated--2",
     "videos": []
   },
   {
-    "talk": 243,
+    "id": "2015-yan-soibelman-riemann-hilbert-correspondence-and-fukaya-cate",
     "videos": []
   },
   {
-    "talk": 244,
+    "id": "2015-gabriel-kerr-partially-wrapped-fukaya-categories-associated--3",
     "videos": []
   },
   {
-    "talk": 245,
+    "id": "2015-alexander-odesskii-deformations-of-complex-structures-on-rie",
     "videos": []
   },
   {
-    "talk": 246,
+    "id": "2015-nicolo-sibilla-topological-fukaya-category-and-homological-m",
     "videos": []
   },
   {
-    "talk": 247,
+    "id": "2015-sergey-arkhipov-braid-group-actions-on-the-categories-of-equ",
     "videos": []
   },
   {
-    "talk": 248,
+    "id": "2015-ed-dewey-characteristic-classes-of-spectral-covers",
     "videos": []
   },
   {
-    "talk": 249,
+    "id": "2015-ilia-zharkov-how-to-disprove-the-hodge-conjecture",
     "videos": []
   },
   {
-    "talk": 250,
+    "id": "2015-ilia-zharkov-how-to-disprove-the-hodge-conjecture-ii",
     "videos": []
   },
   {
-    "talk": 251,
+    "id": "2015-ilia-itenberg-rational-quintics-in-the-real-projective-plane",
     "videos": []
   },
   {
-    "talk": 252,
+    "id": "2015-yanki-lekili-koszul-duality-in-floer-theory",
     "videos": []
   },
   {
-    "talk": 253,
+    "id": "2014-yan-soibelman-morse-theory-a-infinity-categories-and-mirror-",
     "videos": []
   },
   {
-    "talk": 254,
+    "id": "2014-david-treumann-legendrian-knots-and-constructible-sheaves",
     "videos": []
   },
   {
-    "talk": 255,
+    "id": "2014-ilia-itenberg-quantum-enumeration-of-plane-tropical-curves",
     "videos": []
   },
   {
-    "talk": 256,
+    "id": "2014-mikhail-movshev-on-regularized-geometry-of-loop-spaces",
     "videos": []
   },
   {
-    "talk": 257,
+    "id": "2014-mikhail-mazin-geometric-theory-of-parshin-residues-iv",
     "videos": []
   },
   {
-    "talk": 258,
+    "id": "2014-yan-soibelman-fukaya-seidel-category-in-infrared-limit-i-vi",
     "videos": []
   },
   {
-    "talk": 259,
+    "id": "2014-tom-mainiero-this-one-weird-trick-has-algebraic-functions-ge",
     "videos": []
   },
   {
-    "talk": 260,
+    "id": "2014-sergey-cherkis-hyperkaehler-spaces-from-monopole-walls",
     "videos": []
   },
   {
-    "talk": 261,
+    "id": "2014-gabriel-kerr-the-homological-mirror-to-the-punctured-plane",
     "videos": []
   },
   {
-    "talk": 262,
+    "id": "2013-dima-arinkin-singular-support-of-coherent-sheaves-and-the-ge",
     "videos": []
   },
   {
-    "talk": 263,
+    "id": "2013-andy-neitzke-spectral-network",
     "videos": []
   },
   {
-    "talk": 264,
+    "id": "2013-alexei-oblomkov-the-elliptic-affine-springer-fibers-in-type-",
     "videos": []
   },
   {
-    "talk": 265,
+    "id": "2013-xinli-xiao-product-in-the-cohomological-hall-algebra-i",
     "videos": []
   },
   {
-    "talk": 266,
+    "id": "2013-xinli-xiao-product-in-the-cohomological-hall-algebra-ii",
     "videos": []
   },
   {
-    "talk": 267,
+    "id": "2013-ilia-zharkov-c-is-not-equivalent-to-c-in-its-jacobian-a-trop",
     "videos": []
   },
   {
-    "talk": 268,
+    "id": "2013-gabriel-kerr-minimal-model-sequences-and-their-mirrors-i",
     "videos": []
   },
   {
-    "talk": 269,
+    "id": "2013-gabriel-kerr-minimal-model-sequences-and-their-mirrors-ii",
     "videos": []
   },
   {
-    "talk": 270,
+    "id": "2013-ludmil-katzarkov-mixed-hodge-structures-and-phantoms",
     "videos": []
   },
   {
-    "talk": 271,
+    "id": "2013-mikhail-mazin-local-hilbert-schemes-and-jacobi-factors-of-pl",
     "videos": []
   },
   {
-    "talk": 272,
+    "id": "2013-gabriel-kerr-the-homological-mirror-of-a-toric-stack",
     "videos": []
   },
   {
-    "talk": 273,
+    "id": "2013-gabriel-kerr-minimal-model-runs-and-degenerations",
     "videos": []
   },
   {
-    "talk": 274,
+    "id": "2013-ilia-zharkov-tropical-pryms-conic-bundles-and-cubic-threefol",
     "videos": []
   },
   {
-    "talk": 275,
+    "id": "2013-mikhail-mazin-local-hilbert-schemes-and-jacobi-factors-of-pl-2",
     "videos": []
   },
   {
-    "talk": 276,
+    "id": "2013-mikhail-mazin-combinatorial-models-for-the-local-hilbert-sch",
     "videos": []
   },
   {
-    "talk": 277,
+    "id": "2012-jason-lo-stable-complexes-and-fourier-mukai-transforms",
     "videos": []
   },
   {
-    "talk": 278,
+    "id": "2012-kevin-costello-algebraic-structures-in-perturbative-quantum-",
     "videos": []
   },
   {
-    "talk": 279,
+    "id": "2012-kai-behrend-on-the-eigenvalue-spectrum-of-the-inertia-operat",
     "videos": []
   },
   {
-    "talk": 280,
+    "id": "2012-eric-zaslow-constructible-sheaves-and-mirror-symmetry",
     "videos": []
   },
   {
-    "talk": 281,
+    "id": "2012-chit-ma-fourier-transforms-in-the-syz-program",
     "videos": []
   },
   {
-    "talk": 282,
+    "id": "2012-conan-leung-syz-transformation-in-mirror-symmetry",
     "videos": []
   },
   {
-    "talk": 283,
+    "id": "2012-rina-anno-mukai-type-flops-via-d-modules",
     "videos": []
   },
   {
-    "talk": 284,
+    "id": "2012-vivek-shende-plane-curve-singularities-hilbert-schemes-homfl",
     "videos": []
   },
   {
-    "talk": 285,
+    "id": "2012-lev-borisov-vertex-algebra-approach-to-mirror-symmetry",
     "videos": []
   },
   {
-    "talk": 286,
+    "id": "2012-lev-borisov-what-is-mirror-symmetry-in-string-theory",
     "videos": []
   },
   {
-    "talk": 287,
+    "id": "2012-diego-matessi-on-lagrangian-spheres-sheaves-and-mirror-symme",
     "videos": []
   },
   {
-    "talk": 288,
+    "id": "2012-sheel-ganatra-symplectic-cohomology-and-the-hochschild-co-ho",
     "videos": []
   },
   {
-    "talk": 289,
+    "id": "2012-garrett-alston-symplecticlefschetz-fibrations-i",
     "videos": []
   },
   {
-    "talk": 290,
+    "id": "2012-garrett-alston-symplecticlefschetz-fibrations-ii",
     "videos": []
   },
   {
-    "talk": 291,
+    "id": "2012-roman-fedorov-hitchin-systems-i",
     "videos": []
   },
   {
-    "talk": 292,
+    "id": "2012-ilia-itenberg-lines-on-smooth-quartic-surfaces",
     "videos": []
   },
   {
-    "talk": 293,
+    "id": "2012-roman-fedorov-hitchin-systems-ii",
     "videos": []
   },
   {
-    "talk": 294,
+    "id": "2012-yan-soibelman-hitchin-systems-and-calabi-yau-3-folds",
     "videos": []
   },
   {
-    "talk": 295,
+    "id": "2012-ilia-zharkov-tropical-curves-and-mixed-hodge-structures",
     "videos": []
   },
   {
-    "talk": 296,
+    "id": "2012-ivan-mirkovic-a-geometric-theory-of-modular-representations-",
     "videos": []
   },
   {
-    "talk": 297,
+    "id": "2012-james-pascaleff-some-aspects-of-floer-theory-on-log-calabi-y",
     "videos": []
   },
   {
-    "talk": 298,
+    "id": "2012-ilia-zharkov-tropical-curves-and-mixed-hodge-structures-ii",
     "videos": []
   },
   {
-    "talk": 299,
+    "id": "2011-ilia-itenberg-on-real-determinantal-quartics",
     "videos": []
   },
   {
-    "talk": 300,
+    "id": "2011-grigory-mikhalkin-classical-algebraic-geometry-in-the-tropic",
     "videos": []
   },
   {
-    "talk": 301,
+    "id": "2011-yan-soibelman-quantum-dilogarithm-identities-and-wall-crossi",
     "videos": []
   },
   {
-    "talk": 302,
+    "id": "2011-ilia-zharkov-ooguri-vafa-metric",
     "videos": []
   },
   {
-    "talk": 303,
+    "id": "2011-yan-soibelman-wall-crossing-formulas-mirror-symmetry-and-hyp",
     "videos": []
   },
   {
-    "talk": 304,
+    "id": "2011-boris-khesin-topological-and-symplectic-hydrodynamics",
     "videos": []
   },
   {
-    "talk": 305,
+    "id": "2011-garrett-alston-k3-surfaces-and-calabi-yau-metrics",
     "videos": []
   },
   {
-    "talk": 306,
+    "id": "2011-garrett-alston-twistors-and-k3-surfaces-part-i-part-ii-part-",
     "videos": []
   },
   {
-    "talk": 307,
+    "id": "2011-yan-soibelman-complex-integrable-systems-and-wall-crossings",
     "videos": []
   },
   {
-    "talk": 308,
+    "id": "2011-mikhail-kapranov-arakelov-coherent-sheaves-and-their-hall-al",
     "videos": []
   },
   {
-    "talk": 309,
+    "id": "2011-nikolai-reshetikhin-talk",
     "videos": []
   },
   {
-    "talk": 310,
+    "id": "2011-slava-kharlamov-anti-symplectic-involutions-on-rational-symp",
     "videos": []
   },
   {
-    "talk": 311,
+    "id": "2011-nikolai-reshetikhin-quantum-field-theory-are-we-there-yet",
     "videos": []
   },
   {
-    "talk": 312,
+    "id": "2011-slava-kharlamov-first-steps-in-real-enumerative-geometry",
     "videos": []
   },
   {
-    "talk": 313,
+    "id": "2011-emanuel-diaconescu-homfly-polynomials-in-the-stable-pair-the",
     "videos": []
   },
   {
-    "talk": 314,
+    "id": "2011-nick-sheridan-homological-mirror-symmetry-for-a-calabi-yau-h",
     "videos": []
   },
   {
-    "talk": 315,
+    "id": "2011-ron-donagi-quantum-sheaf-cohomology",
     "videos": []
   },
   {
-    "talk": 316,
+    "id": "2011-valery-lunts-motivic-measure",
     "videos": []
   },
   {
-    "talk": 317,
+    "id": "2011-emanuele-macri-bogomolov-type-inequalities-in-higher-dimensi",
     "videos": []
   },
   {
-    "talk": 318,
+    "id": "2011-ludmil-katzarkov-stability-old-and-new",
     "videos": []
   },
   {
-    "talk": 319,
+    "id": "2011-garrett-alston-floer-cohomology-in-calabi-yau-manifolds-ii",
     "videos": []
   },
   {
-    "talk": 320,
+    "id": "2011-garrett-alston-floer-cohomology-in-calabi-yau-manifolds-i",
     "videos": []
   },
   {
-    "talk": 321,
+    "id": "2011-dmitri-arinkin-autoduality-of-jacobians-for-singular-curves",
     "videos": []
   },
   {
-    "talk": 322,
+    "id": "2011-roman-fedorov-introduction-to-the-geometric-langlands-progra",
     "videos": []
   },
   {
-    "talk": 323,
+    "id": "2011-roman-fedorov-introduction-to-the-geometric-langlands-progra-2",
     "videos": []
   },
   {
-    "talk": 324,
+    "id": "2011-zheng-hua-some-aspects-of-singularities-of-moduli-spaces-ii",
     "videos": []
   },
   {
-    "talk": 325,
+    "id": "2011-zheng-hua-some-aspects-of-singularities-of-moduli-spaces-i",
     "videos": []
   },
   {
-    "talk": 326,
+    "id": "2011-zheng-hua-talk",
     "videos": []
   },
   {
-    "talk": 327,
+    "id": "2010-garrett-alston-the-maslov-index-and-graded-lagrangians",
     "videos": []
   },
   {
-    "talk": 328,
+    "id": "2010-rares-rasdeaconu-real-enumerative-geometry-and-open-gromov-w",
     "videos": []
   },
   {
-    "talk": 329,
+    "id": "2010-rares-rasdeaconu-relative-gromov-witten-invariants",
     "videos": []
   },
   {
-    "talk": 330,
+    "id": "2010-ricardo-castano-bernard-conifold-transitions-via-integral-af",
     "videos": []
   },
   {
-    "talk": 331,
+    "id": "2010-diego-matessi-tropical-geometric-transitions",
     "videos": []
   },
   {
-    "talk": 332,
+    "id": "2010-ilia-zharkov-tropical-homology-mixed-hodge-structures",
     "videos": []
   },
   {
-    "talk": 333,
+    "id": "2010-siu-cheong-lau-syz-mirror-symmetry-for-local-calabi-yau-mani",
     "videos": []
   },
   {
-    "talk": 334,
+    "id": "2010-daiwei-cheng-geometry-of-teichmueller-curves",
     "videos": []
   },
   {
-    "talk": 335,
+    "id": "2010-sonja-hochloch-floer-homology-in-geometry-and-dynamics",
     "videos": []
   },
   {
-    "talk": 336,
+    "id": "2010-kwokwai-chan-mirror-symmetry-from-the-syz-viewpoint",
     "videos": []
   },
   {
-    "talk": 337,
+    "id": "2010-roman-fedorov-categorical-geometric-langlands-duality",
     "videos": []
   },
   {
-    "talk": 338,
+    "id": "2008-oleg-viro-compliments-to-bad-spaces",
     "videos": []
   },
   {
-    "talk": 339,
+    "id": "2008-kenji-fukaya-lagrangian-floer-homology-mirror-symmetry",
     "videos": []
   },
   {
-    "talk": 340,
+    "id": "2007-jean-michel-bismut-the-hypoelliptic-laplacian",
     "videos": []
   },
   {
-    "talk": 341,
+    "id": "2007-paul-seidel-classification-and-computation-in-symplectic-top",
     "videos": []
   }
 ]

@@ -52,13 +52,14 @@ def classify(link: dict) -> dict:
 
 def build() -> dict:
     talks = json.loads((DATA / "talks.json").read_text(encoding="utf-8"))
-    matches = json.loads((DATA / "match.json").read_text(encoding="utf-8"))
+    matches = {m["id"]: m for m in
+               json.loads((DATA / "match.json").read_text(encoding="utf-8"))}
     videos = {v["id"]: v for v in
               json.loads((DATA / "videos.json").read_text(encoding="utf-8"))}
 
     today = date.today().isoformat()
     out_talks = []
-    for i, t in enumerate(talks):
+    for t in talks:
         md = t.get("month_day")
         date_iso = None
         if md and t.get("section_year"):
@@ -73,7 +74,7 @@ def build() -> dict:
         links = [l for l in links if not (l["url"] in seen or seen.add(l["url"]))]
 
         vids = []
-        for v in matches[i].get("videos", []):
+        for v in matches.get(t["id"], {}).get("videos", []):
             meta = videos.get(v["id"], {})
             vids.append({
                 "id": v["id"],

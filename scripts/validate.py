@@ -90,6 +90,13 @@ def validate() -> list[tuple[str, str]]:
             s = t.get(field) or ""
             if s.count("$") % 2:
                 err(f"{tag}: unbalanced $ in {field}")
+            # a $$ pair with no TeX inside is usually a mis-paired delimiter
+            # (e.g. "$X$ Y$$"), not real display math
+            no_display = re.sub(r"\$\$.+?\$\$",
+                                lambda m: "" if "\\" in m.group(0) else m.group(0),
+                                s, flags=re.S)
+            if "$$" in no_display:
+                warn(f"{tag}: suspicious $$ in {field} (possible mis-paired $)")
         title = t.get("title") or ""
         if title and ("\n" in title
                       or (len(title) > 100 and re.search(r"\.\s+[A-Z]", title))
@@ -98,12 +105,18 @@ def validate() -> list[tuple[str, str]]:
 
     # video references
     video_ids = {v["id"] for v in videos}
+    talk_ids = {t.get("id") for t in talks}
+    talk_by_id = {t.get("id"): t for t in talks}
     used: dict[str, int] = {}
-    for i, m in enumerate(matches):
+    for m in matches:
+        tid = m.get("id")
+        if tid not in talk_ids:
+            err(f"match entry {tid!r} has no talk in talks.json")
+            continue
         for v in m.get("videos", []):
             used[v["id"]] = used.get(v["id"], 0) + 1
             if v["id"] not in video_ids:
-                err(f"talk {talks[i].get('id')}: video {v['id']} not in videos.json")
+                err(f"talk {tid}: video {v['id']} not in videos.json")
     for vid, n in used.items():
         if n > 1:
             err(f"video {vid} matched to {n} talks")

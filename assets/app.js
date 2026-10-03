@@ -12,6 +12,84 @@
     return n;
   };
 
+  // arXiv references: arxiv.org URLs, "arXiv:ID", and lists like
+  // "arXiv preprints 2411.02266, 2505.09950". IDs may be new-style
+  // (YYMM.NNNNN, optional vN) or old-style (archive/YYMMNNN).
+  const ARXIV_ID = "(?:[A-Za-z\\-]+\\/\\d{7}|\\d{4}\\.\\d{4,5})(?:v\\d+)?";
+  const ARXIV_RE = new RegExp(
+    "https?://(?:www\\.)?arxiv\\.org/(?:abs|pdf)/[^\\s<>\"')\\]]+" +
+      "|arXiv\\s*:?\\s*(?:preprints?\\s*:?\\s*)?(" +
+      ARXIV_ID +
+      "(?:\\s*,\\s*(?:and\\s+)?" +
+      ARXIV_ID +
+      ")*)",
+    "gi",
+  );
+  const ARXIV_SEP_RE = /(\s*,\s*(?:and\s+)?)/;
+
+  function arxivAnchor(id) {
+    const a = document.createElement("a");
+    a.href = "https://arxiv.org/abs/" + id;
+    a.target = "_blank";
+    a.rel = "noopener";
+    a.textContent = id;
+    return a;
+  }
+
+  // Wrap arXiv references in text nodes with links to the abstract page.
+  // Only splits text at the references themselves, so $...$ spans stay intact.
+  function linkifyArxiv(container) {
+    const walker = document.createTreeWalker(container, NodeFilter.SHOW_TEXT);
+    const nodes = [];
+    let n;
+    while ((n = walker.nextNode())) nodes.push(n);
+    for (const node of nodes) {
+      const text = node.textContent;
+      ARXIV_RE.lastIndex = 0;
+      let m;
+      let last = 0;
+      const frag = document.createDocumentFragment();
+      let hit = false;
+      while ((m = ARXIV_RE.exec(text)) !== null) {
+        if (m[0].length === 0) {
+          ARXIV_RE.lastIndex++;
+          continue;
+        }
+        hit = true;
+        if (m.index > last) frag.appendChild(document.createTextNode(text.slice(last, m.index)));
+        if (m[1] === undefined) {
+          // URL form: drop trailing punctuation, normalize pdf -> abs.
+          let raw = m[0];
+          const trail = raw.match(/[.,;:!?)\]]+$/)?.[0] ?? "";
+          const end = m.index + m[0].length - trail.length;
+          raw = raw.slice(0, raw.length - trail.length);
+          const href = raw.replace(/arxiv\.org\/pdf\//i, "arxiv.org/abs/").replace(/\.pdf$/i, "");
+          const a = document.createElement("a");
+          a.href = href;
+          a.target = "_blank";
+          a.rel = "noopener";
+          a.textContent = raw;
+          frag.appendChild(a);
+          last = end;
+        } else {
+          // ID or comma-separated ID list: keep the prefix text, link each ID.
+          const list = m[1];
+          frag.appendChild(document.createTextNode(m[0].slice(0, m[0].indexOf(list))));
+          for (const part of list.split(ARXIV_SEP_RE)) {
+            if (!part) continue;
+            if (/^\s*,\s*(?:and\s+)?$/.test(part)) frag.appendChild(document.createTextNode(part));
+            else frag.appendChild(arxivAnchor(part));
+          }
+          last = m.index + m[0].length;
+        }
+      }
+      if (hit) {
+        if (last < text.length) frag.appendChild(document.createTextNode(text.slice(last)));
+        node.replaceWith(frag);
+      }
+    }
+  }
+
   const state = {
     q: "",
     year: "",
@@ -216,7 +294,11 @@
     card.appendChild(date);
 
     const body = el("div", "talk-body");
-    if (t.title) body.appendChild(el("h3", "talk-title", t.title));
+    if (t.title) {
+      const h = el("h3", "talk-title", t.title);
+      linkifyArxiv(h);
+      body.appendChild(h);
+    }
 
     const sp = el("p", "talk-speaker");
     const url = D.speakers && D.speakers[t.speaker];
@@ -252,16 +334,9 @@
     }
 
     if (t.abstract) {
-      const abs = el("div", "abstract clamped", t.abstract);
+      const abs = el("div", "abstract", t.abstract);
+      linkifyArxiv(abs);
       body.appendChild(abs);
-      const more = el("button", "more", "Show abstract");
-      more.addEventListener("click", () => {
-        const on = abs.classList.toggle("clamped");
-        more.textContent = on ? "Show abstract" : "Hide abstract";
-        if (!on && window.MathJax && MathJax.typesetPromise)
-          MathJax.typesetPromise().catch(() => {});
-      });
-      body.appendChild(more);
     }
 
     if (t.videos.length) {
