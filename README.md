@@ -4,9 +4,13 @@ A single-page archive of the **M-Seminar** (Kansas State University M-Center):
 talks, speakers, affiliations, abstracts, slides/notes links, and the matching
 YouTube recordings — all in one searchable page.
 
-The data is **curated by hand** (with agent assistance), not scraped: the K-State
-pages have changed markup several times since 2007 and no parser stays correct
-for long. An agent reads the sources below and standardizes them into `data/`.
+The data is **scraped from the sources below and then partially reviewed by a
+human**. An agent reads those pages and standardizes them into `data/`; a person
+then checks the result. Review is partial, not exhaustive — the K-State pages have
+changed markup several times since 2007, which is exactly why the scraped text
+needs a second pair of eyes. So expect the odd wrong date or mangled title, and
+treat the official page as the source of truth. The "Last built" line in the
+footer says how stale the archive may be.
 
 - Official page: <https://www.math.ksu.edu/research/research-centers/m-center/seminars.html>
 - Past seasons: <https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/>
@@ -21,10 +25,10 @@ for long. An agent reads the sources below and standardizes them into `data/`.
     app.js              rendering, search, filters, click-to-load video
     data.js             generated: window.MSEMINAR = {...}
   data/
-    talks.json          the programme, newest first (curated)
-    videos.json         YouTube channel inventory (curated)
-    match.json          talk -> video mapping (curated)
-    speakers.json       speaker name -> homepage URL (curated)
+    talks.json          the programme, newest first (scraped + reviewed)
+    videos.json         YouTube channel inventory (scraped + reviewed)
+    match.json          talk -> video mapping (scraped + reviewed)
+    speakers.json       speaker name -> homepage URL (scraped + reviewed)
   scripts/
     build.py            data/*.json -> index.html + assets/data.js
     validate.py         check the data for mistakes (run before building)

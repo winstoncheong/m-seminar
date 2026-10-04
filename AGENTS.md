@@ -16,7 +16,7 @@ and has already cost one agent a lost edit.
 | `scripts/build.py` | source — also holds the `HTML` page template | yes |
 | `assets/style.css` | source — all styling, light/dark via `--*` tokens | yes |
 | `assets/app.js` | source — render, search, filters, video | yes |
-| `data/*.json` | source — curated by hand (with agent assistance) | yes, see `README.md` |
+| `data/*.json` | source — scraped, then partially reviewed by a human | yes, see `README.md` |
 | `index.html` | **generated** from the `HTML` string in `scripts/build.py` | **no** |
 | `assets/data.js` | **generated** from `data/*.json` as `window.MSEMINAR` | **no** |
 
@@ -56,8 +56,20 @@ model + thinking level in the message body
 
 `python scripts/validate.py` must report 0 errors, then
 `python scripts/build.py`, then `bash scripts/format.sh`. `build.py` refuses
-to build on validation errors. Never leave a dirty `build + format` cycle —
-the tree must be exactly reproducible (`git status` clean after running both).
+to build on validation errors.
+
+Never leave unexplained churn from a `build + format` cycle. Exactly one line
+always changes: `generated:` in `assets/data.js`, which feeds the footer's
+"Last built" date. That timestamp stays — on a scraped archive it is the only
+freshness signal a reader gets, and the disclaimer points at it. So the
+invariant to check is that the diff is *nothing but* that line:
+
+```bash
+git diff --stat   # expect exactly:  assets/data.js | 2 +-
+```
+
+Any other entry means a build product is stale or a source file was left
+unformatted — fix it before committing.
 
 Prettier normalizes the page shell on every format run, so keep the `HTML`
 template readable rather than pre-indenting it by hand; the build output is

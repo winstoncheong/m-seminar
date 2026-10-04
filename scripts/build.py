@@ -180,7 +180,7 @@ window.MathJax = {
 
 <main class="wrap">
   <aside class="disclaimer" role="note">
-    <p><span class="disclaimer-tag">Please note</span>This is an unofficial, AI-generated archive. Everything here was put together by an AI agent from information scraped off the public web, so titles, dates, speakers and abstracts may be wrong. Treat the <a href="https://www.math.ksu.edu/research/research-centers/m-center/seminars.html" target="_blank" rel="noopener">official M-Seminar page</a> as the source of truth. The site is maintained on a best-effort basis and is not guaranteed to be kept up to date.</p>
+    <p><span class="disclaimer-tag">Please note</span>This is an unofficial, AI-generated archive. Everything here was put together by an AI agent from information scraped off the public web and then only partially reviewed by a human, so titles, dates, speakers and abstracts may be wrong. Treat the <a href="https://www.math.ksu.edu/research/research-centers/m-center/seminars.html" target="_blank" rel="noopener">official M-Seminar page</a> as the source of truth, and check the "Last built" date below before assuming a listing is current. The site is maintained on a best-effort basis and is not guaranteed to be kept up to date.</p>
   </aside>
 
   <section class="hero">
@@ -209,7 +209,7 @@ window.MathJax = {
 
 <footer class="site-footer">
   <div class="wrap">
-    <p>Programme data scraped from <a href="https://www.math.ksu.edu/research/research-centers/m-center/seminars.html" target="_blank" rel="noopener">math.ksu.edu</a>.
+    <p>Programme data scraped from <a href="https://www.math.ksu.edu/research/research-centers/m-center/seminars.html" target="_blank" rel="noopener">math.ksu.edu</a> and partially reviewed by hand.
        Video recordings from the <a href="https://www.youtube.com/@m-seminar_ksu" target="_blank" rel="noopener">M-Seminar YouTube channel</a>.</p>
     <p class="muted">Last built <span id="built"></span>. Unofficial mirror; not affiliated with K-State.</p>
   </div>
