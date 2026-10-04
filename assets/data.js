@@ -1,6 +1,6 @@
 window.MSEMINAR = {
-  generated: "2026-10-03 18:30",
-  today: "2026-10-03",
+  generated: "2026-10-04 13:05",
+  today: "2026-10-04",
   channel: "https://www.youtube.com/@m-seminar_ksu",
   base: "https://www.math.ksu.edu/research/research-centers/m-center",
   counts: {

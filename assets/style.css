@@ -156,6 +156,36 @@ a {
   border-color: var(--accent-2);
 }
 
+/* disclaimer ---------------------------------------------------------- */
+.disclaimer {
+  margin: 20px 0 0;
+  padding: 12px 16px;
+  background: var(--warn-soft);
+  border: 1px solid color-mix(in srgb, var(--warn) 35%, var(--line));
+  border-left-width: 4px;
+  border-radius: var(--radius);
+  font-size: 14px;
+  line-height: 1.55;
+}
+.disclaimer p {
+  margin: 0;
+}
+.disclaimer a {
+  color: var(--warn);
+}
+.disclaimer-tag {
+  display: inline-block;
+  margin-right: 6px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 11.5px;
+  color: var(--warn);
+}
+.disclaimer-tag::after {
+  content: " ·";
+}
+
 /* hero / controls ---------------------------------------------------- */
 .hero {
   padding: 26px 0 8px;

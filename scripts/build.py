@@ -179,6 +179,10 @@ window.MathJax = {
 </header>
 
 <main class="wrap">
+  <aside class="disclaimer" role="note">
+    <p><span class="disclaimer-tag">Please note</span>This is an unofficial, AI-generated archive. Everything here was put together by an AI agent from information scraped off the public web, so titles, dates, speakers and abstracts may be wrong. Treat the <a href="https://www.math.ksu.edu/research/research-centers/m-center/seminars.html" target="_blank" rel="noopener">official M-Seminar page</a> as the source of truth. The site is maintained on a best-effort basis and is not guaranteed to be kept up to date.</p>
+  </aside>
+
   <section class="hero">
     <p id="next-talk" class="next-talk" hidden></p>
     <div class="controls">
