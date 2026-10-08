@@ -1,6 +1,6 @@
 window.MSEMINAR = {
-  generated: "2026-10-04 13:33",
-  today: "2026-10-04",
+  generated: "2026-10-08 11:12",
+  today: "2026-10-08",
   channel: "https://www.youtube.com/@m-seminar_ksu",
   base: "https://www.math.ksu.edu/research/research-centers/m-center",
   counts: {
@@ -249,6 +249,11 @@ window.MSEMINAR = {
       cancelled: false,
       upcoming: true,
       links: [
+        {
+          label: "Notes",
+          url: "https://www.math.ksu.edu/research/research-centers/m-center/reineke_oct26.pdf",
+          kind: "notes",
+        },
         {
           label: "Zoom link",
           url: "https://ksu.zoom.us/j/95834254862",
