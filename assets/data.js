@@ -1,12 +1,12 @@
 window.MSEMINAR = {
-  generated: "2026-10-08 11:12",
-  today: "2026-10-08",
+  generated: "2026-10-13 21:48",
+  today: "2026-10-13",
   channel: "https://www.youtube.com/@m-seminar_ksu",
   base: "https://www.math.ksu.edu/research/research-centers/m-center",
   counts: {
     talks: 342,
-    withVideo: 165,
-    videos: 208,
+    withVideo: 167,
+    videos: 210,
     speakers: 189,
     years: [
       2026, 2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018, 2015, 2014, 2013, 2012, 2011, 2010,
@@ -247,7 +247,7 @@ window.MSEMINAR = {
         "We propose a definition of expansion in abelian categories as a quantitative refinement of slope stability. We relate this concept to dimension expanders in the sense of Lubotzky-Zelmanov. As main result, we discuss a proof of uniform expansion for representations of wild quivers using spectral properties of Cartan matrices.",
       extra: ["Zoom link\nMeeting ID: 958 3425 4862"],
       cancelled: false,
-      upcoming: true,
+      upcoming: false,
       links: [
         {
           label: "Notes",
@@ -260,7 +260,18 @@ window.MSEMINAR = {
           kind: "zoom",
         },
       ],
-      videos: [],
+      videos: [
+        {
+          id: "k-uG3jIFNuQ",
+          title: "Markus Reineke - Stability and expansion",
+          part: 1,
+          duration: 3973,
+          views: 76,
+          embed: "https://www.youtube.com/embed/k-uG3jIFNuQ",
+          thumb: "https://i.ytimg.com/vi/k-uG3jIFNuQ/hqdefault.jpg",
+          url: "https://www.youtube.com/watch?v=k-uG3jIFNuQ",
+        },
+      ],
       source: "https://www.math.ksu.edu/research/research-centers/m-center/seminars.html",
     },
     {
@@ -284,7 +295,19 @@ window.MSEMINAR = {
           kind: "notes",
         },
       ],
-      videos: [],
+      videos: [
+        {
+          id: "DdZ4cL_0IFY",
+          title:
+            "Shivang Jindal - The Loop-Nilpotent cohomological Hall Algebra and Coulomb Branches",
+          part: 1,
+          duration: 4211,
+          views: 94,
+          embed: "https://www.youtube.com/embed/DdZ4cL_0IFY",
+          thumb: "https://i.ytimg.com/vi/DdZ4cL_0IFY/hqdefault.jpg",
+          url: "https://www.youtube.com/watch?v=DdZ4cL_0IFY",
+        },
+      ],
       source: "https://www.math.ksu.edu/research/research-centers/m-center/seminars.html",
     },
     {
