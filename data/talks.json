@@ -2,6 +2,148 @@
   {
     "section_year": 2026,
     "season": "Fall",
+    "date_text": "November 18, 19",
+    "month_day": [11, 18],
+    "speaker": "Ben Webster",
+    "affiliation": "U.Waterloo and Perimeter Institute",
+    "cancelled": false,
+    "title": "The geometry of Coulomb branches",
+    "abstract": "I’ll discuss my recent paper on the geometric structure of Coulomb branches. In the first talk, I’ll focus on how we can understand the Coulomb branch using standard tools of algebraic geometry, especially transverse blowups, and the description of normal varieties in terms of Weil divisors. The second, I’ll focus on how we can apply these results to understand the set of symplectic leaves of a Coulomb branch better.",
+    "links": [
+      {
+        "label": "Zoom link",
+        "url": "https://ksu.zoom.us/j/95834254862"
+      }
+    ],
+    "extra": [
+      "Series of lectures:",
+      "Wednesday (Nov 18) at 2:30pm",
+      "Thursday (Nov 19) at 3:30pm",
+      "Zoom link\nMeeting ID: 958 3425 4862"
+    ],
+    "title_labeled": true,
+    "awaiting_speaker": false,
+    "source": "https://www.math.ksu.edu/research/research-centers/m-center/seminars.html",
+    "order": 8,
+    "id": "2026-ben-webster-the-geometry-of-coulomb-branches"
+  },
+  {
+    "section_year": 2026,
+    "season": "Fall",
+    "date_text": "November 9, 10",
+    "month_day": [11, 9],
+    "speaker": "Lucien Hennecart",
+    "affiliation": "Université de Picardie Jules Verne",
+    "cancelled": false,
+    "title": "A (failed?) attempt at the Deligne-Simpson problem / Commutativity of the nilpotent CoHAs of the affine plane",
+    "abstract": "Lecture 1: A (failed?) attempt at the Deligne-Simpson problem\nI will discuss my attempt to give a new proof of the necessity of Crawley-Boevey's criterion for the Deligne-Simpson problem. Given finitely many punctures on the projective line and prescribed conjugacy classes of monodromies around them, the problem asks for necessary and sufficient conditions for the existence of an irreducible local system with these local monodromies. Successful proofs have already been given independently by Crawley-Boevey and Shu. My own approach contains a gap, which I will explain and put into perspective during the talk.\n\nLecture 2: Commutativity of the nilpotent CoHAs of the affine plane\nThe cohomological Hall algebra (CoHA) of the affine plane is an interesting associative algebra constructed from the moduli stack of finite-length coherent sheaves on the complex affine plane. Its structure has been described by Davison. I will explain how to determine its nilpotent variants, obtained by considering finite-length sheaves set-theoretically supported either at the origin or on a coordinate axis. Remarkably, these algebras turn out to be commutative. However, introducing an equivariant parameter corresponding to the simultaneous rescaling of the coordinates restores noncommutativity, and we can explicitly describe the resulting algebras.",
+    "links": [
+      {
+        "label": "Zoom link",
+        "url": "https://ksu.zoom.us/j/95834254862"
+      }
+    ],
+    "extra": [
+      "Series of lectures:",
+      "Monday (Nov 9) at 10:00am",
+      "Tuesday (Nov 10) at 10:00am",
+      "Zoom link\nMeeting ID: 958 3425 4862"
+    ],
+    "title_labeled": true,
+    "awaiting_speaker": false,
+    "source": "https://www.math.ksu.edu/research/research-centers/m-center/seminars.html",
+    "order": 7,
+    "id": "2026-lucien-hennecart-a-failed-attempt-at-the-deligne-simpson-pro"
+  },
+  {
+    "section_year": 2026,
+    "season": "Fall",
+    "date_text": "November 5, 3:30pm",
+    "month_day": [11, 5],
+    "speaker": "Roman Fedorov",
+    "affiliation": "University of Pittsburgh",
+    "cancelled": false,
+    "title": "Global and local Langlands correspondence for Hitchin systems",
+    "abstract": "Let X be a smooth projective connected complex curve and G be a complex reductive group. The global Langlands correspondence for Hitchin systems predicts an equivalence between the derived category of quasi-coherent sheaves on the moduli stack of G-Higgs bundles on X, and the similar category for the Langlands dual group of G. After briefly surveying the known results in this direction, I will formulate a local version of this conjecture, where the curve is replaced by a formal disc. I will explain the compatibility of local and global conjectures and present the current state of knowledge. In particular, I will talk about a joint work with G. Dhillon and T. Pantev where we prove the local Langlands conjecture over the locus of smooth cameral covers.",
+    "links": [
+      {
+        "label": "Notes",
+        "url": "/research/research-centers/m-center/fedorov_nov26.pdf"
+      },
+      {
+        "label": "Zoom link",
+        "url": "https://ksu.zoom.us/j/95834254862"
+      }
+    ],
+    "extra": ["Zoom link\nMeeting ID: 958 3425 4862"],
+    "title_labeled": true,
+    "awaiting_speaker": false,
+    "source": "https://www.math.ksu.edu/research/research-centers/m-center/seminars.html",
+    "order": 6,
+    "id": "2026-roman-fedorov-global-and-local-langlands-correspondence-for-"
+  },
+  {
+    "section_year": 2026,
+    "season": "Fall",
+    "date_text": "October 26, 28, 29",
+    "month_day": [10, 26],
+    "speaker": "Eric Rains",
+    "affiliation": "Caltech",
+    "cancelled": false,
+    "title": "Noncommutative surfaces and difference equations",
+    "abstract": "Many important special functions either satisfy nice differential or difference equations (hypergeometric functions) or describe nice flows in families of such equations (Painlevé, Garnier, etc.). This leads to a pair of natural problems: (1) How can one classify equations with given singularities? (E.g., when is the equation unique?) (2) What are the natural isomorphisms between the resulting moduli spaces? It turns out that there is a natural (near) identification between these problems and certain natural geometric problems in noncommutative algebraic geometry. (E.g., rigid equations correspond precisely to $-2$-curves!) I'll explain this connection to special functions, and sketch how (with that motivation and insight from the most general case) that led to new results on the geometry side, most notably noncommutative analogues of the standard isomorphisms in birational geometry and derived equivalences of deformed elliptic surfaces. This talk will be aimed at a colloquium level; the two follow-on talks (Wednesday and Thursday) will be more specialized, and I'm open to requests for specific topics to be covered.",
+    "links": [
+      {
+        "label": "Lec 1",
+        "url": "/research/research-centers/m-center/rains_oct26_1.pdf"
+      },
+      {
+        "label": "Lec 2",
+        "url": "/research/research-centers/m-center/rains_oct26_2.pdf"
+      },
+      {
+        "label": "Lec 3",
+        "url": "/research/research-centers/m-center/rains_oct26_3.pdf"
+      }
+    ],
+    "extra": [
+      "Series of lectures:",
+      "Monday (Oct 26) at 3:30pm",
+      "Wednesday (Oct 28) at 11:30am",
+      "Thursday (Oct 29) at 3:30pm"
+    ],
+    "title_labeled": true,
+    "awaiting_speaker": false,
+    "source": "https://www.math.ksu.edu/research/research-centers/m-center/seminars.html",
+    "order": 5,
+    "id": "2026-eric-rains-noncommutative-surfaces-and-difference-equations"
+  },
+  {
+    "section_year": 2026,
+    "season": "Fall",
+    "date_text": "October 22, 10:00am (special time)",
+    "month_day": [10, 22],
+    "speaker": "Maxim Kontsevich",
+    "affiliation": "IHES",
+    "cancelled": false,
+    "title": "Towards large Fukaya category: case of tori.",
+    "abstract": "I'll propose a definition of a pretriangulated dg category with all limits and colimits, linear over the Novikov ring, which can be thought of as a large integral version of the Fukaya category of a symplectic torus. The construction uses only rudimentary non-archimedean geometry, the almost mathematics of Faltings and Gabber–Ramero, and the Kashiwara–Schapira theory of microlocal support.",
+    "links": [
+      {
+        "label": "Notes",
+        "url": "/research/research-centers/m-center/kontsevich_oct26.pdf"
+      }
+    ],
+    "extra": [],
+    "title_labeled": true,
+    "awaiting_speaker": false,
+    "source": "https://www.math.ksu.edu/research/research-centers/m-center/seminars.html",
+    "order": 0,
+    "id": "2026-maxim-kontsevich-towards-large-fukaya-category-case-of-tori"
+  },
+  {
+    "section_year": 2026,
+    "season": "Fall",
     "date_text": "October 15, 10:00am (special time)",
     "month_day": [10, 15],
     "speaker": "Tatsuki Kuwagaki",
@@ -10,6 +152,10 @@
     "title": "Sheaf Theory for Non-Exact Lagrangians",
     "abstract": "Sheaf-theoretic methods in symplectic geometry have undergone remarkable development over the past two decades, beginning with the pioneering work of Nadler–Zaslow, Tamarkin, and, more recently, Ganatra–Pardon–Shende. Most of these developments, however, have focused on exact Lagrangians.\nOver the past five years, I and coworkers have developed a modification of Tamarkin's approach that applies to non-exact Lagrangians in exact symplectic manifolds and establishes equivalences with Fukaya-type categories.\nIn this talk, I will begin with a brief introduction to Tamarkin categories and sheaf quantization, and then present the aforementioned comparison theorem between Fukaya-type categories and sheaf-theoretic categories. If time permits, I will also discuss applications to homological mirror symmetry and the Riemann–Hilbert correspondence.",
     "links": [
+      {
+        "label": "Notes",
+        "url": "/research/research-centers/m-center/kuwagaki_oct2026.pdf"
+      },
       {
         "label": "Zoom link",
         "url": "https://ksu.zoom.us/j/95834254862"
@@ -94,24 +240,6 @@
     "source": "https://www.math.ksu.edu/research/research-centers/m-center/seminars.html",
     "order": 1,
     "id": "2026-anton-kapustin-from-locality-to-homotopy-theory-higher-symme"
-  },
-  {
-    "section_year": 2026,
-    "season": "Fall",
-    "date_text": "September 18, 10:00am (special day/time)",
-    "month_day": [9, 18],
-    "speaker": "Maxim Kontsevich",
-    "affiliation": "IHES",
-    "cancelled": true,
-    "title": "Towards large Fukaya category: case of tori.",
-    "abstract": "I'll propose a definition of a pretriangulated dg category with all limits and colimits, linear over the Novikov ring, which can be thought of as a large integral version of the Fukaya category of a symplectic torus. The construction uses only rudimentary non-archimedean geometry, the almost mathematics of Faltings and Gabber–Ramero, and the Kashiwara–Schapira theory of microlocal support.",
-    "links": [],
-    "extra": [],
-    "title_labeled": true,
-    "awaiting_speaker": false,
-    "source": "https://www.math.ksu.edu/research/research-centers/m-center/seminars.html",
-    "order": 0,
-    "id": "2026-maxim-kontsevich-towards-large-fukaya-category-case-of-tori"
   },
   {
     "section_year": 2026,
