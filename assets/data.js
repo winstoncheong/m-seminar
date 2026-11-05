@@ -1,6 +1,6 @@
 window.MSEMINAR = {
-  generated: "2026-10-13 21:48",
-  today: "2026-10-13",
+  generated: "2026-11-05 17:26",
+  today: "2026-11-05",
   channel: "https://www.youtube.com/@m-seminar_ksu",
   base: "https://www.math.ksu.edu/research/research-centers/m-center",
   counts: {
@@ -223,7 +223,7 @@ window.MSEMINAR = {
         "Sheaf-theoretic methods in symplectic geometry have undergone remarkable development over the past two decades, beginning with the pioneering work of Nadler–Zaslow, Tamarkin, and, more recently, Ganatra–Pardon–Shende. Most of these developments, however, have focused on exact Lagrangians.\nOver the past five years, I and coworkers have developed a modification of Tamarkin's approach that applies to non-exact Lagrangians in exact symplectic manifolds and establishes equivalences with Fukaya-type categories.\nIn this talk, I will begin with a brief introduction to Tamarkin categories and sheaf quantization, and then present the aforementioned comparison theorem between Fukaya-type categories and sheaf-theoretic categories. If time permits, I will also discuss applications to homological mirror symmetry and the Riemann–Hilbert correspondence.",
       extra: ["Zoom link\nMeeting ID: 958 3425 4862"],
       cancelled: false,
-      upcoming: true,
+      upcoming: false,
       links: [
         {
           label: "Zoom link",
