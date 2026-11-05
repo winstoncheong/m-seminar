@@ -1,8 +1,14 @@
 # M-Seminar site
 
-A single-page archive of the **M-Seminar** (Kansas State University M-Center):
-talks, speakers, affiliations, abstracts, slides/notes links, and the matching
-YouTube recordings — all in one searchable page.
+A searchable, single-page archive of the **M-Seminar** (Kansas State
+University M-Center). Live at <https://m-seminar.vercel.app>.
+
+> Unofficial mirror, not affiliated with K-State. Programme text (titles,
+> abstracts) belongs to the M-Seminar; the official page is the source of
+> truth.
+
+Each talk lists its speaker, affiliation, abstract, slides/notes links, and
+the matching YouTube recording — all in one searchable page.
 
 The data is **scraped from the sources below and then partially reviewed by a
 human**. An agent reads those pages and standardizes them into `data/`; a person
@@ -119,6 +125,21 @@ Once a week (or on request), re-scan the two sources and fold in what changed:
    vault pointer).
 
 If nothing changed, do nothing — say so and stop.
+
+## Contributing / corrections
+
+Spotted a wrong tag, date, title, or link? Corrections come in through GitHub
+issues and pull requests:
+
+- **Tag corrections** — open an issue with the talk id, the current tags, the
+  suggested tags, and why. (There are ready-made issue templates for both
+  kinds — pick the one that fits.)
+- **Data corrections** (title, abstract, date, links, video mapping) — open an
+  issue with the talk id/date, the field affected, the current vs. suggested
+  text, and a source URL, or PR the `data/*.json` change directly.
+- PRs must keep `python scripts/validate.py` at 0 errors and include the
+  rebuilt `index.html` / `assets/data.js` (`python scripts/build.py`, then
+  `bash scripts/format.sh`).
 
 ## Deploying
 

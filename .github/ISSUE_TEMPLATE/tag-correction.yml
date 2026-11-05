@@ -1,0 +1,33 @@
+name: Tag correction
+description: Suggest better topic tags for a talk.
+title: "[tags] <talk id>: <brief description>"
+labels: ["tags"]
+body:
+  - type: input
+    id: talk
+    attributes:
+      label: Talk id
+      description: The talk's stable id (e.g. 2026-tatsuki-kuwagaki-sheaf-theory-for-non-exact-lagrangians).
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: Current tags
+      description: The tags the site shows now (write "none" if untagged).
+    validations:
+      required: true
+  - type: textarea
+    id: suggested
+    attributes:
+      label: Suggested tags
+      description: The tags it should have instead.
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: Reason
+      description: Why the new tags fit better (e.g. terms from the abstract, MSC class, speaker's area).
+    validations:
+      required: true
