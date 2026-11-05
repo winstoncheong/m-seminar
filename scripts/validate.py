@@ -32,6 +32,32 @@ NON_PERSON = re.compile(
     r"\b(lecture|colloquium|memorial|prize|award|conference|seminar|workshop|"
     r"symposium|series|tba|tbd)\b", re.I)
 
+# Controlled topic vocabulary for the per-talk ``tags`` arrays.
+# Slugs are URL-safe (used in #tag=... hashes); labels are display names.
+TAG_VOCAB: list[tuple[str, str]] = [
+    ("coha", "Hall algebras / CoHA"),
+    ("dt-theory", "DT theory"),
+    ("fukaya", "Fukaya / symplectic"),
+    ("mirror-symmetry", "Mirror symmetry"),
+    ("langlands", "Geometric Langlands"),
+    ("higgs-coulomb", "Higgs / Coulomb branches"),
+    ("quiver-varieties", "Quiver varieties"),
+    ("cluster", "Cluster algebras"),
+    ("cft", "CFT / vertex algebras"),
+    ("topological-recursion", "Topological recursion"),
+    ("representation-theory", "Representation theory"),
+    ("derived-categories", "Derived categories"),
+    ("stability", "Stability conditions"),
+    ("noncommutative", "Noncommutative geometry"),
+    ("quantum-groups", "Quantum groups"),
+    ("painleve", "Special functions / Painlevé"),
+    ("gauge-theory", "Gauge theory / SUSY"),
+    ("enumerative", "Enumerative geometry"),
+    ("categorification", "Categorification"),
+]
+TAG_SLUGS = {slug for slug, _ in TAG_VOCAB}
+TAG_LABELS = dict(TAG_VOCAB)
+
 
 def load(name: str):
     p = DATA / name
@@ -102,6 +128,24 @@ def validate() -> list[tuple[str, str]]:
                       or (len(title) > 100 and re.search(r"\.\s+[A-Z]", title))
                       or len(title) > 200):
             warn(f"{tag}: title looks like it contains prose/abstract")
+
+        # topic tags
+        if "tags" not in t:
+            err(f"{tag}: missing tags key")
+        else:
+            tags = t["tags"]
+            if not isinstance(tags, list) or any(not isinstance(x, str) for x in tags):
+                err(f"{tag}: tags must be an array of strings")
+            else:
+                for x in tags:
+                    if x not in TAG_SLUGS:
+                        err(f"{tag}: unknown tag {x!r}")
+                if len(tags) != len(set(tags)):
+                    err(f"{tag}: duplicate tags {tags}")
+                if len(tags) > 4:
+                    err(f"{tag}: more than 4 tags {tags}")
+                if len(tags) > 3 or len(tags) == 0:
+                    warn(f"{tag}: {len(tags)} tags (aim for 1-3)")
 
     # video references
     video_ids = {v["id"] for v in videos}
