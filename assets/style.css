@@ -263,6 +263,66 @@ select,
 .check input {
   accent-color: var(--accent);
 }
+
+/* topic tags ---------------------------------------------------------- */
+.tag-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  margin-top: 10px;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 10px 12px;
+  box-shadow: var(--shadow);
+}
+.tag-row-label {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--muted);
+  margin-right: 2px;
+}
+.ttag {
+  font: inherit;
+  font-size: 13px;
+  padding: 3px 11px;
+  border-radius: 999px;
+  cursor: pointer;
+  background: var(--bg);
+  border: 1px solid var(--line);
+  color: var(--muted);
+}
+.ttag:hover {
+  border-color: var(--accent);
+  color: var(--accent-2);
+}
+.ttag.active {
+  background: var(--accent-soft);
+  border-color: var(--accent);
+  color: var(--accent-2);
+  font-weight: 700;
+}
+.tag-clear {
+  font: inherit;
+  font-size: 13px;
+  background: none;
+  border: none;
+  color: var(--accent-2);
+  cursor: pointer;
+  text-decoration: underline;
+  padding: 3px 6px;
+}
+.ttags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 0 0 10px;
+}
+.ttag-card {
+  font-size: 12px;
+  padding: 2px 9px;
+}
 .stats {
   color: var(--muted);
   font-size: 13.5px;

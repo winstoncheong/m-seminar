@@ -54,7 +54,8 @@ YouTube channel, then update `data/`:
    `section_year` (int), `season` (`Spring`/`Summer`/`Fall`/`Winter` or null),
    `date_text` (as printed, e.g. `September 24, 1:30pm (special time)`),
    `month_day` ([month, day] numbers, or null), `speaker`, `affiliation`,
-   `cancelled` (bool), `title`, `abstract`, `links` (array of
+   `cancelled` (bool), `title`, `abstract`, `tags` (array of topic slugs —
+   see Tags below), `links` (array of
    `{label, url}` — K-State PDF links are site-rooted, e.g.
    `/research/research-centers/m-center/foo.pdf`; `build.py` absolutizes them),
    `extra` (lecture-series schedules, room info, …), `source` (page URL),
@@ -72,6 +73,47 @@ Lecture`): put that in `extra` and the real speaker in `speaker`.
    speaker's own page; university faculty pages are fine. Never link
    Wikipedia, Scholar, LinkedIn, arXiv, or conference pages. Only add a URL
    you are confident belongs to that person — no link beats a wrong link.
+
+### Tags
+
+Every `talks.json` object carries a `tags` array of 1–3 slugs from the
+controlled vocabulary below (empty only where nothing fits — a real-algebraic-geometry
+talk is not a symplectic talk). The vocabulary lives in
+`scripts/validate.py` (`TAG_VOCAB`); `build.py` turns it into the
+per-talk chips, the filter row, and the `tags` facet (tag + count) in
+`assets/data.js`.
+
+| Slug                    | Label                        |
+| ----------------------- | ---------------------------- |
+| `coha`                  | Hall algebras / CoHA         |
+| `dt-theory`             | DT theory                    |
+| `fukaya`                | Fukaya / symplectic          |
+| `mirror-symmetry`       | Mirror symmetry              |
+| `langlands`             | Geometric Langlands          |
+| `higgs-coulomb`         | Higgs / Coulomb branches     |
+| `quiver-varieties`      | Quiver varieties             |
+| `cluster`               | Cluster algebras             |
+| `cft`                   | CFT / vertex algebras        |
+| `topological-recursion` | Topological recursion        |
+| `representation-theory` | Representation theory        |
+| `derived-categories`    | Derived categories           |
+| `stability`             | Stability conditions         |
+| `noncommutative`        | Noncommutative geometry      |
+| `quantum-groups`        | Quantum groups               |
+| `painleve`              | Special functions / Painlevé |
+| `gauge-theory`          | Gauge theory / SUSY          |
+| `enumerative`           | Enumerative geometry         |
+| `categorification`      | Categorification             |
+
+The archive-wide backfill was keyword-driven: title + abstract matched
+against per-topic keyword sets, capped at 4 tags with the most generic
+dropped first, then spot-checked talk by talk (about twenty assignments
+were hand-corrected where a keyword fired incidentally).
+New talks get tags the same way by hand: read the title and abstract,
+pick the 1–3 topics the talk is actually about, leave `[]` rather than
+forcing one. `validate.py` errors on a missing `tags` key, an unknown
+slug, duplicates, or more than 4 tags, and warns on 0 or 4 tags.
+Tag fixes go through GitHub issues like any other data correction.
 
 Math in titles/abstracts uses `$...$`. Every `$` must be paired, and each
 pair must contain only math (a missing closer makes MathJax swallow prose —

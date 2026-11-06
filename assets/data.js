@@ -1,13 +1,13 @@
 window.MSEMINAR = {
-  generated: "2026-11-05 17:26",
+  generated: "2026-11-05 17:46",
   today: "2026-11-05",
   channel: "https://www.youtube.com/@m-seminar_ksu",
   base: "https://www.math.ksu.edu/research/research-centers/m-center",
   counts: {
-    talks: 342,
-    withVideo: 167,
-    videos: 210,
-    speakers: 189,
+    talks: 346,
+    withVideo: 170,
+    videos: 215,
+    speakers: 190,
     years: [
       2026, 2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018, 2015, 2014, 2013, 2012, 2011, 2010,
       2008, 2007,
@@ -154,7 +154,7 @@ window.MSEMINAR = {
     "Ricardo Castano-Bernard": "https://www.umb.edu/directory/rcastanobernard/",
     "Richard Rimanyi": "https://rimanyi.web.unc.edu/",
     "Rina Anno": "https://www.math.ksu.edu/~ranno/",
-    "Roman Fedorov": "https://www.math.ksu.edu/~fedorov/",
+    "Roman Fedorov": "https://sites.pitt.edu/~fedorov/math.html",
     "Ron Donagi": "https://www2.math.upenn.edu/~donagi/",
     "Ruoxi Li": "https://ruoxi-li0351.github.io/",
     "Sabin Cautis": "https://personal.math.ubc.ca/~cautis/",
@@ -208,8 +208,304 @@ window.MSEMINAR = {
     "Roman Bezrukavnikov": "https://math.mit.edu/directory/profile.html?pid=22",
     "Sonja Hochloch": "https://www.uantwerpen.be/en/staff/sonja-hohloch/",
     "Tudor Padurariu": "https://tudorpad.github.io/",
+    "Eric Rains": "https://www.pma.caltech.edu/people/eric-m-rains",
   },
+  tags: [
+    {
+      slug: "fukaya",
+      label: "Fukaya / symplectic",
+      count: 108,
+    },
+    {
+      slug: "mirror-symmetry",
+      label: "Mirror symmetry",
+      count: 105,
+    },
+    {
+      slug: "derived-categories",
+      label: "Derived categories",
+      count: 58,
+    },
+    {
+      slug: "enumerative",
+      label: "Enumerative geometry",
+      count: 53,
+    },
+    {
+      slug: "higgs-coulomb",
+      label: "Higgs / Coulomb branches",
+      count: 51,
+    },
+    {
+      slug: "dt-theory",
+      label: "DT theory",
+      count: 47,
+    },
+    {
+      slug: "quantum-groups",
+      label: "Quantum groups",
+      count: 46,
+    },
+    {
+      slug: "representation-theory",
+      label: "Representation theory",
+      count: 38,
+    },
+    {
+      slug: "gauge-theory",
+      label: "Gauge theory / SUSY",
+      count: 35,
+    },
+    {
+      slug: "stability",
+      label: "Stability conditions",
+      count: 35,
+    },
+    {
+      slug: "categorification",
+      label: "Categorification",
+      count: 33,
+    },
+    {
+      slug: "langlands",
+      label: "Geometric Langlands",
+      count: 33,
+    },
+    {
+      slug: "coha",
+      label: "Hall algebras / CoHA",
+      count: 25,
+    },
+    {
+      slug: "cluster",
+      label: "Cluster algebras",
+      count: 19,
+    },
+    {
+      slug: "cft",
+      label: "CFT / vertex algebras",
+      count: 18,
+    },
+    {
+      slug: "noncommutative",
+      label: "Noncommutative geometry",
+      count: 18,
+    },
+    {
+      slug: "painleve",
+      label: "Special functions / Painlevé",
+      count: 13,
+    },
+    {
+      slug: "quiver-varieties",
+      label: "Quiver varieties",
+      count: 12,
+    },
+    {
+      slug: "topological-recursion",
+      label: "Topological recursion",
+      count: 9,
+    },
+  ],
   talks: [
+    {
+      id: "2026-ben-webster-the-geometry-of-coulomb-branches",
+      year: 2026,
+      season: "Fall",
+      date_text: "November 18, 19",
+      date_iso: "2026-11-18",
+      speaker: "Ben Webster",
+      affiliation: "U.Waterloo and Perimeter Institute",
+      title: "The geometry of Coulomb branches",
+      abstract:
+        "I’ll discuss my recent paper on the geometric structure of Coulomb branches. In the first talk, I’ll focus on how we can understand the Coulomb branch using standard tools of algebraic geometry, especially transverse blowups, and the description of normal varieties in terms of Weil divisors. The second, I’ll focus on how we can apply these results to understand the set of symplectic leaves of a Coulomb branch better.",
+      tags: ["higgs-coulomb"],
+      extra: [
+        "Series of lectures:",
+        "Wednesday (Nov 18) at 2:30pm",
+        "Thursday (Nov 19) at 3:30pm",
+        "Zoom link\nMeeting ID: 958 3425 4862",
+      ],
+      cancelled: false,
+      upcoming: true,
+      links: [
+        {
+          label: "Zoom link",
+          url: "https://ksu.zoom.us/j/95834254862",
+          kind: "zoom",
+        },
+      ],
+      videos: [],
+      source: "https://www.math.ksu.edu/research/research-centers/m-center/seminars.html",
+    },
+    {
+      id: "2026-lucien-hennecart-a-failed-attempt-at-the-deligne-simpson-pro",
+      year: 2026,
+      season: "Fall",
+      date_text: "November 9, 10",
+      date_iso: "2026-11-09",
+      speaker: "Lucien Hennecart",
+      affiliation: "Université de Picardie Jules Verne",
+      title:
+        "A (failed?) attempt at the Deligne-Simpson problem / Commutativity of the nilpotent CoHAs of the affine plane",
+      abstract:
+        "Lecture 1: A (failed?) attempt at the Deligne-Simpson problem\nI will discuss my attempt to give a new proof of the necessity of Crawley-Boevey's criterion for the Deligne-Simpson problem. Given finitely many punctures on the projective line and prescribed conjugacy classes of monodromies around them, the problem asks for necessary and sufficient conditions for the existence of an irreducible local system with these local monodromies. Successful proofs have already been given independently by Crawley-Boevey and Shu. My own approach contains a gap, which I will explain and put into perspective during the talk.\n\nLecture 2: Commutativity of the nilpotent CoHAs of the affine plane\nThe cohomological Hall algebra (CoHA) of the affine plane is an interesting associative algebra constructed from the moduli stack of finite-length coherent sheaves on the complex affine plane. Its structure has been described by Davison. I will explain how to determine its nilpotent variants, obtained by considering finite-length sheaves set-theoretically supported either at the origin or on a coordinate axis. Remarkably, these algebras turn out to be commutative. However, introducing an equivariant parameter corresponding to the simultaneous rescaling of the coordinates restores noncommutativity, and we can explicitly describe the resulting algebras.",
+      tags: ["coha", "painleve"],
+      extra: [
+        "Series of lectures:",
+        "Monday (Nov 9) at 10:00am",
+        "Tuesday (Nov 10) at 10:00am",
+        "Zoom link\nMeeting ID: 958 3425 4862",
+      ],
+      cancelled: false,
+      upcoming: true,
+      links: [
+        {
+          label: "Zoom link",
+          url: "https://ksu.zoom.us/j/95834254862",
+          kind: "zoom",
+        },
+      ],
+      videos: [],
+      source: "https://www.math.ksu.edu/research/research-centers/m-center/seminars.html",
+    },
+    {
+      id: "2026-roman-fedorov-global-and-local-langlands-correspondence-for-",
+      year: 2026,
+      season: "Fall",
+      date_text: "November 5, 3:30pm",
+      date_iso: "2026-11-05",
+      speaker: "Roman Fedorov",
+      affiliation: "University of Pittsburgh",
+      title: "Global and local Langlands correspondence for Hitchin systems",
+      abstract:
+        "Let X be a smooth projective connected complex curve and G be a complex reductive group. The global Langlands correspondence for Hitchin systems predicts an equivalence between the derived category of quasi-coherent sheaves on the moduli stack of G-Higgs bundles on X, and the similar category for the Langlands dual group of G. After briefly surveying the known results in this direction, I will formulate a local version of this conjecture, where the curve is replaced by a formal disc. I will explain the compatibility of local and global conjectures and present the current state of knowledge. In particular, I will talk about a joint work with G. Dhillon and T. Pantev where we prove the local Langlands conjecture over the locus of smooth cameral covers.",
+      tags: ["langlands", "higgs-coulomb", "derived-categories"],
+      extra: ["Zoom link\nMeeting ID: 958 3425 4862"],
+      cancelled: false,
+      upcoming: true,
+      links: [
+        {
+          label: "Notes",
+          url: "https://www.math.ksu.edu/research/research-centers/m-center/fedorov_nov26.pdf",
+          kind: "notes",
+        },
+        {
+          label: "Zoom link",
+          url: "https://ksu.zoom.us/j/95834254862",
+          kind: "zoom",
+        },
+      ],
+      videos: [],
+      source: "https://www.math.ksu.edu/research/research-centers/m-center/seminars.html",
+    },
+    {
+      id: "2026-eric-rains-noncommutative-surfaces-and-difference-equations",
+      year: 2026,
+      season: "Fall",
+      date_text: "October 26, 28, 29",
+      date_iso: "2026-10-26",
+      speaker: "Eric Rains",
+      affiliation: "Caltech",
+      title: "Noncommutative surfaces and difference equations",
+      abstract:
+        "Many important special functions either satisfy nice differential or difference equations (hypergeometric functions) or describe nice flows in families of such equations (Painlevé, Garnier, etc.). This leads to a pair of natural problems: (1) How can one classify equations with given singularities? (E.g., when is the equation unique?) (2) What are the natural isomorphisms between the resulting moduli spaces? It turns out that there is a natural (near) identification between these problems and certain natural geometric problems in noncommutative algebraic geometry. (E.g., rigid equations correspond precisely to $-2$-curves!) I'll explain this connection to special functions, and sketch how (with that motivation and insight from the most general case) that led to new results on the geometry side, most notably noncommutative analogues of the standard isomorphisms in birational geometry and derived equivalences of deformed elliptic surfaces. This talk will be aimed at a colloquium level; the two follow-on talks (Wednesday and Thursday) will be more specialized, and I'm open to requests for specific topics to be covered.",
+      tags: ["painleve", "noncommutative"],
+      extra: [
+        "Series of lectures:",
+        "Monday (Oct 26) at 3:30pm",
+        "Wednesday (Oct 28) at 11:30am",
+        "Thursday (Oct 29) at 3:30pm",
+      ],
+      cancelled: false,
+      upcoming: false,
+      links: [
+        {
+          label: "Lec 1",
+          url: "https://www.math.ksu.edu/research/research-centers/m-center/rains_oct26_1.pdf",
+          kind: "notes",
+        },
+        {
+          label: "Lec 2",
+          url: "https://www.math.ksu.edu/research/research-centers/m-center/rains_oct26_2.pdf",
+          kind: "notes",
+        },
+        {
+          label: "Lec 3",
+          url: "https://www.math.ksu.edu/research/research-centers/m-center/rains_oct26_3.pdf",
+          kind: "notes",
+        },
+      ],
+      videos: [
+        {
+          id: "uG-tB5HyJEs",
+          title: "Eric Rains - Noncommutative surfaces and difference equations (1 of 3)",
+          part: 1,
+          duration: 4967,
+          views: 125,
+          embed: "https://www.youtube.com/embed/uG-tB5HyJEs",
+          thumb: "https://i.ytimg.com/vi/uG-tB5HyJEs/hqdefault.jpg",
+          url: "https://www.youtube.com/watch?v=uG-tB5HyJEs",
+        },
+        {
+          id: "SgIxmWc0OYE",
+          title: "Eric Rains - Noncommutative surfaces and difference equations (Lec 2)",
+          part: 2,
+          duration: 3952,
+          views: 96,
+          embed: "https://www.youtube.com/embed/SgIxmWc0OYE",
+          thumb: "https://i.ytimg.com/vi/SgIxmWc0OYE/hqdefault.jpg",
+          url: "https://www.youtube.com/watch?v=SgIxmWc0OYE",
+        },
+        {
+          id: "mv_wBHd6mfk",
+          title: "Eric Rains - Noncommutative surfaces and difference equations (3 of 3)",
+          part: 3,
+          duration: 4419,
+          views: 123,
+          embed: "https://www.youtube.com/embed/mv_wBHd6mfk",
+          thumb: "https://i.ytimg.com/vi/mv_wBHd6mfk/hqdefault.jpg",
+          url: "https://www.youtube.com/watch?v=mv_wBHd6mfk",
+        },
+      ],
+      source: "https://www.math.ksu.edu/research/research-centers/m-center/seminars.html",
+    },
+    {
+      id: "2026-maxim-kontsevich-towards-large-fukaya-category-case-of-tori",
+      year: 2026,
+      season: "Fall",
+      date_text: "October 22, 10:00am (special time)",
+      date_iso: "2026-10-22",
+      speaker: "Maxim Kontsevich",
+      affiliation: "IHES",
+      title: "Towards large Fukaya category: case of tori.",
+      abstract:
+        "I'll propose a definition of a pretriangulated dg category with all limits and colimits, linear over the Novikov ring, which can be thought of as a large integral version of the Fukaya category of a symplectic torus. The construction uses only rudimentary non-archimedean geometry, the almost mathematics of Faltings and Gabber–Ramero, and the Kashiwara–Schapira theory of microlocal support.",
+      tags: ["fukaya", "derived-categories"],
+      extra: [],
+      cancelled: false,
+      upcoming: false,
+      links: [
+        {
+          label: "Notes",
+          url: "https://www.math.ksu.edu/research/research-centers/m-center/kontsevich_oct26.pdf",
+          kind: "notes",
+        },
+      ],
+      videos: [
+        {
+          id: "vRisMo-NFcM",
+          title: "Maxim Kontsevich - Towards large Fukaya category: case of tori",
+          part: 1,
+          duration: 4886,
+          views: 338,
+          embed: "https://www.youtube.com/embed/vRisMo-NFcM",
+          thumb: "https://i.ytimg.com/vi/vRisMo-NFcM/hqdefault.jpg",
+          url: "https://www.youtube.com/watch?v=vRisMo-NFcM",
+        },
+      ],
+      source: "https://www.math.ksu.edu/research/research-centers/m-center/seminars.html",
+    },
     {
       id: "2026-tatsuki-kuwagaki-sheaf-theory-for-non-exact-lagrangians",
       year: 2026,
@@ -221,17 +517,34 @@ window.MSEMINAR = {
       title: "Sheaf Theory for Non-Exact Lagrangians",
       abstract:
         "Sheaf-theoretic methods in symplectic geometry have undergone remarkable development over the past two decades, beginning with the pioneering work of Nadler–Zaslow, Tamarkin, and, more recently, Ganatra–Pardon–Shende. Most of these developments, however, have focused on exact Lagrangians.\nOver the past five years, I and coworkers have developed a modification of Tamarkin's approach that applies to non-exact Lagrangians in exact symplectic manifolds and establishes equivalences with Fukaya-type categories.\nIn this talk, I will begin with a brief introduction to Tamarkin categories and sheaf quantization, and then present the aforementioned comparison theorem between Fukaya-type categories and sheaf-theoretic categories. If time permits, I will also discuss applications to homological mirror symmetry and the Riemann–Hilbert correspondence.",
+      tags: ["fukaya", "mirror-symmetry"],
       extra: ["Zoom link\nMeeting ID: 958 3425 4862"],
       cancelled: false,
       upcoming: false,
       links: [
+        {
+          label: "Notes",
+          url: "https://www.math.ksu.edu/research/research-centers/m-center/kuwagaki_oct2026.pdf",
+          kind: "notes",
+        },
         {
           label: "Zoom link",
           url: "https://ksu.zoom.us/j/95834254862",
           kind: "zoom",
         },
       ],
-      videos: [],
+      videos: [
+        {
+          id: "_zf5mjjj2DI",
+          title: "Tatsuki Kuwagaki - Sheaf Theory for Non-Exact Lagrangians",
+          part: 1,
+          duration: 5126,
+          views: 244,
+          embed: "https://www.youtube.com/embed/_zf5mjjj2DI",
+          thumb: "https://i.ytimg.com/vi/_zf5mjjj2DI/hqdefault.jpg",
+          url: "https://www.youtube.com/watch?v=_zf5mjjj2DI",
+        },
+      ],
       source: "https://www.math.ksu.edu/research/research-centers/m-center/seminars.html",
     },
     {
@@ -245,6 +558,7 @@ window.MSEMINAR = {
       title: "Stability and expansion",
       abstract:
         "We propose a definition of expansion in abelian categories as a quantitative refinement of slope stability. We relate this concept to dimension expanders in the sense of Lubotzky-Zelmanov. As main result, we discuss a proof of uniform expansion for representations of wild quivers using spectral properties of Cartan matrices.",
+      tags: ["stability", "representation-theory"],
       extra: ["Zoom link\nMeeting ID: 958 3425 4862"],
       cancelled: false,
       upcoming: false,
@@ -285,6 +599,7 @@ window.MSEMINAR = {
       title: "The Loop-Nilpotent cohomological Hall Algebra and Coulomb Branches",
       abstract:
         "Given a quiver with potential, Kontsevich and Soibelman defined its cohomological Hall algebra (CoHA) as a mathematical model for the algebra of BPS states. Since then, CoHAs have been found to have connections with several areas of mathematics, including cohomological Donaldson–Thomas theory, quantum groups, non-abelian Hodge theory, and cluster algebras. In certain cases, dimensional reduction identifies the CoHA with a preprojective CoHA, an algebra that appears naturally in the Schiffmann–Vasserot proof of the AGT conjecture and in the study of Nakajima quiver varieties. The aim of this talk is to introduce a mix of these constructions, which we call the loop-nilpotent CoHA. We will describe this algebra as subalgebra of shuffle algebra given by certain integral wheel conditions. As a consequence, we characterize the preprojective BPS Lie algebra as a Lie subalgebra of a space of symmetric polynomials cut out by explicit degree and divisibility conditions. We then show that the loop-nilpotent CoHA is a universal algebra admitting a surjective homomorphism onto one half of a quantized Coulomb-branch algebra for the same quiver. This is joint work with Andrei Neguț.",
+      tags: ["coha", "quiver-varieties", "cluster", "higgs-coulomb"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -322,6 +637,7 @@ window.MSEMINAR = {
         "From locality to homotopy theory: higher symmetries and anomalies in Quantum Field Theory and lattice systems",
       abstract:
         "In ordinary quantum mechanics, symmetries are described by a group. In quantum field theory and other extended quantum systems, however, it has been proposed that symmetry is described by a higher group: a connected homotopy type whose Postnikov data encode ’t Hooft anomalies. By now, there are many examples of this richer structure both in QFT and quantum lattice models. but the general mechanism for the emergence for homotopy-theoretic notions remained unclear.\nI will describe a construction of such homotopy-theoretic invariants starting from algebras of local observables and localized symmetry transformations. I will argue that locality organizes symmetry transformations into a new geometric object: a crossed precosheaf of groups. This is a non-abelian generalization of a precosheaf of abelian groups. A non-abelian analog of the Cech construction attaches to a crossed precosheaf and a cover of space a homotopy type. As the cover varies, these homotopy types assemble into a pro-homotopy type which receives a canonical map from the classifying space of the global transformation group. Higher symmetries and anomalies are both encoded in this structure.",
+      tags: ["gauge-theory"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -347,24 +663,6 @@ window.MSEMINAR = {
       source: "https://www.math.ksu.edu/research/research-centers/m-center/seminars.html",
     },
     {
-      id: "2026-maxim-kontsevich-towards-large-fukaya-category-case-of-tori",
-      year: 2026,
-      season: "Fall",
-      date_text: "September 18, 10:00am (special day/time)",
-      date_iso: "2026-09-18",
-      speaker: "Maxim Kontsevich",
-      affiliation: "IHES",
-      title: "Towards large Fukaya category: case of tori.",
-      abstract:
-        "I'll propose a definition of a pretriangulated dg category with all limits and colimits, linear over the Novikov ring, which can be thought of as a large integral version of the Fukaya category of a symplectic torus. The construction uses only rudimentary non-archimedean geometry, the almost mathematics of Faltings and Gabber–Ramero, and the Kashiwara–Schapira theory of microlocal support.",
-      extra: [],
-      cancelled: true,
-      upcoming: false,
-      links: [],
-      videos: [],
-      source: "https://www.math.ksu.edu/research/research-centers/m-center/seminars.html",
-    },
-    {
       id: "2026-amanda-hirschi-an-open-closed-deligne-mumford-field-theory-a",
       year: 2026,
       season: "Spring",
@@ -375,6 +673,7 @@ window.MSEMINAR = {
       title: "An open-closed Deligne-Mumford field theory associated to a Lagrangian submanifold",
       abstract:
         "In order to prove that homological mirror symmetry implies enumerative mirror symmetry, one has to extract the Gromov-Witten theory of a symplectic manifold from its Fukaya category. Costello outlined a strategy in 2007, which involves the notion of a topological conformal field theory. This is an algebraic structure based on moduli spaces of curves with boundary. I will define and describe the construction of a variant of a TCFT, called an open-closed DMFT, which relies on moduli spaces of stable maps with boundary on a Lagrangian submanifold. In particular, I will show how to deal with the required virtual techniques and how to incorporate curvature. This is joint work with Kai Hugtenburg.",
+      tags: ["cft", "fukaya", "mirror-symmetry", "enumerative"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -399,6 +698,7 @@ window.MSEMINAR = {
       title: "Graded Unitarity",
       abstract:
         "I will introduce a novel positivity property that holds for certain vertex algebras arising from higher-dimensional supersymmetric quantum field theories, generalising the standard notion of unitarity for vertex algebras. I will outline some consequences of graded unitarity in the context of semi-infinite/BRST cohomology, including a type of formality. Finally, I will describe some (extremely partial) classification results.",
+      tags: ["cft", "gauge-theory"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -428,6 +728,7 @@ window.MSEMINAR = {
       title: "Non-commutative cluster Lagrangians",
       abstract:
         "It is well known that the moduli space Loc(m,S) of m-dimensional local systems on a compact surface S is symplectic. Any threefold M with boundary S gives rise to a Lagrangian L(m, M) in it, provided by the local systems on S which extend to M. Given a bipartite graph B on S, there is a moduli spaces Loc(m,S; B) of constructible sheaves on S with the microlocal support at the zero section and the conormal bundles to the cooriented zig-zag loops of B, and rank one microlocalisations at the latter. It carries canonical cluster Poisson structure. There is a natural non-commutative version of this story. We introduce Q-diagrams in M, generalizing bipartite graphs in S. A Q-diagram is a collection of smooth cooriented surfaces in M with a specific intersection pattern: all intersections are transverse except a finite number of quadruple intersection points q, such that deforming one of the surface containing q in its coorientation direction we create a cooriented out simplex. I will explain how a Q-diagram gives rise to a cluster K_2-Lagrangian in Loc(m, S;B), and to a non-commutative cluster Lagrangian in the non-commutative setting. This is a joint work with Maxim Kontsevich.",
+      tags: ["cluster", "noncommutative", "fukaya"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -464,6 +765,7 @@ window.MSEMINAR = {
         "Product Formulas for the Higher Bessel Functions: from Sonine–Gegenbauer to Kloosterman Motives",
       abstract:
         'The "Higher Bessel Functions" are holomorphic solutions of so-called Givental-Dubrovin quantum P^{n-1} differential equation. I am going to present some results about various remarkable properties and applications of these functions and its multiplication kernels in the sence of Kontsevich and Odesskii. My talk is based upon joint results with Ilia Gaiur and Duco van Straten (Selecta Mathematica (N.S.) 32 (2026), article 12.',
+      tags: ["painleve"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -499,6 +801,7 @@ window.MSEMINAR = {
       title: "Topological Recursion, CFT and principal bundles",
       abstract:
         "ConformaL Field Theory (CFT) in 2-dimensions, can be characterized by some necessary conditions called bootstrap axioms (behaviors at short distance, conformal invariance, univaluedness of correlation functions...). The problem is rather existence of a solution to these axioms. We shall show how Topological Recursion (TR) provides a solution (as formal perturbative series). The initial condition of the TR is a spectral curve, and here we choose as spectral curve the semiclassical limit of the Stress-Energy-Tensor. The states of the CFT are related to cycles (generalized cycles) on the spectral curve. This cycle formalism admits a non-perturbative counterpart as generalized Goldman cycles in the adjoint bundle of a Fuchsian connection (whose semiclassical limit is a Higgs field whose characteristic polynomial is the spectral curve). This allows to relate to the geometry of the DeRham moduli space. All the formalism also generalizes easily to non-Fuchsian meromorphic connections, and can be used to define irregular conformal blocks.",
+      tags: ["topological-recursion", "cft", "painleve", "higgs-coulomb"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -534,6 +837,7 @@ window.MSEMINAR = {
       title: "Orientifold lines from CoHA modules",
       abstract:
         "We will discuss a category of modules for the cohomological Hall algebra which have a vertex coaction compatible with the vertex coproduct of the CoHA. This category is a mathematical model for line operators in a 4d N = 2 theory. Line operators which live at an orientifold singularity in the 4d theory are then described using a different category of modules for the CoHA which arise from a folding procedure. These modules possess their own version of a vertex coproduct. We will discuss these structures, their compatibility and applications including the construction of representations of quantized coulomb branch algebras.",
+      tags: ["coha", "higgs-coulomb", "gauge-theory", "representation-theory"],
       extra: [
         "Series of lectures:",
         "Monday (Mar 30) at 12:30pm",
@@ -605,6 +909,7 @@ window.MSEMINAR = {
         "Higgs and Coulomb branches for quiver gauge theories: geometry and representation theory",
       abstract:
         'Higgs and Coulomb branches of quiver gauge theories form two important families of Poisson varieties that are expected to be exchanged under so-called 3D mirror symmetry. One important approach to studying modules over quantized Coulomb branches is by analyzing their graded traces. Graded traces generalize the notion of characters and are closely related to the q-characters introduced by Frenkel and Reshetikhin. Any graded trace defines a solution of the D-module of graded traces introduced by Kamnitzer, McBreen, and Proudfoot. In this series of talks, I will discuss various techniques that allow us to explicitly compute characters and graded traces of certain important modules over quantized Coulomb branches, as well as shifted Yangians and affine quantum affine groups. These techniques combine geometry, representation theory, and analytic methods. I will explain how some of these results naturally appear on the Higgs side, leading to an explicit description of the D-module of graded traces for a quantized Coulomb branch via the geometry of the Higgs branch. We will prove these results for ADE quivers and formulate explicit conjectures in the general case. We will also discuss how the picture changes when Coulomb branches are replaced by their "multiplicative" versions.',
+      tags: ["higgs-coulomb", "quantum-groups", "mirror-symmetry", "gauge-theory"],
       extra: [
         "Series of lectures:",
         "Monday (Mar 23) at 3:30pm",
@@ -678,6 +983,7 @@ window.MSEMINAR = {
       title: "Tannaka/Koszul duality and line operators",
       abstract:
         "These seminars will focus on the representing line operators in topological and/or holomorphic QFT’s, from the perspective of categorical reconstruction theory. In particular, I’ll explain how fiber functors have several natural constructions in QFT, leading to field-theoretic incarnations of Tannaka and Koszul duality (following my own work but also many others, in particular work of Costello and collaborators). In the first talk, I’ll set up a general QFT framework for reconstruction theory, and discuss a basic application to constructing (generalized) quantum groups from 3d TQFT’s. In the second talk, I’ll consider 4d holomorphic-topological theories. I’ll review the work of Costello-Yamazaki-Witten on Yangians in 4d Chern-Simons theory, and explain how to generalize this to see structures such as Drinfeld coproducts. I’ll also generalize further to relate line operators in 4d Seiberg-Witten theories to CoHA’s of BPS states. In the final talk, I’ll consider 3d holomorphic-topological theories, and derive a new structure that I call a “dg-shifted” Yangian.",
+      tags: ["coha", "higgs-coulomb", "quantum-groups", "dt-theory"],
       extra: [
         "Series of lectures:",
         "Monday (Mar 9) at 12:30pm",
@@ -738,6 +1044,7 @@ window.MSEMINAR = {
       title: "The categorical 't Hooft expansion",
       abstract:
         "The 't Hooft expansion is the key structure underlying dualities between gauge theories of large matrices and string theories. I will review categorical aspects of the 't Hooft expansion, matching the formal deformation space of certain ``fundamental modifications'' of the gauge theory to the formal deformation space of a category of boundary conditions (\"D-branes\") for a 2d dg-TFT, to be identified with the world-volume theory for the string theory. I will illustrate this by reviewing the holographic description of correlation functions for a 2d chiral algebra/VOA deforming H^*(gl_N[A[z]];gl_N) for a 2d CY algebra A.",
+      tags: ["cft", "gauge-theory"],
       extra: [
         "Series of lectures:",
         "Monday (Mar 2) at 12:30pm",
@@ -798,6 +1105,7 @@ window.MSEMINAR = {
       title: "The Hochschild homology of a noncommutative symmetric quotient stack",
       abstract:
         "For a small DG category $A$, its symmetric power $S^nA$ may be considered a noncommutative symmetric quotient stack of $A$. We establish an isomorphism between $\\bigoplus HH_\\bullet(S^nA)$ and the symmetric algebra $S^*(HH_\\bullet(A) \\otimes t k[t])$ by chaining explicit maps of complexes. These graded vector spaces being isomorphic has been established before by Baranovsky in the commutative case and conjectured by Belmans, Fu, and Krug in the form that we prove it. The explicit nature of the isomorphism allows us to transfer a number of structures from the symmetric algebra to $\\bigoplus HH_\\bullet(S^nA)$, since the former is a Hopf algebra, the Fock space for the Heisenberg algebra of $A$, and a $\\lambda$-ring. In this talk, I will go over (some of the) history of the results this one is building upon, describe the quasiisomorphism, and compare the result to the (much more studied) commutative case. This talk is based on a joint work with V. Baranovsky and T. Logvinenko, https://arxiv.org/abs/2512.25039",
+      tags: ["noncommutative"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -838,6 +1146,7 @@ window.MSEMINAR = {
       title: "Equivariant Transversality in Morse Homology via Stabilization",
       abstract:
         "A persistent obstacle in defining equivariant Morse homology is the failure of transversality: for a compact Lie group acting on a closed manifold, an invariant Morse–Bott function f may not admit any invariant metric g such that the pair (f,g) is Morse–Bott–Smale. As a result, the moduli spaces of certain gradient flow lines are not transversely cut out, preventing a well-defined count. We resolve this problem via a stabilization technique: by making a C^1-small perturbation f' of f near critical points, we show that a generic invariant metric now makes (f',g) Morse–Bott–Smale. This restores transversality and allows us to follow Austin–Braam’s approach to define equivariant cohomology over real coefficients. In the finite group case, the construction lifts to integer coefficients, and also yields both invariant and coinvariant Morse homology for orbifolds.\nFinally, motivated by this framework, we discuss how to compute equivariant Morse homology without perturbing f, by taking a limit of the perturbed theory and analyzing the resulting gluable infinitesimal cascades.",
+      tags: ["fukaya"],
       extra: ["In-person: Room CW 122"],
       cancelled: false,
       upcoming: false,
@@ -856,6 +1165,7 @@ window.MSEMINAR = {
       title: "Perverse coherent sheaves on symplectic singularities",
       abstract:
         "Perverse constructible sheaves are ubiquitous in algebraic geometry and geometric representation theory. Bezrukavnikov introduced their coherent analog, called perverse coherent sheaves. For technical reasons, there are essentially two interesting examples when this notion is well-behaved: the nilpotent cone and the affine Grassmannian. In both these cases, this category is very meaningful and well-studied. It is related to modular representation theory, local geometric Langlands, line defects in 4d gauge theories, and cluster categorifications. We will discuss these questions and then present a generalization of this construction to an arbitrary Poisson variety with finitely many symplectic leaves, most notably the symplectic singularities. This may be seen as a step towards building the Kazhdan-Lusztig theory in this setting.",
+      tags: ["cluster", "categorification", "langlands"],
       extra: [
         "Series of lectures:",
         "Monday (Feb 9) at 12:30pm",
@@ -929,6 +1239,7 @@ window.MSEMINAR = {
       title: "The Gauss-Manin connection in noncommutative geometry",
       abstract:
         "In noncommutative geometry, a variety is replaced by an associative ring or, more generally, by an appropriate version of a category, and the De Rham cohomology is replaced by the periodic cyclic complex. As shown by Getzler, the periodic cyclic homology of a family of algebras carries a flat connection, which is analogous to the De Rham cohomology of a family of varieties carrying the Gauss-Manin connection. The structure living on the periodic cyclic complex (as opposed to homology) had been studied extensively, for example by Dolgushev, Tamarkin and the author, by Kontsevich and Soibelman, by Willwacher, and others. The question was recently revisited by the author and, from a different perspective, by Antieu. I will review the main results and concentrate on explicit formulas. Those formulas seem to have good convergence properties, both p-adic and Archimedean; also, they bear intriguing resemblance to some known constructions from mathematical physics, D-module theory, and formal groups.",
+      tags: ["noncommutative", "derived-categories"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -964,6 +1275,7 @@ window.MSEMINAR = {
       title: "Symmetric quivers for 2d, 3d and 4d theories and topological strings",
       abstract:
         "I will present how invariants of symmetric quivers capture various observables of physical theories in 2, 3 and 4 dimensions, as well as of topological string theory. The observables in question include or are immediately related to knot invariants, (wild) BPS degeneracies of 4d N=2 theories, superconformal indices, wall-crossing identities, 2d CFT or VOA characters, LMOV invariants, etc. Such a unifying role of symmetric quivers is very useful and intriguing and calls for deeper understanding.",
+      tags: ["cft", "categorification", "dt-theory", "stability"],
       extra: ["Series of lectures: Dec 10 and Dec 11, at 12:30pm"],
       cancelled: false,
       upcoming: false,
@@ -1011,6 +1323,7 @@ window.MSEMINAR = {
       title: "Frobenius structures for quantum differential and q-difference equations",
       abstract:
         "There is a known connection between the Kloosterman sum in number theory and the Bessel differential equation. This connection was explained by B. Dwork in 1974 through his discovery of Frobenius structures in the p-adic theory of the Bessel equation. In this talk, I will speculate that this connection extends to the quantum differential equations appearing in the quantum cohomology of Nakajima varieties. As an example, I will present an explicit conjectural description of the corresponding Frobenius structures. The traces of these Frobenius structures serve as natural finite-field analogs of the integral solutions to quantum differential equations known from mirror symmetry. Some of these results also extend to the setting of q-difference equations, where a similar picture emerges when q is close to a root of unity in the p-adic norm. I will review these developments and discuss their connections to other recent advances, including quantum Steenrod operations, Habiro cohomology, and related topics.",
+      tags: ["quiver-varieties", "painleve", "mirror-symmetry", "enumerative"],
       extra: ["Series of lectures: Dec 2, Dec 3 and Dec 4, all at 3:30pm"],
       cancelled: false,
       upcoming: false,
@@ -1079,6 +1392,7 @@ window.MSEMINAR = {
       title: "BPS cohomology and quasi-BPS categories",
       abstract:
         "BPS invariants were initially introduced as counts of objects in Calabi-Yau 3-categories, generalizing Donaldson-Thomas invariants counting ideal sheaves, or stable sheaves (in the absence of strictly semistable sheaves) on a Calabi-Yau 3-fold. BPS invariants may be defined more generally for symmetric stacks, and they can be also refined to BPS cohomology and (partially) to quasi-BPS categories.",
+      tags: ["dt-theory", "enumerative"],
       extra: [
         "Series of lectures:",
         "Monday (Nov 17) at 12:30pm,",
@@ -1152,6 +1466,7 @@ window.MSEMINAR = {
       title: "Mock modularity of Calabi-Yau threefolds",
       abstract:
         "The seminars aim to explain modular properties of rank 0 generalized Donaldson-Thomas (DT) invariants, how these properties can be used to compute the invariants, and their implications for other topological invariants such as Vafa-Witten and Gopakumar-Vafa.",
+      tags: ["dt-theory"],
       extra: [
         "Series of lectures: Nov 10, Nov 12 and Nov 13, all at 10:00am",
         "1. In the first part, I'll explain basic facts about modular forms, mock modular forms, Jacobi forms and indefinite theta series. In the end, I'll switch the topic and explain a few facts about generalized DT invariants associated to Calabi-Yau threefolds.",
@@ -1213,6 +1528,7 @@ window.MSEMINAR = {
         "Motivic classes of varieties and stacks with applications to Higgs bundles and bundles with connections",
       abstract:
         "In this talk, we will first discuss the motivations for motivic classes coming from point counting over finite fields. Then we will give the definitions of the motivic classes of varieties, in particular we explain that an extra relation is needed in finite characteristic. We will introduce symmetric powers and motivic zeta functions that are universal versions of local zeta functions.\nFor the second part of the talk, we will focus on the motivic classes of stacks. In particular, we will give the explicit formulas for the motivic classes of moduli of Higgs bundles. If time permits, we will discuss future work on the motivic classes of moduli of bundles with connections.",
+      tags: ["higgs-coulomb", "dt-theory", "enumerative"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -1249,6 +1565,7 @@ window.MSEMINAR = {
       title: "F-bundles, mirror symmetry and birational invariants",
       abstract:
         "I will introduce F-bundles, the spectral decomposition theorem and the equivariant unfolding theorem. I will discuss applications to quantum cohomology, mirror symmetry and birational invariants. Based on arXiv preprints 2411.02266, 2505.09950 and 2508.05105.",
+      tags: ["mirror-symmetry", "enumerative"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -1267,6 +1584,7 @@ window.MSEMINAR = {
       title: "Remodeling Conjecture with descendants",
       abstract:
         "The Remodeling Conjecture proposed by Bouchard-Klemm-Mariño-Pasquetti relates Gromov-Witten (GW) invariants counting holomorphic curves in a toric Calabi-Yau 3-manifold/3-orbifold to the Chekhov-Eynard-Orantin Topological Recursion (TR) invariants of its mirror curve. In this talk, I will describe the Remodeling Conjecture with descendants, which is a correspondence between all-genus equivariant descendant GW invariants and oscillatory integrals (Laplace transforms) of TR invariants along relative 1-cycles on the equivariant mirror curve. Our genus-zero correspondence is a version of equivariant Hodge-theoretic mirror symmetry with integral structures. In the non-equivariant setting, we prove a conjecture of Hosono which equates quantum cohomology central charges of compactly supported coherent sheaves with period integrals of a holomorphic 3-form along integral 3-cycles on the Hori-Vafa mirror. This talk is based on joint work with Bohan Fang, Song Yu, and Zhengyu Zong.",
+      tags: ["topological-recursion", "fukaya", "mirror-symmetry", "enumerative"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -1302,6 +1620,7 @@ window.MSEMINAR = {
       title: "Abelian Hall categories",
       abstract:
         "After reviewing some background, we will explain how to associate to any\nquiver a finite length abelian category which categorifies the corresponding K-theoretic Hall algebra. The simples in this category provide a (dual) canonical basis of the Hall algebra. In particular, if the quiver is affine, this provides a basis for the positive half of the corresponding quantum toroidal algebra. We also explain how this abelian category is naturally endowed with renormalized r-matrices.",
+      tags: ["coha", "categorification"],
       extra: ["Series of lectures: Oct 14, Oct 15 and Oct 16, all at 4:00pm"],
       cancelled: false,
       upcoming: false,
@@ -1351,6 +1670,7 @@ window.MSEMINAR = {
       title: "Hyperbolic localization in Donaldson-Thomas theory",
       abstract:
         "Given a scheme X with an action of a one-dimensional torus, the hyperbolic localization functor, which restricts constructible complexes from X to the attracting variety X^+ and then projects with compact support to the fixed variety X^0, was introduced by Braden in order to study generalizations of Białynicki-Birula decompositions beyond the smooth case. Richarz has then proven that this functor commutes with vanishing cycles.\nUsing shifted symplectic geometry and a shifted Darboux theorem, moduli spaces of sheaves on Calabi-Yau threefolds are described locally by critical loci of functions on smooth spaces, which are related locally by adding quadratic forms to the functions. On such moduli spaces, a DT perverse sheaf, whose cohomology gives the cohomological DT invariants, was defined by Brav, Bussi, Dupont, Joyce, and Szendroï by gluing vanishing cycles on such local models, involving a subtle trivialization of the action of quadratic forms using orientation data.\nWe will explain here how to prove a formula for the hyperbolic localization of the DT perverse sheaf, combining the results of Białynicki-Birula and Richarz with a study of the behavior of hyperbolic localization with quadratic forms and orientations. One obtains in particular from this result a critical version of Białynicki-Birula decomposition in cohomological DT theory.\nWe will also explain how to obtain a stacky version of the above result, replacing X^+ and X^0 by the stacks of filtered and graded points, which has recently led to the proof of fundamental results in DT theory, namely the proof of the Kontsevich-Soibelman wall-crossing formula and the construction of the cohomological Hall algebra for CY3 categories.",
+      tags: ["coha", "dt-theory", "stability"],
       extra: ["Series of lectures: Oct 6, Oct 8 and Oct 9, all at 12:30pm"],
       cancelled: false,
       upcoming: false,
@@ -1409,6 +1729,7 @@ window.MSEMINAR = {
       title: "Categorical and geometric enumerative invariants",
       abstract:
         "Costello introduced categorical enumerative invariants for a smooth and proper Calabi--Yau category equipped with a splitting of the non-commutative Hodge--de Rham spectral sequence. I will discuss an extension of this to a chain-level CohFT structure on the Hochschild homology of the category. This construction will be universal in a precise sense, and I will explain how to exploit this to compare the categorical CohFT of a Fukaya category with the geometric CohFT of the underlying symplectic manifold whenever a chain-level open-closed Gromov--Witten CohFT satisfying suitable properties exists.",
+      tags: ["noncommutative", "fukaya", "enumerative"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -1438,6 +1759,7 @@ window.MSEMINAR = {
       title: "Homological mirror symmetry for projective K3 surfaces",
       abstract:
         "Joint work with Paul Hacking. We outline a proof that the Fukaya category of a projective K3 surface is equivalent to the derived category of coherent sheaves on the mirror, which is a K3 surface of Picard rank 19 over the field C((q)) of formal Laurent series. This builds on prior work of Seidel, who proved the theorem in the case of the quartic surface, Gross-Siebert, Kontsevich-Soibelman, Sheridan, and others.",
+      tags: ["fukaya", "mirror-symmetry", "derived-categories"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -1462,6 +1784,7 @@ window.MSEMINAR = {
       title: "Orientations on moduli spaces of coherent sheaves on Calabi-Yau 4-folds - Part II",
       abstract:
         'Let X be a compact Calabi-Yau 4-fold. To define DT4 invariants of X, one needs an orientation on moduli spaces of semistable coherent sheaves on X, or (better) an orientation on the moduli stack M of all perfect complexes on X, in the sense of Borisov-Joyce 2017. Cao-Gross-Joyce 2020 claimed to prove that M is orientable for any Calabi-Yau 4-fold X. Unfortunately, we have found a mistake in their proof, and the theorem itself may be false, though we do not have a counterexample. I will explain how to fix the mistake in Cao-Gross-Joyce under an extra hypothesis on the cohomology H^3(X,Z) (for example, H^3(X,Z)=0 is sufficient). We also explain a choice of extra data (a "flag structure” on H^4(X,Z)) which determines a canonical orientation on M. This is part of a larger project studying orientability and orientations of moduli spaces of connections in gauge theory, and of moduli spaces of special submanifolds. We define "bordism categories” Bord_n(BG) with objects pairs (X,P) of a compact spin n-manifold X and a principal G-bundle P —> X. Then orientations of gauge theory moduli spaces of connections on P can be encoded in a functor from Bord_n(BG) to Z_2-torsors, and an orientation of the gauge theory moduli space B_P corresponds to a trivialization of this functor on a subcategory [X,P] of Bord_n(BG). It turns out that Bord_n(BG) is a "Picard groupoid”, and can be understood in terms of the spin bordism groups Omega_m^{Spin}(BG) for m=n,n+1. So we reduce orientability questions to (difficult) calculations involving spin bordism groups of classifying spaces in Algebraic Topology. This is joint work with Markus Upmeier.',
+      tags: ["gauge-theory"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -1498,6 +1821,7 @@ window.MSEMINAR = {
       title: "Orientations on moduli spaces of coherent sheaves on Calabi-Yau 4-folds - Part I",
       abstract:
         'Let X be a compact Calabi-Yau 4-fold. To define DT4 invariants of X, one needs an orientation on moduli spaces of semistable coherent sheaves on X, or (better) an orientation on the moduli stack M of all perfect complexes on X, in the sense of Borisov-Joyce 2017. Cao-Gross-Joyce 2020 claimed to prove that M is orientable for any Calabi-Yau 4-fold X. Unfortunately, we have found a mistake in their proof, and the theorem itself may be false, though we do not have a counterexample. I will explain how to fix the mistake in Cao-Gross-Joyce under an extra hypothesis on the cohomology H^3(X,Z) (for example, H^3(X,Z)=0 is sufficient). We also explain a choice of extra data (a "flag structure” on H^4(X,Z)) which determines a canonical orientation on M. This is part of a larger project studying orientability and orientations of moduli spaces of connections in gauge theory, and of moduli spaces of special submanifolds. We define "bordism categories” Bord_n(BG) with objects pairs (X,P) of a compact spin n-manifold X and a principal G-bundle P —> X. Then orientations of gauge theory moduli spaces of connections on P can be encoded in a functor from Bord_n(BG) to Z_2-torsors, and an orientation of the gauge theory moduli space B_P corresponds to a trivialization of this functor on a subcategory [X,P] of Bord_n(BG). It turns out that Bord_n(BG) is a "Picard groupoid”, and can be understood in terms of the spin bordism groups Omega_m^{Spin}(BG) for m=n,n+1. So we reduce orientability questions to (difficult) calculations involving spin bordism groups of classifying spaces in Algebraic Topology. This is joint work with Markus Upmeier.',
+      tags: ["gauge-theory"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -1535,6 +1859,7 @@ window.MSEMINAR = {
         "Quantum algebras and spectral R-matrices from equivariant affine Grassmannians - Part 2",
       abstract:
         "In these two talks I will explain my joint work with R. Abedin, in which we construct new quantum algebras and spectral solutions of quantum Yang-Baxter equations. These quantum algebras are quantizations of Yang’s r matrix associated to the cotangent Lie algebra d=T^*g of a Lie algebra g. Our construction is based on the geometry of the equivariant affine Grassmannian associated to g, and is related to holomorphic-topological twist of 4d N=2 gauge theories. I will start by giving a brief review of the holomorphic-topological twist of 4d N=2 gauge theories, especially its relation to equivariant affine Grassmannians. I will also review the work of Costello-Witten-Yamazaki, in which the authors give a gauge-theoretic origin to spectral solutions of YB equations. Our constructions are inspired by these physical considerations. After that, I will explain our results in relation to the geometry of equivariant affine Grassmannians. Time permitting, I will also explain how we can dynamically twist the quantum algebra over formal neighborhoods of the moduli space of G-bundles, and obtain dynamical R-matrices as a consequence.",
+      tags: ["gauge-theory", "representation-theory", "derived-categories"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -1572,6 +1897,7 @@ window.MSEMINAR = {
         "Quantum algebras and spectral R-matrices from equivariant affine Grassmannians - Part 1",
       abstract:
         "In these two talks I will explain my joint work with R. Abedin, in which we construct new quantum algebras and spectral solutions of quantum Yang-Baxter equations. These quantum algebras are quantizations of Yang’s r matrix associated to the cotangent Lie algebra d=T^*g of a Lie algebra g. Our construction is based on the geometry of the equivariant affine Grassmannian associated to g, and is related to holomorphic-topological twist of 4d N=2 gauge theories. I will start by giving a brief review of the holomorphic-topological twist of 4d N=2 gauge theories, especially its relation to equivariant affine Grassmannians. I will also review the work of Costello-Witten-Yamazaki, in which the authors give a gauge-theoretic origin to spectral solutions of YB equations. Our constructions are inspired by these physical considerations. After that, I will explain our results in relation to the geometry of equivariant affine Grassmannians. Time permitting, I will also explain how we can dynamically twist the quantum algebra over formal neighborhoods of the moduli space of G-bundles, and obtain dynamical R-matrices as a consequence.",
+      tags: ["gauge-theory", "representation-theory", "derived-categories"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -1608,6 +1934,7 @@ window.MSEMINAR = {
       title: "Virtual structure on Hilbert schemes of affine 4-space",
       abstract:
         "We consider the generating series of certain K-theoretic invariants of Hilbert schemes of points on affine 4-space. Using torus localization, it reduces to an interesting weighted count of solid partitions for which Nekrasov provided a (conjectural) closed formula. We prove this formula by showing that the K-theoretic insertions lift to spin modules and give rise to a factorizable sequence of sheaves in the sense of Okounkov. Time permitting, we discuss relations to Nekrasov’s origami gauge theory.",
+      tags: ["enumerative", "gauge-theory"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -1643,6 +1970,7 @@ window.MSEMINAR = {
       title: "Infinity inner products and open Gromov-Witten invariants",
       abstract:
         "The open Gromov-Witten (OGW) potential is a function defined on the Maurer-Cartan space of a closed Lagrangian submanifold in a symplectic manifold with values in the Novikov ring. From the values of the OGW potential, one can extract so-called open Gromov-Witten invariants, which count pseudoholomorphic disks with boundary on the Lagrangian. Standard definitions of the OGW potential only allow for the construction of OGW invariants with values in the real or complex numbers. In this talk, we will present a construction of the OGW potential which gives invariants valued in any field of characteristic zero. The main algebraic input for our construction is a homotopy cyclic inner product on the (curved) Fukaya A-infinity algebra, which generalizes the notion of a cyclically symmetric inner product and is determined by a strong proper Calabi-Yau structure on the Fukaya category.",
+      tags: ["fukaya", "enumerative"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -1678,6 +2006,7 @@ window.MSEMINAR = {
       title: "Counting in Calabi-Yau categories - Part 2",
       abstract:
         "I will discuss a replacement for homotopy cardinality in situations where it is a priori ill-defined, including Z/2-graded dg-categories. A key ingredient are Calabi-Yau structures and their relative generalizations. As an application we obtain a Hall algebra for many pre-triangulated dg-categories for which it was previously undefined. This also gives an intrinsic replacement for many ad-hoc constructions, such as that of the elliptic Hall algebra via the Drinfeld double. Another application is the proof of a conjecture of Ng-Rutherford-Shende-Sivek expressing the ruling polynomial of a Z/2m-graded Legendrian knot (which is part of the HOMFLY polynomial if m=1) in terms of the homotopy cardinality of its augmentation category. This is joint work with Mikhail Gorsky, arxiv:2409.10154.",
+      tags: ["coha", "categorification", "enumerative", "derived-categories"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -1713,6 +2042,7 @@ window.MSEMINAR = {
       title: "Counting in Calabi-Yau categories - Part 1",
       abstract:
         "I will discuss a replacement for homotopy cardinality in situations where it is a priori ill-defined, including Z/2-graded dg-categories. A key ingredient are Calabi-Yau structures and their relative generalizations. As an application we obtain a Hall algebra for many pre-triangulated dg-categories for which it was previously undefined. This also gives an intrinsic replacement for many ad-hoc constructions, such as that of the elliptic Hall algebra via the Drinfeld double. Another application is the proof of a conjecture of Ng-Rutherford-Shende-Sivek expressing the ruling polynomial of a Z/2m-graded Legendrian knot (which is part of the HOMFLY polynomial if m=1) in terms of the homotopy cardinality of its augmentation category. This is joint work with Mikhail Gorsky, arxiv:2409.10154.",
+      tags: ["coha", "categorification", "enumerative", "derived-categories"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -1748,6 +2078,7 @@ window.MSEMINAR = {
       title: "From quantum loop group to coherent Satake category via fusion product",
       abstract:
         "Cautis and Williams considered the category of perverse coherent sheaves on the affine Grassmanian and proved for GL and conjectured for other types that this category has a cluster structure. I will speak about partial progress towards the proof of this conjecture for simply-laced types. Our approach is based on relating the coherent Satake category with the category of finite-dimensional modules over the affine quantum group. The bridge between these two categories is provided by the notion of Feigin-Loktev fusion product for modules over the current algebra. In particular, it helps to construct cluster short exact sequences of perverse coherent sheaves using the existence of exact sequences of modules over the quantum affine group, called the Q-systems.",
+      tags: ["cluster", "quantum-groups", "derived-categories"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -1784,6 +2115,7 @@ window.MSEMINAR = {
       title: "Geometry and Resurgence of WKB Solutions of Schrödinger Equations - Part 2",
       abstract:
         "I will recall the WKB method for Schrödinger equations and explain how to make sense of it in more invariant and geometric terms. I will then explain how to prove that Schrödinger equations on compact Riemann surfaces have the so-called quantum resurgence property: the Borel transform of a formal WKB solution is a holomorphic germ that extends to a global holomorphic function on an infinite Riemann surface with exponential bounds at infinity. This infinite Riemann surface has a rich geometry that is built out of the geometry of the spectral curve and completely governs the Stokes phenomenon in the WKB method. Based on arXiv:2410.17224.",
+      tags: ["topological-recursion", "painleve"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -1814,6 +2146,7 @@ window.MSEMINAR = {
       title: "Geometry and Resurgence of WKB Solutions of Schrödinger Equations - Part 1",
       abstract:
         "I will recall the WKB method for Schrödinger equations and explain how to make sense of it in more invariant and geometric terms. I will then explain how to prove that Schrödinger equations on compact Riemann surfaces have the so-called quantum resurgence property: the Borel transform of a formal WKB solution is a holomorphic germ that extends to a global holomorphic function on an infinite Riemann surface with exponential bounds at infinity. This infinite Riemann surface has a rich geometry that is built out of the geometry of the spectral curve and completely governs the Stokes phenomenon in the WKB method. Based on arXiv:2410.17224.",
+      tags: ["topological-recursion", "painleve"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -1850,6 +2183,7 @@ window.MSEMINAR = {
       title: "Multiplicative convolution and double shuffle relations",
       abstract:
         "Multiple zeta values (and their motivic version) is the gadget lying in the heart of many subjects, such as mixed Tate motives over Z.\nThe geometric relations between them are, therefore, crucial for these subjects. The associator relations are supposed to be the strongest among all relations. Regularized double shuffle relations form another set of relations. The interaction between these two sets seems to be an important question. Deligne and Terasoma initiated a geometric approach to interpreting regularized double shuffle relations. This approach explains the form of these relations: group-likeness of a certain element of a Hopf algebra. The tensor category standing behind this Hopf algebra is a certain category built of perverse sheaves, the tensor product being given by convolution. I will present my version of this approach, which (in my opinion) clarifies and simplifies some points. The first part of this story is published as preprint https://arxiv.org/abs/2412.15694 .",
+      tags: ["dt-theory", "derived-categories"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -1890,6 +2224,7 @@ window.MSEMINAR = {
       title: "Hyperbolic homology 3-spheres, spectral gaps and torsion homology growth",
       abstract:
         "When does a sequence of hyperbolic 3-manifolds with volume going to infinity have exponentially growing torsion homology? For arithmetic towers, the work of Bergeron-Sengun-Venkatesh suggests a set of conditions that conjecturally imply exponential growth of torsion homology. Their work relies on Cheeger-Mueller's theorem, linking torsion homology and analytic torsion. For nice sequences of hyperbolic 3-manifolds we use a different approach to find a condition implying exponential torsion homology growth: we give a condition on the spectrum of the Laplacian. I will give several motivations for this condition and show how to construct concrete examples of sequences satisfying it. This is based on joint work with Anshul Adve, Vikram Giri, Ben Lowe and Jonathan Zung.",
+      tags: [],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -1909,6 +2244,7 @@ window.MSEMINAR = {
         "Many-body integrable systems and the moduli space of instantons: Quantum spectral curves and classical Lax operators",
       abstract:
         "In this talk, I will explore the relation between the generalized equivariant cohomology theories of the moduli space of instantons on \\mathbb{C}^2 and the famous family of integrable systems: Calogero-Moser, Ruijsennars-Schneider, and DELL. We introduce the so-called \\theta-transforms of the qq-characters vev’s, defined as integrals of certain classes in these cohomology theories, and relate them to quantum spectral curves of the corresponding integrable systems. The solution to the quantum spectral curve equation is constructed in a natural way as well. In the second half, I will explain the orbifolded version of all the notions defined above, which corresponds to the replacement of the moduli space of instantons with the affine Laumon space. Such treatment allows one to obtain the Lax matrices of the integrable systems in question in a new form, as well as the eigenvectors of these matrices. In the end, I will briefly explain how the above results help to rederive the quantum-classical duality between the trigonometric degenerations of the considered integrable systems and the corresponding spin chains, as well as shed some light on the spectral duality for them.",
+      tags: ["topological-recursion", "quantum-groups", "gauge-theory"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -1944,6 +2280,7 @@ window.MSEMINAR = {
       title: "Open Mirror Symmetry for Landau-Ginzburg Models",
       abstract:
         "We will start with a short overview of mirror symmetry. We will then describe Saito-Givental's theory and its mirror dual using FJRW theory and open FJRW theory. Based on joint works with Mark Gross and Tyler Kelly.",
+      tags: ["mirror-symmetry"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -1979,6 +2316,7 @@ window.MSEMINAR = {
       title: "Cohomological Hall algebras, their representations, and Nakajima operators",
       abstract:
         "In the first part of the talk, I will briefly introduce the theory of 2d cohomological Hall algebras (COHAs), focusing on the example of COHAs arising from zero-dimensional sheaves on smooth surfaces. I will also describe certain geometric representations of these COHAs and introduce Nakajima-type operators. In the second part, I will discuss a generalization and categorification of this framework.",
+      tags: ["coha", "quiver-varieties", "categorification", "representation-theory"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -2015,6 +2353,7 @@ window.MSEMINAR = {
       title: "The exponential type conjecture for quantum connections",
       abstract:
         "The (small) quantum connection is one of the simplest objects built out of Gromov-Witten theory, yet it gives rise to a repertoire of rich and important questions such as the Gamma conjectures and the Dubrovin conjectures. There is a very basic question one can ask about this connection: what is its formal singularity type? People's (e.g. Kontsevich-Katzarkov-Pantev, Iritani) expectation for this is packaged into the so-called exponential type conjecture, and the goal of this talk is to discuss a proof in the case of closed monotone symplectic manifolds. My approach uses a reduction mod p argument, and I will start by introducing some basic ordinary differential equations (in particular in characteristic p) and Katz's local monodromy theorem. Then I will demonstrate the key idea of proof pretending we were working in a B-side mirror situation---matrix factorizations, where it is particularly simple. Finally, I will explain how to adapt the proof to the case of quantum connections using certain equivariant operations on quantum cohomology.",
+      tags: ["fukaya", "mirror-symmetry", "enumerative", "derived-categories"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -2050,6 +2389,7 @@ window.MSEMINAR = {
       title: "Moduli spaces of bundles on curves with abelian motives",
       abstract:
         "I will explain how several different moduli spaces of bundles on a curve have abelian motives and how conservatively properties for abelian motives can be harnessed to obtain motivic formulas and provide motivic lifts of known cohomological phenomena, such as chi-independence and mirror symmetry. This is joint work with Simon Pepin Lehalleur.",
+      tags: ["dt-theory", "mirror-symmetry"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -2085,6 +2425,7 @@ window.MSEMINAR = {
       title: "Symplectic Orbifold Gromov-Witten Invariants",
       abstract:
         "Chen and Ruan constructed symplectic orbifold Gromov-Witten invariants more than 20 years ago. In ongoing work with Alex Ritter, we show that moduli spaces of pseudo-holomorphic curves mapping to a symplectic orbifold admit global Kuranishi charts. This allows us to construct other types of Gromov-Witten invariants, such as K-theoretic counts. The construction relies on an orbifold embedding theorem of Ross and Thomas.",
+      tags: ["fukaya", "enumerative"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -2120,6 +2461,7 @@ window.MSEMINAR = {
       title: "CoHA of cyclic quivers and an integral form of affine Yangians",
       abstract:
         "In 2012, Schiffmann and Vasserot considered a Hall algebra-type construction on the cohomology of the moduli space of sheaves supported on points in a plane, using it to prove the AGT conjecture. However, due to the mysterious nature of the moduli space of representations of the preprojective algebra, these algebras are very difficult to study and are often highly nontrivial. In this talk, my goal is to explain how one can study this algebra by employing tools from cohomological Donaldson-Thomas theory. In particular, I will explain how, in the case of the cyclic quiver, this algebra turns out to be the universal enveloping algebra of the positive half of a certain extension of matrix differential operators on the torus, while its deformation turns out to be an explicit integral form of the affine Yangian of gl(n).",
+      tags: ["coha", "quantum-groups", "dt-theory", "representation-theory"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -2155,6 +2497,7 @@ window.MSEMINAR = {
       title: "Superabundance and Unobstructedness",
       abstract:
         'Consider a tropical curve in the base of a Lagrangian torus fibration. Then there exists a "Lagrangian realization" of this curve: a Lagrangian submanifold in the total space of the fibration whose projection to the base can be made to lie (via Hamiltonian isotopy) arbitrarily close to your original tropical curve. In this talk, we\'ll show that in the 3-dimensional setting a combinatorial criterion (non-superabundance of the tropical curve) determines unobstructedness of the corresponding Lagrangian lift.',
+      tags: ["fukaya", "mirror-symmetry"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -2190,6 +2533,7 @@ window.MSEMINAR = {
       title: "The KSBA moduli space of stable log Calabi-Yau surfaces",
       abstract:
         'The KSBA moduli space, introduced by Kollár--Shepherd-Barron, and Alexeev, is a natural generalization of "the moduli space of stable curves" to higher dimensions. It parametrizes stable pairs (X,B), where X is a projective algebraic variety satisfying certain conditions and B is a divisor such that K_X+B is ample. This moduli space is described concretely only in a handful of situations: for instance, if X is a toric variety and B=D+\\epsilon C, where D is the toric boundary divisor and C is an ample divisor, it is shown by Alexeev that the KSBA moduli space is a toric variety. Generally, for a log Calabi-Yau variety (X,D) consisting of a projective variety X and an anticanonical divisor D, with B=D+\\epsilon C where C is an ample divisor, it was conjectured by Hacking--Keel--Yu that the KSBA moduli space is still toric (up to passing to a finite cover). In joint work with Alexeev and Bousseau, we prove this conjecture for all log Calabi-Yau surfaces. This uses tools from the minimal model program, log smooth deformation theory and mirror symmetry.',
+      tags: ["dt-theory", "mirror-symmetry", "enumerative"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -2225,6 +2569,7 @@ window.MSEMINAR = {
       title: "Skein valued open Gromov-Witten invariants and cluster mutations",
       abstract:
         "We consider a class of Lagrangians living in $\\mathbb{C}^3$ . Their Ekholm-Shende wavefunctions, living in the HOMFLY-PT skein module, will encode open Gromov-Witten invariants in all genus and with arbitrary numbers of boundary components. We develop a skein valued cluster theory to compute these wavefunctions. In the case of Aganagic-Vafa brane, our computation matches up with the prediction of the topological vertex. We also define a skein-valued dilogarithm and prove a pentagon relation, which will imply the 5-term relation of Garsia and Mellit. This talk is based on arXiv:2312.10186 (joint with Gus Schrader and Eric Zaslow) and arXiv:2401.10817.",
+      tags: ["cluster", "categorification", "fukaya", "enumerative"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -2260,6 +2605,7 @@ window.MSEMINAR = {
       title: "Koszul Duality on quantizations of bionic symplectic varieties",
       abstract:
         "Via localization theorems à la Beilinson-Bernstein, representations of quantizations of symplectic singularities are equivalent to modules over sheaves of deformation-quantization algebras (DQ-modules) on symplectic resolutions of the singularity. This applies for instance to (spherical) rational Cherednik algebras and finite W-algebras as well as the primitive central quotients of enveloping algebras appearing in the original Beilinson-Bernstein theorem. Usually, the sympletic resolution is equipped with a Hamiltonian C*-action, who attracting locus is a Lagrangian (with modules supported on this Lagrangian belonging to geometric category O). I'll explain that it's possible to construct a \"local generator\" in geometric category O such that the bounded derived category of coherent DQ-modules is equivalent to the derived category of coherent modules over the dg-endomorphism ring of the generator. This is a generalization of the classical D-Omega duality of Kapranov, Beilinson-Drinfeld and Positselski and thus an example of filtered Koszul duality. This talk is based on recent joint work with Chris Dodd, Kevin McGerty and Tom Nevins.",
+      tags: ["cft", "quantum-groups", "fukaya", "representation-theory"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -2295,6 +2641,7 @@ window.MSEMINAR = {
       title: "Arclike Lagrangians in Liouville sectors",
       abstract:
         'Sectorial descent, established in earlier joint work with Pardon-Shende, gives a local-to-global formula computing the wrapped Fukaya category of a Weinstein manifold from a sectorial cover. If one has a specific fixed global Lagrangian in mind that isn\'t contained in a single subsector, the resulting formula is only implicit, as it begins by appealing to the generation of this object by "local" Lagrangians. In this talk I will introduce and study the class of (global) "arclike" Lagrangian submanifolds with respect to a sectorial covering, which are allowed to run through subsector boundaries but in a controlled fashion. For arclike Lagrangians, a more explicit local-to-global analysis is possible. Based on works in progress with Hanlon-Hicks-Pomerleano-Sheridan and Hanlon-Hicks-Ward.',
+      tags: ["fukaya"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -2330,6 +2677,7 @@ window.MSEMINAR = {
       title: "From Gromov-Witten to Donaldson-Thomas invariants via resurgence",
       abstract:
         "The generating function of higher genus Gromov-Witten invariants of Calabi-Yau threefolds can be computed by topological string theory and is given by an asymptotic series in the topological string coupling. I will discuss how a piecewise analytic function in the string coupling can be obtained from this series via resurgence analysis and how Donaldson-Thomas invariants of the same geometry can be obtained from the corresponding Stokes factors. This is based on various joint works with Lotte Hollands, Arpan Saha, Iván Tulli and Jörg Teschner as well as on work in progress.",
+      tags: ["topological-recursion", "painleve", "dt-theory", "enumerative"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -2365,6 +2713,7 @@ window.MSEMINAR = {
       title: "Decomposition of quantum cohomology under blowups",
       abstract:
         'Quantum cohomology is a deformation of the cohomology ring defined by counting rational curves. A close relationship between quantum cohomology and birational geometry has been expected. For example, when the quantum parameter q approaches an "extremal ray", the spectrum of the quantum cohomology ring clusters in a certain way (predicted by the corresponding extremal contraction), inducing a decomposition of the quantum cohomology. In this talk, I will discuss such a decomposition for blowups: quantum cohomology of the blowup of X along a smooth center Z will decompose into QH(X) and (codim Z-1) copies of QH(Z). The proof relies on Fourier analysis and shift operators for equivariant quantum cohomology. We can describe blowups as a variation of GIT of a certain space W with C^* action. The equivariant quantum cohomology of W acts as a "global" mirror family connecting X and its blowup.',
+      tags: ["cluster", "mirror-symmetry", "enumerative"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -2389,6 +2738,7 @@ window.MSEMINAR = {
       title: "Dispatches from the ends of the stability manifold",
       abstract:
         'The manifold of Bridgeland stability conditions parameterizes a homological structure on a triangulated category that is analogous to a Kaehler structure on a projective variety. Recently, I have proposed a "noncommutative minimal model program" in which the quantum differential equation of a projective variety determines paths toward infinity in the stability manifold of that variety, and that these paths can be used to define canonical (semiorthogonal)decompositions of its derived category.\nIn fact, these paths converge in a certain partial compactification of the stability manifold, the space of "augmented stability conditions." In order to define this partial compactification, I will introduce a structure on a triangulated category that we call a multi-scale decomposition, which generalizes a semiorthogonal decomposition, and a new moduli space of multi-scale lines that is closely related to the moduli spaces of multi-scale differentials which are of recent interest in dynamics. The main conjecture about the space of augmented stability conditions is that it is a manifold with corners (in a specific way that I will explain). One consequence: If this conjecture holds for any smooth and proper dg-category, then any stability condition on a smooth and proper dg-category admits proper moduli spaces of semistable objects.\nThe plan for the lectures is, loosely:\n1) The noncommutative MMP\n2) The space of n-pointed multi-scale lines (lecture on Wednesday will be given by Alekos Robotis)\n3) The space of augmented stability conditions\n4) Structure of the boundary: the manifold-with-corners conjecture and consequences',
+      tags: ["stability", "noncommutative", "derived-categories"],
       extra: [
         "Series of lectures: Apr 8 (1:30pm), Apr 10 (1:30pm), Apr 11 (3:30pm) and Apr 12 (1:30pm).",
       ],
@@ -2474,6 +2824,7 @@ window.MSEMINAR = {
       title: "Infinite-dimensional spin chains from gauge theory",
       abstract:
         "Spin chains are quantum mechanical models of interacting degrees of freedom, such as (anti)ferromagnetic atoms. The celebrated Bethe ansatz for the eigenstates of the Heisenberg spin chain Hamiltonian has been a source of inspiration for physicists and mathematicians for almost a century now, leading to the invention of quantum groups, among other achievements. In my talk I will describe several infinite-dimensional generalizations of spin chains, which are believed to play an important role in the studies of strong interactions of elementary particles: L.Lipatov's reggeized gluons, planar N=4 super-Yang-Mills anomalous dimensions and, closer to the seminar's theme: surface defects in N=2 super-QCD. Mathematically, the latter is the generating function of equivariant DT-type invariants defined via the moduli spaces of parabolic sheaves on complex surfaces. Surprisingly, the Hecke operators of geometric and analytic Langlands programs make appearances, and gauge theory allows them to generalize outside the critical level. Based on the recent work with Saebyeok Jeong, Norton Lee, and on the recent work and work in progress with Andrey Grekov",
+      tags: ["langlands", "quantum-groups", "dt-theory", "gauge-theory"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -2509,6 +2860,7 @@ window.MSEMINAR = {
       title: "An irregular Deligne-Simpson problem",
       abstract:
         "The Deligne-Simpson problem asks for a criterion for the existence of connections on an algebraic curve with prescribed singularities at punctures. We give a solution to a generalization of this problem to G-connections on P^1 with a regular singularity and an irregular singularity (satisfying a condition called isoclinic). Here G can be any complex reductive group. Perhaps surprisingly, the solution can be expressed in terms of rational Cherednik algebras. This is joint work with Konstantin Jakob, and the proof uses recent joint work with Bezrukavnikov, Boixeda Alvarez and McBreen, and previous joint work with Oblomkov.",
+      tags: ["painleve", "quantum-groups", "representation-theory"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -2544,6 +2896,7 @@ window.MSEMINAR = {
       title: "Maulik-Okounkov Lie algebras and BPS Lie lagebras",
       abstract:
         "The Maulik-Okounkov (MO) Lie algebra associated to a quiver Q controls the R-matrix formalism developed by Maulik and Okounkov in the context of (quantum) cohomology of Nakajima quiver varieties. On the other hand, the BPS Lie algebra originates from cohomological DT theory, and in particular from the theory of cohomological Hall algebras associated to 3 Calabi-Yau categories. In this talk, I will explain how to identify the MO Lie algebra of Q with the BPS Lie algebra of the tripled quiver Q̃ with its canonical cubic potential. The bridge to compare these similarly diverse words is the theory of non-abelian stable envelopes, which can be exploited to relate representations of the MO Lie algebra to representations of the BPS Lie algebra. As a byproduct, I will present a proof of Okounkov's conjecture, equating the graded dimensions of the MO Lie algebra with the coefficients of Kac polynomials. This is joint work with Ben Davison.",
+      tags: ["coha", "quiver-varieties", "quantum-groups", "dt-theory"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -2579,6 +2932,7 @@ window.MSEMINAR = {
       title: "COHAs of 0-dimensional sheaves on surfaces",
       abstract:
         "Given an abelian category C of low homological dimension, one can construct a cohomological Hall algebra (COHA) of C, whose product encodes extensions between objects in C. An important example of such C is the category Coh(S) of coherent sheaves on a smooth surface S. While understanding the whole CoHA algebraically is more or less hopeless for a general S, we can restrict our attention to the CoHA of 0-dimensional sheaves. I will give an explicit description of this algebra, which builds on the seminal work of Nakajima and Lehn. I will also discuss how this description can be used to deduce structural results about cohomology of moduli spaces of sheaves with positive-dimensional support on S, such as our recent proof of P=W conjecture. This is a report on joint work with A. Mellit, O. Schiffmann and E. Vasserot.",
+      tags: ["coha", "quiver-varieties"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -2614,6 +2968,7 @@ window.MSEMINAR = {
       title: "Periodic pencils of flat connections and their p-curvature",
       abstract:
         "A periodic pencil of flat connections on a smooth algebraic variety $X$ is a linear family of flat connections $\\nabla(s_1,...,s_n)=d-\\sum_{i=1}^r\\sum_{j=1}^ns_jB_{ij}dx_i$, where $\\lbrace x_i\\rbrace$ are local coordinates on $X$ and $B_{ij}: X\\to {\\rm Mat}_N$ are matrix-valued regular functions. A pencil is periodic if it is generically invariant under the shifts $s_j\\mapsto s_j+1$ up to isomorphism. I will explain that periodic pencils have many remarkable properties, and there are many interesting examples of them, e.g. Knizhnik-Zamolodchikov, Dunkl, Casimir connections and equivariant quantum connections for conical symplectic resolutions with finitely many torus fixed points. I will also explain that in characteristic $p$, the $p$-curvature operators $\\lbrace C_i,1\\le i\\le r\\rbrace$ of a periodic pencil $\\nabla$ are isospectral to the commuting endomorphisms $C_i^*:=\\sum_{j=1}^n (s_j-s_j^p)B_{ij}^{(1)}$, where $B_{ij}^{(1)}$ is the Frobenius twist of $B_{ij}$. This allows us to compute the eigenvalues of the $p$-curvature for the above examples, and also to show that a periodic pencil of connections always has regular singularites. This is joint work with Alexander Varchenko.",
+      tags: ["painleve"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -2649,6 +3004,7 @@ window.MSEMINAR = {
       title: "Cohomological Hall algebras of 2-Calabi-Yau categories and applications",
       abstract:
         "In this series of four lectures, I will explain the interactions between cohomological Hall algebras (CoHAs) and several questions of interest in algebraic geometry (in particular enumerative geometry) and representation theory (Kac-Moody algebras and their representations).",
+      tags: ["coha", "enumerative", "representation-theory"],
       extra: [
         "Series of lectures: Feb 19 (1:30pm), Feb 21 (1:30pm), Feb 22 (3:30pm) and Feb 23(1:30pm).",
         "CoHAs are associative algebra structures on the Borel-Moore homology of the stack of objects in some Abelian categories. We consider the CoHAs of various categories: sheaves on surfaces, representations of quivers, and representations of fundamental groups, which are 2-Calabi-Yau. CoHAs lead to a fine understanding of the cohomology of the stacks and moduli spaces involved. They provide tools to study various conjectures in the subject: cohomological integrality, positivity, and purity. In the first two lectures, I will detail how CoHAs give a geometric construction of generalised Kac-Moody algebras (in the sense of Borcherds). The last two lectures will develop applications of CoHAs to the study of the cohomology of quiver varieties (following the groundbreaking work of Nakajima from the 1990s) and to nonabelian Hodge theory (following questions of Simpson).",
@@ -2742,6 +3098,7 @@ window.MSEMINAR = {
       title: "Skeins, clusters and wavefunctions",
       abstract:
         "Ekholm and Shende have proposed a version of open Gromov-Witten theory in which holomorphic maps from Riemann surfaces with boundary landing on a Lagrangian 3-manifold L are counted via the image of the boundary in the HOMFLYPT skein module of L. I'll describe joint work with Mingyuan Hu and Eric Zaslow which gives a method to compute the Ekholm-Shende generating function ('wavefunction') enumerating such maps for a class of Lagrangian branes L in C^3. The method uses a skein-theoretic analog of cluster theory, in which skein-valued wavefunctions for different Lagrangians are related by skein mutation operators.",
+      tags: ["cluster", "categorification", "fukaya", "enumerative"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -2777,6 +3134,7 @@ window.MSEMINAR = {
       title: "Perverse sheaves in deformation quantization",
       abstract:
         "Given a holomorphic symplectic manifold, there is a canonical category of deformation quantization modules. Holomorphic Lagrangians equipped with spin structures define objects in this category. I will explain how one can describe the RHom perverse sheaf of two such DQ modules in terms of the derived geometry of the Lagrangian intersection. I will also explain a related result describing the perverse sheaf appearing in BV quantization of a (-1)-shifted symplectic scheme. This is a report on work joint with Sam Gunningham.",
+      tags: ["noncommutative", "fukaya", "derived-categories"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -2812,6 +3170,7 @@ window.MSEMINAR = {
       title: "Universally counting curves in Calabi--Yau threefolds",
       abstract:
         'Enumerating curves in algebraic varieties traditionally involves choosing a compactification of the space of smooth embedded curves in the variety. There are many such compactifications, hence many different enumerative invariants. I will propose a "universal" (very tautological) enumerative invariant which takes values in a certain Grothendieck group of 1-cycles. It is often the case with such "universal" constructions that the resulting Grothendieck group is essentially uncomputable. But in this case, the cluster formalism of Ionel and Parker shows that, in the case of threefolds with nef anticanonical bundle, this Grothendieck group is freely generated by local curves. This reduces the MNOP conjecture (in the case of nef anticanonical bundle and primary insertions) to the case of local curves, where it is already known due to work of Bryan--Pandharipande and Okounkov--Pandharipande.',
+      tags: ["cluster", "dt-theory", "enumerative"],
       extra: ["Zoom link", "Meeting ID: 958 3425 4862"],
       cancelled: false,
       upcoming: false,
@@ -2852,6 +3211,7 @@ window.MSEMINAR = {
       title: "Counting holomorphic disks with boundary on the Chiang Lagrangian",
       abstract:
         "I will discuss a computation of open Gromov-Witten invariants counting holomorphic disks with boundary on the Chiang Lagrangian along with various correction terms. The Chiang Lagrangian is not fixed by an anti-symplectic involution and thus techniques from Floer theory are used instead of those of real algebraic geometry that play a role in other computations. The invariants exhibit periodic behaviors of periods 8 and 16. Denominators of invariants are always powers of two indicating a non-trivial arithmetic structure of the open WDVV equations. Background on open Gromov-Witten theory will be provided. This is joint work with Hollands-Kosloff-Sela-Shu and Tukachinsky.",
+      tags: ["fukaya", "enumerative"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -2887,6 +3247,7 @@ window.MSEMINAR = {
       title: "Differential operators on the base affine space and quantized Coulomb branches",
       abstract:
         'We discuss joint work with Tom Gannon, showing that the algebra $D(SL_n/U)$ of differential operators on the base affine space of $SL_n$ is the quantized Coulomb branch of a certain 3d $\\mathcal{N} = 4$ quiver gauge theory. In the semiclassical limit this confirms a conjecture of Dancer-Hanany-Kirwan on the universal hyperk\\"ahler implosion of $SL_n$. In fact, we prove a generalization interpreting an arbitrary unipotent reduction of $T^*SL_n$ as a Coulomb branch. These results also provide a new interpretation of the Gelfand-Graev Weyl group symmetry of $D(SL_n/U)$.',
+      tags: ["higgs-coulomb", "gauge-theory"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -2923,6 +3284,7 @@ window.MSEMINAR = {
       title: "Resurgent perverse sheaves",
       abstract:
         'Perverse sheaves provide a topological counterpart of regular holonomic D-modules whose solutions are multivalued functions of certain restricted type. Much more general multivalued functions (on the complex plane C) have been studied in J. Ecalle\'s theory of resurgence using, as one of the main tools, additive convolution. The talk, based on joint work in progress with Y. Soibelman, will propose topological counterpart of the theory of resurgence based on perverse sheaves on C which are algebras with respect to (middle) additive convolution. Such sheaves typically have infinitely many singular points. In particular, we will argue that the cohomological Hall algebra in a 3-Calabi-Yau situation localizes to such a "resurgent perverse sheaf".',
+      tags: ["coha", "topological-recursion", "derived-categories"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -2959,6 +3321,7 @@ window.MSEMINAR = {
         "Vertex algebras from divisors on Calabi-Yau threefolds and perverse coherent extensions",
       abstract:
         "We will explain two conjecturally equivalent constructions of vertex algebras associated to divisors S on certain toric Calabi-Yau threefolds Y, and some partial results towards the proof of their equivalence. One construction is algebraic, as the kernel of screening operators on lattice vertex algebras determined by the GKM graph of Y and a Jordan-Holder filtration of the structure sheaf of S. The other is geometric, as a convolution algebra acting on the homology of certain moduli spaces of sheaves supported on the divisor, following the proof of the AGT conjecture by Schiffmann-Vasserot and its generalization to divisors in C^3 by Rapcak-Soibelman-Yang-Zhao. This provides a correspondence between the enumerative geometry of sheaves on Calabi-Yau threefolds and the representation theory of W-algebras and affine Yangian-type quantum groups.",
+      tags: ["cft", "quantum-groups", "enumerative", "representation-theory"],
       extra: ["Series of lectures: Oct 30, Nov 1, Nov 2 and Nov 3, all at 1:30pm"],
       cancelled: false,
       upcoming: false,
@@ -3043,6 +3406,7 @@ window.MSEMINAR = {
       title: "The geometry and arithmetic of banana nano-manifolds",
       abstract:
         "The Hodge numbers of a Calabi-Yau threefold X are determined by the two numbers h^{1,1}(X) and h^{1,2}(X) which can be interpreted respectively as the dimensions of the space of Kahler forms and complex deformations respectively. We construct four new examples X_N, where N \\in {5,6,8,9}, of rigid Calabi-Yau threefolds (h^{2,1}=0) with Picard number 4 (h^{1,1}=4). These manifolds are of “banana type” and have among the smallest known values for Calabi-Yau Hodge numbers. We (partially) compute the Donaldson-Thomas partition functions of these manifolds and in particular show that the associated genus g Gromov-Witten potential is given by a weight 2g-2 Siegel paramodular form of index N. These manifolds are also modular in the arithmetic sense: there is a weight 4 modular form whose Fourier coefficients are obtained by counting points over finite fields on X_N. We compute this form and observe that it is the unique cusp form of weight 4 and index N. This is joint work with Stephen Pietromonaco.",
+      tags: ["dt-theory", "enumerative"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -3072,6 +3436,7 @@ window.MSEMINAR = {
       title: "Non-semisimple TQFTs from 3d N=4 QFTs",
       abstract:
         "Topological quantum field theory (TQFT) sits at the rich intersection of many disciplines including physics, topological, and algebra. Many of the most familiar TQFTs, such as Chern-Simons theory with compact gauge group at positive integer level, can be built from semisimple categories where homological aspects can be safely avoided, but this is no longer the case beyond these simple examples. In these talks I will describe aspects of several non-semisimple TQFTs arising from supersymmetric twists of three-dimensional field theories and their relations to quantum groups and vertex operator algebras.",
+      tags: ["cft", "quantum-groups", "gauge-theory", "derived-categories"],
       extra: ["Series of lectures: Oct 17 (3:30pm), Oct 18 (1:30pm) and Oct 19 (3:30pm)"],
       cancelled: false,
       upcoming: false,
@@ -3121,6 +3486,7 @@ window.MSEMINAR = {
       title: "Cluster Nature of Quantum Groups",
       abstract:
         "We present a rigid cluster model to realize the quantum group $U_q(g)$ for $g$ of type ADE. That is, we prove that there is a natural Hopf algebra isomorphism from the quantum group to a quotient algebra of the Weyl group invariants of a Fock-Goncharov quantum cluster algebra. By applying the quantum duality of cluster algebras, we show that the quantum group admits a cluster canonical basis $\\Theta$ whose structural coefficients are in $\\mathbb{N}[q^{\\frac{1}{2}}, q^{-\\frac{1}{2}}]$. The basis $\\Theta$ satisfies an invariance property under the braid group action, the Dynkin automorphisms, and the star anti-involution. Based on the preprint arXiv: 2209.06258",
+      tags: ["cluster", "quantum-groups"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -3156,6 +3522,7 @@ window.MSEMINAR = {
       title: "Condensed Thoughts",
       abstract:
         "Topological Field Theories have recently gained attention via their control of (extended) topological operators in QFT. One operation commonly used in that context is ’condensation’, which however seems to lack a precise definition. In this talk I will describe a path to a precise construction of condensation and relate it to connectivity in the case of TQFTs coming from homotopy types. This is based on discussions with Dan Freed and Mike Hopkins, in turn much inspired by conversations with colleagues from the Simons Collaboration on Categorical Symmetries.",
+      tags: ["gauge-theory"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -3191,6 +3558,7 @@ window.MSEMINAR = {
       title: "The K-theoretic DT/PT vertex correspondence",
       abstract:
         "On smooth quasi-projective toric 3- and 4-folds, vertices are the contributions from an affine toric chart to the enumerative invariants of Donaldson-Thomas (DT) or Pandharipande-Thomas (PT) moduli spaces. Unlike partition functions, vertices are fundamentally torus-equivariant objects, and they carry a great deal of combinatorial complexity, particularly in equivariant K-theory. In joint work with Nick Kuhn and Felix Thimm, we give two different proofs of the K-theoretic 3-fold DT/PT vertex correspondence. Both proofs use equivariant wall-crossing in a setup originally due to Toda; one uses a Mochizuki-style master space, while the other uses ideas from Joyce's recent universal wall-crossing machine. A crucial new ingredient is the construction of *symmetrized* pullbacks of symmetric obstruction theories on moduli stacks, using Kiem-Savvas'étale-local notion of almost-perfect obstruction theory. I believe our techniques, particularly the Joyce-style approach, can also be applied to related questions such as DT/PT descendent transformations, the DT crepant resolution conjecture, and the 4-fold DT/PT vertex correspondence.",
+      tags: ["quantum-groups", "dt-theory", "stability", "enumerative"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -3226,6 +3594,7 @@ window.MSEMINAR = {
       title: "On Springer theory for homogeneous affine Springer fibers",
       abstract:
         "Springer fibers are subvarieties in the flag variety of a reductive group playing a key role in geometric representation theory. One of their important features is that they arise as central Lagrangian fibers of a symplectic resolution of a singular space known as the Slodowy slice. Affine Springer fibers are loop group analogues of the Springer fibers, they are closely related to singular fibers of the Hitchin integrable system. In a joint work with Pablo Boixeda-Alvarez, Michael McBreen and Zhiwei Yun we construct the analogue of a Slodowy slice for some (namely, homogeneous) affine Springer fibers. The construction is based on a version of the Hitchin space involving connections with an irregular singularity. Time permitting, I will mention applications to quantum groups at a root of unity etc.",
+      tags: ["painleve", "langlands", "higgs-coulomb", "quantum-groups"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -3261,6 +3630,7 @@ window.MSEMINAR = {
       title: "Defining $A_\\infty$-structures in monoidal DG categories",
       abstract:
         "An $A_\\infty$-algebra is traditionally defined as a graded vector space with a collection of operations that satisfy certain relations. I am going to discuss the notion of an $A_\\infty$-algebra object in an arbitrary monoidal DG category. I will outline the results and constructions that translate into this setting. Then, I will introduce the main application: constructing the category of $A_\\infty$-modules over a DG lift of a monad produced by a pair of adjoint functors between enhanced triangulated categories and proving the analog of Barr-Beck theorem for enhanced triangulated categories. This talk is based on joint work with T. Logvinenko and S. Arkhipov.",
+      tags: ["derived-categories"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -3290,6 +3660,7 @@ window.MSEMINAR = {
       title: "Empty real plane sextic curves",
       abstract:
         "Many geometric questions about K3-surfaces can be restated and solved in purely arithmetical terms, by means of an appropriately defined homological type. For example, this works well in the study of singular complex sextic curves or quartic surfaces, as well as in that of smooth real ones. However, when the two are combined (singular real curves or surfaces), the approach fails as the natural concept of homological type does not fully reflect the geometry. We show that the situation can be repaired if the curves in question have empty real part; then, one can confine oneself to the homological types consisting of the exceptional divisors, polarization, and real structure. The resulting arithmetical problem can be solved, and this leads to an equivariant equisingular deformation classification of real plane sextics with empty real part. This is a joint work with Alex Degtyarev.",
+      tags: [],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -3325,6 +3696,7 @@ window.MSEMINAR = {
       title: "Flops and Hilbert scheme of space curve singularities",
       abstract:
         "This is joint work with Mauro Porta, Francesco Sala and Arian Vosoughinia using pagoda flop transitions in order to derive explicit results for topological invariants of Hilbert schemes of space curve singularities.",
+      tags: ["derived-categories"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -3360,6 +3732,7 @@ window.MSEMINAR = {
       title: "(open) Gromov-Witten invariants from the Fukaya category",
       abstract:
         "This talk will report on recent progress on obtaining (open) Gromov-Witten invariants from the Fukaya category. A crucial ingredient is showing that the cyclic open-closed map, which maps the cyclic homology of the Fukaya category of X to its S1-equivariant quantum cohomology, respects connections. Along the way we will encounter R-matrices, which were used in the Givental-Teleman classification of semisimple cohomological field theories, and allow one to determine higher genus Gromov-Witten invariants from genus 0 invariants. I will then present some evidence that this approach might extend beyond the semisimple case. Time permitting, I will explain how one can extend these results to obtain open Gromov-Witten invariants from the Fukaya category.",
+      tags: ["fukaya", "enumerative"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -3395,6 +3768,7 @@ window.MSEMINAR = {
       title: "Quivers, flow trees and log curves",
       abstract:
         "Donaldson-Thomas (DT) invariants of a quiver with potential can be expressed in terms of simpler attractor DT invariants by a universal formula. The coefficients in this formula are calculated combinatorially using attractor flow trees. In joint work with Arguz (arXiv:2302.02068), we prove that these coefficients are genus 0 log Gromov--Witten invariants of d-dimensional toric varieties, where d is the number of vertices of the quiver. This result follows from a log-tropical correspondence theorem which relates (d-2)-dimensional families of tropical curves obtained as universal deformations of attractor flow trees, and rational log curves in toric varieties.",
+      tags: ["dt-theory", "stability", "mirror-symmetry", "enumerative"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -3430,6 +3804,7 @@ window.MSEMINAR = {
       title: "Mirror symmetry via relative Floer theoretic invariants",
       abstract:
         'I will discuss the notion of generalized Delzant subdomains of graded symplectic manifolds and their relative symplectic cohomology. Assuming that we have an involutive decomposition into such domains, I will construct a mirror formal scheme over the Novikov ring. The key is to be able to compute the invariants modulo Thbar, where hbar is a positive constant depending on the decomposition, finiteness of boundary depth which leads to homology level completeness and an injectivity statement mirror to uniqueness of analytic continuation. Then I will assume the existence of a "homological section" and construct the HMS functor. I will end by discussing when one should expect this functor to be cohomologically full and faithful via the notion of local generation.',
+      tags: ["fukaya", "mirror-symmetry"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -3465,6 +3840,7 @@ window.MSEMINAR = {
       title: "Structural features of 3d mirror symmetry",
       abstract:
         '"Homological" 3d mirror symmetry is an equivalence between the Kapustin-Rozansky-Saulina 2-category and an as-yet-undefined "Fukaya-Fueter" 2-category associated to dual holomorphic symplectic stacks. Many statements, some classical and some new, may be recovered from such an equivalence by decategorification. We will discuss what is known in the toric setting, where decategorification can be used to produce both the Braden-Licata-Proudfoot-Webster hypertoric Koszul duality and a geometric version of Tate\'s thesis. This is based on joint work with Justin Hilburn & Aaron Mazel-Gee.',
+      tags: ["categorification", "higgs-coulomb", "fukaya", "mirror-symmetry"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -3500,6 +3876,7 @@ window.MSEMINAR = {
       title: "Virasoro constraints in sheaf theory",
       abstract:
         "Virasoro constraints for Gromov-Witten invariants have a rich history tied to the very beginning of the subject, but recently there have been many developments on the sheaf side. In this talk I will survey those developments and talk about joint work with A. Bojko and W. Lim where we propose a general conjecture of Virasoro constraints for moduli spaces of sheaves and formulate it using the vertex algebra that D. Joyce recently introduced to study wall-crossing. Using Joyce's framework we can show compatibility between wall-crossing and the constraints, which we then use to prove that they hold for moduli of stable sheaves on curves and surfaces with h0,1=h0,2=0.",
+      tags: ["cft", "stability", "enumerative"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -3535,6 +3912,7 @@ window.MSEMINAR = {
       title: "P=W via H2",
       abstract:
         "By H2 we denote the Lie algebra of polynomial hamiltonian vector fields on the plane. We consider the moduli space of stable twisted Higgs bundles on an algebraic curve of given coprime rank and degree. De Cataldo, Hausel and Migliorini proved in the case of rank 2 and conjectured in arbitrary rank that two natural filtrations on the cohomology of the moduli space coincide. One is the weight filtration W coming from the Betti realization, and the other one is the perverse filtration P induced by the Hitchin map. Motivated by computations of the Khovanov-Rozansky homology of links by Gorsky, Hogancamp and myself, we look for an action of H2 on the cohomology of the moduli space. We find it in the algebra generated by two kinds of natural operations: on the one hand we have the operations of cup product by tautological classes, and on the other hand we have the Hecke operators acting via certain correspondences. We then show that both P and W coincide with the filtration canonically associated to the sl2 subalgebra of H2. Based on joint work with Hausel, Minets and Schiffmann.",
+      tags: ["categorification", "langlands", "higgs-coulomb", "representation-theory"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -3570,6 +3948,7 @@ window.MSEMINAR = {
       title: "The closed string mirror construction",
       abstract:
         "Consider a 2n-dimensional symplectic Calabi Yau manifold equipped with a Maslov 0 Lagrangian torus fibration with singularities over a base B. According to modern interpretations of the SYZ conjecture, there should be an associated analytic mirror variety with a non Archimedean torus fibration over B. I will suggest a general construction called the closed string mirror which is based on relative symplectic cohomologies of the fibers. A priori the closed string mirror is only a set with a map to the base. I will discuss work in progress on some general hypotheses for when it is in fact an n-dimensional rigid analytic variety with a non Archimedean torus fibration. I will touch on the relation to enumerative and homological mirror symmetry.",
+      tags: ["fukaya", "mirror-symmetry", "enumerative"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -3605,6 +3984,7 @@ window.MSEMINAR = {
       title: "Solitons in infinite relativistic Toda system",
       abstract:
         'This system is a "relativistic" generalization of the infinite Toda chain. In is a $GL(\\infty)$ version of the Toda-Coxeter system for $SL(N)$ with the standard Poisson Lie structure. The phase space of this system is an example of an infinite cluster variety. Assuming an analog of rapidly decaying boundary conditions we construct soliton solutions for both, factorization discrete time dynamics and for continuous time integrable dynamics. We also construct action-angle variables from scattering data. This is a joint work with Cory Lansford.',
+      tags: ["cluster", "quantum-groups"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -3640,6 +4020,7 @@ window.MSEMINAR = {
       title: "Stable envelopes from 2d mirror symmetry",
       abstract:
         "Homological mirror symmetry predicts an equivalence between the derived category of equivariant coherent sheaves on the additive Coulomb branch X and a version of the wrapped Fukaya category on multiplicative Coulomb branch Y with superpotential W. If one decategorifies both sides by taking K-theory, the construction still gives an interesting identification between well-known objects in the equivariant K-theory of X and cycles with coefficients in local systems on Y. The talk will show how it works for the fixed point basis and the stable envelopes. Work in progress with Andrey Smirnov, with many insights from the joint project with Mina Aganagic, Peng Zhou and Yixuan Li.",
+      tags: ["categorification", "higgs-coulomb", "fukaya", "mirror-symmetry"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -3669,6 +4050,7 @@ window.MSEMINAR = {
       title: "Categorical aspects of the Fueter Equation",
       abstract:
         'The (3d) Fueter equation is the three-dimensional analog of the pseudoholomorphic map equation, and as such underlies a three-dimensional topological quantum field theory. This PDE underlies the mathematics of the A-type twist of the 3D N=4 sigma model, which has a hyperkahler manifold as its target. One can think of this topological quantum field theory as a simultaneous complexification and categorification of the Fukaya category; in particular, it assigns to a ("weak") hyperkahler manifold a 2-category with objects holomorphic Lagrangians, which in an appropriate sense categorifies the Fukaya category. Certain basic open problems remain about the analysis of the Fueter equation, but this categorical viewpoint suggests new tractable directions in the differential geometry of this equation. In particular, just as holomorphic strips between nearby Lagrangans are in bijection with Morse trajectories of a real morse function, Fueter maps between nearby holomorphic Lagrangians are in bijection with complex gradient trajectories of a holomorphic morse function, also known as zeta-instantons. Thus, in the (A-twist) Fueter 2-category, hom-categories are locally modeled on Fukaya-Seidel categories, just as in the B-twist Kapustin-Rozansky-Saulinas category, hom-categories are locally modeled on matrix factorization categories. Categorical 3D mirror symmetry should exchange these pairs of 2-categories associated to pairs of 3d mirror manifolds. I will survey these ideas and describe interesting directions and puzzles in this story. This is based on joint work with Aleksander Doan, as well as on discussions with Justin Hilburn and Benjamin Gammage.',
+      tags: ["categorification", "higgs-coulomb", "fukaya", "mirror-symmetry"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -3704,6 +4086,7 @@ window.MSEMINAR = {
       title: "Enumerative invariants from categories",
       abstract:
         "Kontsevich suggested that enumerative predictions of Mirror Symmetry should follow directly from Homological Mirror Symmetry. This requires a natural construction of analogues of Gromov-Witten invariants associated to any dg or A-infinity Calabi-Yau category (with some extra choices). I will discuss two approaches to this construction: 1) categorical primitive forms, a non-commutative version of Saito's theory of primitive forms for singularities, which gives only genus zero invariants; 2) Costello's enumerative invariants which conjecturally give invariants in all genera.",
+      tags: ["noncommutative", "mirror-symmetry", "enumerative"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -3739,6 +4122,7 @@ window.MSEMINAR = {
       title: "Holomorphic Floer Theory and exponential integrals",
       abstract:
         "Holomorphic Floer Theory is the name of our joint project (in fact a program) with Maxim Kontsevich.It is devoted to various aspects of the Floer theory of complex symplectic manifolds.Among applications of our approach there are generalizations of the Riemann-Hilbert correspondence and non-abelian Hodge theory, relation of the Fukaya categories with periodic monopoles,conceptual understanding of coisotropic branes in physics and more. In my talk I am going to discuss an application of Holomorphic Floer Theory to exponential integrals in finite and infinite dimensions.Geometrically many properties of these integrals are controlled by the Floer Theory of a pair of complex Lagrangian submanifolds sitting in a complex symplectic manifold. I plan to discuss the wall-crossing formulas for exponential integrals including the underlying abstract structure known as wall-crossing structure.In these terms one can explain the resurgent properties of a priori divergent series arising from exponential integrals.If time permits I am going to discuss an application of our approach to the Chern-Simons theory as well as its relation to the theory of quantum wave functions and to the more speculative Hodge theory of infinite rank.",
+      tags: ["topological-recursion", "higgs-coulomb", "stability", "fukaya"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -3779,6 +4163,7 @@ window.MSEMINAR = {
       title: "Equivariant Fukaya categories at the singular value",
       abstract:
         "We have some new conjectures and examples where we relate wrapped Fukaya categories of symplectic manifolds with Hamiltonian S^1 actions and the wrapped Fukaya categories of their Hamiltonian reductions.\nJoint work with Ed Segal.",
+      tags: ["fukaya"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -3814,6 +4199,7 @@ window.MSEMINAR = {
       title: "COHA of zero dimensional sheaves on surfaces and the P=W conjecture",
       abstract:
         "Cohomological Hall algebras of 2CY categories feature in several recent geometric constructions of infinite dimensional quantum groups (such as affine Yangians) and their representations. The case of zero dimensional sheaves on smooth surfaces (such as projective surfaces, or line bundles over smooth projective curves) has attracted particular attention due to the analogy with usual Hecke operators (acting on moduli spaces of sheaves on curves as opposed to surfaces). We will describe the COHA in this case (a joint work with Mellit, Minets and Vasserot), and we will sketch its use in a recent proof of the P=W conjecture of de Catlado, Hausel and Migliorini relating the Hodge structure of character varieties and the perverse cohomology of the Hitchin fiibration (a joint work with Hausel, Mellit and Minets).",
+      tags: ["coha", "langlands", "higgs-coulomb", "quantum-groups"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -3850,6 +4236,7 @@ window.MSEMINAR = {
       title: "Affine BPS algebras and W algebras",
       abstract:
         "One may associate to a quiver Q with potential W a certain Lie algebra, called the BPS Lie algebra. On the one hand this Lie algebra generates the Kontsevich-Soibelman cohomological Hall algebra (CoHA) associated to Q and W under a Yangian-type PBW theorem, and on the other hand it partially categorifies the BPS invariants of the Jacobi algebra associated to (Q,W). For special choices of (Q,W), the resulting cohomological Hall algebra is isomorphic to the cohomological Hall algebra studied by Schiffamnn and Vasserot in their solution of the AGT conjecture.\nI will explain how a special case of a joint result with Kinjo enables us to affinize the BPS Lie algebra for these CoHAs, and express the CoHA as a universal enveloping algebra. I will explain how for the three-loop quiver with its canonical cubic potential, a one-parameter deformation of the affine BPS Lie algebra recovers one half of the Lie algebra of differential operators on the complex torus. In particular, this implies that the associated CoHA is spherically generated, so that we can use a result of Rapčák, Soibelman, Yang and Zhou to completely describe the fully deformed version of this algebra in terms of half of the affine Yangian of gl(1).",
+      tags: ["coha", "categorification", "quantum-groups", "dt-theory"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -3885,6 +4272,7 @@ window.MSEMINAR = {
       title: "Wall-crossing for Calabi-Yau fourfolds and applications",
       abstract:
         "There are multiple existing theories studying wall-crossing of sheaf-counting invariants in dimensions less than or equal to three. Recently these invariants were also extended to Calabi-Yau fourfolds where it was reasonable to ask about an analogous story. I will explain the framework leading to the wall-crossing formulae proposed by Joyce and describe their proof. The main goal of this project is the proof of existing conjectures relating different stable pairs counting points, curves and surfaces in Calabi-Yau fourfolds. For example, it proves my previous computations for Hilbert schemes of points.",
+      tags: ["dt-theory", "stability", "enumerative"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -3920,6 +4308,7 @@ window.MSEMINAR = {
       title: "Geometry from Donaldson-Thomas invariants",
       abstract:
         'Our general aim is to use the Donaldson-Thomas invariants of a 3-Calabi-Yau triangulated category to define a geometric structure on its space of stability conditions. So far we only understand how to do this in a few classes of examples. In the talk I\'ll explain (i) the geometry we expect to obtain (which involves a hyperkahler structure), and (ii) a moduli-theoretic construction of this geometry in the case of "categories of class S[A_1]" (where the stability space parameterises algebraic curves equipped with quadratic differentials).',
+      tags: ["dt-theory", "stability", "derived-categories"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -3955,6 +4344,7 @@ window.MSEMINAR = {
       title: "Towards 2-Categorical 3d Mirror Symmetry",
       abstract:
         "By now it is known that many interesting phenomena in geometry and representation theory can be understood as aspects of mirror symmetry of 3d N=4 SUSY QFTs. Such a QFT is associated to a hyper-Kähler manifold X equipped with a hyper-Hamiltonian action of a compact Lie group G and admits two topological twists. The first twist, which is known as the 3d B-model or Rozansky-Witten theory, is a TQFT of algebro-geometric flavor and has been studied extensively by Kapustin, Rozansky and Saulina. The second twist, which is known as the 3d A-model or 3d Seiberg-Witten theory, is a more mysterious TQFT of symplecto-topological flavor. In this talk I will discuss what is known about the 2-categories of boundary conditions for these two TQFTs. They are expected to provide two distinct categorifications of category O for the hyperkahler quotient X///G and 3d mirror symmetry is expected to induce a categorification of the Koszul duality between categories O for mirror symplectic resolutions. For abelian gauge theories this picture is work in progress with Ben Gammage and Aaron Mazel-Gee. This generalizes the works of Kapustin-Vyas-Setter and Teleman on pure gauge theory.",
+      tags: ["categorification", "higgs-coulomb", "fukaya", "mirror-symmetry"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -3984,6 +4374,7 @@ window.MSEMINAR = {
       title: "Quantized integrable systems, normal forms, and variation of Hodge structures",
       abstract:
         "A classical theorem due to Birkhoff states that on a complex symplectic manifold a function near its Morse critical point can be transformed by a formal symplectomorphism into a normal form given by a power series in the pairwise sums of squares of the coordinates. Using a quantum analog of this normal form, one can compute the eigenvalues of the Schrödinger operator, given certain conditions. In my talk, I will explain how to obtain the Birkhoff normal form of a quantum Hamiltonian geometrically, relating it to the quantization of integrable systems and to formal deformations of variations of Hodge structures. This is joint work in progress with Maxim Kontsevich.",
+      tags: ["quantum-groups", "fukaya"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -4020,6 +4411,7 @@ window.MSEMINAR = {
       title: "Singularities of the quantum connection on a Fano variety",
       abstract:
         "The small quantum connection on a Fano variety is one of the simplest objects in enumerative geometry. Nevertheless, it is the subject of far-reaching conjectures known as the Dubrovin/Gamma conjectures. Traditionally, these conjectures are made for manifolds with semi-simple quantum cohomology or more generally for Fano manifolds whose quantum connection is of unramified exponential type at $q=\\infty$. I will explain a program, joint with Paul Seidel, to show that this unramified exponential type property holds for all Fano manifolds M carrying a smooth anticanonical divisor D. The basic idea of our argument is to view these structures through the lens of a noncommutative Landau-Ginzburg model intrinsically attached to (M,D).",
+      tags: ["noncommutative", "fukaya", "mirror-symmetry", "enumerative"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -4055,6 +4447,7 @@ window.MSEMINAR = {
       title: "Categorification of Donaldson-Thomas invariants",
       abstract:
         "Given a (-1)-shifted derived scheme $X$ with a convenient orientation data (in the sense of Kontsevich-Soibelman), Brav-Bussi-Dupont-Joyce-Szendroi (BBDJS) constructed a perverse sheaf over $X$ and whose Euler characteristic recovers Behrend's counting of Donaldson-Thomas invariants. The BBDJS construction uses a Darboux local form for (-1)-shifted symplectic schemes: locally they are all derived critical loci of a function $f$ on a smooth scheme $U$ and the DT-invariants are obtained from the Euler characteristic of the sheaf of vanishing cycles of $f$. In this talk I will describe an ongoing joint work with B. Hennion and J. Holstein where we propose a strategy based on To\\\"en-Vezzosi derived foliations, to glue over $X$ a sheaf of 2-periodic dg-categories locally modeled on the categories of matrix factorisations $MF(U,f)$. In particular, our strategy allows us to recover the construction of BBDJS.",
+      tags: ["categorification", "dt-theory", "derived-categories"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -4084,6 +4477,7 @@ window.MSEMINAR = {
       title: "Stable Weinstein geometry through localizations",
       abstract:
         "Much of computational math is formula-driven, while much of categorical math is formalism-driven. Mirror symmetry is rich in part because many of its results are driven by both. With the advent of stable-homotopy-theoretic invariants in symplectic geometry, there has been a real need for better-behaved formalisms in symplectic geometry. In this talk, we will talk about recent success in constructing the formalism, especially in the setting of certain non-compact symplectic manifolds called Weinstein sectors. The results have concrete geometric consequences, like showing that spaces of embeddings of these manifolds map continuously to spaces of maps between certain invariants. (And in particular, leads to higher-homotopy-group generalizations, in the Weinstein setting, of the Seidel homomorphism, similar to works of Savelyev and Oh-Tanaka.) The main result we'll discuss is that the infinity-category of stabilized sectors can be constructed using the categorically formal process of localization. Most of what we discuss is joint with Oleg Lazarev and Zachary Sylvan.",
+      tags: ["fukaya", "mirror-symmetry"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -4102,6 +4496,7 @@ window.MSEMINAR = {
       title: "Weight polynomials of compactified Jacobians and link invariants",
       abstract:
         "Using a recursive algorithm for orbital integrals of tamely ramified elliptic elements in p-adic GL_n, we compute the weight polynomials of (local) compactified Jacobians of planar curves. Depending on one's taste, these can be also interpreted as point-counts on Hitchin fibers or affine Springer fibers in type A. The algorithm is based on old work of Waldspurger and can be interpreted using an action of the affine Yangian of gl(1) on the Fock space, where it becomes clear that there is a relationship to knot invariants of HOMFLY type. This also proves a virtual version of the Cherednik-Danilenko conjecture on Betti numbers of Jacobian factors.\nIn fact, the algorithm yields more, such as so called Shalika germs for the elements in question. These have a geometric interpretation on the Hilbert scheme of points on C^2, which I will also discuss. This is joint work with Cheng-Chiang Tsai.",
+      tags: ["categorification", "langlands", "higgs-coulomb", "quantum-groups"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -4137,6 +4532,7 @@ window.MSEMINAR = {
       title: "Holomorphic Floer theory and the Fueter equation",
       abstract:
         "I will discuss an idea of constructing a category associated with a pair of holomorphic Lagrangians in a hyperkahler manifold, or, more generally, a manifold equipped with a triple of almost complex structures I,J,K satisfying the quaternionic relation IJ =-JI= K. This category can be seen as an infinite-dimensional version of the Fukaya-Seidel category associated with a Lefschetz fibration. While many analytic aspects of this proposal remain unexplored, I will argue that in the case of the cotangent bundle of a Lefschetz fibration, our construction recovers the Fukaya-Seidel category. This talk is based on joint work with Semon Rezchikov, and builds on earlier ideas of Haydys, Gaiotto-Moore-Witten, and Kapranov-Kontsevich-Soibelman.",
+      tags: ["fukaya"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -4172,6 +4568,7 @@ window.MSEMINAR = {
       title: "Quantum cohomology as a deformation of symplectic cohomology",
       abstract:
         "Let X be a compact symplectic manifold, and D a normal crossings symplectic divisor in X. We give a criterion under which the quantum cohomology of X is the cohomology of a natural deformation of the symplectic cochain complex of X \\ D. The criterion can be thought of in terms of the Kodaira dimension of X (which should be non-positive), and the log Kodaira dimension of X \\ D (which should be non-negative). We will discuss applications to mirror symmetry. This is joint work with Strom Borman and Umut Varolgunes.",
+      tags: ["fukaya", "mirror-symmetry", "enumerative"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -4207,6 +4604,7 @@ window.MSEMINAR = {
       title: "Cohomology and intersection theory on stacks",
       abstract:
         "I will give an overview of some recent work on extending cohomological and intersection-theoretic methods to stacks. This formalism subsumes equivariant intersection theory in the sense of Edidin-Graham and also incorporates virtual phenomena via a derived version of specialization to the normal cone. I will also discuss a very general new localization theorem for stacks which recovers Atiyah-Bott localization in the case of quotients by torus actions. Finally, I will explain a categorification of this story, involving a derived microlocalization functor for constructible sheaves, which is closely connected with categorified Donaldson-Thomas theory. The localization theorem is joint with Aranha, Latyntsev, Park and Ravi, and the applications to DT theory are joint with Kinjo.",
+      tags: ["categorification", "dt-theory", "fukaya", "enumerative"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -4242,6 +4640,7 @@ window.MSEMINAR = {
       title: "Harish-Chandra modules and quantizations",
       abstract:
         "Let G be a complex semisimple algebraic group, g its Lie algebra and K a symmetric subgroup of G. In this situation one can talk about Harish-Chandra (g,K)-modules. Their study is a classical chapter of Lie representation theory, largely motivated by the study of representations of semisimple real groups and, in particular, the classification of unitary representations. It is classically expected that Harish-Chandra modules arising from the latter are related to quantizations of nilpotent orbits and their covers. In the recent years, there has been a lot of progress understanding the latter that in particular shed some light on the geometric classification of certain classes of Harish-Chandra modules that should come from unitary representations. I will survey some of this progress in my talk. Based on the joint work with Mason-Brown and Matvieievskyi, arXiv:2108.03453 <https://arxiv.org/abs/2108.03453>.",
+      tags: ["representation-theory"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -4282,6 +4681,7 @@ window.MSEMINAR = {
       title: "q-Opers — what they are and what are they good for?",
       abstract:
         "I will introduce the new geometric object - (G,q)-opers on a Riemann surface where G is a simple simply connected Lie algebra. I will describe their applications in geometric Langlands and integrable systems. Using the formalism of (G,q)-opers we can describe spectrum of quantum integrable models, like XXZ spin chains and their generalizations in representation theory (so called quantum/classical duality). As a different application we can study wall crossing transformations between fundamental solutions of Fuchsian ODEs with regular singularities (ODE/IM correspondence) using (G,q)-oper connections.",
+      tags: ["langlands", "quantum-groups", "stability", "representation-theory"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -4322,6 +4722,7 @@ window.MSEMINAR = {
       title: "Quadratic differentials, stability conditions, and DT invariants",
       abstract:
         "Combining ideas from string theory and geometric invariant theory, Bridgeland introduced the notion of a stability condition on a triangulated category. Since then, the problem of determining the structure of spaces of all stability conditions on triangulated categories, which are complex analytic manifolds, has proven to be quite challenging and has only been solved in a handful of examples. In some cases though, spaces of stability conditions turn out to have a very concrete and geometric interpretation as spaces of quadratic differentials, or equivalently flat surfaces - objects of intense study in ergodic theory. In these cases, the triangulated category is the (partially wrapped) Fukaya category of a surface. However, one can also instead consider certain 3-d Calabi-Yau triangulated categories, and this is necessary to make contact with the theory of motivic Donaldson-Thomas invariants of Kontsevich-Soibelman. As an application one obtains wall-crossing formulas for counts of finite-length geodesics on flat surfaces.\nThis lecture series will be based on arXiv:1409.8611, arXiv:2104.06018, as well as unpublished work. The aim will be to present a unified picture of existing results as well as indicate open questions and future directions of research.\nLecture 1: Quadratic differentials, Fukaya categories of surfaces, and stability conditions\nLecture 2: Calabi-Yau categories of surfaces\nLecture 3: DT-invariants and wall-crossing for quadratic differentials\nLecture 4: Proposed extensions and open problems",
+      tags: ["dt-theory", "stability", "fukaya", "derived-categories"],
       extra: ["Series of lectures: March 21, 23, 24 and 25 at 1:30pm"],
       cancelled: false,
       upcoming: false,
@@ -4406,6 +4807,7 @@ window.MSEMINAR = {
       title: "Mysterious Triality",
       abstract:
         "Mysterious duality was discovered by Iqbal, Neitzke, and Vafa in 2002 as a convincing, yet mysterious correspondence between certain symmetry patterns in toroidal compactifications of M-theory and del Pezzo surfaces, both governed by the root system series E_k. It turns out that the sequence of del Pezzo surfaces is not the only sequence of objects in mathematics which gives rise to the same E_k symmetry pattern. I will present a sequence of topological spaces, starting with the four-sphere S^4, and then forming its iterated cyclic loop spaces L_c^k S^4, within which we will see the E_k symmetry pattern via rational homotopy theory. For this sequence of spaces, the correspondence between its E_k symmetry pattern and that of toroidal compactifications of M-theory is no longer a mystery, as each space L_c^k S^4 is naturally related to the compactification of M-theory on the k-torus via identification of the equations of motion of (11-k)-dimensional supergravity as the defining equations of the Sullivan minimal model of L_c^k S^4. This gives an explicit duality between rational homotopy theory and physics. Thereby, Iqbal, Neitzke, and Vafa’s mysterious duality between algebraic geometry and physics is extended to a triality involving algebraic topology, with the duality between topology and physics made explicit, i.e., demystified. The mystery is now transferred to the mathematical realm as duality between algebraic geometry and algebraic topology. This is a report on а recent work, arXiv:2111.14810<https://arxiv.org/abs/2111.14810> [hep-th], with Hisham Sati.",
+      tags: ["gauge-theory"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -4446,6 +4848,7 @@ window.MSEMINAR = {
       title: "Algebraic weaves and braid varieties",
       abstract:
         "In the talk I will define braid varieties, a class of affine algebraic varieties associated to positive braids, and explain their relation to Richardson and positroid varieties, HOMFLY polynomial and Khovanov-Rozansky homology. I will also develop a Soergel-like diagrammatic calculus for correspondences between the braid varieties. This is a joint work with Roger Casals, Mikhail Gorsky and Jose Simental Rodriguez.",
+      tags: ["categorification", "quantum-groups"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -4481,6 +4884,7 @@ window.MSEMINAR = {
       title: "Quiver BPS Algebras",
       abstract:
         "The quiver Yangian is the algebra underlying BPS state counting problems for toric Calabi-Yau three-folds. In this talk I will discuss a physical construction of this algebra as it emerges from an effective quantum field theory (QFT) describing the IR physics of D-branes wrapping the three-fold. QFT setup provides as well natural trigonometric and elliptic analogues of quiver Yangians, which could be called toroidal quiver algebras and elliptic quiver algebras, respectively. The representations of the shifted rational, trigonometric and elliptic algebras can be constructed in terms of the statistical model of crystal melting. The analysis of supersymmetric gauge theories suggests that there exist even richer classes of algebras associated with higher-genus Riemann surfaces and generalized cohomology theories.\nIf time permits, I would mention possible developments and relations to (possibly novel) integrable models.\nThis talk is based on arXiv:2008.07006, arXiv:2106.01230, arXiv:2108.10286.",
+      tags: ["quantum-groups", "dt-theory", "enumerative", "gauge-theory"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -4516,6 +4920,7 @@ window.MSEMINAR = {
       title: "Quantum vertex algebras and cohomological Hall algebras",
       abstract:
         'There is an extremely rich history of interaction between string theory and the mathematics of moduli spaces, for instance cohomological Hall algebras/algebras of BPS states, or vertex/chiral algebras.\nIn this talk, I will explain a link between two of these: Joyce\'s vertex algebras attached to the moduli stack of objects in an abelian category, and one dimensional CoHAs. This is based on my recent paper 2110.14356, whose main result says that the cohomologies of such stacks are ``quantum vertex algebras": the factorisation/vertex analogues of quasitriangular bialgebras. The main technical tool is a ``bivariant" Euler class which makes torus localisation work in this context. I will discuss applications of these techniques to CoHAs of coherent sheaves on a curve and future directions.',
+      tags: ["coha", "cft", "dt-theory"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -4551,6 +4956,7 @@ window.MSEMINAR = {
       title: "Quantum Topology at generic q",
       abstract:
         'Quantum topology is a blend of topology and quantum algebra, where topological invariants of knots and 3-manifolds are constructed from basic building blocks of algebraic origin. The latter, in turn, can come from symmetries of solvable lattice models, from vertex operator algebras, from quantum field theories, and from various constructions in geometric representation theory, thus providing "algebraic bridges" between these different areas of mathematics and physics. Many invariants of 3-manifolds --- e.g. the Rokhlin invariant, Witten-Reshetikhin-Turaev invariants and their non-semisimple generalizations (ADO and CGP invariants) --- arise in this way and involve quantum groups at roots of unity. Constructing q-series invariants associated with quantum groups at generic q requires qualitatively new techniques. The main goal of these lectures is to offer a slow introduction and a practical guide to these techniques, illustrated by many examples and, hopefully, led by many questions and suggestions from the audience.',
+      tags: ["cft", "categorification", "quantum-groups", "gauge-theory"],
       extra: [
         "Series of lectures: Feb 7 (1:30pm), Feb 9 (1:30pm), Feb 10 (3:30pm) and Feb 11 (1:30pm)",
       ],
@@ -4618,6 +5024,7 @@ window.MSEMINAR = {
       title: "DT invariants and vertex algebras",
       abstract:
         "Cohomological Hall algebras (CoHAs) can be understood as a mathematical incarnation of algebras of BPS states in string theory. Their Poincare series can be used to determine DT invariants of the corresponding categories.\nFor a symmetric quiver Q, the corresponding CoHA is commutative and I will explain how its dual can be naturally equipped with a structure of a vertex bialgebra. It can also be identified with 1) the universal enveloping algebra of some Lie algebra, 2) the universal enveloping vertex algebra of some vertex Lie algebra, 3) the principal free vertex algebra embedded into some lattice vertex algebra.\nThis identification leads to a new proof of the positivity of DT invariants. It also allows one to interpret duals of CoHA modules, arising from moduli spaces of stable framed representations, as certain subspaces of principal free vertex algebras.",
+      tags: ["coha", "cft", "dt-theory", "representation-theory"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -4653,6 +5060,7 @@ window.MSEMINAR = {
       title: "Link homology from a stack of D2 branes with a B-twist",
       abstract:
         "This is a joint work with A. Oblomkov. The HOMFLY-PT polynomial invariant of a link in S^3 is `a sibling' of the DT invariant of a Calabi-Yau 3-fold X: the difference is that the HOMFLY-PT polynomial counts the curves in X in the presence of special Lagrangian submanifolds related to link components. We construct a categorification of the HOMFLY-PT polynomial based on a particular way of curve counting, when the curves are almost coincident and one has to account for their joint vibrations in a transverse C^2. Thus we select a special object FL in a 2-category associated with the Hilbert scheme of n points in C^2, define a homomorphism from the n-strand braid group to the monoidal category End(FL) and use it to associate a graded vector space (homology) to the closure of a braid. I will explain the details of the mathematical construction and its interpretation within the M-theory.",
+      tags: ["categorification", "quantum-groups", "dt-theory", "fukaya"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -4688,6 +5096,7 @@ window.MSEMINAR = {
       title: "Chern classes of quantizable sheaves and characteristic cycles",
       abstract:
         "Let A be a formal deformation quantization of the structure sheaf of an algebraic symplectic manifold X. Given a coherent sheaf E on X we define a characteristic class s(E) as a product of the Chern character of E and a certain class associated with the quantization A. We show that if E can be quantized to an A-module then all homogeneous components of s(E) in a certain range of degrees vanish. The proof is based on relating the Chern characters of E and of its quantization. The latter lives in the negative cyclic homology of A and we show that the negative cyclic homology groups of relevant degrees vanish.\nIn the holonomic case our result says that if the support of the quantizable sheaf E is a (possibly singular) Lagrangian subvariety, then the only nonvanishing Chern class of E is the top degree class which is the Poincare dual of support cycle of E. As an application, let X be a conical symplectic resolution and B the algebra of global sections of a filtered quantization of X. We prove, motivated by a question by Bezrukavnikov and Losev, that the characteristic cycles of finite dimensional simple B-modules are linearly independent.",
+      tags: ["noncommutative", "fukaya", "derived-categories"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -4723,6 +5132,7 @@ window.MSEMINAR = {
       title: "A note on homological mirror symmetry over Novikov ring",
       abstract:
         "Homological Mirror symmetry is a symmetry between symplectic and complex geometries. In the symplectic side, Lagrangian Floer homology is the main object of the study. In most of the results on homological mirror symmetry in the literature, Lagrangian Floer homology is considered over the coefficient ring which is either a ground ring (such as $\\mathbb Z$, $\\mathbb Q$, $\\mathbb C$) or a Novikov field, where the formal parameter is inverted. Lagrangian Floer homology over Novikov ring is known to contain much more informations than one over Novikov field. In this talk, I will explain certain ideas and preliminary results to study homological Mirror symmetry over Novikov ring. I will explain how the notion of Gromov-Hausdorff convergence of A infinity category is used for this purpose.",
+      tags: ["fukaya", "mirror-symmetry", "enumerative"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -4758,6 +5168,7 @@ window.MSEMINAR = {
       title: "$W_\\infty$ modules and melted crystals of DT and PT",
       abstract:
         "$W_\\infty$ algebra is a vertex operator algebra extending the Virasoro algebra by fields of spin $3,4,\\dots$. It is known to admit a nice class of modules labelled by a triple of partitions. $W_\\infty$ is also known to admit an alternative description in terms of the affine Yangian of $gl_1$ admitting a very concrete definition of such modules. As we will see in this talk, utilizing the charge-conjugation automorphism of $W_\\infty$ in the language of the affine Yangian leads to a new class of affine Yangian modules with non-diagonalizable action of Cartan generators and striking connection with Pandharipande-Thomas invariants.",
+      tags: ["cft", "quantum-groups", "dt-theory", "enumerative"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -4798,6 +5209,7 @@ window.MSEMINAR = {
       title: "Relative stable pairs and a non-Calabi-Yau wall crossing",
       abstract:
         "For complex smooth threefolds, there are enumerative theories of curves defined using sheaves, such as Donaldson-Thomas (DT) theory using ideal sheaves and Pandharipande-Thomas (PT) theory using stable pairs. These theories are conjecturally related among themselves and conjecturally related to other enumerative theories of curves, such as Gromov-Witten theory. The conjectural relation between DT and PT theories is known only for Calabi-Yau threefolds by work of Bridgeland, Toda, where one can use the powerful machinery of motivic Hall algebras due to Joyce and his collaborators.\nBryan-Steinberg (BS) defined enumerative invariants for Calabi-Yau threefolds Y with certain contraction maps $Y\\to X$. I plan to explain how to extend their definition beyond the Calabi-Yau case and what is the conjectural relation to the other enumerative theories. This conjectural relation is known in the Calabi-Yau case by work of Bryan-Steinberg using the motivic Hall algebra. In contrast to the DT/ PT correspondence, we manage to establish the BS/ PT correspondence in some non-Calabi-Yau situations.",
+      tags: ["coha", "quantum-groups", "dt-theory", "stability"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -4838,6 +5250,7 @@ window.MSEMINAR = {
       title: "Spectral description of non-commutative local systems on surfaces",
       abstract:
         "Let R be a non-commutative field. I plan to give a cluster description of the following moduli spaces:",
+      tags: ["cluster", "noncommutative"],
       extra: [
         "i) Triples of flags in generic position.",
         "ii) Moduli spaces R-vector bundles with flat framed connections over topological surfaces with corners.",
@@ -4884,6 +5297,7 @@ window.MSEMINAR = {
       title: "On the perturbation theory for spectra in quantum mechanics",
       abstract:
         'Consider a polynomial differential operator in one variable, depending on a small parameter (Planck constant). Under appropriate conditions, the low-energy spectrum admits an asymptotic expansion in hbar. I will present a way to calculate such series via a purely "commutative problem", a mixture of variations of Hodge structures and of the Stirling formula. This result came from discussions with A.Soibelman.',
+      tags: [],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -4919,6 +5333,7 @@ window.MSEMINAR = {
       title: "Cohomological DT theory and nonabelian Hodge theory for stacks",
       abstract:
         ": The nonabelian Hodge correspondence provides a diffeomorphism between certain coarse moduli spaces of semistable Higgs bundles on a smooth projective curve C (the Dolbeault side) and coarse moduli spaces of representations of the fundamental group of C (the Betti side). In the case of coprime rank and degree, these spaces are smooth, and the famous P=W conjecture states that the isomorphism in cohomology provided by the above diffeomorphism takes the weight filtration on the Betti side to the perverse filtration on the Dolbeault side. The purpose of these talks is to use recent advances in cohomological Donaldson-Thomas theory to extend this story to moduli stacks.",
+      tags: ["higgs-coulomb", "dt-theory", "representation-theory", "derived-categories"],
       extra: [
         "Notes:\nLecture 1 , Lecture 2 , Lecture 3",
         "Video Recordings: Lecture 1 , Lecture 2 , Lecture 3",
@@ -5007,6 +5422,7 @@ window.MSEMINAR = {
       title: "Multiplication kernels",
       abstract:
         ": Commutative associative multiplications on a space of functions can be defined in terms of multiplication kernels which are an infinite-dimensional analog of structure constants of multiplication in finite-dimensional case. Associativity constrain gives an integral equation for multiplication kernel. I will explain various ways of dealing with this integral equation in purely algebraic terms. In particular, connections with integrable systems will be discussed and a lot of examples will be constructed. The talk is based on the paper M. Kontsevich, A. Odesski Multiplication kernels, arXiv:2105.04238",
+      tags: ["quantum-groups"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -5047,6 +5463,7 @@ window.MSEMINAR = {
       title: "Localization of Fukaya categories and quantizing the Hitchin system",
       abstract:
         ": For a complex curve C and reductive group G, the space of G-bundles on C has been of much interest to many mathematicians. For the purposes of the geometric Langlands correspondence, one wishes to construct certain `Hecke eigensheaves' over this space. It has long been expected (and in some cases known) that these should arise from quantization of fibers of Hitchin's integrable system, this being the map h: T*Bun(C, G) --> A which, for G = GL(n), records the spectral curve of a Higgs bundle. Historically this means that one tries to associate a D-module on Bun(C, G) to each fiber of h.",
+      tags: ["fukaya", "langlands", "higgs-coulomb"],
       extra: [
         "More recently, the fact that Langlands dual groups give rise to dual Hitchin fibrations has led to the expectation that geometric Langlands duality should be some sort of homological mirror symmetry. In this talk we will take a step towards making this precise: recent results on the localization of wrapped Fukaya categories allow us to use Floer theory to associate a constructible sheaf on Bun(C, G) to a fiber of the Hitchin fibration. (More precisely, we may do for smooth fibers, in components of Bun(C, G) where there are no strictly semistable Higgs bundles, and should assume G connected center). We don't yet know how to check that we have eigensheaves, but can check some expected properties: our sheaves have the expected endomorphisms, rank, microstalks on certain components, and sheaves from different fibers are orthogonal.",
       ],
@@ -5090,6 +5507,7 @@ window.MSEMINAR = {
       title: "Explicit Hitchin System on Lagrangians",
       abstract:
         ": I will report on joint project with Hitchin where we compute some examples of the multiplicity algebra of the Hitchin system on upward flows as jet schemes of cohomology rings of Grassmannians.",
+      tags: ["langlands", "higgs-coulomb", "fukaya", "representation-theory"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -5130,6 +5548,7 @@ window.MSEMINAR = {
       title: "Universal Coulomb branch and theta-sheaves",
       abstract:
         'In the first half of the talk I shall recall basic definitions related to derived geometric Satake equivalence and its relation to construction of Coulomb branches of 3d N=4 gauge theories (no physics background is assumed). In the 2nd half I will describe certain "universal Coulomb object" on the affine Grassmannian of the group Sp(2n) (following suggestions by Drinfeld and Raskin) and discuss its relation with the so called theta-sheaf studied by Lafforgue and Lysenko.',
+      tags: ["higgs-coulomb", "gauge-theory", "representation-theory"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -5165,6 +5584,7 @@ window.MSEMINAR = {
       title: "2d Categorical Wall-Crossing With Twisted Masses",
       abstract:
         "We review how supersymmetric quantum mechanics naturally leads to several standard constructions in homological algebra. We apply these ideas to 2d Landau-Ginzburg models with (2,2) supersymmetry to discuss wall-crossing. Some aspects of the web formalism are reviewed and applied to the categorification of the Cecotti-Vafa wall-crossing formula for BPS invariants. We then sketch the generalization to include twisted masses. In the final part of the talk we sketch how some of these ideas give a natural framework for understanding a recent conjecture of Garoufalidis, Gu, and Marino and lead to potentially new knot invariants. The talk is based on work done with Ahsan Khan and the final part is the result of discussions with Ahsan Khan, Davide Gaiotto, and Fei Yan.",
+      tags: ["categorification", "dt-theory", "stability", "mirror-symmetry"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -5205,6 +5625,7 @@ window.MSEMINAR = {
       title: "Lagrangian Floer theory for trivalent graphs and HMS for curves",
       abstract:
         "The mirror of a genus g curve can be viewed as a trivalent configuration of 3g−3 rational curves meeting in 2g−2 triple points; more precisely, this singular configuration arises as the critical locus of the superpotential in a 3-dimensional Landau-Ginzburg mirror. In joint work with Alexander Efimov and Ludmil Katzarkov, we introduce a notion of Fukaya category for such a configuration of rational curves, where objects are embedded graphs with trivalent vertices at the triple points, and morphisms are linear combinations of intersection points as in usual Floer theory. We will describe the construction of the structure maps of these Fukaya categories, attempt to provide some motivation, and outline examples of calculations that can be carried out to verify homological mirror symmetry in this setting.",
+      tags: ["fukaya", "mirror-symmetry"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -5245,6 +5666,7 @@ window.MSEMINAR = {
       title: "Loop Grassmannians of lattices",
       abstract:
         "To each choice of a based lattice L, a cohomology theory A and a poset P one can associate a space Gr(L,A,P). This generalizes the loop Grassmannians of semisimple groups which is the case of the coroot lattice, classical cohomology and the point poset. This is an attempt to replace reductive groups (in some aspects) by “coliding particles”. One could also view it as an approach to loop Grassmannians through homology rather than cohomology, motivated by the Contou-Carrere symbol.",
+      tags: ["representation-theory"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -5285,6 +5707,7 @@ window.MSEMINAR = {
       title: "On some Fukaya categories of singular Lagrangians with coefficients",
       abstract:
         "This is about work in progress with Fabian Haiden and Ludmil Katzarkov. We consider the folkloric construction of Fukaya categories over the Novikov ring, for objects that are graphs in a surface (the complex plane) together with sections of a fiber dg-category patched together with A_n-objects at (n+1)-fold vertices of the graph. We discuss aspects of the question of defining these categories, and then look at the case of 6 endpoints on a regular hexagon with A_2 coefficient category. Mirror symmetry already gives a stability condition, and we show that the semistable objects are represented by spectral networks that can be pictured in an explicit way.",
+      tags: ["langlands", "stability", "fukaya", "mirror-symmetry"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -5326,6 +5749,7 @@ window.MSEMINAR = {
       title: "Fukaya categories of Calabi-Yau hypersurfaces",
       abstract:
         "We will discuss some structural properties of the Fukaya categories of Calabi-Yau hypersurfaces, concerning their dependence on the Kaehler (Novikov) parameter, that can be proved without relying on homological mirror symmetry.",
+      tags: ["fukaya", "mirror-symmetry"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -5366,6 +5790,7 @@ window.MSEMINAR = {
       title: "Arnol'd Conjecture and Morava K-theory",
       abstract:
         "The Arnol'd conjecture on the minimal number of fixed points of a Hamiltonian diffeomorphism has motivated a large number of developments in symplectic topology over the last few decades. I will explain a proof, joint with Blumberg, that the number of such fixed points is larger than the rank of the homology with coefficients in any field. The proof will involve developing tools and methods of Floer homotopy theory.",
+      tags: ["fukaya"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -5406,6 +5831,7 @@ window.MSEMINAR = {
       title: "Knot homology and coherent sheaves on Coulomb branches",
       abstract:
         "Recent work of Aganagic proposes the construction of a homological knot invariant categorifying the Reshetikhin-Turaev invariants of miniscule representations of type ADE Lie algebras, using the geometry and physics of coherent sheaves on a space which one can alternately describe as a resolved slice in the affine Grassmannian, a space of G-monopoles with specified singularities, or as the Coulomb branch of the corresponding 3d quiver gauge theories. We give a mathematically rigorous construction of this invariant, and in fact extend it to an invariant of annular knots, using the theory of line operators in the quiver gauge theory and their relationship to non-commutative resolutions of these varieties (generalizing Bezrukavnikov's non-commutative Springer resolution).",
+      tags: ["categorification", "higgs-coulomb", "noncommutative", "gauge-theory"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -5446,6 +5872,7 @@ window.MSEMINAR = {
       title: "3d mirror symmetry for characteristic classes of bow varieties",
       abstract:
         'One of the predictions of N=4 d=3 mirror symmetry concerns characteristic classes, namely so-called stable envelopes of singularities. We will explore the notion of stable envelopes, their role in enumerative geometry and representation theory. Then we will discuss Cherkis bow varieties that come in pairs (3d mirror pairs) such that the elliptic stable envelopes on two spaces in a pair conjecturally "coincide" (after transposition, switching equivariant and dynamical variables, and inverting ℏℏ\n).',
+      tags: ["quiver-varieties", "higgs-coulomb", "mirror-symmetry", "enumerative"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -5486,6 +5913,7 @@ window.MSEMINAR = {
       title: "Supermeasure on moduli of supercurves",
       abstract:
         "This is a report on joint work with Giovanni Felder and David Kazhdan. I will discuss the moduli space of supercurves and its compactification, the moduli of stable supercurves. As in the classical case, the analog of Mumford’s isomorphism gives an expression of the canonical bundle on this moduli space in terms of the Berezinian of the Hodge bundle. We consider the corresponding supermeasure obtained from this isomorphism together with the natural hermitian metric on the Hodge bundle. Our main results concern its polar behaviour at infinity and on the null-theta divisor.",
+      tags: [],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -5527,6 +5955,7 @@ window.MSEMINAR = {
         "Motivic invariants for moduli of parabolic Higgs bundles and parabolic connections on a curve",
       abstract:
         "Motivic classes can realize certain algebro-geometric invariants using elements of the Grothendieck ring of varieties or, more generally, of stacks. I will introduce motivic classes through rational point counting over a finite field, then discuss motivic class computations for moduli spaces and moduli stacks of semistable Higgs bundles (as well as vector bundles with connections on a curve), and finish by addressing the parabolic case.",
+      tags: ["higgs-coulomb", "dt-theory", "enumerative"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -5567,6 +5996,7 @@ window.MSEMINAR = {
       title: "A survey of categorical enumerative invariants",
       abstract:
         "I will survey recent progress in defining and computing categorical enumerative invariants, analogues of Gromov-Witten invariants defined directly from a cyclic A_infinity category and a choice of splitting of the Hodge filtration on its periodic cyclic homology. A proposed definition of such invariants appeared in 2005 in work of Costello, but the original approach had technical problems that made computations impossible. New results allow us to give an alternate definition of Costello's invariants, where explicit computation is possible -- and indeed we apply our results to B-model calculations for elliptic curves and categories of matrix factorizations. My talk is based on joint work with Junwu Tu and Kevin Costello.",
+      tags: ["enumerative", "derived-categories"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -5607,6 +6037,7 @@ window.MSEMINAR = {
       title: "Coulomb branches for quiver gauge theories with symmetrizers",
       abstract:
         'Braverman-Finkelberg-Nakajima have recently given a mathematical construction of the Coulomb branches for 3d N=4 theories. From a representation-theoretic perspective, one reason that their work is especially appealing is that affine Grassmannian slices of ADE types arise this way, associated to quiver gauge theories. By allowing general quivers, Coulomb branches also provide a candidate definition for affine Grassmannian slices in all symmetric Kac-Moody types. In this talk I will discuss joint work with Nakajima, where we generalize the BFN construction of the Coulomb branch to incorporate "symmetrizers". In this way we recover affine Grassmannian slices in BCFG type, and a candidate definition for symmetrizable Kac-Moody types.',
+      tags: ["quiver-varieties", "higgs-coulomb", "gauge-theory", "representation-theory"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -5647,6 +6078,7 @@ window.MSEMINAR = {
       title: "Verlinde formulas in Betti Geometric Langlands",
       abstract:
         "I'll review the Betti variant of Geometric Langlands then describe progress towards expressing automorphic categories of smooth curves in terms of such categories for marked genus zero curves. Time permitting I'll discuss specific applications in low genus. Joint work with Zhiwei Yun.",
+      tags: ["langlands"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -5687,6 +6119,7 @@ window.MSEMINAR = {
       title: "Nuclear modules over proper DG algebras",
       abstract:
         'I will explain a certain general natural construction of a dualizable presentable DG category Nuc(A) associated with a proper DG algebra (or a proper DG category) A over a commutative ring k. As a special case, it gives (an "unbounded" version of) the category of nuclear modules on a formal scheme, which was defined recently by Clausen and Scholze.\nThe compact objects of Nuc(A) are given by (the usual) pseudo-perfect A-modules PsPerf(A) (i.e. those A-modules which are perfect over k). However, unlike PsPerf(A), the category Nuc(A) has very nice properties: it satisfies Zariski descent over Spec(k), and so does its continuous K-theory. Moreover, its continuous K-theory and Hochschild homology are expected to have a very concrete description in terms of A.\nI will also explain that Nuc(A) is a special case of an even more general notion/construction, which (surprisingly) was not considered before: internal Hom in the symmetric monoidal category, whose objects are dualizable presentable DG categories, and the morphisms are given by strongly continuous functors (i.e. the functors whose right adjoint commutes with infinite direct sums).',
+      tags: [],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -5757,6 +6190,7 @@ window.MSEMINAR = {
       title: "Enumerative invariants in Algebraic Geometry and wall crossing formulae",
       abstract:
         "In Gross-Joyce-Tanaka arXiv:2005.05637, we described a universal conjectural picture for enumerative invariants counting semistable objects in abelian categories/gauge theories, which claimed that under some assumptions:\n(i) one can construct invariants, as virtual classes in the rational homology of the “projective linear” moduli stack, for all topological invariants (fixed Chern classes etc), including classes with strictly semistables;\n(ii) these invariants satisfy a wall-crossing formula under change of stability condition, written in terms of a Lie bracket on the homology of the moduli stack, which came out of my project on vertex algebra structures on homology of moduli stacks.\nWe proved the conjecture for representations of acyclic quivers.\nIn work in progress, I have now proved/am proving versions of the conjectures for a broad family of settings in Algebraic Geometry, in which invariants are formed using Behrend-Fantechi virtual classes. These include suitable quivers with relations, coherent sheaves on curves, surfaces and some 3-folds, and algebraic Seiberg-Witten invariants and Donaldson invariants of projective complex surfaces. The SW/Donaldson theory picture includes wall-crossing formulae, related to those of Mochizuki, which implicitly determine algebraic U(n) and SU(n) Donaldson invariants, of any rank, in terms of rank 1 Seiberg-Witten type invariants and invariants of Hilbert schemes of points, for any projective complex surface, without restriction on b1b1\n, or b2+b+2\n, or a simple type assumption.\nThe talk will give an overview of this programme.",
+      tags: ["cft", "dt-theory", "stability", "enumerative"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -5798,6 +6232,7 @@ window.MSEMINAR = {
       title: "Brane quantization",
       abstract:
         "I will review the A-model Gukov-Witten setup for the quantization of a phase space and its relation to the analytic version of the Langlands correspondence recently proposed by Etingof, Frenkel and Kazhdan.",
+      tags: ["langlands"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -5838,6 +6273,7 @@ window.MSEMINAR = {
       title: "Derived autoequivalences of moduli spaces of sheaves on K3 surfaces",
       abstract:
         'Some years ago I constructed a new autoequivalence of the derived category of the Hilbert scheme of n points on a K3 surface using "P-functors." Later Donovan, Meachan, and I extended the construction to some moduli spaces of torsion sheaves, and illuminated the geometric meaning of the story. Now my student Andrew Wray and I can extend it to moduli spaces of sheaves of any rank, powered by a new proof of the standard results about those moduli spaces. We deform to a Hilbert scheme in one step, using twistor lines.',
+      tags: ["derived-categories"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -5879,6 +6315,7 @@ window.MSEMINAR = {
       title: "Towards Lefschetz thimbles in field theory",
       abstract:
         "I will review the quantization procedure viewed from a higher dimensional perspective: old-fashioned path integrals, Kontsevich Poisson sigma model, cc branes of Kapustin-Orlov, and, finally, four dimensional Omega-deformed N=2 gauge theories. By rephrasing the computation of quantum model partition function in four dimensional language we arrive at the motivation to search for critical points of analytically continued (complexified) action functional. I will then report on the recent progress (in a joint work with I.Krichever) in this problem in the case of two dimensional sigma models, notably with the target spaces being the spheres and complex projective spaces.",
+      tags: ["gauge-theory"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -5919,6 +6356,7 @@ window.MSEMINAR = {
       title: "Sheaf quantization in Weinstein symplectic manifolds",
       abstract:
         "I will explain how, using only the microlocal sheaf theory (i.e. no holomorphic curves), one can produce a category associated to a Weinstein symplectic manifold. Exact Lagrangians will give objects of this category. This is work with David Nadler. (A posteriori, it is possible to show that this category is equivalent to the Fukaya category, but that is a long and different story).",
+      tags: ["fukaya"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -5959,6 +6397,7 @@ window.MSEMINAR = {
       title: "Disc potential functions of Quadrics",
       abstract:
         "A disc potential function introduced by Fukaya—Oh—Ohta—Ono plays an important role in studying Lagrangian submanifolds and the ambient symplectic manifold. In this talk, I will explain how to compute the disc potential function of quadrics. The potential function provides the Landau-Ginzburg mirror, which agrees with Przyjalkowski’s mirror and a cluster chart of Pech—Rietsch—Williams’ mirror.",
+      tags: ["cluster", "fukaya", "mirror-symmetry"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -6000,6 +6439,7 @@ window.MSEMINAR = {
         "The moduli space of l-adic local systems and application to geometric and classical Langlands theory",
       abstract:
         "In the talk we will define a new geometric object, the stack of local systems with restricted variation. We will discuss the appropriately modified version of the geometric Langlands conjecture and its relationship with the classical Langlands conjecture via the operation of categorical trace of Frobenius.",
+      tags: ["langlands"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -6041,6 +6481,7 @@ window.MSEMINAR = {
       title: "Frobenius structure conjecture and application to cluster algebras",
       abstract:
         "I will explain the Frobenius structure conjecture of Gross-Hacking-Keel in mirror symmetry, and an application towards cluster algebras. I will show that the naive counts of rational curves in an affine log Calabi-Yau variety U, containing an open algebraic torus, determine in a simple way, a mirror family of log Calabi-Yau varieties, as the spectrum of a commutative associative algebra equipped with a multilinear form. The structure constants of the algebra are constructed via counting non-archimedean analytic disks in the analytification of U. I will explain various properties of the counting, notably deformation invariance, symmetry, gluing formula and convexity. In the special case when U is a Fock-Goncharov skew-symmetric X-cluster variety, our algebra generalizes, and in particular gives a direct geometric construction of, the mirror algebra of Gross-Hacking-Keel-Kontsevich. The comparison is proved via a canonical scattering diagram defined by counting infinitesimal non-archimedean analytic cylinders, without using the Kontsevich-Soibelman algorithm. Several combinatorial conjectures of GHKK follow readily from the geometric description. This is joint work with S. Keel, arXiv:1908.09861. If time permits, I will mention another application towards the moduli space of KSBA stable pairs, joint with P. Hacking and S. Keel, arXiv: 2008.02299.",
+      tags: ["cluster", "dt-theory", "stability", "mirror-symmetry"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -6081,6 +6522,7 @@ window.MSEMINAR = {
       title: "Homological mirror symmetry near SYZ singularities",
       abstract:
         "I'll discuss homological mirror symmetry for the spaces $\\prod x_i = 1 + \\sum y_j$, which appear as neighborhoods of SYZ singularities. I'll start by discussing wrapped HMS, and then I'll explain how to cook up a torus-like closed Lagrangian brane for every point of the mirror. This is work in progress with M. Abouzaid and in part with A. Perry.",
+      tags: ["fukaya", "mirror-symmetry"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -6121,6 +6563,7 @@ window.MSEMINAR = {
       title: "Families of Hitchin systems and N=2 theories",
       abstract:
         "Motivated by the connection to 4d N=2 theories, we study the global behavior of families of tamely-ramified $SL_N$ Hitchin integrable systems as the underlying curve varies over the Deligne-Mumford moduli space of stable pointed curves. In particular, we describe a flat degeneration of the Hitchin system to a nodal base curve and show that the behaviour of the integrable system at the node is partially encoded in a pair (O,H) where O is a nilpotent orbit and H is a simple Lie subgroup of FO, the flavour symmetry group associated to O. The family of Hitchin systems is nontrivially-fibered over the Deligne-Mumford moduli space. We prove a non-obvious result that the Hitchin bases fit together to form a vector bundle over the compactified moduli space. For the particular case of $M_{0,4}$, we compute this vector bundle explicitly. Finally, we give a classification of the allowed pairs (O,H) that can arise for any given N. (This is joint work with Aswin Balasubramanian and Jacques Distler)",
+      tags: ["langlands", "higgs-coulomb", "gauge-theory"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -6156,6 +6599,7 @@ window.MSEMINAR = {
       title: "Doubly Periodic Monopoles and Exploded Geometry",
       abstract:
         "Classical monopole dynamics captures both the geometry of the moduli spaces of quantum supersymmetric gauge theories and the dynamics of certain brane configurations. It is also a good source of self-dual gravitational instantons -- hyperkahler manifolds in real dimension four.\nAfter an overview of these relations for various monopoles, we shall focus on doubly periodic monopoles and their moduli spaces. In particular, the natural compactification of these moduli spaces is formulated in terms of exploded geometry of Brett Parker.",
+      tags: ["higgs-coulomb", "gauge-theory"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -6196,6 +6640,7 @@ window.MSEMINAR = {
       title: "Monodromy: yesterday, today, and tomorrow",
       abstract:
         "Monodromy of solutions of differential equations is very much a recurring theme in mathematics, from XIX century to the present day. For instance, the Kohno-Drinfeld theorem from 30+ years ago, which describes the monodromy of the Knizhnik-Zamolodchikov equations of the Conformal Field Theory in term of braiding for the associated quantum group, as a striking example of how representation-theoretic ideas may shed light on this problem. In this talk, I will talk about some more recent advances that include ideas from enumerative geometry and representation theory over a field of prime characteristic.",
+      tags: ["cft", "quantum-groups", "enumerative"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -6236,6 +6681,7 @@ window.MSEMINAR = {
       title: "The Gamma Conjecture for the Tropical 1-cycles in Local Mirror Symmetry",
       abstract:
         "The Gamma Conjecture in mirror symmetry relates central charges of dual objects. Mathematically, periods of a Lagrangian submanifold are related to characteristic classes of the mirror coherent sheaf. In this talk, I will test the Gamma Conjecture in the setting of local mirror symmetry. For a given coherent sheaf on the canonical bundle of a smooth toric surface, I will identify a 3-cycle in the mirror using tropical geometry by comparing its period with the central charge of the coherent sheaf through the Gamma Conjecture. If time permits, I will also discuss about the higher dimensional case. This work is based on Ruddat and Siebert's work on the period computation and is inspired by Abouzaid, Ganatra, Iritani and Sheridan's work on the Gamma Conjecture.",
+      tags: ["fukaya", "mirror-symmetry", "derived-categories"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -6277,6 +6723,7 @@ window.MSEMINAR = {
       title: "The curious hard Lefschetz property for character varieties",
       abstract:
         "I will talk about a way to decompose various character varieties into cells where each cell looks like a product of an affine space and a symplectic torus. This can be thought of as abelianization. As an application, we deduce the curious hard Lefschetz property conjectured by Hausel, Letellier and Rodriguez-Villegas, which claims that the operator of cup product with the class of the holomorphic symplectic form is an isomorphism between complementary degrees of the associated graded with respect to the weight filtration of the cohomology.",
+      tags: [],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -6317,6 +6764,7 @@ window.MSEMINAR = {
       title: "Categorical g-actions for modules over truncated shifted Yangians",
       abstract:
         "Given a representation V of a reductive group G, Braverman-Finkelberg-Nakajima defined a Poisson variety called the Coulomb branch, using a convolution algebra construction. This variety comes with a natural deformation quantization, called a Coulomb branch algebra. Important cases of these Coulomb branches are (generalized) affine Grassmannian slices, and their quantizations are truncated shifted Yangians.\nMotivated by the geometric Satake correspondence and the theory of symplectic duality/3d mirror symmetry, we expect a categorical g-action on modules for these truncated shifted Yangians. I will explain three results in this direction. First, we have an indirect realization of this action, using equivalences with KLRW-modules. Second, we have a geometric relation between these generalized slices by Hamiltonian reduction. Finally, we have an algebraic version of this Hamiltonian reduction which we are able to relate to the first realization.",
+      tags: ["quiver-varieties", "higgs-coulomb", "quantum-groups", "noncommutative"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -6354,6 +6802,7 @@ window.MSEMINAR = {
         "The second universal motivic Chern class and cluster structure of moduli spaces of G-local systems",
       abstract:
         "The second motivic Chern class is the generator of the degree 4, weight 2 motivic cohomology of BG, where G is a split simple algebraic group over Q. I will construct a collection of explicit cocycles for the second motivic Chern class.\nIt has a number of applications, such as local combinatorial formulas for the usual second Chern class of a G-bundle over a manifold,\nor explicit constructions of the determinant bundle on Bun(G), the extension of G by K_2 etc.\nThe construction is closely related to the cluster structure of the moduli space of decorated G-local systems on a surface S with boundary.",
+      tags: ["cluster", "dt-theory"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -6395,6 +6844,7 @@ window.MSEMINAR = {
       title: "The coherent-constructible correspondence for toric projective bundles",
       abstract:
         "This talk is about the coherent-constructible correspondence (CCC). CCC is a version of homological mirror symmetry for toric varieties. It equates the derived category of coherent sheaves on a toric variety and the category of constructible sheaves on a torus that satisfy some condition on singular support. Recently, Harder-Katzarkov conjectured that there should be a version of CCC for toric fiber bundles and they proved their conjecture for $P^1$-bundles. I will explain how we can prove (half of) their conjecture for $P^n$-bundles. If time permits, I will give a more precise version of the conjecture for arbitrary toric fiber bundles.",
+      tags: ["mirror-symmetry", "derived-categories"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -6436,6 +6886,7 @@ window.MSEMINAR = {
       title: "Bow varieties and representations of affine Lie algebras",
       abstract:
         "Cherkis bow varieties of affine type A are common generalization of quiver varieties and Coulomb branches of affine type A. We construct commuting representations of affine $sl_\\ell$ and $sl_n$ on the direct sum of their homology groups (more precisely homology groups of attracting sets), as common generalization of corresponding results for quiver varieties and geometric Satake for affine $sl_n$. This is a part of a joint work in progress with Dinakar Muthiah.",
+      tags: ["quiver-varieties", "higgs-coulomb", "representation-theory"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -6476,6 +6927,7 @@ window.MSEMINAR = {
       title: "Symplectic duality and twisted quasimaps",
       abstract:
         "Hypertoric varieties are a hyperkahler analogue of toric varieties which arise frequently in geometric representation theory. I will explain how the virtual count of twisted quasimaps to a hypertoric variety can be reformulated as a kind of trace on a periodized symplectically dual hypertoric. Joint work with Artan Sheshmani and Shing-Tung Yau.",
+      tags: ["higgs-coulomb", "enumerative", "representation-theory"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -6516,6 +6968,7 @@ window.MSEMINAR = {
       title: "Holomorphic curves on knot conormals",
       abstract:
         'We give an overview of results from the last few years. We first describe the "skeins on branes” approach (joint with Shende) to open Gromov-Witten invariants and show how this leads to a direct geometric interpretation of the quantization of the augmentation variety of a Legendrian knot conormal, as a quantum curve. We then describe a partially conjectural quiver picture (joint with Kucharski and Longhi) for the holomorphic curve counts on a Lagrangian knot conormal, where all curves stems from a finite set of basic holomorphic disks. Via more refined disk counts, this quiver picture leads to a description of HOMFLY homology. Finally, we apply similar reasoning to the knot complement Lagrangian we find that a count of holomorphic annuli, after SFT stretching, can be viewed as the semi-classical limit of an instance of Gukov-Pei-Putrov-Vafa Z-hat theory. This leads to a direct geometric interpretation of the Z-hat invariant (joint with Guen, Gukov, Kucharski, Park, and Sulkowski).',
+      tags: ["categorification", "fukaya", "enumerative"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -6556,6 +7009,7 @@ window.MSEMINAR = {
       title: "A Diagrammatic Calculus For Legendrian Surfaces",
       abstract:
         "I will describe work with Roger Casals. We show how planar diagrams called N-graphs encode Legendrian surfaces which cover the plane N-to-1. These N-graphs can be used to express Reidemeister moves, surgeries, and connect sums; to describe a Markov move a` la braids; to construct large classes of examples of any genus; to define moduli spaces which can be used to distinguish surfaces up to Legendrian isotopy; to discuss cluster charts and mutations; to construct exact Lagrangian fillings; and to define a planar algebra.",
+      tags: ["cluster", "quantum-groups", "fukaya"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -6596,6 +7050,7 @@ window.MSEMINAR = {
       title: "3D Mirror Symmetry and HOMFLY-PT Homology",
       abstract:
         "A recent construction of HOMFLY-PT knot homology by Oblomkov-Rozansky has its physical origin in “B-twisted” 3D N=4 gauge theory, with adjoint and fundamental matter. Mathematically, the construction uses certain categories of matrix factorization. We apply 3D Mirror Symmetry to identify an A-twisted mirror of this construction. In the case of algebraic knots, we find that knot homology on the A side gets expressed as cohomology of affine Springer fibers (related but not identical to work if Gorsky-Oblomkov-Rasmussen-Shende). More generally, we propose a Fukaya-Seidel category mirror to the Oblomkov-Rozansky matrix factorization.\nJoint work with N Garner, J Hilburn, A Oblomkov, and L Rozansky.",
+      tags: ["categorification", "langlands", "higgs-coulomb", "fukaya"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -6635,6 +7090,7 @@ window.MSEMINAR = {
       affiliation: "Caltech",
       title: "Rozansky-Witten geometry of Coulomb branches",
       abstract: "",
+      tags: ["higgs-coulomb"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -6675,6 +7131,7 @@ window.MSEMINAR = {
       title: "Elliptic stable envelopes and symplectic duality",
       abstract:
         "In this talk I'll explain the following idea: \"the elliptic stable envelopes of symplectic dual varieties coincide.\" I'll describe a simplest example of\n$T^* \\mathbb{ P}^1$ in details and discuss other cases in which the statement is proven.",
+      tags: ["higgs-coulomb"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -6715,6 +7172,7 @@ window.MSEMINAR = {
       title: "On higher critical points in calculus of variations",
       abstract:
         "In classical mechanics, the variational principle implies the existence of a canonical closed 2-form on the space of solutions of the Euler-Lagrange equation. I will explain an origin of this 2-form via coarse geometry, and relation with the 1st cohomology with compact support of the space-time. Then I'll introduce a generalization to higher critical points. The basic example is higher Chern-Simons theory on 5-dimensional manifolds.",
+      tags: [],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -6755,6 +7213,7 @@ window.MSEMINAR = {
       title: "Singular support of categories",
       abstract:
         "In many situations, geometric objects on a space have some kind of singular support, which refines the usual support. For instance, for smooth X, the singular support of a D-module (or a perverse sheaf) on X is as a conical subset of the cotangent bundle; there is also a version of this notion for coherent sheaves on local complete intersections. I would like to describe a higher categorical version of this notion. Let X be a smooth variety, and let Z be a closed conical isotropic subset of the cotangent bundle of X. I will define a 2-category associated with Z; its objects may be viewed as `categories over X with singular support in Z'. In particular, if Z is the zero section, this gives the notion of categories over Z in the usual sense.The project is motivated by the local geometric Langlands correspondence; time permitting, I plan to sketch the relation with the Langlands correspondence at the end of the talk.",
+      tags: ["langlands", "derived-categories"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -6795,6 +7254,7 @@ window.MSEMINAR = {
       title: "Knot categorification and mirror symmetry",
       abstract:
         "I will describe some aspects of two geometric approaches to the knot categorification problem, which follow from string theory. They provide new examples of homological mirror symmetry and its equivariant generalization, with deep relation to representation theory.",
+      tags: ["categorification", "mirror-symmetry", "representation-theory"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -6835,6 +7295,7 @@ window.MSEMINAR = {
       title: "Enhanced moduli of D-branes and superpotentials",
       abstract:
         "Moduli of D-branes on to Calabi-Yau manifolds are naturally equipped with enhanced geometric structures which play important role in classical field theory and are an essential input for the quantization problem. I will explain how one can recognize when such enhanced structures arise from a local or global superpotential. I will discuss applications to higher dimensional Chern-Simons functionals, to non-abelian Hodge theory, to the moduli spaces of framed sheaves on log Calabi-Yau geometries, and to the moduli of monopoles. This is based on joint works with Calaque, Katzarkov, Toen, Vaquie, and Vezzosi.",
+      tags: ["higgs-coulomb", "gauge-theory"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -6875,6 +7336,7 @@ window.MSEMINAR = {
       title: "A brief survey of 2D K-HAs",
       abstract:
         "I will give an introduction into the study of an interesting class of algebraic structures, namely K-theoretic Hall algebras of quivers and surfaces. The emphasis will be on computational tools, such as shuffle algebras and intersection theory, and how to use them in order to obtain concrete applications to problems from geometry, representation theory and mathematical physics.",
+      tags: ["coha", "representation-theory"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -6915,6 +7377,7 @@ window.MSEMINAR = {
       title: "Non-archimedean mirrors of symplectic cluster manifolds in real dimension four",
       abstract:
         "I will start by explaining what I mean by a symplectic cluster manifold focusing on how to represent them by certain combinatorial data called an eigenray diagram (4d only!). These symplectic manifolds admit a Lagrangian fibration over the real plane with only focus-focus singularities. They do not need to have convex boundary or exact symplectic form, but they are open and geometrically bounded. Eigenray diagrams are related to toric models and the relation will be briefly mentioned. Then, using relative symplectic cohomology and a locality statement that relies on monotonicity techniques, I will describe conjectural mirrors of symplectic cluster manifolds as certain deformed (over the Novikov field) cluster varieties. This is joint work with Yoel Groman.",
+      tags: ["cluster", "fukaya", "mirror-symmetry"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -6956,6 +7419,7 @@ window.MSEMINAR = {
       title: "Abelianization of flat connections, and its q-deformation",
       abstract:
         'Abelianization of flat connections is a construction motivated by supersymmetric quantum field theory, which has turned out to be connected to various bits of geometry -- in particular, to Donaldson-Thomas theory, clusteralgebra, the exact WKB method for analysis of ODEs, and hyperkahler geometry. In some of these subjects it is known that there exists a natural q-deformation which takes us from the commutative to the noncommutative world. This suggests that there ought to exist a q-deformation of abelianization as well. I will explain joint work in progress with Fei Yan on constructing this q-deformation in a geometric way using spectral networks. This construction is inspired by related work by various authors, especially Bonahon-Wong, Gabella, Gaiotto-Witten. One byproduct is a new scheme for computing known polynomial invariants of links in R^3, which generalizes the usual "vertex models".',
+      tags: ["cluster", "topological-recursion", "langlands", "dt-theory"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -6996,6 +7460,7 @@ window.MSEMINAR = {
       title: "Mckay correspondence and cohomological Hall algebras",
       abstract:
         "It is shown that derived McKay correspondence for type A Kleinian singularities induces an isomorphism of cohomological Hall algebras associated to semistable objects of fixed slope. Moreover, these algebras are explicitely determined in terms of Yangians associated to finite type A Dynkin quivers. This is joint work with Mauro Porta and Francesco Sala.",
+      tags: ["coha", "quantum-groups", "representation-theory"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -7036,6 +7501,7 @@ window.MSEMINAR = {
       title: "Phase tropical hypersurfaces",
       abstract:
         "In this talk, I will give the definition of the phase tropical hypersurface arising from a polytope with a coherent triangulation. This is a topological version of a singular integrable system. I will discuss aspects of a joint work with I. Zharkov which proved that there is a homeomorphism between the phase tropical hypersurface and a complex hypersurface (this is known as Viro's Conjecture). With this, Mikhalkin's pair of pants decomposition of a complex hypersurface becomes a polyhedral decomposition and several Lagrangians arising in mirror symmetry have conjectural accompanying decompositions which are well controlled topologically. I will discuss these subcomplexes and evidence of their mirrors in matrix factorizations. This is joint work with I. Zharkov.",
+      tags: ["fukaya", "mirror-symmetry", "derived-categories"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -7071,6 +7537,7 @@ window.MSEMINAR = {
       title: "K-stability of Fano 3-folds",
       abstract:
         'A smooth Fano manifold admits a Kahler-Einstein metric if and only if it is K-polystable (K-stable if the automorphism group is finite). In this talk, I will explain how to prove and disprove K-polystability and K-stability using basic tools of birational geometry. The talk will will be focused on smooth Fano threefolds. This is a joint group project with Carolina Araujo, Ana-Maria Castravet, Kento Fujita, Anne-Sophie Kaloghiros, Jesus Martinez-Garcia, Constantin Shramov, Hendrick S\\"u\\ss, and Nivedita Viswanathan.',
+      tags: ["stability"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -7106,6 +7573,7 @@ window.MSEMINAR = {
       title: "Variation of toric GIT quotient and variation of Lagrangian skeleton",
       abstract:
         "It is well-known that the GIT quotient depends on a choice of an equivariant ample line bundle. Various different quotients are related by birational transformations, and their B-models (D^bCoh) are related by semi-orthogonal decompositions, or derived equivalences. If we apply mirror symmetry, it is natural to ask how the A-models of the mirror of various quotients are related. We give a description in the case of toric variety, where the A-side is described using constructible sheaves and Lagrangian skeleton.",
+      tags: ["fukaya", "mirror-symmetry"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -7142,6 +7610,7 @@ window.MSEMINAR = {
       title: "Holomorphic Floer theory and deformation quantization",
       abstract:
         'In his 21st problem Hilbert asked about reconstruction of Fuchsian differential equation from its monodromy. This Riemann-Hilbert problem has a long history of solutions and counterexamples. During last decades it was generalized in two different directions. Most well-known is the generalization to higher dimensions and D-modules, with possibly irregular singularities. The monodromy data are replaced by constructble sheaves. Another, less known, generalization deals with not necessarily differential equations, e.g. with difference of q-difference ones. In 2014 together with Maxim Kontsevich we started a project on what we called Holomorphic Floer theory. The word "holomorphic" refers to the fact that we consider Floer theory (e.g. Fukaya categories) for comlex symplectic manifolds. Aim of my talk is to explain some parts of the project which lead to a general formulation of the Riemann-Hilbert correspondence as a relation between Floer theory and deformation quantization.',
+      tags: ["painleve", "noncommutative", "fukaya", "derived-categories"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -7177,6 +7646,7 @@ window.MSEMINAR = {
       title: "Nil Hecke algebra in the category of bimodules",
       abstract:
         "Let A be a DG algebra or a small DG category. Let $H_1, ... H_n$ be objects in the derived category D(A-A) of A-A bimodules that satisfy the braid-like relation $H_i \\otimes H_j \\otimes H_i \\simeq H_j\\otimes H_i \\otimes H_j$ for |i-j|=1. Then we can construct a certain algebra object in D(A-A). When A is commutative and each H_i is isomorphic to A, this gives the usual nil Hecke algebra over A; overall, this construction is best thought of as the nil Hecke algebra where the generators don't necessarily commute with the coefficients. This algebra has a collection of subalgebras enumerated by ordered partitions of $n$. If $H_i$'s are invertible in the monoidal category D(A-A), the derived categories of representations of these subalgebras are equivalent whenever the corresponding partitions differ by a permutation, and those equivalences generate (colored) braid group actions. We use this construction to show that any (DG-enhanceable) braid group action on a triangulated category can be completed to an action of a bigger diagrammatic category that we call the category of generalized braids. This talk is based on an ongoing project with Timothy Logvinenko.",
+      tags: ["quantum-groups", "representation-theory", "derived-categories"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -7195,6 +7665,7 @@ window.MSEMINAR = {
       title: "Mirror Symmetry in characteristic 2",
       abstract:
         "I will discuss the Fukaya category of unorientable Lagrangians over a field of characteristic 2. I will then explain how to construct the mirror to this category in the case of monotone toric manifolds. This will lead to a new version of matrix factorizations.",
+      tags: ["fukaya", "mirror-symmetry", "derived-categories"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -7213,6 +7684,7 @@ window.MSEMINAR = {
       title: "Topological Mirror Symmetry",
       abstract:
         'The famous slogan "mirror symmetry is T-duality" means that the mirror dual to a Calabi-Yau manifold can be found by dualizing a torus fibration of it. In practice, there is a big difficulty in doing so when the torus fibers becomes singular and singular fibers cannot be avoided for topological reasons. I am reporting on joint work with Ilia Zharkov where we deform the torus fibration so that the singular fibres lie over a codimension two set in the base which then enables the T-duality construction and thus proves the topological mirror symmetry conjecture.',
+      tags: ["mirror-symmetry"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -7231,6 +7703,7 @@ window.MSEMINAR = {
       title: "Tropical abelian varieties, Weil classes and the Hodge conjecture II",
       abstract:
         "I will describe some details of an idea of M. Kontsevich back in 2011 how one can try to find a counterexample to the Hodge conjecture for abelian varieties of so-called Weil type using tropical geometry. I will not provide a counterexample itself though. So it's free, no -1000000 USD involved in this talk.",
+      tags: ["mirror-symmetry"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -7249,6 +7722,7 @@ window.MSEMINAR = {
       title: "Algebra and geometry of 3d N=4 gauge theories",
       abstract:
         "I will give a short overview of the recent activity in mathematics, which is related to the 3-dimensional N=4 gauge theories. Geometric objects arising in the story are close relatives of the moduli spaces of instantons, monopoles and quiver varieties. On the algebraic side one deals with representations of various quantum algebras, e.g. Yangians or Cohomological Hall algebras. There is a version of Mirror Symmetry for 3d N=4 theories, which is closely related to the mathematical notion of Symplectic Duality.",
+      tags: ["coha", "quiver-varieties", "higgs-coulomb", "quantum-groups"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -7267,6 +7741,7 @@ window.MSEMINAR = {
       title: "Homological mirror symmetry for invertible curve singularities",
       abstract:
         'Given an invertible curve singularity, namely one of $x^p+y^q, x^p+xy^q, x^py+xy^q$, we introduce a constructive method to describe its homological mirror symmetry ( to its Berglund-H\\"ubsch mirror). For the case of ADE singularites, we find interesting relationship between Auslander-Reiten quiver of the mirror singularity and Lagrangian surgery. This is a work in progress with Dongwook Choa and Wonbo Jung.',
+      tags: ["fukaya", "mirror-symmetry"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -7285,6 +7760,7 @@ window.MSEMINAR = {
       title: "Tropical abelian varieties, Weil classes and the Hodge conjecture",
       abstract:
         "I will describe some details of an idea of M. Kontsevich back in 2011 how one can try to find a counterexample to the Hodge conjecture for abelian varieties of so-called Weil type using tropical geometry. I will not provide a counterexample itself though. So it's free, no -1000000 USD involved in this talk.",
+      tags: ["mirror-symmetry"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -7303,6 +7779,7 @@ window.MSEMINAR = {
       title: "Deconstructing braid group actions on triangulated categories",
       abstract:
         "We are going to show that every weak action of a braid group with three strands on a triangulated category (that is, a pair of autoequivalences $H_1$ and $H_2$ with $H_1H_2H_1\\simeq H_2H_1H_2$) can be completed to a higher representation of the generalized braid category for $n=3$. The objects of the generalized braid category are ordered partitions of $n$ and the morphisms are braid-like diagrams where strands are allowed to merge and come apart. The talk is based on joint work in progress with Timothy Logvinenko (Cardiff University).",
+      tags: ["quantum-groups", "representation-theory", "derived-categories"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -7321,6 +7798,7 @@ window.MSEMINAR = {
       title: "Tailoring a pair-of-pants",
       abstract:
         "The complex pair-of-pants is a hypersurface in $(\\mathbb{C}^*)^n$ defined by the equation $1+z_1+\\dots+z_n=0$. It projects to the amoeba $A$ in $\\mathbb{R}^n$ and the coamoeba $C$ in the torus $T^n$. The amoeba has a skeleton $SkA$, also known as the tropical hyperplane, and the coamoeba has a skeleton $SkC$, known as the boundary of the permutahedron. I will introduce a new object, the obertropical pair-of-pants, in $SkA \\times SkC$, which is isotopic to the original pair-of-pants and discuss its application for making the discriminant in a topological SYZ fibration to be of codimension 2. This is a joint project with H. Ruddat.",
+      tags: ["fukaya", "mirror-symmetry"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -7339,6 +7817,7 @@ window.MSEMINAR = {
       title: "Koszul duality in field theory & holography",
       abstract:
         "In this talk we discuss Koszul duality from a physics perspective, and emphasize its role in coupling quantum field theories to topological line defects. Using this physical translation of Koszul duality as inspiration, we propose a physical definition of Koszul duality for vertex algebras. The appearances of vertex algebras (physically: holomorphic conformal field theories) in physics are legion; one particularly interesting context in which they appear is (a simplified version of) the three dimensional Anti-de Sitter (AdS)/ two-dimensional conformal field theory (CFT) holographic correspondence. One may be sorely tempted to propose that algebras of operators in AdS and in CFT are Koszul dual to one another in this sense. We will find instead, by studying a popular physical example of AdS(3)/CFT(2), that a deformation of this version of Koszul duality is required to relate the two. (This talk is based on work in collaboration with K. Costello).",
+      tags: ["cft", "gauge-theory"],
       extra: [
         "Video\nof similar talk at Harvard CMSA.",
         "Colloquium (at 2:30pm): String Theoretic Illuminations of Moonshine (Slides).\nVideo\nof a similar talk at Perimeter Institute.",
@@ -7382,6 +7861,7 @@ window.MSEMINAR = {
         "Equivariant DG-modules over differential forms and coherent sheaves on derived Hamiltonian reduction",
       abstract:
         "This is a joint work in progress with Sebastian Orsted. Given an algebraic variety X acted by an affine algebraic group G, we make sense of the derived category of DG-modules over the DG-algebra of differential forms on X equivariant with respect to differential forms on G. The construction uses an explicit model for a certain homotopy limit of a diagram of DG-categories developed in our earlier work and generalizing a recent result of Block, Holstein and Wei. We compare the obtained category with a certain category of sheaves on the (shifted) cotangent bundle T^*X descending to the Hamiltonian reduction of the cotangent bundle. Two special cases are of interest. In the first, X is a point. Thus we compare comodules over Omega(G) with G-equivariant coherent sheaves on Lie(G). In the second case, X is a simple algebraic group, with the action of the square of the upper triangular subgroup. We obtain a category closely related to the affine Hecke category.",
+      tags: ["representation-theory", "derived-categories"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -7400,6 +7880,7 @@ window.MSEMINAR = {
       title: "Nabla positivity and Tor groups",
       abstract:
         "I will describe some new formulas with A. Mellit for the nabla operator from Haiman-Garsia-Macdonald theory in two different modified elementary symmetric function bases. I will explain their geometric origin, and pose some new conjectures for which these formulas would be a corollary, that would imply the conjectured positivity of this operator in the Schur basis, and are also related to certain Tor groups studied by Goresky, Kottwitz, and Macpherson related to the affine Springer fiber in type A.",
+      tags: ["langlands", "representation-theory"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -7418,6 +7899,7 @@ window.MSEMINAR = {
       title: "HMS and VGIT 3 - an overview, techniques and results",
       abstract:
         "In this talk I will give an overview of a conjecture relating semi-orthogonal decompositions of varieties resulting from variation of GIT to mirror decompositions of Fukaya-Seidel categories obtained from degenerations. I will discuss some results towards a proof of this conjecture as well as recent geometric techniques in tropical geometry. I will conclude with some speculations of expanding this conjecture to include all Mori dream spaces.",
+      tags: ["fukaya", "mirror-symmetry"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -7436,6 +7918,7 @@ window.MSEMINAR = {
       title: "HMS and VGIT 2 - an overview, techniques and results",
       abstract:
         "In this talk I will give an overview of a conjecture relating semi-orthogonal decompositions of varieties resulting from variation of GIT to mirror decompositions of Fukaya-Seidel categories obtained from degenerations. I will discuss some results towards a proof of this conjecture as well as recent geometric techniques in tropical geometry. I will conclude with some speculations of expanding this conjecture to include all Mori dream spaces.",
+      tags: ["fukaya", "mirror-symmetry"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -7455,6 +7938,7 @@ window.MSEMINAR = {
         "Homological mirror symmetry and variations of GIT quotients - an overview, techniques and results",
       abstract:
         "In this talk I will give an overview of a conjecture relating semi-orthogonal decompositions of varieties resulting from variation of GIT to mirror decompositions of Fukaya-Seidel categories obtained from degenerations. I will discuss some results towards a proof of this conjecture as well as recent geometric techniques in tropical geometry. I will conclude with some speculations of expanding this conjecture to include all Mori dream spaces.",
+      tags: ["fukaya", "mirror-symmetry"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -7473,6 +7957,7 @@ window.MSEMINAR = {
       title: "Intrinsic mirror symmetry",
       abstract:
         "In the talk I will sketch the completion of the joint project with Mark Gross on the intrinsic construction of mirror families for pairs $(X,D)$ and their degenerations, assuming only $K_X$ nef or $(X,D)$ log Calabi-Yau, as announced in our survey with the same title from 2016. The construction is based on the notion of punctured Gromov-Witten invariants under development in parallel jointly with Dan Abramovich and Qile Chen.",
+      tags: ["mirror-symmetry", "enumerative"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -7491,6 +7976,7 @@ window.MSEMINAR = {
       title: "On pseudo-Anosov autoequivalences II",
       abstract:
         "In this talk, we propose a new definition of pseudo-Anosov autoequivalences, which turns out to be more general than the one proposed by Dimitrov-Haiden-Katzarkov-Kontsevich. We construct new examples of pseudo-Anosov autoequivalences on quintic Calabi-Yau threefolds and quiver Calabi-Yau categories. We prove that they act hyperbolically on the space of Bridgeland stability conditions for the quiver examples. This is a joint work in progress with Fan, Filip, and Katzarkov.",
+      tags: ["stability"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -7509,6 +7995,7 @@ window.MSEMINAR = {
       title: "Tilting bundles and 3-dimensional field theory",
       abstract:
         "The category of coherent sheaves on an interesting variety $X$ has an extremely annoying property: does not have enough projectives, so it cannot be equivalent to the category of modules over an algebra. However, if you pass to the derived category, this defect can be fixed in many interesting cases, by finding a tilting generator: that is, a vector bundle $T$ such that any coherent sheaf can be resolved by a complex consisting of sums of copies of $T$, and $Ext^i(T,T)=0$ for all i>0. If $A=End(T)$, then we obtain an equivalence of derived categories between finitely generated $A$-modules and $Coh(X)$. This provides a bridge between representation theory and algebraic geometry. This bridge was largely built for us by Bezrukavnikov and Kaledin, but they did not make it very easy for the rest of us to cross it; in particular, while both ends of the bridge are in characteristic 0, the middle is in characteristic p. I’ll talk about how recent input from work in 3d field theory by Braverman, Finkelberg and Nakajima allows us in certain cases to reroute this bridge and avoid characteristic p, while getting a more concrete understanding of the algebra A on the other side.",
+      tags: ["quiver-varieties", "gauge-theory", "representation-theory", "derived-categories"],
       extra: ["Video talk in Umberger 105"],
       cancelled: false,
       upcoming: false,
@@ -7527,6 +8014,7 @@ window.MSEMINAR = {
       title: "On pseudo-Anosov autoequivalences",
       abstract:
         "In this talk, we propose a new definition of pseudo-Anosov autoequivalences, which turns out to be more general than the one proposed by Dimitrov-Haiden-Katzarkov-Kontsevich. We construct new examples of pseudo-Anosov autoequivalences on quintic Calabi-Yau threefolds and quiver Calabi-Yau categories. We prove that they act hyperbolically on the space of Bridgeland stability conditions for the quiver examples. This is a joint work in progress with Fan, Filip, and Katzarkov.",
+      tags: ["stability"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -7545,6 +8033,7 @@ window.MSEMINAR = {
       title: "Equal rights: the case of pair-of-pants.",
       abstract:
         "In addition to the usual complex pair-of-pants and phase tropical pair-of-pants I will propose two other spaces, all four being homeomorphic to each other. In the first (amplitude pair-of-pants) the amoeba plays the role of the coamoeba and vice versa. In the second both are treated equally giving an altimate ''ober tropical\" space which looks like cotangent space to the skeleton, a symplectic geometer dream.",
+      tags: ["fukaya", "mirror-symmetry"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -7563,6 +8052,7 @@ window.MSEMINAR = {
       title: "Gromov-Witten invariants for Calabi-Yau categories II",
       abstract:
         "I will discuss how to define genus zero Gromov-Witten invariants for $\\mathbb{Z}/2$-graded Calabi-Yau $A_\\infty$-categories with semi-simple Hochschild cohomology. These categorical invariants depend on the choice of a grading operator on the Hochschild homology. In the case of the Fukaya category of a symplectic manifold it is expected that, for the appropriate choice of grading, these categorical invariants match the geometric ones. I will show this is the case for projective spaces.",
+      tags: ["fukaya", "enumerative"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -7581,6 +8071,7 @@ window.MSEMINAR = {
       title: "Gromov-Witten invariants for Calabi-Yau categories",
       abstract:
         "I will discuss how to define genus zero Gromov-Witten invariants for $\\mathbb{Z}/2$-graded Calabi-Yau $A_\\infty$-categories with semi-simple Hochschild cohomology. These categorical invariants depend on the choice of a grading operator on the Hochschild homology. In the case of the Fukaya category of a symplectic manifold it is expected that, for the appropriate choice of grading, these categorical invariants match the geometric ones. I will show this is the case for projective spaces.",
+      tags: ["fukaya", "enumerative"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -7599,6 +8090,7 @@ window.MSEMINAR = {
       title: "Magnificent Four with Colors.",
       abstract:
         "We study the rank N magnificent four theory, which is the supersymmetric localization of U(N) super-Yang-Mills theory with matter (a super-group U(N|N) gauge theory) on a Calabi-Yau fourfold. Our theory contains the higher rank Donaldson-Thomas theory of threefolds. We conjecture an explicit formula for the partition function Z, and report on the performed checks. The partition function Z has a free field representation. Surprisingly, it depends on the Coulomb and mass parameters in a simple way. We also clarify the definition of the instanton measure.",
+      tags: ["higgs-coulomb", "dt-theory", "gauge-theory", "representation-theory"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -7617,6 +8109,7 @@ window.MSEMINAR = {
       title: "Improving topological SYZ fibrations: discriminant of codimension 2, continued.",
       abstract:
         "In all known constructions of the torus fibrations of Calabi-Yau manifolds the discriminant locus on the base is of codimension 1 (except the trivial case of K3 and an Inventiones paper by Mark Gross for quintic threefold). In a joint project (in progress) with Helge Ruddat we try to show how to make it of codimension 2 for a very large class of examples.",
+      tags: ["mirror-symmetry"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -7635,6 +8128,7 @@ window.MSEMINAR = {
       title: "Categories of line operators in 3d N=4 gauge theories.",
       abstract:
         'A 3d N=4 gauge theory is labelled by a compact group G and a quaternionic representation R. Such physical theories also admit two distinct "A" and "B" topological twists, each of which gives rise to many layers of algebraic and geometric structures. I will review some of what\'s known and expected about these twists, and then discuss a proposed mathematical definition of one particular layer of structure: the (braided, monoidal) categories of line operators. The categories of line operators provide a generalization of the recent Braverman-Finkelberg-Nakajima construction of Coulomb branches, play an important role in symplectic duality, and have direct applications to the construction of HOMFLY link homologies.',
+      tags: ["quiver-varieties", "categorification", "higgs-coulomb", "quantum-groups"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -7653,6 +8147,7 @@ window.MSEMINAR = {
       title: "Improving topological SYZ fibrations: discriminant of codimension 2",
       abstract:
         "In all known constructions of the torus fibrations of Calabi-Yau manifolds the discriminant locus on the base is of codimension 1 (except the trivial case of K3 and an Inventiones paper by Mark Gross for quintic threefold). In a joint project (in progress) with Helge Ruddat we try to show how to make it of codimension 2 for a very large class of examples.",
+      tags: ["mirror-symmetry"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -7671,6 +8166,7 @@ window.MSEMINAR = {
       title: "Exceptional collections on arithmetic varieties.",
       abstract:
         "The simplest way to capture the derived category of coherent sheaves on an algebraic variety is via an exceptional collection. In this talk, we will turn our attention to varieties over general fields and describe a Galois descent result for full exceptional collections. We will use arithmetic toric varieties as source of examples and questions. Hopefully the audience will provide the A-side version of the story. This talk is based on joint with work with A. Duncan and P. McFaddin.",
+      tags: ["derived-categories"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -7689,6 +8185,7 @@ window.MSEMINAR = {
       title: "Periods integrals from wall structures.",
       abstract:
         "Gluing a variety X from open subsets of algebraic tori along wall crossing automorphisms is a widespread technique for producing Calabi-Yau and Fano manifolds as well as cluster varieties, especially in the context of mirror symmetry. In joint work with Bernd Siebert, I provide an explicit computation of period integrals on X. The cycles to integrate come from tropical 1-cycles in an affine manifold that governs the gluing. Most interestingly, the period integrals turn out to be monomial functions in the parameters that determine the wall crossing. This leads to a proof of that the formal canonical proper Calabi-Yau families constructed by Gross and Siebert are completions of analytic families. In the K3 case, these periods can be used to determine which cohomology classes are algebraic.",
+      tags: ["cluster", "stability", "mirror-symmetry"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -7707,6 +8204,7 @@ window.MSEMINAR = {
       title: "$\\mathbb{P}$-twists and where to find them",
       abstract:
         "For a $\\mathbb{P}^n$-functor F between two categories, we can construct a $\\mathbb{P}$-twist, which is an autoequivalence of the target category. I will go over the definition of a $\\mathbb{P}$-twist, and give some algebro-geometric examples.",
+      tags: ["derived-categories"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -7725,6 +8223,7 @@ window.MSEMINAR = {
       title: "Structural results for wrapped Fukaya categories",
       abstract:
         "I will describe a series of new structural results for (partially) wrapped Fukaya categories, including functoriality, generation results, a Kunneth embedding, “stop removal”/localization, and gluing. Using some these results, I will sketch a proof that the partially wrapped Fukaya category of a cotangent bundle coincides with (compact objects of) the relevant category of “large” microlocal sheaves on the zero section. This is joint work with J. Pardon and V. Shende.",
+      tags: ["fukaya"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -7743,6 +8242,7 @@ window.MSEMINAR = {
       title: "$\\mathbb{P}^n$-functors and $\\mathbb{P}^n$-twists",
       abstract:
         "A functor between two triangulated categories is called a $\\mathbb{P}^n$-functor if there exists certain additional data that we call a $\\mathbb{P}^n$-structure. Having a functor with a $\\mathbb{P}^n$-structure one can construct an autoequivalence of the target category called a $\\mathbb{P}^n$-twist. I am going to introduce several versions of the definition of a $\\mathbb{P}^n$-structure and discuss the possibility of finding a canonical form for it.",
+      tags: ["derived-categories"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -7761,6 +8261,7 @@ window.MSEMINAR = {
       title: "Deformation quantization and Fukaya categories.",
       abstract:
         "I am going to discuss the relation between deformation quantization and Fukaya categories in the framework of complex algebraic varieties.",
+      tags: ["noncommutative", "fukaya"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -7779,6 +8280,7 @@ window.MSEMINAR = {
       title: "Fukaya category with singular Lagrangians",
       abstract:
         "In the conventional approach to Fukaya categories objects are supported on Lagrangian submanifolds, i.e. the supports are smooth. This is not enough for many reasons. For example, the Lagrangian skeleton of an exact symplectic manifold is typically singular. Furthermore, the union of two smooth Lagrangian subvarieties can be non-smooth. This affects the functoriality of construction.\nIn this talk I am going to outline a recent approach to the solution of the problem proposed by Kontsevich and myself.",
+      tags: ["fukaya"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -7797,6 +8299,7 @@ window.MSEMINAR = {
       title: "User's guide to the wrapped Fukaya category II",
       abstract:
         "I will describe some tools for manipulating wrapped Fukaya categories without getting one's hands dirty with holomorphic disk calculations all the time.",
+      tags: ["fukaya"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -7815,6 +8318,7 @@ window.MSEMINAR = {
       title: "User's guide to the wrapped Fukaya category",
       abstract:
         "I will describe some tools for manipulating wrapped Fukaya categories without getting one's hands dirty with holomorphic disk calculations all the time.",
+      tags: ["fukaya"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -7833,6 +8337,7 @@ window.MSEMINAR = {
       title: "Mirror symmetry for an orbifold sphere",
       abstract:
         "In this talk, I will construct a Landau-Ginzburg mirror for a sphere with three orbifold points using the Lagrangian Floer theory of an immersed circle. I will then prove closed mirror symmetry for this space: more precisely I will define an isomorphism between the big quantum cohomology ring of the orbifold and the Jacobian ring of the mirror potential.",
+      tags: ["fukaya", "mirror-symmetry", "enumerative"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -7851,6 +8356,7 @@ window.MSEMINAR = {
       title: "The polytope associated to the GIT fan of a Mori Dream Space II",
       abstract:
         "A Mori Dream Space is naturally a GIT quotient of an affine variety by an algebraic torus. Such a GIT quotient naturally carries a combinatorial structure called the GIT fan. I will present my approach to describing the GIT fan using secondary fans and tropical geometry. As a result of this approach, I show that this fan is the normal fan to an explicitly computable polytope.",
+      tags: ["mirror-symmetry"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -7869,6 +8375,7 @@ window.MSEMINAR = {
       title: "Mirror construction via gluing of Lagrangian deformation spaces",
       abstract:
         "Formal deformation theory of a given Lagrangian $L$ in a symplectic manifold $X$ studies deformation of $A$-infinity structures on its Floer complex. It produces a local chart in the mirror of $X$ consisting of solutions of the Maurer-Cartan equation for the deformation, which encodes crucial information about holomorphic disks bounding $L$. In this talk, I will first discuss various interesting features of this local construction, and explain a method to glue local charts from different Lagrangians via isomorphisms between Lagrangians in the Fukaya category.",
+      tags: ["fukaya", "mirror-symmetry"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -7887,6 +8394,7 @@ window.MSEMINAR = {
       title: "Algebraic Geometry of Topological Field Theory",
       abstract:
         "A commutative ring is gainfully understood as functions on a geometric object, the spectrum of the ring. Observables in quantum mechanics form a typically noncommutative ring, and are harder to capture with traditional geometry. However, observables in quantum field theory in space-time of dimension d > 1 - and especially in the simplified models provided by topological field theory - enjoy increasing commutativity, and thus are more amenable to a geometric description. I will describe some aspects of the notion of the “spectrum” of a topological field theory, inspired by the work of Kontsevich and Soibelman on mirror symmetry (d = 2), the Seiberg-Witten geometry of supersymmetric gauge theories (d = 3 and 4), and electric-magnetic/Langlands duality (d = 4). Based on joint work with Andy Neitzke and Sam Gunningham.",
+      tags: ["langlands", "higgs-coulomb", "noncommutative", "mirror-symmetry"],
       extra: ["William J. Spencer Lecture"],
       cancelled: false,
       upcoming: false,
@@ -7911,6 +8419,7 @@ window.MSEMINAR = {
       title: "The polytope associated to the GIT fan of a Mori Dream Space",
       abstract:
         "A Mori Dream Space is naturally a GIT quotient of an affine variety by an algebraic torus. Such a GIT quotient naturally carries a combinatorial structure called the GIT fan. I will present my approach to describing the GIT fan using secondary fans and tropical geometry. As a result of this approach, I show that this fan is the normal fan to an explicitly computable polytope.",
+      tags: ["mirror-symmetry"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -7930,6 +8439,7 @@ window.MSEMINAR = {
         "Splitting attractor flows and DT invariants in SU(3) Seiberg-Witten integrable systems",
       abstract:
         "We will start by constructing wall crossing structures on the base of the complex integrable system, which produces an algorithm for computing the DT invariants by employing certain trees on its base given through the splitting attractor flows. We will review the notion of splitting attractor flow and illustrate its use by applying the algorithm to the Seiberg-Witten integrable systems for SU(2) and SU(3).",
+      tags: ["higgs-coulomb", "quantum-groups", "dt-theory", "stability"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -7948,6 +8458,7 @@ window.MSEMINAR = {
       title: "Wall Crossing Structures in Seiberg-Witten Integrable Systems.",
       abstract:
         "Wall crossing structure (WCS) is a formalism that could be used to encode the Donaldson-Thomas invariants in mathematics. In this talk, we will review the notion of WCS and see how it can be induced from the data coming from a complex integrable system. In particularly, we will apply this formalism to the Seiberg-Witten integrable systems that are relevant for the N=2 super symmetric Yang-Mills theory for gauge groups SU(2) and SU(3), which would enable us to encode the known BPS spectrum of the theories.",
+      tags: ["higgs-coulomb", "quantum-groups", "dt-theory", "stability"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -7966,6 +8477,7 @@ window.MSEMINAR = {
       title: "Wall Crossing Structures in Seiberg-Witten Integrable Systems.",
       abstract:
         "Wall crossing structure (WCS) is a formalism that could be used to encode the Donaldson-Thomas invariants in mathematics. In this talk, we will review the notion of WCS and see how it can be induced from the data coming from a complex integrable system. In particularly, we will apply this formalism to the Seiberg-Witten integrable systems that are relevant for the N=2 super symmetric Yang-Mills theory for gauge groups SU(2) and SU(3), which would enable us to encode the known BPS spectrum of the theories.",
+      tags: ["higgs-coulomb", "quantum-groups", "dt-theory", "stability"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -7984,6 +8496,7 @@ window.MSEMINAR = {
       title: "DAHA and Brane Quantization.",
       abstract:
         "Double affine Hecke algebras (DAHA) arise in many places in mathematics and string theory. I. Cherdnik used DAHA to prove Macdonald conjectures while knot theorists constructed homological invariants of torus knots using this algebras. It was shown by Oblomkov that A-type DAHA arises as deformation quantization of the character variety of the once-punctured torus. I shall discuss geometric representation theory of DAHA using branes in 2d A model on the Hitchin moduli space M_H. We shall arrive to a conjecture that the category of A-branes on M_H is equivalent to a representation category of DAHA.",
+      tags: ["categorification", "langlands", "higgs-coulomb", "quantum-groups"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -8002,6 +8515,7 @@ window.MSEMINAR = {
       title: "Spheres in complex hypersurfaces II.",
       abstract:
         "Given a hypersurface X of the complex torus, mirror symmetry predicts a quasi-equivalence between the Fukaya category F(X) of X and a certain category of graded matrix factorizations MF (W) on a toric Calabi-Yau variety. In this talk, I will describe this correspondence, as well as how it fits in the larger picture of homological mirror symmetry. Exploring the algebraic side, one finds there are many spherical objects in MF (W) which have combinatorial descriptions. Using phase tropical varieties, I will provide a prediction of the topological mirrors to these objects in F(X) and discuss some generalizations. This is based on joint work with Ilia Zharkov.",
+      tags: ["fukaya", "mirror-symmetry", "derived-categories"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -8020,6 +8534,7 @@ window.MSEMINAR = {
       title: "Spheres in complex hypersurfaces.",
       abstract:
         "Given a hypersurface X of the complex torus, mirror symmetry predicts a quasi-equivalence between the Fukaya category F(X) of X and a certain category of graded matrix factorizations MF (W) on a toric Calabi-Yau variety. In this talk, I will describe this correspondence, as well as how it fits in the larger picture of homological mirror symmetry. Exploring the algebraic side, one finds there are many spherical objects in MF (W) which have combinatorial descriptions. Using phase tropical varieties, I will provide a prediction of the topological mirrors to these objects in F(X) and discuss some generalizations. This is based on joint work with Ilia Zharkov.",
+      tags: ["fukaya", "mirror-symmetry", "derived-categories"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -8038,6 +8553,7 @@ window.MSEMINAR = {
       title: "Perverse schobers and orbifolds.",
       abstract:
         "Perverse schobers are a recent notion introduced by Kapranov and Schechtman. It is a categorification of perverse sheaves on a stratified topological space. In this talk, I will discuss perverse sheaves and perverse schobers on an orbifold disc.",
+      tags: ["categorification", "derived-categories"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -8056,6 +8572,7 @@ window.MSEMINAR = {
       title: "Fukaya categories of complex symplectic surfaces and periodic monopoles.",
       abstract:
         "I will explain why a parabolic version of the Fukaya category of the partially compactified symplectic surfaces of certain type should be related to the 3-dimensional dimensional reductions of the 4-dimensional autoduality equations.",
+      tags: ["higgs-coulomb", "fukaya", "gauge-theory"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -8074,6 +8591,7 @@ window.MSEMINAR = {
       title: "GIT fan for Mori Dream Space",
       abstract:
         "Abstract: In this talk I will introduce the secondary fan of a marked polytope and the secondary fan of a closed subgroup of an algebraic torus acting on affine space. I will then use these constructions to describe how the unstable locus changes as we move between chambers in the secondary fan",
+      tags: [],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -8092,6 +8610,7 @@ window.MSEMINAR = {
       title: "Generalized Kuga-Satake construction for hyperkahler manifolds",
       abstract:
         'Abstract: The classic Kuga-Satake construction gives us a Hodge structure of weight one by K3-type Hodge structure. I will talk about joint work with A.Soldatenkov and M.Verbitsky, in which we generalize Kuga-Satake construction and embed cohomology of hyperk\\"ahler manifolds to cohomology of some complex torus which is morphism of Hodge structures. I will discuss also some applications of this result.',
+      tags: [],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -8110,6 +8629,7 @@ window.MSEMINAR = {
       title: "Systoles, Special Lagrangians, and Bridgeland stability conditions",
       abstract:
         "Motivated by Loewner's torus inequality which relates the least length of a non-contractible loop (systole) on a torus to its volume, one can ask whether there is a higher-dimensional analogue, with torus replaced by Calabi-Yau manifolds and loops replaced by special Lagrangian submanifolds. We attempt to answer this question in the case of mirror quartic K3 surfaces via mirror symmetry and Bridgeland stability conditions. We define the notion of categorical systole and systolic ratio of a Bridgeland stability condition, and show that the aforementioned question is related to a purely lattice-theoretic problem. We prove that the answer to the lattice-theoretic problem is finite and give an explicit upper bound.",
+      tags: ["stability", "fukaya", "mirror-symmetry"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -8128,6 +8648,7 @@ window.MSEMINAR = {
       title: "Gromov-Witten invariants of Calabi-Yau categories",
       abstract:
         "Classical mirror symmetry relates Gromov-Witten invariants in symplectic geometry to Yukawa coupling invariants in algebraic geometry. Through non-commutative Hodge theory, one can define categorical Gromov-Witten invariants associated to (Calabi-Yau A-infinity) categories. Conjecturally, this construction should reproduce the Gromov-Witten invariants and Yukawa coupling invariants, when applied Fukaya categories and Derived categories, respectively. In this talk, I describe a first computation of categorical Gromov-Witten invariants at positive genus. This is a joint work with Andrei Caldararu.",
+      tags: ["noncommutative", "fukaya", "mirror-symmetry", "enumerative"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -8146,6 +8667,7 @@ window.MSEMINAR = {
       title: "Categrical Brill Noether invariants.",
       abstract:
         "Abstract: In this talk we will introduce some new categorical invariants. We connect them with some classical questions in combinatorics and geometry",
+      tags: ["categorification", "enumerative"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -8164,6 +8686,7 @@ window.MSEMINAR = {
       title: "Two perspectives on mirror symmetry for hypersurfaces",
       abstract:
         "Abstract: Recent developments in the theory of microlocal sheaves allow us to compute symplectic invariants from the skeleton of a symplectic manifold. We will explain this in the context of affine hypersurfaces, for which we will describe two types of skeleta and derive proofs of homological mirror symmetry",
+      tags: ["fukaya", "mirror-symmetry"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -8181,6 +8704,7 @@ window.MSEMINAR = {
       affiliation: "KSU",
       title: "Geometric Invariant Theory III",
       abstract: "",
+      tags: [],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -8199,6 +8723,7 @@ window.MSEMINAR = {
       title: "Spherical twists and projective twists in Fukaya categories",
       abstract:
         "Seidel's Lagrangian Dehn twist exact sequence has been a cornerstone of the theory of Fukaya categories. In the last decade, Huybrechts and Thomas discovered a new autoequivalence in the derived cateogry of coherent sheaves using the so-called \"projective objects\", which are presumably mirrors of Lagrangian projective spaces. On the other hand, Seidel's construction of Lagrangian Dehn twists as symplectomorphisms can be easily generalized to Lagrangian projective spaces. The induce auto-equivalence on Fukaya categories are conjectured to be the mirror of Huybrechts-Thomas's auto-equivalence on B-side. This remains open until recently, and I will explain my joint work with Cheuk-Yu Mak on the solution to this conjecture using the technique of Lagrangian cobordisms. Moreover, we will explain a recent progress, again joint with Cheuk-Yu Mak, on pushing this further to Lagrangian embeddings of finite quotients of rank-one symmetric spaces, leading to another new class of auto-equivalences, which are different from the classical spherical twists only in coefficients of finite characteristics.",
+      tags: ["fukaya", "mirror-symmetry", "derived-categories"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -8216,6 +8741,7 @@ window.MSEMINAR = {
       affiliation: "KSU",
       title: "Geometric Invariant Theory II",
       abstract: "",
+      tags: [],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -8233,6 +8759,7 @@ window.MSEMINAR = {
       affiliation: "KSU",
       title: "Geometric Invariant Theory I",
       abstract: "",
+      tags: [],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -8251,6 +8778,7 @@ window.MSEMINAR = {
       title: "Homological mirror symmetry of birational cobordisms II",
       abstract:
         "Abstract: A birational cobordism is a basic variation of GIT from a stack $X_+$ to $X_-$. On the level of derived categories, this results in a semi-orthogonal decomposition $D(X_+) = \\left< D(X_- ) , \\mathcal{T} \\right>$ where $\\mathcal{T}$ has a full exceptional collection. There is a mirror to this basic operation which yields a homological mirror to $\\mathcal{T}$. This is a Landau-Ginzburg model on a higher dimensional pair-of-pants. This talk will explain this result and sketch the proof of the one dimensional case. The general case follows from dimensional induction which will be explored if time permits.",
+      tags: ["mirror-symmetry", "derived-categories"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -8269,6 +8797,7 @@ window.MSEMINAR = {
       title: "Homological mirror symmetry of birational cobordisms I",
       abstract:
         "Abstract: A birational cobordism is a basic variation of GIT from a stack $X_+$ to $X_-$. On the level of derived categories, this results in a semi-orthogonal decomposition $D(X_+) = \\left< D(X_- ) , \\mathcal{T} \\right>$ where $\\mathcal{T}$ has a full exceptional collection. There is a mirror to this basic operation which yields a homological mirror to $\\mathcal{T}$. This is a Landau-Ginzburg model on a higher dimensional pair-of-pants. This talk will explain this result and sketch the proof of the one dimensional case. The general case follows from dimensional induction which will be explored if time permits.",
+      tags: ["mirror-symmetry", "derived-categories"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -8287,6 +8816,7 @@ window.MSEMINAR = {
       title: "Algebraicity in wall-crossing formulas and cluster transformations I, II",
       abstract:
         "It was observed by physicists and mathematicians that many generating series appearing in Donaldson-Thomas theory are in fact algebraic functions. In a joint project with Maxim Kontsevich we propose a general reason for that: algebraicity comes from the structure of the moduli space of certain rational curves in a non-archimedean space associated with stability data on a graded Lie algebra of vector fields on a torus. In my talks I am going to explain main ideas of our approach.",
+      tags: ["cluster", "dt-theory", "stability"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -8305,6 +8835,7 @@ window.MSEMINAR = {
       title: "Variations of Hodge structures for hypergeometric differential operators I, II",
       abstract:
         "Consider the holomorphic bundle with connection on $$\\mathbb{P}^1-\\{0,1,\\infty\\}$$ corresponding to the regular hypergeometric differential operator \\prod_{j=1}^h(D-\\alpha_j)-z\\prod_{j=1}^h(D-\\beta_j),\\qquad D=z\\frac{d}{dz} Under certain assumptions on real numbers $$\\alpha_j \\hspace{1cm} \\text{ and } \\hspace{1cm}\\beta_j,$$ this bundle is known to underlie a complex polarizable variation of Hodge structures. We calculate some Hodge invariants for this variation, in particular, the Hodge numbers. This is a generalization of a conjecture of Corti and Golyshev.",
+      tags: ["painleve"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -8323,6 +8854,7 @@ window.MSEMINAR = {
       title: "Donaldson-Thomas invariants and character varieties",
       abstract:
         "A string theoretic framework will be presented relating the cohomology of character varieties with tame ramification to Donaldson-Thomas invariants of Calabi-Yau orbifolds. This construction yields a string theoretic derivation of a conjecture of Hausel, Letellier and Rodriguez-Vilegas, explaining the occurrence of Macdonald polynomials in this context. Based on work with W.-y. Chuang, R. Donagi and T. Pantev.",
+      tags: ["dt-theory"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -8341,6 +8873,7 @@ window.MSEMINAR = {
       title: "Constructions in Floer theory I, II",
       abstract:
         "Behind every good Fukaya category stands a robust Floer theoretic framework. Floer's equation and its TQFT perspective leads to several important constructions and results in mirror symmetry, symplectic geometry and dynamics. In this sequence of talks, I will review some of the most salient points of the theory, their motivation and applications.",
+      tags: ["fukaya", "mirror-symmetry"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -8359,6 +8892,7 @@ window.MSEMINAR = {
       title: "Gluing Fukaya categories",
       abstract:
         "I will define partially wrapped Fukaya categories, which extend Fukaya-Seidel categories to general exact Landau-Ginzburg models. These categories satisfy a gluing formula, and using that I'll give a presentation for the wrapped Fukaya category of arbitrary punctured Riemann surfaces in terms of A_n quiver representations. This confirms that various combinatorial models agree with Floer theory. I'll also explain how to use gluing to prove generation results, and I'll discuss tentative connections to Lagrangian skeleta and contact homolog",
+      tags: ["fukaya", "mirror-symmetry", "representation-theory"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -8377,6 +8911,7 @@ window.MSEMINAR = {
       title: "Partially wrapped Fukaya categories associated to skeleta",
       abstract:
         "I will briefly describe Fukaya categories and their wrapped and partially wrapped versions. The central technical obstacles associated to their definitions will be surveyed. I will then give examples of non-trivial, computable partially wrapped Fukaya categories associated to simplicial complexes. If time permits, applications to mirror symmetry will be discussed.",
+      tags: ["fukaya", "mirror-symmetry"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -8395,6 +8930,7 @@ window.MSEMINAR = {
       title: "Partially wrapped Fukaya categories associated to skeleta II",
       abstract:
         "I will briefly describe Fukaya categories and their wrapped and partially wrapped versions. The central technical obstacles associated to their definitions will be surveyed. I will then give examples of non-trivial, computable partially wrapped Fukaya categories associated to simplicial complexes. If time permits, applications to mirror symmetry will be discussed.",
+      tags: ["fukaya", "mirror-symmetry"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -8413,6 +8949,7 @@ window.MSEMINAR = {
       title: "Riemann-Hilbert correspondence and Fukaya categories",
       abstract:
         "Riemann-Hilbert correspondence establishes categorical equivalence between D-modules and constructible sheaves. I am going to discuss how symplectic topology appears in the story.",
+      tags: ["fukaya", "derived-categories"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -8431,6 +8968,7 @@ window.MSEMINAR = {
       title: "Partially wrapped Fukaya categories associated to skeleta III",
       abstract:
         "I will briefly describe Fukaya categories and their wrapped and partially wrapped versions. The central technical obstacles associated to their definitions will be surveyed. I will then give examples of non-trivial, computable partially wrapped Fukaya categories associated to simplicial complexes. If time permits, applications to mirror symmetry will be discussed.",
+      tags: ["fukaya", "mirror-symmetry"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -8450,6 +8988,7 @@ window.MSEMINAR = {
         "Deformations of complex structures on Riemann surfaces and integrable structures of Whitham type hierarchies",
       abstract:
         "We obtain variational formulas for holomorphic objects on Riemann surfaces with respect to arbitrary local coordinates on the moduli space of complex structures. These formulas are written in terms of a canonical object on the moduli space which corresponds to the pairing between the space of quadratic differentials and the tangent space to the moduli space. This canonical object satisfies certain commutation relations which appear to be the same as the ones that emerged in the integrability theory of Whitham type hierarchies. Driven by this observation, we develop the theory of Whitham type hierarchies integrable by hydrodynamic reductions as a theory of certain differential-geometric objects. As an application we prove that the universal Whitham hierarchy is integrable by hydrodynamic reductions",
+      tags: [],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -8468,6 +9007,7 @@ window.MSEMINAR = {
       title: "Topological Fukaya category and homological mirror symmetry",
       abstract:
         "The topological Fukaya category is a combinatorial model of the Fukaya category of exact symplectic manifolds which was first proposed by Kontsevich. In this talk I will explain work in progress (joint with J. Pascaleff and S. Scherotzke) on gluing techniques for the topological Fukaya category that are closely related to Viterbo functoriality. I will emphasize applications to homological mirror symmetry for three-dimensional CY LG models, and to Bondal's and Fang-Liu-Treumann-Zaslow's coherent constructible correspondence for toric varieties.",
+      tags: ["fukaya", "mirror-symmetry"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -8486,6 +9026,7 @@ window.MSEMINAR = {
       title: "Braid group actions on the categories of equivariant matrix factorizations",
       abstract:
         "Let G be a reductive algebraic group with a chosen Borel subgroup B. Given an algebraic variety X with an action of the group G we define the category of equivariant matrix factorizations on the product of $T^*X$ with the Lie algebra of B. The potential is obtained from the moment map. We relate the defined category with the category of coherent sheaves on the Hamiltonian reduction of $T^*X$ with respect to B. Extending a consturction of Bezrukavnikov and Riche, we define a categorical action of the affine Braid group on the category of equivariant matrix factorizations. We reformulate the definition of affine Hecke category due to Bezrukavnikov and show that braid relations for the action above would follow from a certain conjecture in Algebraic Geometry. The conjecture concerns logarithmic differential forms on Bott-Samelson desingularizations of Schubert varieties. Time permitting, we discuss the directions towards the proof of the conjecture.",
+      tags: ["quantum-groups", "representation-theory", "derived-categories"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -8504,6 +9045,7 @@ window.MSEMINAR = {
       title: "Characteristic classes of spectral covers",
       abstract:
         'Diagonalizing matrices is important, so how about doing it in families? A "spectral cover" is what you get if you try to diagonalize a family of regular matrices (a.k.a. a regular Higgs bundle). They can be topologically interesting: for example, the data of a line bundle or of an étale cover can be encoded by a spectral cover. I will talk about defining characteristic classes of spectral covers, living in rational cohomology. This amounts to computing the cohomology ring of the stack of spectral covers, and expressing its generators in terms of Chern classes of certain natural vector bundle.',
+      tags: ["higgs-coulomb"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -8522,6 +9064,7 @@ window.MSEMINAR = {
       title: "How to disprove the Hodge Conjecture",
       abstract:
         "In the 70's Mumford proposed a potential counterexample to Hodge conjecture by abelian varieties of Weil type. I will describe an idea of Kontsevich how tropical geometry can be used to show that the Weil classes in such abelian varieties are not represented by algebraic cycles.",
+      tags: ["mirror-symmetry"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -8540,6 +9083,7 @@ window.MSEMINAR = {
       title: "How to disprove the Hodge Conjecture II",
       abstract:
         "In the 70's Mumford proposed a potential counterexample to Hodge conjecture by abelian varieties of Weil type. I will describe an idea of Kontsevich how tropical geometry can be used to show that the Weil classes in such abelian varieties are not represented by algebraic cycles.",
+      tags: ["mirror-symmetry"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -8558,6 +9102,7 @@ window.MSEMINAR = {
       title: "Rational quintics in the real projective plane",
       abstract:
         "The talk is devoted to an isotopy classification of nodal rational curves of degree 5 in the real projective plane. This is a joint work with Grigory Mikhalkin and Johannes Rau.",
+      tags: [],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -8576,6 +9121,7 @@ window.MSEMINAR = {
       title: "Koszul duality in Floer theory.",
       abstract:
         'We study symplectic invariants of the open symplectic manifolds X obtained by plumbing cotangent bundles of spheres according to a plumbing tree. We prove that certain models for the Fukaya category F(X) of closed exact Lagrangians in X and the wrapped Fukaya category W(X) are related by Koszul duality. As an application, we give explicit computations of symplectic cohomology, essentially for all trees. This is joint work with Tolga Etg\\"u.',
+      tags: ["fukaya"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -8594,6 +9140,7 @@ window.MSEMINAR = {
       title: "Morse Theory, A-infinity categories and Mirror Symmetry II",
       abstract:
         "I will start with the old work of Fukaya, in which he extended Morse theory beyond an additive isomorphism of cohomology groups. I will explain how those ideas were used in our old work with Kontsevich on Homological Mirror Symmetry for torus fibration. After discussing all those preliminaries I plan to move on to more recent developments, namely to the relationship of Morse theory and A-infinity categories in the framework of Landau-Ginzburg models suggested in a recent paper by Gaiotto-Moore-Witten. Among several applications of their approach I am going to discuss the old work of Kapranov and Saito on Morse theory and Stasheff polytopes.",
+      tags: ["fukaya", "mirror-symmetry"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -8612,6 +9159,7 @@ window.MSEMINAR = {
       title: "Legendrian knots and constructible sheaves",
       abstract:
         'I will discuss a "categorical" invariant of Legendrian knots -- to each such knot or link is attached a triangulated category which can be computed combinatorially. The category is equivalent to the Nadler-Zaslow version of the Fukaya category of Lagrangian surfaces that end on the knot. I will discuss some relations with (1) the Chekanov-Eliashberg theory of augmentations, (2) triply graded link homology (HOMFLY homology) and (3) algebraic plane curve singularities. The talk is based on joint work with Vivek Shende and Eric Zaslow.',
+      tags: ["categorification", "fukaya", "derived-categories"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -8629,6 +9177,7 @@ window.MSEMINAR = {
       affiliation: "University of Paris 6",
       title: "Quantum enumeration of plane tropical curves",
       abstract: "",
+      tags: ["mirror-symmetry"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -8647,6 +9196,7 @@ window.MSEMINAR = {
       title: "On regularized geometry of loop spaces",
       abstract:
         "It is safe to say that for a mathematician Quantum Mechanics means a spectral theory of elliptic PDE on a finite dimensional manifold. Physicists have to deal with quantum theories which formally do not fall into jurisdiction of finite-dimensional analysis. In particular the sigma-model Schradinger operator has to be defined on the free loop space $LM$ of a Riemannian manifold M. Roughly speaking the regularized loop space $L_NM$ has loops whose Fourier coefficients are nonzero only up to degree $N$. In the talk I will discuss topological and geometric properties of $L_NM$ when $M$ is a round sphere $S^k$ relevant to spectral theory on $L_NS^k$",
+      tags: [],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -8665,6 +9215,7 @@ window.MSEMINAR = {
       title: "Geometric Theory of Parshin Residues IV",
       abstract:
         "Parshin residues is a multidimensional generalization of the classical residues of 1-forms on curves. Given an algebraic variety and a top meromorphic form on it, one can compute Parshin residues of the form. An important difference in higher dimensions is that one computes residues not at a point, but at a complete flag of subvarieties. Note that the subvarieties are allowed to be singular. The residues satisfy certain relations, called Parshin's Reciprocity Laws. The original Parshin's theory is very algebraic, applicable well beyond the case of complex coefficients. However, in the complex variable case one would expect a more geometric approach possible. We use the stratification theory to express Parshin residues in terms of integrals over smooth cycles. The Reciprocity Laws then follow from homological relations on these cycles. We also use resolution of singularities techniques to reduce the general situation to the case when all varieties are smooth and the divisor of poles of the differential form is a normal crossing divisor. The Reciprocity Laws are then replaced by the total sums of residues over certain compact curves.",
+      tags: [],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -8683,6 +9234,7 @@ window.MSEMINAR = {
       title: "Fukaya-Seidel category in infrared limit I - VI",
       abstract:
         "I am going to discuss our recent work with Kapranov and Kontsevich. It is motivated by the big unfinished paper by Gaiotto, Moore and Witten devoted to certain two-dimensional supersymmetric gauge theories, including Landau-Ginzburg model. Mathematically, it gives an alternative description of what is known as Fukaya-Seidel category for a Kahler manifold endowed with a holomorphic function (potential). Our description is based on the Morse theory of the real part of the potential as well as on some concepts of toric geometry (secondary polytopes). I plan to discuss some applications,including those to the Morse theory of non-Morse functions,higher-dimensional TFTs, wall-crossing formulas, etc.",
+      tags: ["stability", "fukaya", "mirror-symmetry", "gauge-theory"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -8702,6 +9254,7 @@ window.MSEMINAR = {
         "This one weird trick has algebraic functions generating Donaldson-Thomas invariants from home! Sit in this talk to see why!",
       abstract:
         'It is a result of Kontsevich that generating functions for Donaldson-Thomas (DT) invariants associated to the m-Kronecker quiver are algebraic functions over the rationals. Using a technique from supersymmetric physics-- "spectral networks" -- one can see algebraicity of such functions directly and construct the associated algebraic equations in an algorithmic manner. We will discuss some interesting corollaries of these algebraic equations-- namely asymptotics on DT-invariants and Euler-characteristics of (Kronecker) quiver moduli-- and (if time allows) give a brief overview of the spectral network technique.',
+      tags: ["langlands", "dt-theory", "gauge-theory"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -8720,6 +9273,7 @@ window.MSEMINAR = {
       title: "Hyperkaehler Spaces from Monopole Walls",
       abstract:
         "Hyperkaehler metrics of real dimension four deliver simplest nontrivial examples of Calabi-Yau spaces. A rich source for such metrics is the self-dual Yang-Mills and its various reductions, such as the monopole equation, the Hitchin system, and the Nahm equations. After a short review of known metrics we focus on those with the lowest volume growth. These appear as moduli spaces of monopoles; to be exact, of doubly periodic monopoles. We call these monopole walls or monowalls. We compute the dimensions of the monowall moduli spaces, find nontrivial isometries between them, and find their asymptotic metrics explicitly. Spectral curves, their amoebas, Newton polygons, and their secondary polyhedrons play central role in this story. The leading behavior of the Kaehler potential, for example, is related to the volume of the melted crystal, i.e. the regularized volume under the Ronkin function of an associated spectral curve. We also explore the parameter space of such metrics and find its complete description in terms of fibered polytopes and secondary fans.",
+      tags: ["higgs-coulomb", "gauge-theory"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -8738,6 +9292,7 @@ window.MSEMINAR = {
       title: "The homological mirror to the punctured plane",
       abstract:
         "Symplectic mirrors to algebraic varieties are known in many instances. For example, Calabi-Yau varieties, Fano varieties and open Calabi-Yaus. When the variety is quasi-affine, little is known and less is proven. I will speak about a work in progress with Katzarkov and Kontsevich that describes a Fukaya category mirror to the punctured plane, and more generally, to any affine, quasi-affine and projective toric stack.",
+      tags: ["fukaya", "mirror-symmetry"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -8756,6 +9311,7 @@ window.MSEMINAR = {
       title: "Singular support of coherent sheaves and the geometric Langlands program",
       abstract:
         "In its `categorical' version, the geometric Langlands conjecture predicts deep ties between quasi-coherent sheaves on the moduli stack of local systems and D-modules on the moduli stack of principal bundles. It is very natural to state the conjecture as an equivalence between the derived categories of these objects. However, such naive formulation turns out to be inconsistent: the two categories do not match. In a joint work with D. Gaitsgory, we develop a way to correct this issue using the notion of singular support of coherent sheaves. Roughly speaking, to get an equivalence of categories, quasicoherent sheaves should be replaced with (ind)coherent sheaves whose singular support is contained in a certain natural subset. In this talk, I will show how singular support of coherent sheaves allows one to `correct' the categorical Langlands conjecture so that it passes natural compatibility tests (such as compatibility with the Eisenstein series)\nAlexander Rosenberg Memorial Conference, March 5-6 2013",
+      tags: ["langlands", "derived-categories"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -8773,6 +9329,7 @@ window.MSEMINAR = {
       affiliation: "UT Austin",
       title: "Spectral Network",
       abstract: "",
+      tags: ["langlands"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -8792,6 +9349,7 @@ window.MSEMINAR = {
         "The elliptic Affine Springer Fibers in type Cherednik Algebras and homological knot invariants",
       abstract:
         "(Joint work with Zhiwei Yun) The Affine Springer Fibers from the title are homeomorphic to the compactified Jacobians $JC_{m,n}$ of curves ${x^m=y^n, (m,n)=1.}$ In elementary terms $JC_{m,n}$ is the space of subspaces $\\subset \\CC[[t]]$ of codimension $(m-1)(n-1)$ that are preserved by multiplication on $t^m$ and $t^n$. Together with Zhiwei Yun we described an action of the spherical rational Cherednik algebra $eH_{m/n}(S_n)e$ on $H^*(JC_{m,n})$ and the ring structure of the cohomology. The ring structure is very similar to the ring structure of the finite dimensional Grassmanians, and in my talk I will discuss this analogy and connections with q,t Catalan numbers and the Khovanov-Rozansky invariants of the torus knots. Talk is accessible to students familiar with basic topology and representation theory.",
+      tags: ["categorification", "langlands", "quantum-groups", "representation-theory"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -8809,6 +9367,7 @@ window.MSEMINAR = {
       affiliation: "Kansas State University",
       title: "Product in the Cohomological Hall algebra, I",
       abstract: "",
+      tags: ["coha"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -8826,6 +9385,7 @@ window.MSEMINAR = {
       affiliation: "Kansas State University",
       title: "Product in the Cohomological Hall algebra, II",
       abstract: "",
+      tags: ["coha"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -8843,6 +9403,7 @@ window.MSEMINAR = {
       affiliation: "Kansas State University",
       title: "C is not equivalent to -C in its Jacobian: a tropical point of view",
       abstract: "",
+      tags: ["mirror-symmetry"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -8861,6 +9422,7 @@ window.MSEMINAR = {
       title: "Minimal model sequences and their mirrors I",
       abstract:
         'In the first lecture, I will give a description of the toric minimal model program and classify all possible "straight line" runs. The classification can be given geometrically as vertices of an iterated fiber polytope (or as the fixed points of a particular toric stack). I will illustrate this polytope in certain cases and detail the relationship with the Mori and Sarkisov programs.',
+      tags: ["mirror-symmetry"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -8879,6 +9441,7 @@ window.MSEMINAR = {
       title: "Minimal model sequences and their mirrors II",
       abstract:
         "In the second talk I will start fresh with several examples of DM toric stacks and their Mori theory. I will detail the combinatorial description of crossing a wall from one Mori chamber to another and describe the effect of such a wall crossing on the derived category of coherent sheaves. This talk will be independent of the first talk.",
+      tags: ["stability", "mirror-symmetry", "derived-categories"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -8896,6 +9459,7 @@ window.MSEMINAR = {
       affiliation: "Miami",
       title: "Mixed Hodge structures and phantoms\\",
       abstract: "",
+      tags: ["derived-categories"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -8914,6 +9478,7 @@ window.MSEMINAR = {
       title: "Local Hilbert Schemes and Jacobi Factors of Plane Curve Singularities",
       abstract:
         "In this talk I will describe two invariants of a plane curve singularity: local Hilbert scheme and the Jacobi factor, and explain how they are related. Local Hilbert scheme is the moduli space of ideals in the complete local ring R of the singularity. The Jacobi factor is the moduli space of R-submodules in the normalization of R. I will mostly concentrate on the case of quasi-homogeneous unibranched singularities {x^m=y^n} with relatively prime positive $m$ and $n.$ In this case both the local Hilbert scheme and the Jacobi factor have affine cell decompositions with interesting and non-trivial combinatorics.",
+      tags: [],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -8932,6 +9497,7 @@ window.MSEMINAR = {
       title: "The homological mirror of a toric stack",
       abstract:
         "In this talk I will define the Hori-Vafa mirror LG potential of a toric stack. The homological version of this mirror is a directed Fukaya category. I will define this category and explain some of its basic properties. I will conclude with the description of the homological mirrors of the projective line and the projective plane.",
+      tags: ["fukaya", "mirror-symmetry"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -8950,6 +9516,7 @@ window.MSEMINAR = {
       title: "Minimal model runs and degenerations",
       abstract:
         "In this final talk I will explain several precise ways to degenerate a homological mirror LG model of X (in fact, a moduli of degenerations). For each such (maximal) degeneration, there is a mirror minimal model run of X. I will describe how to decompose the directed Fukaya category of the LG model and why we expect this to be mirror to the birational semi-orthogonal decomposition of the original toric stack X.",
+      tags: ["fukaya", "mirror-symmetry"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -8968,6 +9535,7 @@ window.MSEMINAR = {
       title: "Tropical Pryms, conic bundles and cubic threefolds",
       abstract:
         "I will discuss non-rationality of cubic threefolds from tropical perspective. This involves classification of rank 5 lattices.",
+      tags: ["mirror-symmetry"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -8986,6 +9554,7 @@ window.MSEMINAR = {
       title: "Local Hilbert Schemes and Jacobi Factors of Plane Curve Singularities II",
       abstract:
         "This is the third talk in the series. I will write down formulas relating cohomology of the local Hilbert schemes of a singularity to the cohomology of the Jacobi factor endowed with the perverse filtration and then show the combinatorial counterpart of this relation on the example of quasihomogeneous singularities.",
+      tags: ["derived-categories"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -9005,6 +9574,7 @@ window.MSEMINAR = {
         "Combinatorial models for the local Hilbert scheme and Jacobi factor in the quasihomogeneous case",
       abstract:
         "In this talk I will discuss and compare combinatorial models for homology of the local Hilbert scheme and Jacobi factor of a quasihomogeneous plane curve singularity. I will also formulate some conjectures about these combinatorial models and their relation to the perverse filtration on the Jacobi factor.",
+      tags: ["derived-categories"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -9023,6 +9593,7 @@ window.MSEMINAR = {
       title: "Stable complexes and Fourier-Mukai transforms",
       abstract:
         "Fourier-Mukai transforms have been used to understand the relationships between various moduli spaces of sheaves, such as in the work of Bruzzo-Maciocia and Bridgeland-Maciocia. In this talk, I will give two examples - one on K3 surfaces and one on elliptic threefolds - where a moduli of complexes is mapped into a moduli of sheaves via a Fourier-Mukai transform.",
+      tags: ["stability", "derived-categories"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -9041,6 +9612,7 @@ window.MSEMINAR = {
       title: "Algebraic structures in perturbative quantum field theory",
       abstract:
         "I'll discuss my work with Owen Gwilliam, where we develop an approach to perturbative quantum field theory which is similar to the deformation-quantization approach to quantum mechanics. From this point of view, the theory of renormalization provides a proof that we can deform a classical algebraic structure into a quantum one.",
+      tags: ["gauge-theory"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -9059,6 +9631,7 @@ window.MSEMINAR = {
       title: "On the eigenvalue spectrum of the Inertia operator",
       abstract:
         "We study the question whether the inertia operator on the Grothendieck module of algebraic stacks is diagonalizable. Answering this question may shed light on some of the mysterious operations defined by Joyce in his work on stack functions. This is joint work with Pooya Ronagh.",
+      tags: [],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -9077,6 +9650,7 @@ window.MSEMINAR = {
       title: "Constructible Sheaves and Mirror Symmetry",
       abstract:
         "I will review some results relating the theory of constructible sheaves to the Fukaya category, and the relation to mirror symmetry for toric varieties. With this in hand, I will then discuss conjectural constructible models of the categories involved in mirror symmetry of Calabi-Yau manifolds at the large complex / large radius limit points.\nAMS Regional Meeting, in Lawrence: Special Session on Mirror Symmetry",
+      tags: ["fukaya", "mirror-symmetry"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -9101,6 +9675,7 @@ window.MSEMINAR = {
       title: "Fourier transforms in the SYZ program",
       abstract:
         "Mirror symmetry is a duality between complex geometry and symplectic geometry. In this talk I will explain the Strominger-Yau-Zaslow proposal which explains mirror symmetry via Fourier type transformation along Lagrangian fibrations. I will also discuss recent progress on the SYZ proposal.",
+      tags: ["fukaya", "mirror-symmetry"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -9119,6 +9694,7 @@ window.MSEMINAR = {
       title: "SYZ Transformation In Mirror Symmetry",
       abstract:
         "Mirror symmetry is a duality between complex geometry and symplectic geometry. In this talk I will explain the Strominger-Yau-Zaslow proposal which explains mirror symmetry via Fourier type transformation along Lagrangian fibrations. I will also discuss recent progress on the SYZ proposal.",
+      tags: ["fukaya", "mirror-symmetry"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -9137,6 +9713,7 @@ window.MSEMINAR = {
       title: "Mukai-type flops via D-modules",
       abstract:
         "This talk is based on a joint work in progress with Ivan Mirkovic. Flops are a special class of birational maps between algebraic varieties. It is expected that when two varieties are related by a flop, their derived categories of coherent sheaves are equivalent. However, it was shown by Namikawa in 2002 that even in the low-dimensional case of the so-called Mukai flop between two copies of $T^*P^2$ the functor immediately associated to the flop is not an equivalence, and while the equivalence still exists, it is given by a different functor. It turns out that if we switch to the world of D-modules then both of these functors can be explained quite naturally, and equivalences can be produced for a wide class of similar flops between $T^*X$, where $X$ are Grassmannians and other partial flag varieties.",
+      tags: ["representation-theory", "derived-categories"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -9155,6 +9732,7 @@ window.MSEMINAR = {
       title: "Plane curve singularities, Hilbert schemes, HOMFLY homology, and Cherednik algebras",
       abstract:
         "I will discuss a conjecture identifying the cohomology of certain nested Hilbert schemes of points on a plane curve singularity with the HOMFLY homology of the link of that singularity. The conjecture may be restated in terms of the cohomology of parabolic Hitchin fibers, in which form, and when restricted to toric singularities, it suggests the existence of the action of a rational Cherednik algebra on the HOMFLY homology of torus knots. As a consequence, the conjectures predict that the homology of (n,n+1) torus knots is described by formulas familiar from Haiman's study of diagonal harmonics, and the (n,mn+1) torus knots by known generalizations of these.",
+      tags: ["categorification", "langlands", "higgs-coulomb", "quantum-groups"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -9173,6 +9751,7 @@ window.MSEMINAR = {
       title: "Vertex algebra approach to mirror symmetry",
       abstract:
         "I will review the vertex algebra approach to mirror symmetry, including recent developments such as unification of Batyrev-Borisov and Berglund-Hubsch toric examples.",
+      tags: ["cft", "mirror-symmetry"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -9191,6 +9770,7 @@ window.MSEMINAR = {
       title: "What is Mirror Symmetry in String Theory?",
       abstract:
         "String theory attempts to describe the physical world by expressing fundamental forces and forms of matter in terms of tiny vibrating one-dimensional objects (strings) in place of usual points in space. While string theory is yet to be tested experimentally, it has considerable inner beauty and has spawned a number of fascinating mathematical developments. Mirror Symmetry is one such mathematical offshoot, and is the primary object of study at the M-center at Kansas State University. I will give an overview of the subject and its history for the general audience.",
+      tags: ["mirror-symmetry"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -9209,6 +9789,7 @@ window.MSEMINAR = {
       title: "On Lagrangian spheres, sheaves and mirror symmetry of open Calabi-Yau's",
       abstract:
         "I will describe a precise conjecture on the homological mirror symmetry of A_n singularities in dimension 3. To support this conjecture, I will discuss some results on the topology of Lagrangian sections and vanishing cycles via Lagrangian fibrations. Although the main motivation is to understand A_n singularities, the methods apply to more general open Calabi-Yau manifolds and seem to promise various generalizations. This is work in progress with Mark Gross.",
+      tags: ["fukaya", "mirror-symmetry"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -9227,6 +9808,7 @@ window.MSEMINAR = {
       title: "Symplectic Cohomology and the Hochschild (co)homology of the Fukaya category",
       abstract:
         "A Lefschetz fibration is a map from a symplectic manifold to a Riemann surface such that the fibers are symplectic submanifolds. In this talk I will give some constructions of Lefschetz fibrations and talk about some of their basic properties. This will include things like parallel transport, monodromy, vanishing cycles and matching cycles.",
+      tags: ["fukaya"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -9245,6 +9827,7 @@ window.MSEMINAR = {
       title: "SymplecticLefschetz Fibrations, I",
       abstract:
         "A Lefschetzfibration is a map from a symplectic manifold to a Riemann surface such that the fibers are symplectic submanifolds. In this talk I will give some constructions of Lefschetzfibrations and talk about some of their basic properties. This will include things like parallel transport, monodromy, vanishing cycles and matching cycles.",
+      tags: ["fukaya"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -9263,6 +9846,7 @@ window.MSEMINAR = {
       title: "SymplecticLefschetz Fibrations, II",
       abstract:
         "A Lefschetzfibration is a map from a symplectic manifold to a Riemann surface such that the fibers are symplectic submanifolds. In this talk I will give some constructions of Lefschetzfibrations and talk about some of their basic properties. This will include things like parallel transport, monodromy, vanishing cycles and matching cycles.",
+      tags: ["fukaya"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -9281,6 +9865,7 @@ window.MSEMINAR = {
       title: "Hitchin Systems, I",
       abstract:
         "We introduce Hitchin integrable systems and explain their role in the geometric Langlands program.",
+      tags: ["langlands", "higgs-coulomb"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -9299,6 +9884,7 @@ window.MSEMINAR = {
       title: "Lines on smooth quartic surfaces",
       abstract:
         "It is a common understanding that, thanks to the global Torelli theorem and the surjectivity of the period map, any reasonable question concerning the topology and geometry of K3-surfaces can be reduced to a certain arithmetical problem. We apply this ideology to the study of the possible configurations of straight lines on a nonsingular quartic surface in ${\\Bbb P}^3$. According to C. Segre, a nonsingular quartic in A ${\\Bbb P}^3$ may contain at most 64 lines, and one explicit example of a surface with exactly 64 lines is known. The original proof, using classical algebraic geometry in the Italian school style, is quite complicated. We reprove Segre's result using the contemporary arithmetical approach. In addition, we prove that, up to projective equivalence, a nonsingular quartic with 64 lines is unique. Furthermore, we show that a real nonsingular quartic may contain at most 56 real line (Joint work with A. Degtyarev.)",
+      tags: [],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -9317,6 +9903,7 @@ window.MSEMINAR = {
       title: "Hitchin Systems, II",
       abstract:
         "We introduce Hitchin integrable systems and explain their role in the geometric Langlands program.",
+      tags: ["langlands", "higgs-coulomb"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -9334,6 +9921,7 @@ window.MSEMINAR = {
       affiliation: "KSU",
       title: "Hitchin Systems and Calabi-Yau 3-folds",
       abstract: "",
+      tags: ["langlands", "higgs-coulomb"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -9351,6 +9939,7 @@ window.MSEMINAR = {
       affiliation: "KSU",
       title: "Tropical curves and Mixed Hodge structures",
       abstract: "Conference: Mirror Symmetry in the Midwest II, University of Wisconsin-Madison",
+      tags: ["mirror-symmetry"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -9375,6 +9964,7 @@ window.MSEMINAR = {
       title: "A geometric theory of modular representations of Lie algebras",
       abstract:
         'This is a joint work with Roman Bezrukavnikov and Dmitriy Rumynin. The goal is to give a reasonable explanation of the new level of complexity that one encounters when one tries to rework known representation theories in the "modular context\'\', i.e., working over a field of positive characteristic p. At the first glance the modular versions are much more complicated due to amalgamation of random "accidents" -- the integers that happen to be divisible by p become zero in characteristic p. However, the final answer is simple: the effect of modular setting is a partial failure of the quantization of commutative geometry to noncommutative geometry. The new complexity is then found to correspond to the usual commutative geometry which has survived the quantization process. Once the problem has been reduced to commutative geometry, it is amenable to a rich world of algebro geometric machineries.',
+      tags: ["noncommutative", "representation-theory"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -9393,6 +9983,7 @@ window.MSEMINAR = {
       title: "Some Aspects of Floer Theory on Log Calabi-Yau Surfaces",
       abstract:
         "A Log Calabi-Yau surface is a pair consisting of a projective surface Y and an effective anticanonical divisor D. When D supports an ample class, the complement is naturally an exact symplectic manifold, and we will consider some aspects of its Floer theory, namely symplectic cohomology (generated by periodic orbits of a Hamiltonian), and Lagrangian intersection Floer cohomology. This study is motivated by mirror symmetry, and many of the geometric arguments are guided by the SYZ picture.",
+      tags: ["fukaya", "mirror-symmetry"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -9410,6 +10001,7 @@ window.MSEMINAR = {
       affiliation: "KSU",
       title: "Tropical curves and Mixed Hodge structures, II",
       abstract: "",
+      tags: ["mirror-symmetry"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -9428,6 +10020,7 @@ window.MSEMINAR = {
       title: "On real determinantal quartics",
       abstract:
         "To four real symmetric 4 x 4 matrices $A_0$, $A_1$, $A_2$, and $A_3$, one can associate a {\\it determinantal s urface} in the three dimensional complex projective space ${\\Bbb C}P^3$ (the set of points $(x_0 : x_1 : x_2 : x_3)$ in ${\\Bbb C}P^3$ such that the determinant of the matrix $x_0 A_1 + x_1 A_1 + x_2 A_2 + x_3 A_3$ is zero) and a {\\it spectrahedron} in the three dimensional real projectiv e space ${\\Bbb R}P^3$ (the set of points $(x_0 : x_1 : x_2 : x_3)$ in ${\\Bbb R}P^3$ such that the matrix $x_0 A_1 + x_1 A_1 + x_2 A_2 + x_3 A_3$ is semidefinite). In general, the determinantal surface considered has ten double points. We consider generic determinantal surfaces with non-e mpty spectrahedron and describe all possible arrangements of the ten nodes of such a surface. The proof is based on a study of period spaces of real K3-surfaces.",
+      tags: [],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -9446,6 +10039,7 @@ window.MSEMINAR = {
       title: "Classical Algebraic Geometry in the Tropical Limit",
       abstract:
         'Complex numbers are key ingredient in the language of quantum mechanics. Even the motion of a particle is described through a change in its phase. In the same time in a whole range of actual problems (cf. e.g. celestial mechanics) there is little sense to use the full quantum mechanics machinery for description. The adequate description can be provided already by the classical tools. There is a somewhat similar situation in algebraic geometry. However here the term "classical" is reserved for more universal complex geometry. Algebraic geometry corresponding to the quasiclassical approximation is based on the so-called "tropical numbers" (named so after the Brazilian computer science school of Imre Simon) and is called "tropical geometry". As in quantum mechanics there is a correspondence principle between tropical and classical problems in algebraic geometry. In the talk we consider several examples of such correspondences.',
+      tags: ["mirror-symmetry"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -9464,6 +10058,7 @@ window.MSEMINAR = {
       title: "Quantum dilogarithm identities and wall-crossing formulas",
       abstract:
         "I am going to explain why the well-known 5-term identities for the classical and quantum dilogarithm functions are just simplest examples in an infinite series of identities arising in the theory of Donaldson-Thomas invariants proposed in our joint work with Maxim Kontsevich.",
+      tags: ["dt-theory", "stability"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -9481,6 +10076,7 @@ window.MSEMINAR = {
       affiliation: "KSU",
       title: "Ooguri-Vafa metric",
       abstract: "",
+      tags: ["mirror-symmetry"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -9498,6 +10094,7 @@ window.MSEMINAR = {
       affiliation: "KSU",
       title: "Wall-crossing formulas, mirror symmetry and hyperkahler metrics",
       abstract: "",
+      tags: ["stability", "mirror-symmetry"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -9516,6 +10113,7 @@ window.MSEMINAR = {
       title: "Topological and Symplectic Hydrodynamics",
       abstract:
         "Topological fluid dynamics studies topological features of flows with complicated trajectories and their applications to fluid motions. Its main ideas can be traced back to the seminal 1966 paper by V. Arnold on the Euler equation for an ideal fluid as the geodesic equation on the group of volume-preserving diffeomorphisms. In the lecture we survey various results related to Arnold's program in hydrodynamics and discuss recent results on invariants of ideal and symplectic fluid flows.",
+      tags: [],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -9534,6 +10132,7 @@ window.MSEMINAR = {
       title: "K3 surfaces and Calabi-Yau metrics",
       abstract:
         "I will talk about the geometry of special Lagrangian submanifolds in Calabi-Yau manifolds and applications to constructing Ricci flat metrics in K3 surfaces.",
+      tags: ["fukaya"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -9552,6 +10151,7 @@ window.MSEMINAR = {
       title: "Twistors and K3 surfaces, part I part II part III",
       abstract:
         "I will talk about twistor geometry and constructions of Ricci flat metrics on K3 surfaces.",
+      tags: ["derived-categories"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -9569,6 +10169,7 @@ window.MSEMINAR = {
       affiliation: "KSU",
       title: "Complex Integrable Systems and Wall-Crossings",
       abstract: "",
+      tags: ["quantum-groups", "stability"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -9587,6 +10188,7 @@ window.MSEMINAR = {
       title: "Arakelov Coherent Sheaves and Their Hall Algebra",
       abstract:
         "If X is a curve over a finite field, then the Hall algebra of coherent sheaves on X is an interesting quantum group-type object, related to quantum affine sl(2) (for X a projective line) and the Cherednik algebra (for X elliptic). The lecture will discuss the analogous algebra for the case when X is an arithmetic curve (spectrum of the ring of integers in a number field), compactified at infinity in the sense of Arakelov. Among other things, this leads to the concept of coherent sheaves on arithmetic curves with torsion at infinity, as well as to shuffle algebras based on Dedekind zeta functions.",
+      tags: ["coha", "quantum-groups", "representation-theory"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -9604,6 +10206,7 @@ window.MSEMINAR = {
       affiliation: "UC Berkeley",
       title: "",
       abstract: "",
+      tags: [],
       extra: ["Mini-course"],
       cancelled: false,
       upcoming: false,
@@ -9621,6 +10224,7 @@ window.MSEMINAR = {
       affiliation: "Strasbourg",
       title: "Anti-symplectic involutions on rational symplectic 4-manifolds",
       abstract: "",
+      tags: ["fukaya"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -9639,6 +10243,7 @@ window.MSEMINAR = {
       title: "Quantum Field Theory: Are We There Yet?",
       abstract:
         "Just as the development of quantum mechanics in 1920-1930 stimulated many branches of mathematics, attempts to construct quantum field theory gave boost to such areas as functional analysis, geometry and topology (gauge theories), representation theory of infinite-dimensional Lie algebras and related Hopf algebras (conformal and integrable field theories). And yet mathematically sound formulation of models in quantum field theory and their analysis remain a formidable mathematical problem. The lecture will start with a short historic overview. Then the concept of local quantum field theory will be outlined, followed by a discussion of perturbative versus non-perturbative quantum field theory and of successes and open problems. As an illustration of how naturally geometrical structures appear in quantum field theory, we will see that the locality of free scalar field naturally leads to Burghelea-Friedlander-Kappeler identities of Meyer-Vietoris type for determinants of Laplace operators.",
+      tags: ["cft", "quantum-groups", "gauge-theory", "representation-theory"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -9657,6 +10262,7 @@ window.MSEMINAR = {
       title: "First steps in real enumerative geometry",
       abstract:
         "Surprisingly, in several real enumerative problems the number of real solutions happens to be comparable (for example, in logarithmic scale) with the number of complex ones. Currently, such a phenomenon is best studied in the case of interpolation of real points on a real rational surface by real rational curves. The key tool here is given by the Welschinger invariants (which can be seen as a real analogue of genus zero Gromov-Witten invariants). In this talk, based on joint works with I. Itenberg and E. Shustin, I will explain what Welschinger invariants look like in the case of surfaces, point certain modifications, and present some recursive formulas that allow to control Welschinger invariants in the case of Del Pezzo surfaces. Using this, I'll explain how to establish some basic properties of the invariants that imply, in particular, the abundance of real solutions.",
+      tags: ["enumerative"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -9675,6 +10281,7 @@ window.MSEMINAR = {
       title: "Homfly polynomials in the stable pair theory of conifold",
       abstract:
         "Hilbert schemes of points on plane curve singularities are related via wallcrossing to stable pair invariants of the resolved conifold. This construction places the conjecture of Oblomkov and Shende on Homfly polynomials in a Calabi-Yau threefold framework, leading to various generalizations.",
+      tags: ["categorification", "dt-theory", "stability", "mirror-symmetry"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -9693,6 +10300,7 @@ window.MSEMINAR = {
       title: "Homological Mirror Symmetry for a Calabi-Yau hypersurface in projective space",
       abstract:
         "We prove homological mirror symmetry for a Calabi-Yau hypersurface in projective space. In the one-dimensional case, this is the elliptic curve, and our result is related to that of Polishchuk-Zaslow; in the two-dimensional case, it is the K3 quartic surface, and our result reproduces that of Seidel; and in the three-dimensional case, it is the quintic three-fold (also considered by Nohara-Ueda, using our work). After stating the result carefully, we will describe some of the techniques used in its proof. Namely, we will introduce equivariant versions of the affine and relative Fukaya categories, explain how they behave under ramified covers, and how to use a Morse-Bott model to make computations in them. We will go through the one-dimensional case with pictures. Finally, we will outline how to make computations in the derived category of coherent sheaves, via graded matrix factorizations.",
+      tags: ["fukaya", "mirror-symmetry", "derived-categories"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -9711,6 +10319,7 @@ window.MSEMINAR = {
       title: "Quantum Sheaf Cohomology",
       abstract:
         'Quantum cohomology of a variety X is a refinement of its ordinary cohomology which captures very detailed information about numbers of curves in X. Combined with mirror symmetry, it has led to amazing advances in enumerative geometry. Now physicists tell us that there should exist a similar refinement, quantum sheaf cohomology, of the cohomology of a variety valued in a vector bundle E or in a more general coherent sheaf. This bundle needs to be "omalous" (not anomalous), which means that its first two Chern classes should match those of X. The usual (quantum) cohomology is recovered as the case that E is the tangent bundle of X. I will discuss recent progress on defining and calculating this quantum sheaf cohomology for toric varieties and hypersurfaces in them, as well as many open problems in this young field.',
+      tags: ["mirror-symmetry", "enumerative", "gauge-theory", "derived-categories"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -9729,6 +10338,7 @@ window.MSEMINAR = {
       title: "Motivic Measure",
       abstract:
         "A motivic measure is a ring homomorphism from the Grothendieck ring of varieties to another commutative ring. One uses such homomorphisms to define Euler characteristic type of invariants of algebraic varieties. I will give a survey of known interesting motivic measures and also report on the work in progress where we construct some new ones.",
+      tags: ["dt-theory"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -9747,6 +10357,7 @@ window.MSEMINAR = {
       title: "Bogomolov-type inequalities in higher dimension",
       abstract:
         "In this seminar (based on joint work with A. Bayer, Y. Toda, and A. Bertram), we will present a conjectural approach to the construction of Bridgeland stability conditions on the derived category of a higher dimensional variety. The main ingredient is a generalization to complexes of the classical Bogomolov inequality for sheaves. We will also discuss an application of this inequality to the Fujita Conjecture for threefolds.",
+      tags: ["quantum-groups", "stability", "derived-categories"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -9764,6 +10375,7 @@ window.MSEMINAR = {
       affiliation: "University of Miami and Vienna",
       title: "Stability Old and New",
       abstract: "",
+      tags: ["stability"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -9781,6 +10393,7 @@ window.MSEMINAR = {
       affiliation: "KSU",
       title: "Floer cohomology in Calabi-Yau manifolds, II",
       abstract: "",
+      tags: ["fukaya"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -9798,6 +10411,7 @@ window.MSEMINAR = {
       affiliation: "KSU",
       title: "Floer cohomology in Calabi-Yau manifolds, I",
       abstract: "",
+      tags: ["fukaya"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -9816,6 +10430,7 @@ window.MSEMINAR = {
       title: "Autoduality of Jacobians for singular curves",
       abstract:
         "Let C be a (smooth projective algebraic) curve. It is well known that the Jacobian J of C is a principally polarized abelian variety. In other words, J is self-dual in the sense that J is identified with the space of topologically trivial line bundles on itself. Suppose now that C is singular. The Jacobian J of C parametrizes topologically trivial line bundles on C; it is an algebraic group which is no longer compact. By considering torsion-free sheaves instead of line bundles, one obtains a natural singular compactification J' of J. In this talk, I consider (projective) curves C with planar singularities. The main result is that J' is self-dual: J' is identified with a space of torsion-free sheaves on itself. This autoduality naturally fits into the framework of the geometric Langlands conjecture; I hope to sketch this relation in my talk.",
+      tags: ["langlands"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -9833,6 +10448,7 @@ window.MSEMINAR = {
       affiliation: "KSU",
       title: "Introduction to the Geometric Langlands Program - II",
       abstract: "",
+      tags: ["langlands"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -9851,6 +10467,7 @@ window.MSEMINAR = {
       title: "Introduction to the Geometric Langlands Program - I",
       abstract:
         "I shall explain the general framework of categorical geometric Langlands conjecture and introduce moduli spaces of bundles on curves, connections on curves, and Higgs fields on curves. Then I shall focus on simple examples involving 1-dimensional moduli spaces of (parabolic) bundles on curves.",
+      tags: ["langlands", "higgs-coulomb"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -9868,6 +10485,7 @@ window.MSEMINAR = {
       affiliation: "KSU",
       title: "Some aspects of singularities of moduli spaces, II",
       abstract: "",
+      tags: [],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -9885,6 +10503,7 @@ window.MSEMINAR = {
       affiliation: "KSU",
       title: "Some aspects of singularities of moduli spaces, I",
       abstract: "",
+      tags: [],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -9903,6 +10522,7 @@ window.MSEMINAR = {
       title: "",
       abstract:
         "Derived categories of local surfaces are examples of the easist\nCY 3-categories because they have quiver description. We can study the moduli of sheaves on the local surfaces via quiver representation theory. These moduli spaces are the main objects of Donaldson-Thomas theory. Using infinity algebra, we show that these moduli spaces are critical sets of algebraic functions",
+      tags: ["dt-theory", "representation-theory", "derived-categories"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -9920,6 +10540,7 @@ window.MSEMINAR = {
       affiliation: "KSU",
       title: "The Maslov index and graded Lagrangians",
       abstract: "",
+      tags: ["fukaya"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -9937,6 +10558,7 @@ window.MSEMINAR = {
       affiliation: "Vanderbilt",
       title: "Real enumerative geometry and open Gromov-Witten invariants",
       abstract: "",
+      tags: ["enumerative"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -9954,6 +10576,7 @@ window.MSEMINAR = {
       affiliation: "Vanderbilt",
       title: "Relative Gromov-Witten invariants",
       abstract: "",
+      tags: ["enumerative"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -9971,6 +10594,7 @@ window.MSEMINAR = {
       affiliation: "KSU",
       title: "Conifold transitions via integral affine geometry",
       abstract: "",
+      tags: ["mirror-symmetry"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -9988,6 +10612,7 @@ window.MSEMINAR = {
       affiliation: "Piemonte Orientale",
       title: "Tropical geometric transitions",
       abstract: "",
+      tags: ["mirror-symmetry"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -10005,6 +10630,7 @@ window.MSEMINAR = {
       affiliation: "KSU",
       title: "Tropical homology: mixed Hodge structures",
       abstract: "",
+      tags: ["mirror-symmetry"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -10022,6 +10648,7 @@ window.MSEMINAR = {
       affiliation: "CUHK",
       title: "SYZ Mirror Symmetry for local Calabi-Yau manifolds",
       abstract: "",
+      tags: ["mirror-symmetry"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -10039,6 +10666,7 @@ window.MSEMINAR = {
       affiliation: "University of Illinois at Chicago",
       title: "Geometry of Teichmueller curves",
       abstract: "",
+      tags: [],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -10056,6 +10684,7 @@ window.MSEMINAR = {
       affiliation: "Stanford",
       title: "Floer homology in geometry and dynamics",
       abstract: "",
+      tags: ["fukaya"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -10073,6 +10702,7 @@ window.MSEMINAR = {
       affiliation: "IHES",
       title: "Mirror symmetry from the SYZ viewpoint",
       abstract: "",
+      tags: ["mirror-symmetry"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -10090,6 +10720,7 @@ window.MSEMINAR = {
       affiliation: "MPI-Bonn",
       title: "Categorical geometric Langlands duality",
       abstract: "",
+      tags: ["langlands"],
       extra: [],
       cancelled: false,
       upcoming: false,
@@ -10107,6 +10738,7 @@ window.MSEMINAR = {
       affiliation: "SUNY Stonybrook",
       title: "Compliments to bad spaces",
       abstract: "",
+      tags: [],
       extra: ["19th Harry Valentine Lecture"],
       cancelled: false,
       upcoming: false,
@@ -10124,6 +10756,7 @@ window.MSEMINAR = {
       affiliation: "Kyoto",
       title: "Lagrangian Floer Homology & Mirror Symmetry",
       abstract: "",
+      tags: ["fukaya", "mirror-symmetry"],
       extra: ["2nd Brend Smith Lecture"],
       cancelled: false,
       upcoming: false,
@@ -10141,6 +10774,7 @@ window.MSEMINAR = {
       affiliation: "Paris-Sud",
       title: "The hypoelliptic Laplacian",
       abstract: "",
+      tags: [],
       extra: ["18th Harry Valentine Lecture"],
       cancelled: false,
       upcoming: false,
@@ -10158,6 +10792,7 @@ window.MSEMINAR = {
       affiliation: "MIT",
       title: "Classification and Computation in Symplectic Topology",
       abstract: "",
+      tags: ["fukaya"],
       extra: ["26th Spencer Lecture"],
       cancelled: false,
       upcoming: false,

@@ -1,7 +1,45 @@
 [
   {
-    "id": "2026-tatsuki-kuwagaki-sheaf-theory-for-non-exact-lagrangians",
+    "id": "2026-ben-webster-the-geometry-of-coulomb-branches",
     "videos": []
+  },
+  {
+    "id": "2026-lucien-hennecart-a-failed-attempt-at-the-deligne-simpson-pro",
+    "videos": []
+  },
+  {
+    "id": "2026-roman-fedorov-global-and-local-langlands-correspondence-for-",
+    "videos": []
+  },
+  {
+    "id": "2026-eric-rains-noncommutative-surfaces-and-difference-equations",
+    "videos": [
+      {
+        "id": "uG-tB5HyJEs",
+        "part": 1,
+        "title": "Eric Rains - Noncommutative surfaces and difference equations (1 of 3)"
+      },
+      {
+        "id": "SgIxmWc0OYE",
+        "part": 2,
+        "title": "Eric Rains - Noncommutative surfaces and difference equations (Lec 2)"
+      },
+      {
+        "id": "mv_wBHd6mfk",
+        "part": 3,
+        "title": "Eric Rains - Noncommutative surfaces and difference equations (3 of 3)"
+      }
+    ]
+  },
+  {
+    "id": "2026-tatsuki-kuwagaki-sheaf-theory-for-non-exact-lagrangians",
+    "videos": [
+      {
+        "id": "_zf5mjjj2DI",
+        "part": 1,
+        "title": "Tatsuki Kuwagaki - Sheaf Theory for Non-Exact Lagrangians"
+      }
+    ]
   },
   {
     "id": "2026-markus-reineke-stability-and-expansion",
@@ -35,7 +73,13 @@
   },
   {
     "id": "2026-maxim-kontsevich-towards-large-fukaya-category-case-of-tori",
-    "videos": []
+    "videos": [
+      {
+        "id": "vRisMo-NFcM",
+        "part": 1,
+        "title": "Maxim Kontsevich - Towards large Fukaya category: case of tori"
+      }
+    ]
   },
   {
     "id": "2026-amanda-hirschi-an-open-closed-deligne-mumford-field-theory-a",

@@ -21,7 +21,7 @@ from pathlib import Path
 from urllib.parse import urljoin
 
 sys.path.insert(0, str(Path(__file__).parent))
-from validate import validate  # noqa: E402
+from validate import TAG_LABELS, validate  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
@@ -97,6 +97,7 @@ def build() -> dict:
             "affiliation": t.get("affiliation"),
             "title": t.get("title") or "",
             "abstract": t.get("abstract") or "",
+            "tags": t.get("tags") or [],
             "extra": t.get("extra") or [],
             "cancelled": bool(t.get("cancelled")),
             "upcoming": bool(date_iso and date_iso >= today),
@@ -112,6 +113,15 @@ def build() -> dict:
     if sp_path.exists():
         speakers = json.loads(sp_path.read_text(encoding="utf-8"))
 
+    tag_counts: dict[str, int] = {}
+    for t in out_talks:
+        for tag in t["tags"]:
+            tag_counts[tag] = tag_counts.get(tag, 0) + 1
+    tags = [
+        {"slug": slug, "label": TAG_LABELS.get(slug, slug), "count": tag_counts[slug]}
+        for slug in sorted(tag_counts, key=lambda s: (-tag_counts[s], s))
+    ]
+
     payload = {
         "generated": datetime.now().strftime("%Y-%m-%d %H:%M"),
         "today": today,
@@ -125,6 +135,7 @@ def build() -> dict:
             "years": years,
         },
         "speakers": speakers,
+        "tags": tags,
         "talks": out_talks,
     }
     return payload
@@ -199,6 +210,9 @@ window.MathJax = {
         <option value="old">Oldest first</option>
         <option value="speaker">By speaker</option>
       </select>
+    </div>
+    <div id="tagRow" class="tag-row" role="group" aria-label="Filter by topic">
+      <span class="tag-row-label">Topics (match any):</span>
     </div>
     <p id="stats" class="stats"></p>
   </section>

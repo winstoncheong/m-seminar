@@ -97,7 +97,30 @@
     upcomingOnly: false,
     hideCancelled: true,
     sort: "new",
+    tags: new Set(),
   };
+
+  function tagLabel(slug) {
+    const f = (D.tags || []).find((t) => t.slug === slug);
+    return f ? f.label : slug;
+  }
+
+  function tagsFromHash() {
+    const h = location.hash;
+    const m = h.match(/^#tag=(.+)$/);
+    if (!m) return null;
+    return m[1].split(",").map(decodeURIComponent).filter(Boolean);
+  }
+
+  function syncHash() {
+    const frag = [...state.tags].map(encodeURIComponent).join(",");
+    // replaceState avoids history spam and does not fire hashchange.
+    if (frag) {
+      if (location.hash !== "#tag=" + frag) history.replaceState(null, "", "#tag=" + frag);
+    } else if (location.hash.startsWith("#tag=")) {
+      history.replaceState(null, "", location.pathname + location.search);
+    }
+  }
 
   const THEME_ORDER = ["auto", "light", "dark"];
   const THEME_GLYPH = { auto: "◐", light: "☀", dark: "☾" };
@@ -131,6 +154,53 @@
     const label = "Color theme: " + t + " (click to change)";
     btn.title = label;
     btn.setAttribute("aria-label", label);
+  }
+
+  function tagKnown(slug) {
+    return (D.tags || []).some((t) => t.slug === slug);
+  }
+
+  /* ---------------------------------------------------------------- tags */
+  function buildTagRow() {
+    const row = $("#tagRow");
+    if (!row) return;
+    for (const t of D.tags || []) {
+      const b = el("button", "ttag", `${t.label} (${t.count})`);
+      b.type = "button";
+      b.dataset.slug = t.slug;
+      b.title = `${t.count} talks`;
+      b.setAttribute("aria-pressed", "false");
+      b.addEventListener("click", () => toggleTag(t.slug));
+      row.appendChild(b);
+    }
+    const clear = el("button", "tag-clear", "Clear");
+    clear.type = "button";
+    clear.hidden = true;
+    clear.addEventListener("click", () => {
+      state.tags.clear();
+      syncHash();
+      render();
+    });
+    row.appendChild(clear);
+  }
+
+  function toggleTag(slug) {
+    if (state.tags.has(slug)) state.tags.delete(slug);
+    else state.tags.add(slug);
+    syncHash();
+    render();
+  }
+
+  function updateTagRow() {
+    const row = $("#tagRow");
+    if (!row) return;
+    for (const b of row.querySelectorAll(".ttag")) {
+      const on = state.tags.has(b.dataset.slug);
+      b.classList.toggle("active", on);
+      b.setAttribute("aria-pressed", on ? "true" : "false");
+    }
+    const clear = row.querySelector(".tag-clear");
+    if (clear) clear.hidden = state.tags.size === 0;
   }
 
   const SEASON_ORDER = { Fall: 3, Summer: 2, Spring: 1, Winter: 0 };
@@ -168,6 +238,19 @@
       state.sort = e.target.value;
       render();
     });
+    buildTagRow();
+    const initial = tagsFromHash();
+    if (initial) state.tags = new Set(initial.filter((s) => tagKnown(s)));
+    render();
+    window.addEventListener("hashchange", () => {
+      const h = tagsFromHash();
+      if (h) {
+        state.tags = new Set(h.filter((s) => tagKnown(s)));
+        render();
+      } else {
+        focusHash();
+      }
+    });
     document.addEventListener("keydown", (e) => {
       if (e.key === "/" && document.activeElement !== $("#q")) {
         e.preventDefault();
@@ -180,8 +263,6 @@
       }
     });
     renderNext();
-    render();
-    window.addEventListener("hashchange", focusHash);
     const themeBtn = $("#theme-toggle");
     if (themeBtn) {
       themeBtn.addEventListener("click", () => {
@@ -217,6 +298,10 @@
     if (state.hasVideo && !t.videos.length) return false;
     if (state.upcomingOnly && !t.upcoming) return false;
     if (state.hideCancelled && t.cancelled) return false;
+    if (state.tags.size > 0) {
+      const tt = t.tags || [];
+      if (![...state.tags].some((s) => tt.includes(s))) return false;
+    }
     if (state.q) {
       const hay = [t.title, t.speaker, t.affiliation, t.abstract, t.date_text, t.season]
         .filter(Boolean)
@@ -244,9 +329,15 @@
     $("#empty").hidden = talks.length > 0;
 
     const withVid = talks.filter((t) => t.videos.length).length;
-    $("#stats").textContent =
+    let stats =
       `${talks.length} of ${D.counts.talks} talks · ${withVid} with recordings ` +
       `· ${D.counts.videos} videos in the archive`;
+    if (state.tags.size > 0) {
+      const names = [...state.tags].map(tagLabel).join(", ");
+      stats += ` · topics (any): ${names}`;
+    }
+    $("#stats").textContent = stats;
+    updateTagRow();
 
     // group by season+year
     const groups = new Map();
@@ -318,6 +409,24 @@
     if (t.cancelled) badges.appendChild(el("span", "badge cancelled", "Cancelled"));
     if (badges.childNodes.length) sp.appendChild(badges);
     body.appendChild(sp);
+
+    if (t.tags && t.tags.length) {
+      const ttags = el("div", "ttags");
+      for (const slug of t.tags) {
+        const b = el("button", "ttag ttag-card", tagLabel(slug));
+        b.type = "button";
+        b.title = `Filter by ${tagLabel(slug)}`;
+        if (state.tags.has(slug)) {
+          b.classList.add("active");
+          b.setAttribute("aria-pressed", "true");
+        } else {
+          b.setAttribute("aria-pressed", "false");
+        }
+        b.addEventListener("click", () => toggleTag(slug));
+        ttags.appendChild(b);
+      }
+      body.appendChild(ttags);
+    }
 
     if (t.links.length) {
       const chips = el("div", "chips");
