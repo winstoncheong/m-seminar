@@ -1,0 +1,40 @@
+name: Data correction
+description: Report a wrong title, date, link, abstract, or video mapping.
+title: "[data] <talk id>: <brief description>"
+labels: ["data"]
+body:
+  - type: input
+    id: talk
+    attributes:
+      label: Talk id / date
+      description: The talk's stable id (e.g. 2026-tatsuki-kuwagaki-sheaf-theory-for-non-exact-lagrangians) and/or its date as shown on the site.
+    validations:
+      required: true
+  - type: input
+    id: field
+    attributes:
+      label: Field affected
+      description: One of title, date, speaker, affiliation, abstract, links, video mapping, other.
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: Current text
+      description: What the site says now (copy-paste).
+    validations:
+      required: true
+  - type: textarea
+    id: suggested
+    attributes:
+      label: Suggested text
+      description: What it should say instead.
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source URL
+      description: Official K-State page, speaker homepage, or YouTube URL backing the correction.
+    validations:
+      required: true
