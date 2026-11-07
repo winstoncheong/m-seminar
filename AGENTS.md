@@ -29,22 +29,11 @@ Both generated files are committed anyway, so the site works without running
 anything, and so a reviewer can read the page without executing Python. That
 convenience is exactly what makes them look editable. They are not.
 
-# Submodule relationship
-
-This repo is tracked as a submodule at `m-seminar-page/` inside the notes
-vault (`winstoncheong/notes`). Vault search and the `Seminars.md` wikilink
-depend on these files being checked out at that path — keep them there.
-
 # Publishing changes
 
-Two-step push, in this order:
-
-1. Commit and push here first.
-2. Then, in the notes vault: `git add m-seminar-page`, commit the pointer
-   bump, and push.
-
-Pushing here without bumping the pointer leaves the vault on a stale commit;
-bumping before pushing here leaves a dangling pointer.
+Commit and push here. This repo used to be tracked as a submodule inside the
+notes vault (pointer bumps there on every change); since the 2026-11-07
+unbundling it stands alone, and there is no second step.
 
 # Commits
 
