@@ -231,6 +231,15 @@ window.MathJax = {
 
 <script src="assets/data.js"></script>
 <script src="assets/app.js"></script>
+<!-- Vercel observability (zero-config static): replace UNIQUE-PATH-ANALYTICS with the script path shown in the Vercel dashboard under project > Analytics > Enable, and UNIQUE-PATH-SPEED with the one under project > Speed Insights. Both 404 harmlessly until enabled. -->
+<script>
+window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+</script>
+<script defer src="/UNIQUE-PATH-ANALYTICS/script.js"></script>
+<script>
+window.si = window.si || function () { (window.siq = window.siq || []).push(arguments); };
+</script>
+<script defer src="/UNIQUE-PATH-SPEED/script.js"></script>
 </body>
 </html>
 """

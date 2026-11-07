@@ -1,6 +1,6 @@
 window.MSEMINAR = {
-  generated: "2026-11-05 17:46",
-  today: "2026-11-05",
+  generated: "2026-11-07 16:01",
+  today: "2026-11-07",
   channel: "https://www.youtube.com/@m-seminar_ksu",
   base: "https://www.math.ksu.edu/research/research-centers/m-center",
   counts: {
@@ -383,7 +383,7 @@ window.MSEMINAR = {
       tags: ["langlands", "higgs-coulomb", "derived-categories"],
       extra: ["Zoom link\nMeeting ID: 958 3425 4862"],
       cancelled: false,
-      upcoming: true,
+      upcoming: false,
       links: [
         {
           label: "Notes",
