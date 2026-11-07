@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>M-Seminar directory (compact)</title>
+<script>window.MathJax={tex:{inlineMath:[["$","$"]],macros:{CC:"\\mathbb{C}",RR:"\\mathbb{R}"}},options:{skipHtmlTags:["script","style","textarea","pre","code"]}};</script>
+<script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#fff;color:#1a1a1a;
+font:14px/1.5 -apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+.wrap{max-width:1000px;margin:0 auto;padding:0 18px}
+.topbar{border-bottom:1px solid #e2e2e2;padding:16px 0}
+.topbar h1{margin:0;font-size:1.2rem;display:inline}
+.topbar .sub{color:#666;font-size:.85rem;margin-left:10px}
+.disclaimer{font-size:.78rem;color:#666;background:#f7f7f7;border:1px solid #e6e6e6;
+border-radius:8px;padding:8px 12px;margin:12px 0}
+.toolbar{display:flex;gap:8px;flex-wrap:wrap;align-items:center;position:sticky;top:0;
+background:#fff;padding:10px 0;border-bottom:1px solid #e2e2e2;z-index:5}
+#q{flex:2;min-width:180px;padding:7px 10px;border:1px solid #ccc;border-radius:6px;font-size:.9rem}
+.toolbar select{padding:6px;border:1px solid #ccc;border-radius:6px;font-size:.85rem}
+.toolbar .check{font-size:.82rem;color:#555}
+.tagrow{display:flex;gap:6px;flex-wrap:wrap;padding:8px 0}
+.tag{border:1px solid #d5d5d5;background:#f4f4f4;border-radius:4px;padding:2px 9px;
+font-size:.78rem;cursor:pointer;font-family:inherit}
+.tag.on{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+#count{font-size:.8rem;color:#777;margin:8px 0;font-variant-numeric:tabular-nums}
+.talk{display:grid;grid-template-columns:150px 1fr auto;gap:4px 14px;align-items:start;
+padding:10px 4px;border-bottom:1px solid #eee}
+.talk:hover{background:#fafafa}
+.tmeta{grid-column:1;grid-row:1/span 4;font-size:.78rem;color:#777;font-variant-numeric:tabular-nums}
+.ttitle{grid-column:2;grid-row:1}
+.tspeaker{grid-column:2;grid-row:2}
+.tabs{grid-column:2;grid-row:3}
+.ttags{grid-column:2;grid-row:4}
+.tlinks{grid-column:3;grid-row:1/span 4}
+.pill{display:inline-block;font-size:.68rem;font-weight:700;border-radius:4px;padding:1px 7px;margin-top:4px}
+.pill.vid{background:#e6f4ea;color:#137333}.pill.soon{background:#fef7e0;color:#8a6d00}
+.pill.cancelled{background:#fce8e6;color:#a50e0e}
+.ttitle{margin:0;font-size:.98rem;font-weight:600}
+.tspeaker{font-size:.82rem;color:#555}.tspeaker a{color:#0b57d0}
+.tabs{margin:.25em 0;font-size:.85rem;color:#333;display:-webkit-box;-webkit-line-clamp:2;
+-webkit-box-orient:vertical;overflow:hidden}
+.ttags{display:flex;gap:5px;flex-wrap:wrap;margin-top:2px}
+.ttags .tag{font-size:.7rem;color:#555}
+.tlinks{display:flex;flex-direction:column;gap:5px;min-width:96px}
+.chip{font-size:.76rem;border:1px solid #0b57d0;color:#0b57d0;border-radius:6px;padding:3px 9px;
+text-decoration:none;text-align:center;white-space:nowrap}
+.nolink{font-size:.75rem;color:#999;font-style:italic}
+.cancelled .ttitle{text-decoration:line-through;color:#777}
+footer{color:#777;font-size:.78rem;margin:20px 0 30px}footer a{color:#0b57d0}
+@media(max-width:640px){.talk{grid-template-columns:1fr}.tlinks{flex-direction:row;flex-wrap:wrap}}
+</style>
+</head>
+<body>
+<div class="topbar"><div class="wrap"><h1>M-Seminar archive</h1><span class="sub">K-State · fast directory view (demo: 6 of 342 talks)</span></div></div><div class="wrap"><p class="disclaimer">Unofficial mirror of the K-State M-Seminar programme. Programme text belongs to the M-Seminar — the <a href="https://www.math.ksu.edu/research/research-centers/m-center/seminars.html">official page</a> is the source of truth. Demo preview: content may be stale; tags are provisional.</p><div class="toolbar"><input id="q" type="search" placeholder="Search title, speaker, affiliation…"><div class="selects"><label>Year <select id="year"><option value="">All years</option><option selected>2026</option><option>2025</option></select></label><label>Video <select id="video"><option value="">All</option><option>With recording</option><option>No recording</option></select></label><label>Sort <select id="sort"><option value="new">Newest first</option><option value="old">Oldest first</option></select></label><label class="check"><input type="checkbox" id="upc"> Upcoming only</label><label class="check"><input type="checkbox" id="hidec"> Hide cancelled</label></div></div><div class="tagrow" role="group" aria-label="Filter by tag"><button class="tag on" data-tag="">All</button><button class="tag" data-tag="DT theory">DT theory</button><button class="tag" data-tag="CoHA">CoHA</button><button class="tag" data-tag="mirror symmetry">mirror symmetry</button><button class="tag" data-tag="Fukaya categories">Fukaya categories</button><button class="tag" data-tag="stability conditions">stability conditions</button><button class="tag" data-tag="QFT">QFT</button><button class="tag" data-tag="quivers">quivers</button></div><p id="count"></p><div id="list"><article class="talk" data-search="sheaf theory for non-exact lagrangians tatsuki kuwagaki kyoto university mirror symmetry fukaya categories" data-tags="|mirror symmetry|Fukaya categories|" data-year="2026" data-video="none" data-ts="0">
+  <div class="tmeta"><span>October 15, 2026</span><span class="sep">·</span><span>Fall 2026</span><span class="pill soon">No recording yet</span></div>
+  <h3 class="ttitle">Sheaf Theory for Non-Exact Lagrangians</h3>
+  <div class="tspeaker"><a href="https://www.kurims.kyoto-u.ac.jp/en/list/kuwagaki.html">Tatsuki Kuwagaki</a><span class="sep">·</span><span>Kyoto University</span></div>
+  <p class="tabs">Sheaf-theoretic methods in symplectic geometry have grown rapidly since Nadler–Zaslow and Tamarkin. I will present a modification of Tamarkin’s approach for non-exact Lagrangians and a comparison theorem with Fukaya-type categories, with remarks on homological mirror symmetry.</p>
+  <div class="ttags"><button class="tag" data-tag="mirror symmetry">mirror symmetry</button> <button class="tag" data-tag="Fukaya categories">Fukaya categories</button></div>
+  <div class="tlinks"><span class="nolink">No recording yet — check back later</span></div>
+</article>
+<article class="talk" data-search="stability and expansion markus reineke ruhr university bochum stability conditions quivers" data-tags="|stability conditions|quivers|" data-year="2026" data-video="single" data-ts="1">
+  <div class="tmeta"><span>October 8, 2026</span><span class="sep">·</span><span>Fall 2026</span><span class="pill vid">▶ Recording</span></div>
+  <h3 class="ttitle">Stability and expansion</h3>
+  <div class="tspeaker"><a href="https://homepage.rz.ruhr-uni-bochum.de/markus.reineke/">Markus Reineke</a><span class="sep">·</span><span>Ruhr University Bochum</span></div>
+  <p class="tabs">We propose expansion in abelian categories as a quantitative refinement of slope stability, related to dimension expanders. Main result: uniform expansion for representations of wild quivers via spectral properties of Cartan matrices.</p>
+  <div class="ttags"><button class="tag" data-tag="stability conditions">stability conditions</button> <button class="tag" data-tag="quivers">quivers</button></div>
+  <div class="tlinks"><a class="chip" href="https://youtu.be/k-uG3jIFNuQ">▶ Video</a> <a class="chip" href="https://www.math.ksu.edu/research/research-centers/m-center/reineke_oct26.pdf">Notes</a></div>
+</article>
+<article class="talk" data-search="the loop-nilpotent cohomological hall algebra and coulomb branches shivang jindal epf lausanne coha dt theory" data-tags="|CoHA|DT theory|" data-year="2026" data-video="single" data-ts="2">
+  <div class="tmeta"><span>October 1, 2026</span><span class="sep">·</span><span>Fall 2026</span><span class="pill vid">▶ Recording</span></div>
+  <h3 class="ttitle">The Loop-Nilpotent cohomological Hall Algebra and Coulomb Branches</h3>
+  <div class="tspeaker"><a href="https://sites.google.com/view/jindalshiv/">Shivang Jindal</a><span class="sep">·</span><span>EPF Lausanne</span></div>
+  <p class="tabs">Kontsevich–Soibelman defined the CoHA as a model for the algebra of BPS states. I will introduce the loop-nilpotent CoHA as a subalgebra of a shuffle algebra cut out by wheel conditions, with a surjection onto half of a quantized Coulomb-branch algebra. Joint with Andrei Neguț.</p>
+  <div class="ttags"><button class="tag" data-tag="CoHA">CoHA</button> <button class="tag" data-tag="DT theory">DT theory</button></div>
+  <div class="tlinks"><a class="chip" href="https://youtu.be/DdZ4cL_0IFY">▶ Video</a> <a class="chip" href="https://www.math.ksu.edu/research/research-centers/m-center/jindal_oct26.pdf">Notes</a></div>
+</article>
+<article class="talk" data-search="from locality to homotopy theory: higher symmetries and anomalies anton kapustin caltech and ihes qft mirror symmetry" data-tags="|QFT|mirror symmetry|" data-year="2026" data-video="single" data-ts="3">
+  <div class="tmeta"><span>September 24, 2026</span><span class="sep">·</span><span>Fall 2026</span><span class="pill vid">▶ Recording</span></div>
+  <h3 class="ttitle">From locality to homotopy theory: higher symmetries and anomalies</h3>
+  <div class="tspeaker"><a href="https://antonkapustin.caltech.edu/">Anton Kapustin</a><span class="sep">·</span><span>Caltech and IHES</span></div>
+  <p class="tabs">Symmetries of extended quantum systems form a higher group whose Postnikov data encode ’t Hooft anomalies. I will build these homotopy-theoretic invariants from algebras of local observables via crossed precosheaves of groups, with $U(1)$ gauge-theory examples.</p>
+  <div class="ttags"><button class="tag" data-tag="QFT">QFT</button> <button class="tag" data-tag="mirror symmetry">mirror symmetry</button></div>
+  <div class="tlinks"><a class="chip" href="https://youtu.be/pdRUxmNCLeE">▶ Video</a> <a class="chip" href="https://www.math.ksu.edu/research/research-centers/m-center/kapustin_sep26.pdf">Notes</a></div>
+</article>
+<article class="talk cancelled" data-search="towards large fukaya category: case of tori. maxim kontsevich ihes fukaya categories mirror symmetry" data-tags="|Fukaya categories|mirror symmetry|" data-year="2026" data-video="none" data-ts="4">
+  <div class="tmeta"><span>September 18, 2026</span><span class="sep">·</span><span>Fall 2026</span><span class="pill cancelled">Cancelled</span></div>
+  <h3 class="ttitle">Towards large Fukaya category: case of tori.</h3>
+  <div class="tspeaker"><a href="https://www.ihes.fr/~maxim/">Maxim Kontsevich</a><span class="sep">·</span><span>IHES</span></div>
+  <p class="tabs">A pretriangulated dg category with all limits and colimits over the Novikov ring: a large integral version of the Fukaya category of a symplectic torus, via non-archimedean geometry and microlocal support.</p>
+  <div class="ttags"><button class="tag" data-tag="Fukaya categories">Fukaya categories</button> <button class="tag" data-tag="mirror symmetry">mirror symmetry</button></div>
+  <div class="tlinks"><span class="nolink">Talk cancelled — no recording</span></div>
+</article>
+<article class="talk" data-search="orientifold lines from coha modules sam dehority yale university coha qft" data-tags="|CoHA|QFT|" data-year="2026" data-video="series" data-ts="5">
+  <div class="tmeta"><span>March 30 – April 2, 2026</span><span class="sep">·</span><span>Spring 2026</span><span class="pill vid">▶ 3-part series</span></div>
+  <h3 class="ttitle">Orientifold lines from CoHA modules</h3>
+  <div class="tspeaker"><a href="https://www.youtube.com/@m-seminar_ksu">Sam DeHority</a><span class="sep">·</span><span>Yale University</span></div>
+  <p class="tabs">A category of CoHA modules with vertex coaction models line operators in a $4d$ $\mathcal{N}=2$ theory; folding gives modules for orientifold lines, with applications to representations of quantized Coulomb-branch algebras.</p>
+  <div class="ttags"><button class="tag" data-tag="CoHA">CoHA</button> <button class="tag" data-tag="QFT">QFT</button></div>
+  <div class="tlinks"><a class="chip" href="https://youtu.be/J5iSlmMtvjw">▶ Part 1</a> <a class="chip" href="https://youtu.be/2SKKyZt9iks">▶ Part 2</a> <a class="chip" href="https://youtu.be/4LrDmTPVowE">▶ Part 3</a> <a class="chip" href="https://www.math.ksu.edu/research/research-centers/m-center/">Lec 1–3 notes</a></div>
+</article></div></div>
+<footer><div class="wrap"><p>M-Seminar archive · unofficial mirror, not affiliated with Kansas State University · <a href="https://www.math.ksu.edu/research/research-centers/m-center/seminars.html">Official page</a> · <a href="https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/">Past seasons</a> · <a href="https://www.youtube.com/@m-seminar_ksu">YouTube channel</a></p><p class="built">Last built: demo preview (stale by design).</p></div></footer>
+<script>
+const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
+const list=()=> $$('.talk');let tag='';
+function apply(){const q=$('#q').value.toLowerCase(),y=$('#year').value,v=$('#video').value;
+let n=0;list().forEach(a=>{const ok=(!q||a.dataset.search.includes(q))&&(!tag||a.dataset.tags.includes('|'+tag+'|'))
+&&(!y||a.dataset.year===y)&&(!v||(v==='With recording'?a.dataset.video!=='none':a.dataset.video==='none'))
+&&( !$('#upc').checked||a.querySelector('.soon'))&&(!$('#hidec').checked||!a.classList.contains('cancelled'));
+a.style.display=ok?'':'none';if(ok)n++;});
+$('#count').textContent=n+' of '+list().length+' talks';
+if($('#sort').value==='old')list().slice().reverse().forEach(a=>a.parentNode.appendChild(a));
+else list().slice().sort((a,b)=>a.dataset.ts-b.dataset.ts).forEach(a=>a.parentNode.appendChild(a));}
+$$('.tagrow .tag').forEach(b=>b.onclick=()=>{$$('.tagrow .tag').forEach(x=>x.classList.remove('on'));
+b.classList.add('on');tag=b.dataset.tag;apply();});
+$$('.ttags .tag').forEach(b=>b.onclick=()=>{tag=b.textContent;apply();
+$$('.tagrow .tag').forEach(x=>x.classList.toggle('on',x.dataset.tag===tag));});
+['#q','#year','#video','#sort','#upc','#hidec'].forEach(s=>$(s).addEventListener('input',apply));
+apply();</script>
+</body>
+</html>
