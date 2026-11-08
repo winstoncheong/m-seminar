@@ -151,6 +151,7 @@ HTML = """<!DOCTYPE html>
 <link rel="preconnect" href="https://i.ytimg.com">
 <link rel="stylesheet" href="assets/style.css">
 <link id="sitetheme-css" rel="stylesheet" href="assets/themes/refined-current.css">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
 <script>
 // Apply the stored theme before first paint to avoid a flash.
 try {
