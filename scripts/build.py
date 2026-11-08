@@ -150,6 +150,7 @@ HTML = """<!DOCTYPE html>
 <meta name="description" content="Archive of the K-State M-Seminar: talks, abstracts, slides and video recordings.">
 <link rel="preconnect" href="https://i.ytimg.com">
 <link rel="stylesheet" href="assets/style.css">
+<link id="sitetheme-css" rel="stylesheet" href="assets/themes/refined-current.css">
 <script>
 // Apply the stored theme before first paint to avoid a flash.
 try {
@@ -174,7 +175,7 @@ window.MathJax = {
 <header class="site-header">
   <div class="wrap header-inner">
     <div class="brand">
-      <span class="mark">M</span>
+      <span class="mark" aria-hidden="true"><svg viewBox="0 0 40 40" width="22" height="22" fill="none" stroke="currentColor" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 32 V11 l11 13 11-13 V32"/></svg></span>
       <div>
         <h1>M-Seminar</h1>
         <p class="sub">Kansas State University · M-Center</p>
@@ -184,12 +185,16 @@ window.MathJax = {
       <a href="https://www.math.ksu.edu/research/research-centers/m-center/" target="_blank" rel="noopener">M-Center</a>
       <a href="https://www.youtube.com/@m-seminar_ksu" target="_blank" rel="noopener">YouTube</a>
       <a href="https://www.math.ksu.edu/research/research-centers/m-center/seminars.html" target="_blank" rel="noopener">Original page</a>
+      <label class="sitetheme-label">Theme
+        <select id="sitetheme" aria-label="Site theme"></select>
+      </label>
       <button id="theme-toggle" class="theme-toggle" type="button" title="Color theme">◐</button>
     </nav>
   </div>
 </header>
 
 <main class="wrap">
+  <p class="standfirst">The programme archive of the K-State M-Seminar · %%YEAR_RANGE%%</p>
   <aside class="disclaimer" role="note">
     <p><span class="disclaimer-tag">Please note</span>This is an unofficial, AI-generated archive. Everything here was put together by an AI agent from information scraped off the public web and then only partially reviewed by a human, so titles, dates, speakers and abstracts may be wrong. Treat the <a href="https://www.math.ksu.edu/research/research-centers/m-center/seminars.html" target="_blank" rel="noopener">official M-Seminar page</a> as the source of truth, and check the "Last built" date below before assuming a listing is current. This site will be updated irregularly.</p>
   </aside>
@@ -217,6 +222,7 @@ window.MathJax = {
     <p id="stats" class="stats"></p>
   </section>
 
+  <p id="stats-band" class="stats-band" hidden></p>
   <section id="results" class="results"></section>
   <p id="empty" class="empty" hidden>No talks match your filters.</p>
 </main>
@@ -271,7 +277,10 @@ def main() -> None:
     (ASSETS / "data.js").write_text(
         "window.MSEMINAR = " + json.dumps(payload, ensure_ascii=False, indent=2) + ";\n",
         encoding="utf-8")
-    (ROOT / "index.html").write_text(HTML, encoding="utf-8")
+    years = payload["counts"]["years"] or []
+    year_range = f"{years[-1]}–{years[0]}" if years else ""
+    html = HTML.replace("%%YEAR_RANGE%%", year_range)
+    (ROOT / "index.html").write_text(html, encoding="utf-8")
     c = payload["counts"]
     print(f"Wrote index.html + assets/data.js  "
           f"({c['talks']} talks, {c['withVideo']} with video, {c['videos']} recordings)")

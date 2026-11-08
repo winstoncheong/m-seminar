@@ -15,6 +15,7 @@ and has already cost one agent a lost edit.
 |---|---|---|
 | `scripts/build.py` | source — also holds the `HTML` page template | yes |
 | `assets/style.css` | source — all styling, light/dark via `--*` tokens | yes |
+| `assets/themes/*.css` | source — one delta file per site theme, loaded over `style.css` | yes |
 | `assets/app.js` | source — render, search, filters, video | yes |
 | `data/*.json` | source — scraped, then partially reviewed by a human | yes, see `README.md` |
 | `index.html` | **generated** from the `HTML` string in `scripts/build.py` | **no** |

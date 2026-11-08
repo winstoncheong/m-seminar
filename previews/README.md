@@ -42,6 +42,9 @@ Files also render via `file://` (CDN math needs network).
 
 ## After the pick
 
-The winner is rebuilt properly in a follow-up PR into `scripts/build.py` (markup template),
-`assets/style.css`, and `assets/app.js` — these previews are throwaway and must not be
-copy-pasted as production markup.
+The six options shipped as switchable themes in a follow-up PR: one shared DOM
+in `scripts/build.py` + `assets/app.js`, one delta stylesheet each in
+`assets/themes/`, a header picker persisted to `localStorage`. The mockups here
+stay as the design record; do not copy-paste them as production markup — the
+live themes were rebuilt against the real data pipeline (video embeds, tag
+filter, section grouping), so they have already diverged from these files.
