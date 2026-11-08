@@ -29,6 +29,7 @@ footer says how stale the archive may be.
   assets/
     style.css           styling (light + dark, with toggle)
     themes/             one delta stylesheet per site theme (theme picker swaps them)
+    favicon.svg         header monogram as the tab icon
     app.js              rendering, search, filters, click-to-load video
     data.js             generated: window.MSEMINAR = {...}
   data/
