@@ -125,6 +125,63 @@
   const THEME_ORDER = ["auto", "light", "dark"];
   const THEME_GLYPH = { auto: "◐", light: "☀", dark: "☾" };
 
+  /* Site design themes: one shared DOM, one stylesheet each. The picker swaps
+     the #sitetheme-css link; the color-scheme toggle keeps working on top. */
+  const SITE_THEMES = [
+    { slug: "refined-current", label: "Refined current" },
+    { slug: "editorial-serif", label: "Editorial serif" },
+    { slug: "bold-modern", label: "Bold modern" },
+    { slug: "compact-directory", label: "Compact directory" },
+    { slug: "filter-sidebar", label: "Filter sidebar" },
+    { slug: "dark-scholarly", label: "Dark scholarly" },
+  ];
+  const SITE_THEME_KEY = "mseminar-sitetheme";
+  const DEFAULT_SITE_THEME = "refined-current";
+
+  function siteThemeSetting() {
+    try {
+      const t = localStorage.getItem(SITE_THEME_KEY);
+      if (SITE_THEMES.some((x) => x.slug === t)) return t;
+    } catch (e) {
+      /* private mode */
+    }
+    return DEFAULT_SITE_THEME;
+  }
+
+  function applySiteTheme(slug) {
+    const known = SITE_THEMES.some((x) => x.slug === slug);
+    const s = known ? slug : DEFAULT_SITE_THEME;
+    document.body.dataset.sitetheme = s;
+    const link = $("#sitetheme-css");
+    if (link) link.href = "assets/themes/" + s + ".css";
+    try {
+      localStorage.setItem(SITE_THEME_KEY, s);
+    } catch (e) {
+      /* private mode */
+    }
+    const sel = $("#sitetheme");
+    if (sel) sel.value = s;
+    updateStatsBand();
+  }
+
+  /* Bold-modern is the only theme with a stats band; everywhere else the
+     element stays hidden. Counts come from the live payload. */
+  function updateStatsBand() {
+    const band = $("#stats-band");
+    if (!band) return;
+    if (document.body.dataset.sitetheme !== "bold-modern") {
+      band.hidden = true;
+      return;
+    }
+    const c = D.counts;
+    const yrs = (c.years || []).slice().sort();
+    const span = yrs.length ? yrs[0] + "–" + yrs[yrs.length - 1] : "";
+    band.textContent =
+      `${c.talks} talks · ${c.videos} recordings · ${(D.tags || []).length} topics` +
+      (span ? ` · ${span}` : "");
+    band.hidden = false;
+  }
+
   function themeSetting() {
     return document.documentElement.dataset.theme || "auto";
   }
@@ -239,6 +296,16 @@
       render();
     });
     buildTagRow();
+    const picker = $("#sitetheme");
+    if (picker) {
+      for (const t of SITE_THEMES) {
+        const o = el("option", null, t.label);
+        o.value = t.slug;
+        picker.appendChild(o);
+      }
+      picker.addEventListener("change", (e) => applySiteTheme(e.target.value));
+    }
+    applySiteTheme(siteThemeSetting());
     const initial = tagsFromHash();
     if (initial) state.tags = new Set(initial.filter((s) => tagKnown(s)));
     render();
@@ -446,6 +513,15 @@
       const abs = el("div", "abstract", t.abstract);
       linkifyArxiv(abs);
       body.appendChild(abs);
+      // Compact-directory clamps abstracts; the toggle opens them. Hidden by
+      // default, shown only by themes that clamp.
+      const more = el("button", "abs-toggle", "Show more");
+      more.type = "button";
+      more.addEventListener("click", () => {
+        const open = card.classList.toggle("open");
+        more.textContent = open ? "Show less" : "Show more";
+      });
+      body.appendChild(more);
     }
 
     if (t.videos.length) {

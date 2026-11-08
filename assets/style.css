@@ -596,6 +596,27 @@ a.speaker-link:hover {
   color: var(--muted);
 }
 
+/* site themes ------------------------------------------------------- */
+.sitetheme-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 13.5px;
+  color: var(--muted);
+}
+#sitetheme {
+  max-width: 172px;
+}
+/* Shown only by the themes that use them (editorial-serif, bold-modern). */
+.standfirst,
+.stats-band {
+  display: none;
+}
+/* Shown only by themes that clamp abstracts (compact-directory). */
+.abs-toggle {
+  display: none;
+}
+
 @media (max-width: 620px) {
   .header-links a {
     display: none;

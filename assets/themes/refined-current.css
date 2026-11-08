@@ -1,0 +1,81 @@
+/* Refined current — the default theme. Tightens the base tokens (type scale,
+   spacing, card rhythm, pill statuses). Light default, follows the OS in auto. */
+:root {
+  --bg: #fafafa;
+  --panel: #ffffff;
+  --ink: #1c1c1e;
+  --muted: #5f5f6b;
+  --line: #e6e6ef;
+  --accent: #512888;
+  --accent-soft: #f1ecf7;
+  --accent-2: #6d3ab5;
+  --radius: 12px;
+  --maxw: 1040px;
+}
+
+:root[data-theme="dark"] {
+  --bg: #16161a;
+  --panel: #1f1f24;
+  --ink: #f2f2f5;
+  --muted: #a5a3b2;
+  --line: #2e2d37;
+  --accent: #b39ddb;
+  --accent-soft: #262033;
+  --accent-2: #c4a9f2;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #16161a;
+    --panel: #1f1f24;
+    --ink: #f2f2f5;
+    --muted: #a5a3b2;
+    --line: #2e2d37;
+    --accent: #b39ddb;
+    --accent-soft: #262033;
+    --accent-2: #c4a9f2;
+  }
+}
+
+body {
+  font-size: 15.5px;
+  line-height: 1.6;
+}
+
+.hero {
+  padding: 22px 0 6px;
+}
+
+.controls {
+  padding: 10px;
+  gap: 8px;
+}
+
+.talk {
+  padding: 16px 18px;
+  gap: 16px;
+}
+
+.talk-title {
+  font-size: 18px;
+}
+
+.abstract {
+  font-size: 14px;
+  line-height: 1.62;
+}
+
+.section-head {
+  font-size: 13px;
+  margin: 24px 0 8px;
+}
+
+.badge {
+  padding: 1px 8px;
+  font-size: 10.5px;
+}
+
+.chip {
+  padding: 3px 10px;
+  font-size: 12.5px;
+}

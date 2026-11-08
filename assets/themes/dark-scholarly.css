@@ -1,0 +1,128 @@
+/* Dark scholarly — chalkboard mood: dark-first with a gold glow, serif titles,
+   dashed gold tag chips. Light variant when the toggle asks for it. */
+:root {
+  --bg: #141210;
+  --panel: #1e1b17;
+  --ink: #ece5d8;
+  --muted: #a89e8d;
+  --line: #3a342a;
+  --accent: #d8a93f;
+  --accent-soft: #2c2517;
+  --accent-2: #9fd6a8;
+  --warn: #e0a63f;
+  --warn-soft: #2c2517;
+  --radius: 10px;
+  --shadow: 0 1px 2px rgba(0, 0, 0, 0.5), 0 10px 28px -14px rgba(0, 0, 0, 0.8);
+  --maxw: 1000px;
+  color-scheme: dark;
+}
+
+:root[data-theme="light"] {
+  --bg: #f7f3ea;
+  --panel: #fffdf7;
+  --ink: #2a251c;
+  --muted: #6f6656;
+  --line: #e0d7c2;
+  --accent: #8a6410;
+  --accent-soft: #f3e8cf;
+  --accent-2: #3f7a4e;
+  --warn: #8a5a00;
+  --warn-soft: #f7ecd4;
+  --shadow: 0 1px 2px rgba(60, 45, 20, 0.1), 0 8px 24px -12px rgba(60, 45, 20, 0.3);
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme="dark"]) {
+    --bg: #f7f3ea;
+    --panel: #fffdf7;
+    --ink: #2a251c;
+    --muted: #6f6656;
+    --line: #e0d7c2;
+    --accent: #8a6410;
+    --accent-soft: #f3e8cf;
+    --accent-2: #3f7a4e;
+    --warn: #8a5a00;
+    --warn-soft: #f7ecd4;
+    --shadow: 0 1px 2px rgba(60, 45, 20, 0.1), 0 8px 24px -12px rgba(60, 45, 20, 0.3);
+    color-scheme: light;
+  }
+}
+
+body {
+  background:
+    radial-gradient(1100px 320px at 50% -80px, rgba(216, 169, 63, 0.14), transparent 70%),
+    var(--bg);
+}
+
+.talk-title,
+.brand h1,
+.section-head {
+  font-family: Georgia, "Times New Roman", serif;
+}
+.brand h1 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+}
+.talk-title {
+  font-weight: 400;
+  font-size: 20px;
+}
+.section-head {
+  letter-spacing: 0.08em;
+}
+
+/* dashed gold tag chips */
+.ttag {
+  border-style: dashed;
+  border-color: var(--accent);
+  background: transparent;
+  font-family: Georgia, serif;
+  font-size: 13.5px;
+}
+.ttag:hover {
+  border-style: solid;
+  color: var(--accent);
+}
+.ttag.active {
+  background: var(--accent-soft);
+  border-style: solid;
+  color: var(--accent);
+  font-weight: 700;
+}
+.tag-clear {
+  color: var(--accent);
+}
+
+/* chalk-outline link chips */
+.chip {
+  background: transparent;
+}
+.chip .dot {
+  background: var(--accent-2);
+  border-radius: 0;
+}
+.badge {
+  background: transparent;
+  border: 1px solid var(--accent-2);
+  color: var(--accent-2);
+}
+.badge.cancelled {
+  background: transparent;
+  border: 1px solid var(--warn);
+  color: var(--warn);
+}
+
+.disclaimer {
+  font-style: italic;
+}
+
+.video-thumb,
+.video-frame,
+.no-video {
+  border-radius: 8px;
+}
+.video-thumb {
+  box-shadow: 0 0 0 1px var(--line);
+}

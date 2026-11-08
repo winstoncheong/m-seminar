@@ -10,6 +10,7 @@
     />
     <link rel="preconnect" href="https://i.ytimg.com" />
     <link rel="stylesheet" href="assets/style.css" />
+    <link id="sitetheme-css" rel="stylesheet" href="assets/themes/refined-current.css" />
     <script>
       // Apply the stored theme before first paint to avoid a flash.
       try {
@@ -68,6 +69,10 @@
             rel="noopener"
             >Original page</a
           >
+          <label class="sitetheme-label"
+            >Theme
+            <select id="sitetheme" aria-label="Site theme"></select>
+          </label>
           <button id="theme-toggle" class="theme-toggle" type="button" title="Color theme">
             ◐
           </button>
@@ -76,6 +81,7 @@
     </header>
 
     <main class="wrap">
+      <p class="standfirst">The programme archive of the K-State M-Seminar · 2007–2026</p>
       <aside class="disclaimer" role="note">
         <p>
           <span class="disclaimer-tag">Please note</span>This is an unofficial, AI-generated
@@ -128,6 +134,7 @@
         <p id="stats" class="stats"></p>
       </section>
 
+      <p id="stats-band" class="stats-band" hidden></p>
       <section id="results" class="results"></section>
       <p id="empty" class="empty" hidden>No talks match your filters.</p>
     </main>

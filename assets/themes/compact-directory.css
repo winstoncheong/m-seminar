@@ -1,0 +1,175 @@
+/* Compact directory — power scanning: sticky toolbar, dense rows with a date
+   gutter, 2-line clamped abstracts with an expander. Light default + dark. */
+:root {
+  --bg: #ffffff;
+  --panel: #f6f6f8;
+  --ink: #1a1a1a;
+  --muted: #5f6368;
+  --line: #e1e3e6;
+  --accent: #0b57d0;
+  --accent-soft: #e8f0fe;
+  --accent-2: #0b57d0;
+  --warn: #b45309;
+  --warn-soft: #fef3c7;
+  --radius: 6px;
+  --shadow: none;
+  --maxw: 1080px;
+}
+
+:root[data-theme="dark"] {
+  --bg: #131314;
+  --panel: #1e1f20;
+  --ink: #e3e3e3;
+  --muted: #9aa0a6;
+  --line: #35363a;
+  --accent: #8ab4f8;
+  --accent-soft: #233349;
+  --accent-2: #8ab4f8;
+  --warn: #fbbf24;
+  --warn-soft: #3a2e12;
+  --shadow: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #131314;
+    --panel: #1e1f20;
+    --ink: #e3e3e3;
+    --muted: #9aa0a6;
+    --line: #35363a;
+    --accent: #8ab4f8;
+    --accent-soft: #233349;
+    --accent-2: #8ab4f8;
+    --warn: #fbbf24;
+    --warn-soft: #3a2e12;
+    --shadow: none;
+  }
+}
+
+body {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.site-header {
+  backdrop-filter: none;
+}
+.brand h1 {
+  font-size: 16px;
+}
+.mark {
+  width: 32px;
+  height: 32px;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+/* sticky toolbar */
+.hero {
+  padding: 12px 0 0;
+}
+.next-talk {
+  margin-bottom: 10px;
+  padding: 8px 12px;
+  font-size: 13.5px;
+}
+.controls {
+  position: sticky;
+  top: 57px;
+  z-index: 10;
+  border-radius: var(--radius);
+  padding: 8px;
+  gap: 6px;
+}
+.search input {
+  padding: 7px 10px 7px 34px;
+  font-size: 14px;
+}
+select,
+.check {
+  padding: 6px 8px;
+  font-size: 13px;
+  border-radius: 6px;
+}
+.tag-row {
+  border-radius: var(--radius);
+  padding: 6px 10px;
+  gap: 6px;
+}
+.ttag {
+  font-size: 12px;
+  padding: 2px 9px;
+}
+.stats {
+  font-size: 12.5px;
+}
+
+/* dense rows */
+.section-head {
+  top: 112px;
+  font-size: 12.5px;
+  margin: 18px 0 6px;
+}
+.talk {
+  grid-template-columns: 110px 1fr;
+  gap: 14px;
+  padding: 10px 14px;
+  margin: 6px 0;
+  border-radius: var(--radius);
+  box-shadow: none;
+}
+.talk-title {
+  font-size: 15.5px;
+  margin-bottom: 2px;
+}
+.talk-speaker {
+  font-size: 13px;
+  margin-bottom: 6px;
+}
+.ttags {
+  margin-bottom: 6px;
+}
+.chips {
+  margin-bottom: 6px;
+  gap: 6px;
+}
+.chip {
+  font-size: 12px;
+  padding: 2px 9px;
+}
+.abstract {
+  font-size: 13px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.talk.open .abstract {
+  display: block;
+}
+.abs-toggle {
+  display: inline-block;
+  margin-top: 4px;
+  padding: 0;
+  font: inherit;
+  font-size: 12.5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--accent-2);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.extra {
+  font-size: 12px;
+}
+.video-thumb,
+.video-frame {
+  max-width: 320px;
+  border-radius: 8px;
+}
+.no-video {
+  border-radius: 8px;
+  padding: 6px 10px;
+  font-size: 12.5px;
+}
