@@ -175,7 +175,7 @@ window.MathJax = {
 <header class="site-header">
   <div class="wrap header-inner">
     <div class="brand">
-      <span class="mark">M</span>
+      <span class="mark" aria-hidden="true"><svg viewBox="0 0 40 40" width="22" height="22" fill="none" stroke="currentColor" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 32 V11 l11 13 11-13 V32"/></svg></span>
       <div>
         <h1>M-Seminar</h1>
         <p class="sub">Kansas State University · M-Center</p>

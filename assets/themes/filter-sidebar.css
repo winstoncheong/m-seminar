@@ -99,6 +99,12 @@ main.wrap {
   flex-direction: column;
   align-items: stretch;
 }
+.search {
+  /* base gives .search a row-layout flex-basis; in this column it would
+     become 260px of height instead */
+  flex: none;
+  width: 100%;
+}
 .controls::before {
   content: "Search & refine";
   display: block;

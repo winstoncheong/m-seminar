@@ -110,9 +110,12 @@ a {
   place-items: center;
   background: linear-gradient(140deg, var(--accent), var(--accent-2));
   color: #fff;
-  font-weight: 800;
-  font-size: 20px;
   box-shadow: var(--shadow);
+}
+.mark svg {
+  display: block;
+  width: 55%;
+  height: 55%;
 }
 .brand h1 {
   font-size: 18px;
