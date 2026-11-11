@@ -1,12 +1,12 @@
 window.MSEMINAR = {
-  generated: "2026-11-07 21:45",
-  today: "2026-11-07",
+  generated: "2026-11-11 18:44",
+  today: "2026-11-11",
   channel: "https://www.youtube.com/@m-seminar_ksu",
   base: "https://www.math.ksu.edu/research/research-centers/m-center",
   counts: {
     talks: 346,
-    withVideo: 170,
-    videos: 215,
+    withVideo: 172,
+    videos: 218,
     speakers: 190,
     years: [
       2026, 2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018, 2015, 2014, 2013, 2012, 2011, 2010,
@@ -358,15 +358,46 @@ window.MSEMINAR = {
         "Zoom link\nMeeting ID: 958 3425 4862",
       ],
       cancelled: false,
-      upcoming: true,
+      upcoming: false,
       links: [
+        {
+          label: "Lec 1",
+          url: "https://www.math.ksu.edu/research/research-centers/m-center/hennecart_nov26_1.pdf",
+          kind: "notes",
+        },
+        {
+          label: "Lec 2",
+          url: "https://www.math.ksu.edu/research/research-centers/m-center/hennecart_nov26_2.pdf",
+          kind: "notes",
+        },
         {
           label: "Zoom link",
           url: "https://ksu.zoom.us/j/95834254862",
           kind: "zoom",
         },
       ],
-      videos: [],
+      videos: [
+        {
+          id: "vbXh_gA4N-A",
+          title: "Lucien Hennecart - A (failed?) attempt at the Deligne-Simpson problem",
+          part: 1,
+          duration: 4736,
+          views: 72,
+          embed: "https://www.youtube.com/embed/vbXh_gA4N-A",
+          thumb: "https://i.ytimg.com/vi/vbXh_gA4N-A/hqdefault.jpg",
+          url: "https://www.youtube.com/watch?v=vbXh_gA4N-A",
+        },
+        {
+          id: "dRYeq94XQDs",
+          title: "Lucien Hennecart - Commutativity of the nilpotent CoHAs of the affine plane",
+          part: 2,
+          duration: 5378,
+          views: 4,
+          embed: "https://www.youtube.com/embed/dRYeq94XQDs",
+          thumb: "https://i.ytimg.com/vi/dRYeq94XQDs/hqdefault.jpg",
+          url: "https://www.youtube.com/watch?v=dRYeq94XQDs",
+        },
+      ],
       source: "https://www.math.ksu.edu/research/research-centers/m-center/seminars.html",
     },
     {
@@ -396,7 +427,18 @@ window.MSEMINAR = {
           kind: "zoom",
         },
       ],
-      videos: [],
+      videos: [
+        {
+          id: "xYrivL3984M",
+          title: "Roman Fedorov - Global and local Langlands correspondence for Hitchin systems",
+          part: 1,
+          duration: 4061,
+          views: 65,
+          embed: "https://www.youtube.com/embed/xYrivL3984M",
+          thumb: "https://i.ytimg.com/vi/xYrivL3984M/hqdefault.jpg",
+          url: "https://www.youtube.com/watch?v=xYrivL3984M",
+        },
+      ],
       source: "https://www.math.ksu.edu/research/research-centers/m-center/seminars.html",
     },
     {

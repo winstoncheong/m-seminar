@@ -41,6 +41,14 @@
     "tags": ["coha", "painleve"],
     "links": [
       {
+        "label": "Lec 1",
+        "url": "/research/research-centers/m-center/hennecart_nov26_1.pdf"
+      },
+      {
+        "label": "Lec 2",
+        "url": "/research/research-centers/m-center/hennecart_nov26_2.pdf"
+      },
+      {
         "label": "Zoom link",
         "url": "https://ksu.zoom.us/j/95834254862"
       }

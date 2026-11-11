@@ -5,11 +5,28 @@
   },
   {
     "id": "2026-lucien-hennecart-a-failed-attempt-at-the-deligne-simpson-pro",
-    "videos": []
+    "videos": [
+      {
+        "id": "vbXh_gA4N-A",
+        "part": 1,
+        "title": "Lucien Hennecart - A (failed?) attempt at the Deligne-Simpson problem"
+      },
+      {
+        "id": "dRYeq94XQDs",
+        "part": 2,
+        "title": "Lucien Hennecart - Commutativity of the nilpotent CoHAs of the affine plane"
+      }
+    ]
   },
   {
     "id": "2026-roman-fedorov-global-and-local-langlands-correspondence-for-",
-    "videos": []
+    "videos": [
+      {
+        "id": "xYrivL3984M",
+        "part": 1,
+        "title": "Roman Fedorov - Global and local Langlands correspondence for Hitchin systems"
+      }
+    ]
   },
   {
     "id": "2026-eric-rains-noncommutative-surfaces-and-difference-equations",
