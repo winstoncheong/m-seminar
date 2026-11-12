@@ -1,5 +1,5 @@
 window.MSEMINAR = {
-  generated: "2026-11-11 19:36",
+  generated: "2026-11-11 20:14",
   today: "2026-11-11",
   channel: "https://www.youtube.com/@m-seminar_ksu",
   base: "https://www.math.ksu.edu/research/research-centers/m-center",

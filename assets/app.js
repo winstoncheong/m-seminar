@@ -572,6 +572,10 @@
 
     const player = el("button", "video-thumb");
     player.type = "button";
+    player.setAttribute(
+      "aria-label",
+      location.protocol === "file:" ? "Watch the recording on YouTube" : "Play the recording",
+    );
     const img = el("img");
     img.loading = "lazy";
     img.alt = "";
@@ -614,7 +618,15 @@
     }
     function load() {
       const v = videos[idx];
+      // An embed served from file:// has no referrer to send, so YouTube answers
+      // with its configuration error; send the reader to the video instead.
+      if (location.protocol === "file:") {
+        window.open(v.url, "_blank", "noopener");
+        return;
+      }
       const frame = el("iframe", "video-frame");
+      // YouTube rejects embeds that do not declare a usable referrer (error 153).
+      frame.referrerPolicy = "strict-origin-when-cross-origin";
       frame.src = v.embed + "?autoplay=1&rel=0";
       frame.title = v.title || "Recording";
       frame.allow =

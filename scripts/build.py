@@ -148,6 +148,7 @@ HTML = """<!DOCTYPE html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>M-Seminar · Kansas State University</title>
 <meta name="description" content="Archive of the K-State M-Seminar: talks, abstracts, slides and video recordings.">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <link rel="preconnect" href="https://i.ytimg.com">
 <link rel="stylesheet" href="assets/style.css">
 <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
