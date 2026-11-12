@@ -29,7 +29,7 @@ footer says how stale the archive may be.
   assets/
     style.css           styling: the whole design, light + dark from one token set
     favicon.svg         header monogram as the tab icon
-    app.js              rendering, search, filters, click-to-load video
+    app.js              rendering, search, filters, click-to-load video, calendar links
     data.js             generated: window.MSEMINAR = {...}
   data/
     talks.json          the programme, newest first (scraped + reviewed)
@@ -63,6 +63,9 @@ YouTube channel, then update `data/`:
    `order` (position on the source page, for stable sorting).
    Endowed lectures name the lecture, not the speaker (`William J. Spencer
 Lecture`): put that in `extra` and the real speaker in `speaker`.
+   `build.py` derives the "Add to calendar" events from the time in
+   `date_text` and the `(Nov 9) at 10:00am` lines in `extra`, so keep those
+   as printed on the source page.
 2. **`videos.json`** — one object per channel video: `id` (YouTube id),
    `title`, `duration` (seconds), `views`, `url`.
 3. **`match.json`** — `{"id": <talk id>, "videos": [{"id", "part",

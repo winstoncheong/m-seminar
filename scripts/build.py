@@ -31,6 +31,114 @@ KSU = "https://www.math.ksu.edu"
 BASE = KSU + "/research/research-centers/m-center"
 CHANNEL = "https://www.youtube.com/@m-seminar_ksu"
 
+# Calendar events are built from the prose on the source page. Seminar times are
+# printed in Manhattan, Kansas time, so Google gets ctz=America/Chicago from the
+# client; everything here stays in wall-clock terms.
+TZ = "America/Chicago"
+TALK_MINUTES = 60
+MONTH_NUM = {m: i for i, m in enumerate(
+    ["jan", "feb", "mar", "apr", "may", "jun",
+     "jul", "aug", "sep", "oct", "nov", "dec"], start=1)}
+MONTH_ABBR = [None, "Jan", "Feb", "Mar", "Apr", "May", "Jun",
+              "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+WEEKDAY_ABBR = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+
+# "Monday (Nov 9) at 10:00am" — the per-lecture schedule of a series.
+SESSION_RE = re.compile(r"\((\w{3,9})\.?\s+(\d{1,2})\)\s+at\s+(\d{1,2})(?::(\d{2}))?\s*(am|pm)", re.I)
+# "November 5, 3:30pm (special time)" — the single start time of one talk.
+TIME_RE = re.compile(r"\b(\d{1,2})(?::(\d{2}))?\s*(am|pm)\b", re.I)
+
+
+def _clock(hour: str, minute: str | None, meridiem: str) -> tuple[int, int]:
+    h = int(hour) % 12 + (12 if meridiem.lower() == "pm" else 0)
+    return h, int(minute or 0)
+
+
+def _stamp(h: int, m: int) -> str:
+    return f"{h % 12 or 12}:{m:02d}{'pm' if h >= 12 else 'am'}"
+
+
+def _session(year: int, month: int, day: int, hour=None, minute=None) -> dict | None:
+    """One calendar entry; all-day when the source gives no time of day."""
+    try:
+        d = date(year, month, day)
+    except ValueError:
+        return None
+    label = f"{WEEKDAY_ABBR[d.weekday()]} {MONTH_ABBR[month]} {day}"
+    if hour is None:
+        return {"start": d.isoformat(),
+                "end": date.fromordinal(d.toordinal() + 1).isoformat(),
+                "all_day": True, "label": label}
+    end_h, end_m = divmod(hour * 60 + minute + TALK_MINUTES, 60)
+    same_day_end = end_h < 24
+    end = date.fromordinal(d.toordinal() + (0 if same_day_end else 1))
+    return {"start": f"{d.isoformat()}T{hour:02d}:{minute:02d}",
+            "end": f"{end.isoformat()}T{end_h % 24:02d}:{end_m:02d}",
+            "all_day": False,
+            "label": f"{label} · {_stamp(hour, minute)}"}
+
+
+def _listed_days(date_text: str) -> list[int]:
+    """Extra day numbers in "October 14, 15 and 16" (times and other months are
+    left alone: "November 5, 3:30pm" has none)."""
+    text = re.sub(r"\([^)]*\)", "", date_text or "")
+    _, _, rest = text.partition(",")
+    days = []
+    for part in re.split(r",|\band\b", rest):
+        p = part.strip()
+        if p.isdigit() and 1 <= int(p) <= 31:
+            days.append(int(p))
+        elif p:
+            break
+    return days
+
+
+def sessions_for(talk: dict) -> list[dict]:
+    """Calendar entries for a talk: one per lecture when the page lists a
+    schedule, otherwise the date(s) and time in `date_text`."""
+    year = talk.get("section_year")
+    if not year:
+        return []
+    found = []
+    for line in talk.get("extra") or []:
+        m = SESSION_RE.search(line)
+        if not m:
+            continue
+        month = MONTH_NUM.get(m.group(1)[:3].lower())
+        if not month:
+            continue
+        hour, minute = _clock(m.group(3), m.group(4), m.group(5))
+        s = _session(year, month, int(m.group(2)), hour, minute)
+        if s:
+            found.append(s)
+    if found:
+        return sorted(found, key=lambda s: s["start"])
+
+    md = talk.get("month_day")
+    if not md:
+        return []
+    month, day = md
+    tm = TIME_RE.search(talk.get("date_text") or "")
+    if tm:
+        hour, minute = _clock(tm.group(1), tm.group(2), tm.group(3))
+        s = _session(year, month, day, hour, minute)
+        return [s] if s else []
+    out = []
+    for d in [day, *_listed_days(talk.get("date_text") or "")]:
+        s = _session(year, month, d)
+        if s:
+            out.append(s)
+    return out
+
+
+def room_for(talk: dict) -> str:
+    """The room, when the page states one ("In-person: Room CW 122")."""
+    for line in talk.get("extra") or []:
+        if line.lower().startswith(("in-person:", "room:")):
+            return line.split(":", 1)[1].strip()
+    return ""
+
+
 
 def classify(link: dict) -> dict:
     url = urljoin(BASE + "/", link["url"])
@@ -103,6 +211,8 @@ def build() -> dict:
             "upcoming": bool(date_iso and date_iso >= today),
             "links": links,
             "videos": vids,
+            "sessions": sessions_for(t),
+            "room": room_for(t),
             "source": t.get("source"),
         })
 

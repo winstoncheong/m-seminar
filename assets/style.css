@@ -727,6 +727,130 @@ a.speaker-link:hover {
   background: #0ea5e9;
 }
 
+/* The calendar chip is a button, not a link: it opens the dialog. */
+.chip.cal {
+  font: inherit;
+  font-size: 12.5px;
+  line-height: 1.5;
+  cursor: pointer;
+}
+
+.chip.cal .dot {
+  background: var(--accent);
+}
+
+/* calendar dialog ------------------------------------------------------ */
+.cal-dialog {
+  width: min(420px, calc(100vw - 32px));
+  padding: 20px 22px 18px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--panel);
+  color: var(--ink);
+  box-shadow: 0 24px 60px -24px rgba(20, 16, 40, 0.55);
+}
+
+.cal-dialog::backdrop {
+  background: rgba(24, 20, 32, 0.45);
+  backdrop-filter: blur(2px);
+}
+
+.cal-title {
+  margin: 0 0 8px;
+  font-family: var(--serif);
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.cal-talk {
+  margin: 0 0 3px;
+  font-size: 14.5px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.cal-who {
+  margin: 0 0 14px;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.cal-list {
+  display: grid;
+  gap: 6px;
+  margin: 0 0 14px;
+  padding: 0;
+  list-style: none;
+}
+
+.cal-item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px 12px;
+  padding: 8px 10px;
+  background: var(--bg-elev);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
+.cal-when {
+  font-size: 13.5px;
+  font-variant-numeric: tabular-nums;
+}
+
+.cal-open {
+  padding: 4px 10px;
+  border: 1px solid var(--accent-line);
+  border-radius: 6px;
+  background: var(--accent-soft);
+  color: var(--accent-2);
+  font-size: 12.5px;
+  font-weight: 600;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.cal-open:hover {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+
+:root[data-theme="dark"] .cal-open:hover {
+  color: #1a1626;
+}
+
+.cal-note {
+  margin: 0 0 14px;
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--muted);
+}
+
+.cal-actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.cal-close {
+  font: inherit;
+  font-size: 13px;
+  padding: 6px 14px;
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  background: var(--panel);
+  color: var(--ink-soft);
+  cursor: pointer;
+}
+
+.cal-close:hover {
+  border-color: var(--line-strong);
+  color: var(--ink);
+}
+
 .abstract {
   font-size: 14.5px;
   line-height: 1.68;

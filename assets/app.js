@@ -466,7 +466,8 @@
 
     // Zoom links are only useful while the talk is still ahead.
     const links = t.links.filter((l) => l.kind !== "zoom" || t.upcoming);
-    if (links.length) {
+    const canAdd = t.upcoming && !t.cancelled && Array.isArray(t.sessions) && t.sessions.length > 0;
+    if (links.length || canAdd) {
       const chips = el("div", "chips");
       for (const l of links) {
         const a = el("a", "chip " + l.kind);
@@ -476,6 +477,15 @@
         a.appendChild(el("span", "dot"));
         a.appendChild(document.createTextNode(l.label));
         chips.appendChild(a);
+      }
+      if (canAdd) {
+        const b = el("button", "chip cal");
+        b.type = "button";
+        b.title = "Add this talk to Google Calendar";
+        b.appendChild(el("span", "dot"));
+        b.appendChild(document.createTextNode("Add to calendar"));
+        b.addEventListener("click", () => openCalendar(t));
+        chips.appendChild(b);
       }
       meta.appendChild(chips);
     }
@@ -537,6 +547,100 @@
 
     card.appendChild(body);
     return card;
+  }
+
+  /* ------------------------------------------------------ google calendar */
+  const CAL_TZ = "America/Chicago";
+
+  function calDate(s) {
+    return s.slice(0, 10).replace(/-/g, "");
+  }
+
+  function calStamp(s) {
+    const [d, t] = s.split("T");
+    return d.replace(/-/g, "") + "T" + t.replace(":", "") + "00";
+  }
+
+  function calendarUrl(t, s) {
+    const p = new URLSearchParams();
+    p.set("action", "TEMPLATE");
+    p.set("text", "M-Seminar: " + (t.title || t.speaker || "talk"));
+    p.set(
+      "dates",
+      s.all_day
+        ? calDate(s.start) + "/" + calDate(s.end)
+        : calStamp(s.start) + "/" + calStamp(s.end),
+    );
+    if (!s.all_day) p.set("ctz", CAL_TZ);
+    const details = [];
+    if (t.speaker) details.push(t.speaker + (t.affiliation ? " (" + t.affiliation + ")" : ""));
+    if (t.abstract) {
+      const a = t.abstract.trim();
+      details.push(a.length > 500 ? a.slice(0, 500).replace(/\s+\S*$/, "") + "…" : a);
+    }
+    if (t.source) details.push("Programme: " + t.source);
+    details.push("Archive: " + location.href.split("#")[0] + "#" + t.id);
+    p.set("details", details.join("\n\n"));
+    if (t.room) p.set("location", t.room + ", Kansas State University");
+    return "https://calendar.google.com/calendar/render?" + p.toString();
+  }
+
+  let calDialog = null;
+
+  /* One dialog, rebuilt per talk: a row per lecture, each linking to Google
+     Calendar with the event prefilled. */
+  function openCalendar(t) {
+    if (!calDialog) {
+      calDialog = el("dialog", "cal-dialog");
+      calDialog.setAttribute("aria-labelledby", "cal-dialog-title");
+      document.body.appendChild(calDialog);
+      calDialog.addEventListener("click", (e) => {
+        if (e.target === calDialog) calDialog.close();
+      });
+    }
+    calDialog.textContent = "";
+
+    const h = el("h2", "cal-title", "Add to Google Calendar");
+    h.id = "cal-dialog-title";
+    calDialog.appendChild(h);
+    calDialog.appendChild(el("p", "cal-talk", t.title || "M-Seminar"));
+    const who = el("p", "cal-who");
+    who.textContent = [t.speaker, t.affiliation].filter(Boolean).join(" · ");
+    calDialog.appendChild(who);
+
+    const list = el("ul", "cal-list");
+    for (const s of t.sessions) {
+      const li = el("li", "cal-item");
+      li.appendChild(el("span", "cal-when", s.label));
+      const a = el("a", "cal-open", "Google Calendar");
+      a.href = calendarUrl(t, s);
+      a.target = "_blank";
+      a.rel = "noopener";
+      a.addEventListener("click", () => window.setTimeout(() => calDialog.close(), 0));
+      li.appendChild(a);
+      list.appendChild(li);
+    }
+    calDialog.appendChild(list);
+
+    const timed = t.sessions.some((s) => !s.all_day);
+    calDialog.appendChild(
+      el(
+        "p",
+        "cal-note",
+        timed
+          ? "Times are Manhattan, Kansas time. The event opens prefilled — review it and save."
+          : "No time of day was listed for this talk, so the event is all day. The event opens prefilled — review it and save.",
+      ),
+    );
+
+    const actions = el("div", "cal-actions");
+    const close = el("button", "cal-close", "Close");
+    close.type = "button";
+    close.addEventListener("click", () => calDialog.close());
+    actions.appendChild(close);
+    calDialog.appendChild(actions);
+
+    if (!calDialog.open) calDialog.showModal();
   }
 
   function shortDate(t) {

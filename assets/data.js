@@ -1,5 +1,5 @@
 window.MSEMINAR = {
-  generated: "2026-11-11 20:14",
+  generated: "2026-11-11 22:04",
   today: "2026-11-11",
   channel: "https://www.youtube.com/@m-seminar_ksu",
   base: "https://www.math.ksu.edu/research/research-centers/m-center",
@@ -336,6 +336,21 @@ window.MSEMINAR = {
         },
       ],
       videos: [],
+      sessions: [
+        {
+          start: "2026-11-18T14:30",
+          end: "2026-11-18T15:30",
+          all_day: false,
+          label: "Wed Nov 18 · 2:30pm",
+        },
+        {
+          start: "2026-11-19T15:30",
+          end: "2026-11-19T16:30",
+          all_day: false,
+          label: "Thu Nov 19 · 3:30pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/seminars.html",
     },
     {
@@ -398,6 +413,21 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=dRYeq94XQDs",
         },
       ],
+      sessions: [
+        {
+          start: "2026-11-09T10:00",
+          end: "2026-11-09T11:00",
+          all_day: false,
+          label: "Mon Nov 9 · 10:00am",
+        },
+        {
+          start: "2026-11-10T10:00",
+          end: "2026-11-10T11:00",
+          all_day: false,
+          label: "Tue Nov 10 · 10:00am",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/seminars.html",
     },
     {
@@ -439,6 +469,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=xYrivL3984M",
         },
       ],
+      sessions: [
+        {
+          start: "2026-11-05T15:30",
+          end: "2026-11-05T16:30",
+          all_day: false,
+          label: "Thu Nov 5 · 3:30pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/seminars.html",
     },
     {
@@ -510,6 +549,27 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=mv_wBHd6mfk",
         },
       ],
+      sessions: [
+        {
+          start: "2026-10-26T15:30",
+          end: "2026-10-26T16:30",
+          all_day: false,
+          label: "Mon Oct 26 · 3:30pm",
+        },
+        {
+          start: "2026-10-28T11:30",
+          end: "2026-10-28T12:30",
+          all_day: false,
+          label: "Wed Oct 28 · 11:30am",
+        },
+        {
+          start: "2026-10-29T15:30",
+          end: "2026-10-29T16:30",
+          all_day: false,
+          label: "Thu Oct 29 · 3:30pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/seminars.html",
     },
     {
@@ -546,6 +606,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=vRisMo-NFcM",
         },
       ],
+      sessions: [
+        {
+          start: "2026-10-22T10:00",
+          end: "2026-10-22T11:00",
+          all_day: false,
+          label: "Thu Oct 22 · 10:00am",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/seminars.html",
     },
     {
@@ -587,6 +656,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=_zf5mjjj2DI",
         },
       ],
+      sessions: [
+        {
+          start: "2026-10-15T10:00",
+          end: "2026-10-15T11:00",
+          all_day: false,
+          label: "Thu Oct 15 · 10:00am",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/seminars.html",
     },
     {
@@ -628,6 +706,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=k-uG3jIFNuQ",
         },
       ],
+      sessions: [
+        {
+          start: "2026-10-08T10:00",
+          end: "2026-10-08T11:00",
+          all_day: false,
+          label: "Thu Oct 8 · 10:00am",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/seminars.html",
     },
     {
@@ -665,6 +752,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=DdZ4cL_0IFY",
         },
       ],
+      sessions: [
+        {
+          start: "2026-10-01T11:30",
+          end: "2026-10-01T12:30",
+          all_day: false,
+          label: "Thu Oct 1 · 11:30am",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/seminars.html",
     },
     {
@@ -702,6 +798,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=pdRUxmNCLeE",
         },
       ],
+      sessions: [
+        {
+          start: "2026-09-24T13:30",
+          end: "2026-09-24T14:30",
+          all_day: false,
+          label: "Thu Sep 24 · 1:30pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/seminars.html",
     },
     {
@@ -727,6 +832,15 @@ window.MSEMINAR = {
         },
       ],
       videos: [],
+      sessions: [
+        {
+          start: "2026-05-07T11:30",
+          end: "2026-05-07T12:30",
+          all_day: false,
+          label: "Thu May 7 · 11:30am",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/seminars.html",
     },
     {
@@ -757,6 +871,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=iMdUL8j4cKw",
         },
       ],
+      sessions: [
+        {
+          start: "2026-04-30T10:30",
+          end: "2026-04-30T11:30",
+          all_day: false,
+          label: "Thu Apr 30 · 10:30am",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/seminars.html",
     },
     {
@@ -793,6 +916,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=v9O2k5lOkjE",
         },
       ],
+      sessions: [
+        {
+          start: "2026-04-21T15:30",
+          end: "2026-04-21T16:30",
+          all_day: false,
+          label: "Tue Apr 21 · 3:30pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/seminars.html",
     },
     {
@@ -830,6 +962,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=zNLKlOcXs8M",
         },
       ],
+      sessions: [
+        {
+          start: "2026-04-16T15:30",
+          end: "2026-04-16T16:30",
+          all_day: false,
+          label: "Thu Apr 16 · 3:30pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/seminars.html",
     },
     {
@@ -866,6 +1007,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=zcM5z_ep76E",
         },
       ],
+      sessions: [
+        {
+          start: "2026-04-09T10:30",
+          end: "2026-04-09T11:30",
+          all_day: false,
+          label: "Thu Apr 9 · 10:30am",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/seminars.html",
     },
     {
@@ -937,6 +1087,27 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=4LrDmTPVowE",
         },
       ],
+      sessions: [
+        {
+          start: "2026-03-30T12:30",
+          end: "2026-03-30T13:30",
+          all_day: false,
+          label: "Mon Mar 30 · 12:30pm",
+        },
+        {
+          start: "2026-04-01T12:30",
+          end: "2026-04-01T13:30",
+          all_day: false,
+          label: "Wed Apr 1 · 12:30pm",
+        },
+        {
+          start: "2026-04-02T15:30",
+          end: "2026-04-02T16:30",
+          all_day: false,
+          label: "Thu Apr 2 · 3:30pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/seminars.html",
     },
     {
@@ -1012,6 +1183,27 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=MYK-esWEmug",
         },
       ],
+      sessions: [
+        {
+          start: "2026-03-23T15:30",
+          end: "2026-03-23T16:30",
+          all_day: false,
+          label: "Mon Mar 23 · 3:30pm",
+        },
+        {
+          start: "2026-03-25T15:30",
+          end: "2026-03-25T16:30",
+          all_day: false,
+          label: "Wed Mar 25 · 3:30pm",
+        },
+        {
+          start: "2026-03-26T15:30",
+          end: "2026-03-26T16:30",
+          all_day: false,
+          label: "Thu Mar 26 · 3:30pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/seminars.html",
     },
     {
@@ -1073,6 +1265,27 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=orNRSLnqCrU",
         },
       ],
+      sessions: [
+        {
+          start: "2026-03-09T12:30",
+          end: "2026-03-09T13:30",
+          all_day: false,
+          label: "Mon Mar 9 · 12:30pm",
+        },
+        {
+          start: "2026-03-11T12:30",
+          end: "2026-03-11T13:30",
+          all_day: false,
+          label: "Wed Mar 11 · 12:30pm",
+        },
+        {
+          start: "2026-03-12T11:00",
+          end: "2026-03-12T12:00",
+          all_day: false,
+          label: "Thu Mar 12 · 11:00am",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/seminars.html",
     },
     {
@@ -1134,6 +1347,27 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=_FrkR-mPtMQ",
         },
       ],
+      sessions: [
+        {
+          start: "2026-03-02T12:30",
+          end: "2026-03-02T13:30",
+          all_day: false,
+          label: "Mon Mar 2 · 12:30pm",
+        },
+        {
+          start: "2026-03-04T12:30",
+          end: "2026-03-04T13:30",
+          all_day: false,
+          label: "Wed Mar 4 · 12:30pm",
+        },
+        {
+          start: "2026-03-05T15:30",
+          end: "2026-03-05T16:30",
+          all_day: false,
+          label: "Thu Mar 5 · 3:30pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/seminars.html",
     },
     {
@@ -1175,6 +1409,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=azXqbRSSG-k",
         },
       ],
+      sessions: [
+        {
+          start: "2026-02-26T15:30",
+          end: "2026-02-26T16:30",
+          all_day: false,
+          label: "Thu Feb 26 · 3:30pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/seminars.html",
     },
     {
@@ -1194,6 +1437,15 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [
+        {
+          start: "2026-02-19T15:30",
+          end: "2026-02-19T16:30",
+          all_day: false,
+          label: "Thu Feb 19 · 3:30pm",
+        },
+      ],
+      room: "Room CW 122",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/seminars.html",
     },
     {
@@ -1268,6 +1520,27 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=3DSqlYcI8cQ",
         },
       ],
+      sessions: [
+        {
+          start: "2026-02-09T12:30",
+          end: "2026-02-09T13:30",
+          all_day: false,
+          label: "Mon Feb 9 · 12:30pm",
+        },
+        {
+          start: "2026-02-11T12:30",
+          end: "2026-02-11T13:30",
+          all_day: false,
+          label: "Wed Feb 11 · 12:30pm",
+        },
+        {
+          start: "2026-02-12T15:30",
+          end: "2026-02-12T16:30",
+          all_day: false,
+          label: "Thu Feb 12 · 3:30pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/seminars.html",
     },
     {
@@ -1304,6 +1577,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=qWauRz5onIQ",
         },
       ],
+      sessions: [
+        {
+          start: "2026-02-05T15:30",
+          end: "2026-02-05T16:30",
+          all_day: false,
+          label: "Thu Feb 5 · 3:30pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/seminars.html",
     },
     {
@@ -1352,6 +1634,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=9Cxd8sARDfU",
         },
       ],
+      sessions: [
+        {
+          start: "2025-12-10T12:30",
+          end: "2025-12-10T13:30",
+          all_day: false,
+          label: "Wed Dec 10 · 12:30pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2025.html",
     },
     {
@@ -1421,6 +1712,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=tS7_k0Pplho",
         },
       ],
+      sessions: [
+        {
+          start: "2025-12-02T15:30",
+          end: "2025-12-02T16:30",
+          all_day: false,
+          label: "Tue Dec 2 · 3:30pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2025.html",
     },
     {
@@ -1495,6 +1795,33 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=n_oOuj5mk04",
         },
       ],
+      sessions: [
+        {
+          start: "2025-11-17T12:30",
+          end: "2025-11-17T13:30",
+          all_day: false,
+          label: "Mon Nov 17 · 12:30pm",
+        },
+        {
+          start: "2025-11-18T11:30",
+          end: "2025-11-18T12:30",
+          all_day: false,
+          label: "Tue Nov 18 · 11:30am",
+        },
+        {
+          start: "2025-11-19T11:30",
+          end: "2025-11-19T12:30",
+          all_day: false,
+          label: "Wed Nov 19 · 11:30am",
+        },
+        {
+          start: "2025-11-20T11:30",
+          end: "2025-11-20T12:30",
+          all_day: false,
+          label: "Thu Nov 20 · 11:30am",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2025.html",
     },
     {
@@ -1556,6 +1883,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=EjdNdMbRp54",
         },
       ],
+      sessions: [
+        {
+          start: "2025-11-10T10:00",
+          end: "2025-11-10T11:00",
+          all_day: false,
+          label: "Mon Nov 10 · 10:00am",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2025.html",
     },
     {
@@ -1594,6 +1930,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=rCrUWCsbyGg",
         },
       ],
+      sessions: [
+        {
+          start: "2025-11-06T15:30",
+          end: "2025-11-06T16:30",
+          all_day: false,
+          label: "Thu Nov 6 · 3:30pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2025.html",
     },
     {
@@ -1613,6 +1958,15 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [
+        {
+          start: "2025-10-30T15:00",
+          end: "2025-10-30T16:00",
+          all_day: false,
+          label: "Thu Oct 30 · 3:00pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2025.html",
     },
     {
@@ -1649,6 +2003,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=pDg8CtzQWjw",
         },
       ],
+      sessions: [
+        {
+          start: "2025-10-23T15:30",
+          end: "2025-10-23T16:30",
+          all_day: false,
+          label: "Thu Oct 23 · 3:30pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2025.html",
     },
     {
@@ -1699,6 +2062,27 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=CWhMG8Q27qE",
         },
       ],
+      sessions: [
+        {
+          start: "2025-10-14",
+          end: "2025-10-15",
+          all_day: true,
+          label: "Tue Oct 14",
+        },
+        {
+          start: "2025-10-15",
+          end: "2025-10-16",
+          all_day: true,
+          label: "Wed Oct 15",
+        },
+        {
+          start: "2025-10-16",
+          end: "2025-10-17",
+          all_day: true,
+          label: "Thu Oct 16",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2025.html",
     },
     {
@@ -1758,6 +2142,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=GkkG0xZwPU0",
         },
       ],
+      sessions: [
+        {
+          start: "2025-10-06T12:30",
+          end: "2025-10-06T13:30",
+          all_day: false,
+          label: "Mon Oct 6 · 12:30pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2025.html",
     },
     {
@@ -1788,6 +2181,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=hCJv2tyWQR4",
         },
       ],
+      sessions: [
+        {
+          start: "2025-10-02T15:30",
+          end: "2025-10-02T16:30",
+          all_day: false,
+          label: "Thu Oct 2 · 3:30pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2025.html",
     },
     {
@@ -1813,6 +2215,15 @@ window.MSEMINAR = {
         },
       ],
       videos: [],
+      sessions: [
+        {
+          start: "2025-05-08T10:00",
+          end: "2025-05-08T11:00",
+          all_day: false,
+          label: "Thu May 8 · 10:00am",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2025.html",
     },
     {
@@ -1850,6 +2261,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=91RgbWRkTjU",
         },
       ],
+      sessions: [
+        {
+          start: "2025-05-01T10:00",
+          end: "2025-05-01T11:00",
+          all_day: false,
+          label: "Thu May 1 · 10:00am",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2025.html",
     },
     {
@@ -1887,6 +2307,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=rSOWnzdPDVY",
         },
       ],
+      sessions: [
+        {
+          start: "2025-04-24T10:00",
+          end: "2025-04-24T11:00",
+          all_day: false,
+          label: "Thu Apr 24 · 10:00am",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2025.html",
     },
     {
@@ -1925,6 +2354,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=JYy2cGUh4Jw",
         },
       ],
+      sessions: [
+        {
+          start: "2025-04-16T10:00",
+          end: "2025-04-16T11:00",
+          all_day: false,
+          label: "Wed Apr 16 · 10:00am",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2025.html",
     },
     {
@@ -1963,6 +2401,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=kIk4TyYH0m0",
         },
       ],
+      sessions: [
+        {
+          start: "2025-04-09T10:00",
+          end: "2025-04-09T11:00",
+          all_day: false,
+          label: "Wed Apr 9 · 10:00am",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2025.html",
     },
     {
@@ -1999,6 +2446,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=R3XaBN9MKN4",
         },
       ],
+      sessions: [
+        {
+          start: "2025-04-03T10:00",
+          end: "2025-04-03T11:00",
+          all_day: false,
+          label: "Thu Apr 3 · 10:00am",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2025.html",
     },
     {
@@ -2035,6 +2491,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=tkXDFES_uQM",
         },
       ],
+      sessions: [
+        {
+          start: "2025-03-27T15:30",
+          end: "2025-03-27T16:30",
+          all_day: false,
+          label: "Thu Mar 27 · 3:30pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2025.html",
     },
     {
@@ -2071,6 +2536,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=fy9tHpYNurk",
         },
       ],
+      sessions: [
+        {
+          start: "2025-03-13T11:00",
+          end: "2025-03-13T12:00",
+          all_day: false,
+          label: "Thu Mar 13 · 11:00am",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2025.html",
     },
     {
@@ -2107,6 +2581,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=Yj0Up2Todc8",
         },
       ],
+      sessions: [
+        {
+          start: "2025-03-06T10:00",
+          end: "2025-03-06T11:00",
+          all_day: false,
+          label: "Thu Mar 6 · 10:00am",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2025.html",
     },
     {
@@ -2144,6 +2627,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=OWz9FVC2vEo",
         },
       ],
+      sessions: [
+        {
+          start: "2025-02-27T10:00",
+          end: "2025-02-27T11:00",
+          all_day: false,
+          label: "Thu Feb 27 · 10:00am",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2025.html",
     },
     {
@@ -2175,6 +2667,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=xvzyyAq6bho",
         },
       ],
+      sessions: [
+        {
+          start: "2025-02-20T10:00",
+          end: "2025-02-20T11:00",
+          all_day: false,
+          label: "Thu Feb 20 · 10:00am",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2025.html",
     },
     {
@@ -2212,6 +2713,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=fpeAKTUgovc",
         },
       ],
+      sessions: [
+        {
+          start: "2025-02-13T10:00",
+          end: "2025-02-13T11:00",
+          all_day: false,
+          label: "Thu Feb 13 · 10:00am",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2025.html",
     },
     {
@@ -2253,6 +2763,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=A9XPTseoel0",
         },
       ],
+      sessions: [
+        {
+          start: "2025-02-06T10:00",
+          end: "2025-02-06T11:00",
+          all_day: false,
+          label: "Thu Feb 6 · 10:00am",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2025.html",
     },
     {
@@ -2272,6 +2791,15 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [
+        {
+          start: "2024-12-05T13:00",
+          end: "2024-12-05T14:00",
+          all_day: false,
+          label: "Thu Dec 5 · 1:00pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2024.html",
     },
     {
@@ -2309,6 +2837,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=Qg5EJbAYB20",
         },
       ],
+      sessions: [
+        {
+          start: "2024-11-21T10:00",
+          end: "2024-11-21T11:00",
+          all_day: false,
+          label: "Thu Nov 21 · 10:00am",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2024.html",
     },
     {
@@ -2345,6 +2882,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=lP2ti6onmhI",
         },
       ],
+      sessions: [
+        {
+          start: "2024-11-14T13:00",
+          end: "2024-11-14T14:00",
+          all_day: false,
+          label: "Thu Nov 14 · 1:00pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2024.html",
     },
     {
@@ -2382,6 +2928,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=zH7HNphw7E8",
         },
       ],
+      sessions: [
+        {
+          start: "2024-11-07T10:00",
+          end: "2024-11-07T11:00",
+          all_day: false,
+          label: "Thu Nov 7 · 10:00am",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2024.html",
     },
     {
@@ -2418,6 +2973,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=dMcYqLbynAA",
         },
       ],
+      sessions: [
+        {
+          start: "2024-10-31T15:30",
+          end: "2024-10-31T16:30",
+          all_day: false,
+          label: "Thu Oct 31 · 3:30pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2024.html",
     },
     {
@@ -2454,6 +3018,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=vT-FbIHEaqw",
         },
       ],
+      sessions: [
+        {
+          start: "2024-10-24T10:00",
+          end: "2024-10-24T11:00",
+          all_day: false,
+          label: "Thu Oct 24 · 10:00am",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2024.html",
     },
     {
@@ -2490,6 +3063,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=bhweDxMHRKE",
         },
       ],
+      sessions: [
+        {
+          start: "2024-10-17T15:30",
+          end: "2024-10-17T16:30",
+          all_day: false,
+          label: "Thu Oct 17 · 3:30pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2024.html",
     },
     {
@@ -2526,6 +3108,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=dqKrOyH78-E",
         },
       ],
+      sessions: [
+        {
+          start: "2024-10-10T10:00",
+          end: "2024-10-10T11:00",
+          all_day: false,
+          label: "Thu Oct 10 · 10:00am",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2024.html",
     },
     {
@@ -2562,6 +3153,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=9JYYA7voWpA",
         },
       ],
+      sessions: [
+        {
+          start: "2024-10-03T15:30",
+          end: "2024-10-03T16:30",
+          all_day: false,
+          label: "Thu Oct 3 · 3:30pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2024.html",
     },
     {
@@ -2598,6 +3198,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=OKp6eCJTeWw",
         },
       ],
+      sessions: [
+        {
+          start: "2024-09-26T15:30",
+          end: "2024-09-26T16:30",
+          all_day: false,
+          label: "Thu Sep 26 · 3:30pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2024.html",
     },
     {
@@ -2634,6 +3243,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=W6TEIJTXoH8",
         },
       ],
+      sessions: [
+        {
+          start: "2024-09-12T14:30",
+          end: "2024-09-12T15:30",
+          all_day: false,
+          label: "Thu Sep 12 · 2:30pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2024.html",
     },
     {
@@ -2670,6 +3288,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=lKjYplZzn8M",
         },
       ],
+      sessions: [
+        {
+          start: "2024-09-05T10:00",
+          end: "2024-09-05T11:00",
+          all_day: false,
+          label: "Thu Sep 5 · 10:00am",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2024.html",
     },
     {
@@ -2706,6 +3333,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=9ugyn6KHDPI",
         },
       ],
+      sessions: [
+        {
+          start: "2024-05-02T13:00",
+          end: "2024-05-02T14:00",
+          all_day: false,
+          label: "Thu May 2 · 1:00pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2024.html",
     },
     {
@@ -2742,6 +3378,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=dl-8UbB3xyU",
         },
       ],
+      sessions: [
+        {
+          start: "2024-04-25T14:00",
+          end: "2024-04-25T15:00",
+          all_day: false,
+          label: "Thu Apr 25 · 2:00pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2024.html",
     },
     {
@@ -2767,6 +3412,15 @@ window.MSEMINAR = {
         },
       ],
       videos: [],
+      sessions: [
+        {
+          start: "2024-04-18T09:00",
+          end: "2024-04-18T10:00",
+          all_day: false,
+          label: "Thu Apr 18 · 9:00am",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2024.html",
     },
     {
@@ -2853,6 +3507,33 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=be1XzUCbOwE",
         },
       ],
+      sessions: [
+        {
+          start: "2024-04-08",
+          end: "2024-04-09",
+          all_day: true,
+          label: "Mon Apr 8",
+        },
+        {
+          start: "2024-04-10",
+          end: "2024-04-11",
+          all_day: true,
+          label: "Wed Apr 10",
+        },
+        {
+          start: "2024-04-11",
+          end: "2024-04-12",
+          all_day: true,
+          label: "Thu Apr 11",
+        },
+        {
+          start: "2024-04-12",
+          end: "2024-04-13",
+          all_day: true,
+          label: "Fri Apr 12",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2024.html",
     },
     {
@@ -2889,6 +3570,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=pNEYSpYnJ8M",
         },
       ],
+      sessions: [
+        {
+          start: "2024-04-04T15:30",
+          end: "2024-04-04T16:30",
+          all_day: false,
+          label: "Thu Apr 4 · 3:30pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2024.html",
     },
     {
@@ -2925,6 +3615,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=k0sEOGXLVcw",
         },
       ],
+      sessions: [
+        {
+          start: "2024-03-28T15:30",
+          end: "2024-03-28T16:30",
+          all_day: false,
+          label: "Thu Mar 28 · 3:30pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2024.html",
     },
     {
@@ -2961,6 +3660,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=2245JN84zFs",
         },
       ],
+      sessions: [
+        {
+          start: "2024-03-21T14:30",
+          end: "2024-03-21T15:30",
+          all_day: false,
+          label: "Thu Mar 21 · 2:30pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2024.html",
     },
     {
@@ -2997,6 +3705,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=ABQKq8LQpg0",
         },
       ],
+      sessions: [
+        {
+          start: "2024-03-07T13:30",
+          end: "2024-03-07T14:30",
+          all_day: false,
+          label: "Thu Mar 7 · 1:30pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2024.html",
     },
     {
@@ -3033,6 +3750,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=Vd0QyM0FVZ8",
         },
       ],
+      sessions: [
+        {
+          start: "2024-02-27T15:30",
+          end: "2024-02-27T16:30",
+          all_day: false,
+          label: "Tue Feb 27 · 3:30pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2024.html",
     },
     {
@@ -3127,6 +3853,33 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=jMNSaParW3s",
         },
       ],
+      sessions: [
+        {
+          start: "2024-02-19",
+          end: "2024-02-20",
+          all_day: true,
+          label: "Mon Feb 19",
+        },
+        {
+          start: "2024-02-21",
+          end: "2024-02-22",
+          all_day: true,
+          label: "Wed Feb 21",
+        },
+        {
+          start: "2024-02-22",
+          end: "2024-02-23",
+          all_day: true,
+          label: "Thu Feb 22",
+        },
+        {
+          start: "2024-02-23",
+          end: "2024-02-24",
+          all_day: true,
+          label: "Fri Feb 23",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2024.html",
     },
     {
@@ -3163,6 +3916,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=ZJJj1cBnSb4",
         },
       ],
+      sessions: [
+        {
+          start: "2024-02-15T13:00",
+          end: "2024-02-15T14:00",
+          all_day: false,
+          label: "Thu Feb 15 · 1:00pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2024.html",
     },
     {
@@ -3199,6 +3961,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=StEIMbgWbco",
         },
       ],
+      sessions: [
+        {
+          start: "2024-02-08T14:00",
+          end: "2024-02-08T15:00",
+          all_day: false,
+          label: "Thu Feb 8 · 2:00pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2024.html",
     },
     {
@@ -3240,6 +4011,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=RO2eaCnZUHY",
         },
       ],
+      sessions: [
+        {
+          start: "2023-12-06T12:30",
+          end: "2023-12-06T13:30",
+          all_day: false,
+          label: "Wed Dec 6 · 12:30pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2023.html",
     },
     {
@@ -3276,6 +4056,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=qS0JIOosAvo",
         },
       ],
+      sessions: [
+        {
+          start: "2023-11-30T11:00",
+          end: "2023-11-30T12:00",
+          all_day: false,
+          label: "Thu Nov 30 · 11:00am",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2023.html",
     },
     {
@@ -3313,6 +4102,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=r52AOdSZbcA",
         },
       ],
+      sessions: [
+        {
+          start: "2023-11-16T15:30",
+          end: "2023-11-16T16:30",
+          all_day: false,
+          label: "Thu Nov 16 · 3:30pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2023.html",
     },
     {
@@ -3349,6 +4147,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=64tUwzYqOdo",
         },
       ],
+      sessions: [
+        {
+          start: "2023-11-08T14:00",
+          end: "2023-11-08T15:00",
+          all_day: false,
+          label: "Wed Nov 8 · 2:00pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2023.html",
     },
     {
@@ -3435,6 +4242,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=hOqbRI07htE",
         },
       ],
+      sessions: [
+        {
+          start: "2023-10-30T13:30",
+          end: "2023-10-30T14:30",
+          all_day: false,
+          label: "Mon Oct 30 · 1:30pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2023.html",
     },
     {
@@ -3465,6 +4281,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=U33fi7CM4nQ",
         },
       ],
+      sessions: [
+        {
+          start: "2023-10-26T15:30",
+          end: "2023-10-26T16:30",
+          all_day: false,
+          label: "Thu Oct 26 · 3:30pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2023.html",
     },
     {
@@ -3515,6 +4340,27 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=vLS9qhcbTGk",
         },
       ],
+      sessions: [
+        {
+          start: "2023-10-17",
+          end: "2023-10-18",
+          all_day: true,
+          label: "Tue Oct 17",
+        },
+        {
+          start: "2023-10-18",
+          end: "2023-10-19",
+          all_day: true,
+          label: "Wed Oct 18",
+        },
+        {
+          start: "2023-10-19",
+          end: "2023-10-20",
+          all_day: true,
+          label: "Thu Oct 19",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2023.html",
     },
     {
@@ -3551,6 +4397,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=k9sWvGYhaTM",
         },
       ],
+      sessions: [
+        {
+          start: "2023-10-12T13:00",
+          end: "2023-10-12T14:00",
+          all_day: false,
+          label: "Thu Oct 12 · 1:00pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2023.html",
     },
     {
@@ -3587,6 +4442,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=WkV4QBt8UeI",
         },
       ],
+      sessions: [
+        {
+          start: "2023-10-05T15:30",
+          end: "2023-10-05T16:30",
+          all_day: false,
+          label: "Thu Oct 5 · 3:30pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2023.html",
     },
     {
@@ -3623,6 +4487,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=D75wFXjcuOA",
         },
       ],
+      sessions: [
+        {
+          start: "2023-09-28T18:00",
+          end: "2023-09-28T19:00",
+          all_day: false,
+          label: "Thu Sep 28 · 6:00pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2023.html",
     },
     {
@@ -3659,6 +4532,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=Wa8FgDJxqAo",
         },
       ],
+      sessions: [
+        {
+          start: "2023-09-21T16:15",
+          end: "2023-09-21T17:15",
+          all_day: false,
+          label: "Thu Sep 21 · 4:15pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2023.html",
     },
     {
@@ -3689,6 +4571,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=3EyOrWmMOb4",
         },
       ],
+      sessions: [
+        {
+          start: "2023-09-14T15:30",
+          end: "2023-09-14T16:30",
+          all_day: false,
+          label: "Thu Sep 14 · 3:30pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2023.html",
     },
     {
@@ -3725,6 +4616,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=Q4lg51R8XIA",
         },
       ],
+      sessions: [
+        {
+          start: "2023-05-04T11:00",
+          end: "2023-05-04T12:00",
+          all_day: false,
+          label: "Thu May 4 · 11:00am",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2023.html",
     },
     {
@@ -3761,6 +4661,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=PR3LgrPOLdQ",
         },
       ],
+      sessions: [
+        {
+          start: "2023-04-27T12:00",
+          end: "2023-04-27T13:00",
+          all_day: false,
+          label: "Thu Apr 27 · 12:00pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2023.html",
     },
     {
@@ -3797,6 +4706,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=9oxl_btQwy8",
         },
       ],
+      sessions: [
+        {
+          start: "2023-04-20T12:00",
+          end: "2023-04-20T13:00",
+          all_day: false,
+          label: "Thu Apr 20 · 12:00pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2023.html",
     },
     {
@@ -3833,6 +4751,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=RCbmeHi4fjs",
         },
       ],
+      sessions: [
+        {
+          start: "2023-04-13T15:30",
+          end: "2023-04-13T16:30",
+          all_day: false,
+          label: "Thu Apr 13 · 3:30pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2023.html",
     },
     {
@@ -3869,6 +4796,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=G2JfMD3Z9LA",
         },
       ],
+      sessions: [
+        {
+          start: "2023-04-07T11:00",
+          end: "2023-04-07T12:00",
+          all_day: false,
+          label: "Fri Apr 7 · 11:00am",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2023.html",
     },
     {
@@ -3905,6 +4841,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=-v54osG5Oig",
         },
       ],
+      sessions: [
+        {
+          start: "2023-03-30T15:30",
+          end: "2023-03-30T16:30",
+          all_day: false,
+          label: "Thu Mar 30 · 3:30pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2023.html",
     },
     {
@@ -3941,6 +4886,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=qqL6wzNboh4",
         },
       ],
+      sessions: [
+        {
+          start: "2023-03-23T15:30",
+          end: "2023-03-23T16:30",
+          all_day: false,
+          label: "Thu Mar 23 · 3:30pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2023.html",
     },
     {
@@ -3977,6 +4931,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=ipWaNuFGD9c",
         },
       ],
+      sessions: [
+        {
+          start: "2023-03-09T10:00",
+          end: "2023-03-09T11:00",
+          all_day: false,
+          label: "Thu Mar 9 · 10:00am",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2023.html",
     },
     {
@@ -4013,6 +4976,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=G1c2OVHO36U",
         },
       ],
+      sessions: [
+        {
+          start: "2023-03-02T15:30",
+          end: "2023-03-02T16:30",
+          all_day: false,
+          label: "Thu Mar 2 · 3:30pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2023.html",
     },
     {
@@ -4049,6 +5021,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=oehsATH9T8U",
         },
       ],
+      sessions: [
+        {
+          start: "2023-02-23T15:30",
+          end: "2023-02-23T16:30",
+          all_day: false,
+          label: "Thu Feb 23 · 3:30pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2023.html",
     },
     {
@@ -4079,6 +5060,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=Q-1wonU5CFU",
         },
       ],
+      sessions: [
+        {
+          start: "2023-02-16T15:30",
+          end: "2023-02-16T16:30",
+          all_day: false,
+          label: "Thu Feb 16 · 3:30pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2023.html",
     },
     {
@@ -4115,6 +5105,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=8oTbAz56Qa4",
         },
       ],
+      sessions: [
+        {
+          start: "2023-02-09T15:30",
+          end: "2023-02-09T16:30",
+          all_day: false,
+          label: "Thu Feb 9 · 3:30pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2023.html",
     },
     {
@@ -4151,6 +5150,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=N6RzToQphxg",
         },
       ],
+      sessions: [
+        {
+          start: "2023-02-01T15:30",
+          end: "2023-02-01T16:30",
+          all_day: false,
+          label: "Wed Feb 1 · 3:30pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2023.html",
     },
     {
@@ -4192,6 +5200,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=Pwl2eKvC5qI",
         },
       ],
+      sessions: [
+        {
+          start: "2022-12-08T20:00",
+          end: "2022-12-08T21:00",
+          all_day: false,
+          label: "Thu Dec 8 · 8:00pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2022.html",
     },
     {
@@ -4228,6 +5245,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=LOaf4MlXfMc",
         },
       ],
+      sessions: [
+        {
+          start: "2022-12-01T10:00",
+          end: "2022-12-01T11:00",
+          all_day: false,
+          label: "Thu Dec 1 · 10:00am",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2022.html",
     },
     {
@@ -4265,6 +5291,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=q9JA91F1aec",
         },
       ],
+      sessions: [
+        {
+          start: "2022-11-18T09:00",
+          end: "2022-11-18T10:00",
+          all_day: false,
+          label: "Fri Nov 18 · 9:00am",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2022.html",
     },
     {
@@ -4301,6 +5336,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=8KJ0oxzrclE",
         },
       ],
+      sessions: [
+        {
+          start: "2022-11-10T13:30",
+          end: "2022-11-10T14:30",
+          all_day: false,
+          label: "Thu Nov 10 · 1:30pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2022.html",
     },
     {
@@ -4337,6 +5381,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=6iqJTkTfvNE",
         },
       ],
+      sessions: [
+        {
+          start: "2022-11-03T14:00",
+          end: "2022-11-03T15:00",
+          all_day: false,
+          label: "Thu Nov 3 · 2:00pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2022.html",
     },
     {
@@ -4373,6 +5426,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=zIWbuxVuWiY",
         },
       ],
+      sessions: [
+        {
+          start: "2022-10-27T10:00",
+          end: "2022-10-27T11:00",
+          all_day: false,
+          label: "Thu Oct 27 · 10:00am",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2022.html",
     },
     {
@@ -4403,6 +5465,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=X9koQLftc0U",
         },
       ],
+      sessions: [
+        {
+          start: "2022-10-20T15:30",
+          end: "2022-10-20T16:30",
+          all_day: false,
+          label: "Thu Oct 20 · 3:30pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2022.html",
     },
     {
@@ -4440,6 +5511,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=N1xi9TTKZz0",
         },
       ],
+      sessions: [
+        {
+          start: "2022-10-13T12:30",
+          end: "2022-10-13T13:30",
+          all_day: false,
+          label: "Thu Oct 13 · 12:30pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2022.html",
     },
     {
@@ -4476,6 +5556,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=nfshR6rAjWg",
         },
       ],
+      sessions: [
+        {
+          start: "2022-10-07T15:30",
+          end: "2022-10-07T16:30",
+          all_day: false,
+          label: "Fri Oct 7 · 3:30pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2022.html",
     },
     {
@@ -4506,6 +5595,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=rslliU7h3XU",
         },
       ],
+      sessions: [
+        {
+          start: "2022-09-29T12:30",
+          end: "2022-09-29T13:30",
+          all_day: false,
+          label: "Thu Sep 29 · 12:30pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2022.html",
     },
     {
@@ -4525,6 +5623,15 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [
+        {
+          start: "2022-09-22T15:30",
+          end: "2022-09-22T16:30",
+          all_day: false,
+          label: "Thu Sep 22 · 3:30pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2022.html",
     },
     {
@@ -4561,6 +5668,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=t7Bm5f1u4yY",
         },
       ],
+      sessions: [
+        {
+          start: "2022-05-05T12:30",
+          end: "2022-05-05T13:30",
+          all_day: false,
+          label: "Thu May 5 · 12:30pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2022.html",
     },
     {
@@ -4597,6 +5713,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=-ZxFKs--VpU",
         },
       ],
+      sessions: [
+        {
+          start: "2022-04-28T15:30",
+          end: "2022-04-28T16:30",
+          all_day: false,
+          label: "Thu Apr 28 · 3:30pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2022.html",
     },
     {
@@ -4633,6 +5758,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=xo3q9VDI1hg",
         },
       ],
+      sessions: [
+        {
+          start: "2022-04-22T15:30",
+          end: "2022-04-22T16:30",
+          all_day: false,
+          label: "Fri Apr 22 · 3:30pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2022.html",
     },
     {
@@ -4669,6 +5803,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=a4dM1I7YtsI",
         },
       ],
+      sessions: [
+        {
+          start: "2022-04-14T15:30",
+          end: "2022-04-14T16:30",
+          all_day: false,
+          label: "Thu Apr 14 · 3:30pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2022.html",
     },
     {
@@ -4710,6 +5853,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=9bmNaVl8QNI",
         },
       ],
+      sessions: [
+        {
+          start: "2022-04-08T15:40",
+          end: "2022-04-08T16:40",
+          all_day: false,
+          label: "Fri Apr 8 · 3:40pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2022.html",
     },
     {
@@ -4751,6 +5903,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=S0IrUN13oxU",
         },
       ],
+      sessions: [
+        {
+          start: "2022-03-31T15:30",
+          end: "2022-03-31T16:30",
+          all_day: false,
+          label: "Thu Mar 31 · 3:30pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2022.html",
     },
     {
@@ -4836,6 +5997,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=Jhy8f1eZ2bo",
         },
       ],
+      sessions: [
+        {
+          start: "2022-03-21T13:30",
+          end: "2022-03-21T14:30",
+          all_day: false,
+          label: "Mon Mar 21 · 1:30pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2022.html",
     },
     {
@@ -4877,6 +6047,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=tIUjeBk4J3I",
         },
       ],
+      sessions: [
+        {
+          start: "2022-03-10T15:30",
+          end: "2022-03-10T16:30",
+          all_day: false,
+          label: "Thu Mar 10 · 3:30pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2022.html",
     },
     {
@@ -4913,6 +6092,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=wZRYB_p0Ldg",
         },
       ],
+      sessions: [
+        {
+          start: "2022-03-03T15:30",
+          end: "2022-03-03T16:30",
+          all_day: false,
+          label: "Thu Mar 3 · 3:30pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2022.html",
     },
     {
@@ -4949,6 +6137,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=8I0VmJHnWHE",
         },
       ],
+      sessions: [
+        {
+          start: "2022-02-24T17:00",
+          end: "2022-02-24T18:00",
+          all_day: false,
+          label: "Thu Feb 24 · 5:00pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2022.html",
     },
     {
@@ -4985,6 +6182,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=9UpVgClrOcA",
         },
       ],
+      sessions: [
+        {
+          start: "2022-02-18T13:00",
+          end: "2022-02-18T14:00",
+          all_day: false,
+          label: "Fri Feb 18 · 1:00pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2022.html",
     },
     {
@@ -5053,6 +6259,33 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=9wE6U6wsQ98",
         },
       ],
+      sessions: [
+        {
+          start: "2022-02-07",
+          end: "2022-02-08",
+          all_day: true,
+          label: "Mon Feb 7",
+        },
+        {
+          start: "2022-02-09",
+          end: "2022-02-10",
+          all_day: true,
+          label: "Wed Feb 9",
+        },
+        {
+          start: "2022-02-10",
+          end: "2022-02-11",
+          all_day: true,
+          label: "Thu Feb 10",
+        },
+        {
+          start: "2022-02-11",
+          end: "2022-02-12",
+          all_day: true,
+          label: "Fri Feb 11",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2022.html",
     },
     {
@@ -5089,6 +6322,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=dbqBNzceJQ8",
         },
       ],
+      sessions: [
+        {
+          start: "2022-02-03T12:00",
+          end: "2022-02-03T13:00",
+          all_day: false,
+          label: "Thu Feb 3 · 12:00pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2022.html",
     },
     {
@@ -5125,6 +6367,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=SXU_icjed_A",
         },
       ],
+      sessions: [
+        {
+          start: "2022-01-27T15:30",
+          end: "2022-01-27T16:30",
+          all_day: false,
+          label: "Thu Jan 27 · 3:30pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2022.html",
     },
     {
@@ -5161,6 +6412,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=YlN1iOZ2uWU",
         },
       ],
+      sessions: [
+        {
+          start: "2022-01-21T16:00",
+          end: "2022-01-21T17:00",
+          all_day: false,
+          label: "Fri Jan 21 · 4:00pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2022.html",
     },
     {
@@ -5197,6 +6457,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=f9jlYom1Xlo",
         },
       ],
+      sessions: [
+        {
+          start: "2021-12-09",
+          end: "2021-12-10",
+          all_day: true,
+          label: "Thu Dec 9",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2021.html",
     },
     {
@@ -5238,6 +6507,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=Shpx_pVqmWM",
         },
       ],
+      sessions: [
+        {
+          start: "2021-12-02",
+          end: "2021-12-03",
+          all_day: true,
+          label: "Thu Dec 2",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2021.html",
     },
     {
@@ -5279,6 +6557,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=nfqSigZUVmo",
         },
       ],
+      sessions: [
+        {
+          start: "2021-11-18",
+          end: "2021-11-19",
+          all_day: true,
+          label: "Thu Nov 18",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2021.html",
     },
     {
@@ -5326,6 +6613,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=PKPjdTrrH10",
         },
       ],
+      sessions: [
+        {
+          start: "2021-11-11",
+          end: "2021-11-12",
+          all_day: true,
+          label: "Thu Nov 11",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2021.html",
     },
     {
@@ -5362,6 +6658,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=N-mP1UmOk9w",
         },
       ],
+      sessions: [
+        {
+          start: "2021-11-04T11:00",
+          end: "2021-11-04T12:00",
+          all_day: false,
+          label: "Thu Nov 4 · 11:00am",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2021.html",
     },
     {
@@ -5451,6 +6756,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=yaqFM9uxQRI",
         },
       ],
+      sessions: [
+        {
+          start: "2021-10-25T13:30",
+          end: "2021-10-25T14:30",
+          all_day: false,
+          label: "Mon Oct 25 · 1:30pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2021.html",
     },
     {
@@ -5492,6 +6806,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=Ml22ySRFkbQ",
         },
       ],
+      sessions: [
+        {
+          start: "2021-10-21T13:00",
+          end: "2021-10-21T14:00",
+          all_day: false,
+          label: "Thu Oct 21 · 1:00pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2021.html",
     },
     {
@@ -5536,6 +6859,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=EiMfihZ_ktE",
         },
       ],
+      sessions: [
+        {
+          start: "2021-10-14T13:30",
+          end: "2021-10-14T14:30",
+          all_day: false,
+          label: "Thu Oct 14 · 1:30pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2021.html",
     },
     {
@@ -5577,6 +6909,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=RYh8aNJPsac",
         },
       ],
+      sessions: [
+        {
+          start: "2021-10-07T13:00",
+          end: "2021-10-07T14:00",
+          all_day: false,
+          label: "Thu Oct 7 · 1:00pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2021.html",
     },
     {
@@ -5613,6 +6954,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=iN-fM51Q2lk",
         },
       ],
+      sessions: [
+        {
+          start: "2021-09-30",
+          end: "2021-10-01",
+          all_day: true,
+          label: "Thu Sep 30",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2021.html",
     },
     {
@@ -5654,6 +7004,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=-fXjpDE8C70",
         },
       ],
+      sessions: [
+        {
+          start: "2021-09-22T15:30",
+          end: "2021-09-22T16:30",
+          all_day: false,
+          label: "Wed Sep 22 · 3:30pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2021.html",
     },
     {
@@ -5695,6 +7054,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=W4vT1FhOvb0",
         },
       ],
+      sessions: [
+        {
+          start: "2021-09-16T16:00",
+          end: "2021-09-16T17:00",
+          all_day: false,
+          label: "Thu Sep 16 · 4:00pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2021.html",
     },
     {
@@ -5736,6 +7104,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=3F0eD4kpq9Q",
         },
       ],
+      sessions: [
+        {
+          start: "2021-05-06",
+          end: "2021-05-07",
+          all_day: true,
+          label: "Thu May 6",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2021.html",
     },
     {
@@ -5778,6 +7155,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=83aROj3bcrA",
         },
       ],
+      sessions: [
+        {
+          start: "2021-04-29",
+          end: "2021-04-30",
+          all_day: true,
+          label: "Thu Apr 29",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2021.html",
     },
     {
@@ -5819,6 +7205,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=viG8iCCsCxE",
         },
       ],
+      sessions: [
+        {
+          start: "2021-04-22",
+          end: "2021-04-23",
+          all_day: true,
+          label: "Thu Apr 22",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2021.html",
     },
     {
@@ -5860,6 +7255,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=hD-DLkTBIlQ",
         },
       ],
+      sessions: [
+        {
+          start: "2021-04-15T14:30",
+          end: "2021-04-15T15:30",
+          all_day: false,
+          label: "Thu Apr 15 · 2:30pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2021.html",
     },
     {
@@ -5901,6 +7305,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=z6gxDeiHJ6M",
         },
       ],
+      sessions: [
+        {
+          start: "2021-04-08",
+          end: "2021-04-09",
+          all_day: true,
+          label: "Thu Apr 8",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2021.html",
     },
     {
@@ -5942,6 +7355,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=lDgVNAF_WLs",
         },
       ],
+      sessions: [
+        {
+          start: "2021-04-01",
+          end: "2021-04-02",
+          all_day: true,
+          label: "Thu Apr 1",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2021.html",
     },
     {
@@ -5983,6 +7405,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=QTArTqJgHPM",
         },
       ],
+      sessions: [
+        {
+          start: "2021-03-25",
+          end: "2021-03-26",
+          all_day: true,
+          label: "Thu Mar 25",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2021.html",
     },
     {
@@ -6025,6 +7456,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=5yeTmFU4yLE",
         },
       ],
+      sessions: [
+        {
+          start: "2021-03-18T13:30",
+          end: "2021-03-18T14:30",
+          all_day: false,
+          label: "Thu Mar 18 · 1:30pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2021.html",
     },
     {
@@ -6066,6 +7506,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=RQJRufrNjkQ",
         },
       ],
+      sessions: [
+        {
+          start: "2021-03-11",
+          end: "2021-03-12",
+          all_day: true,
+          label: "Thu Mar 11",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2021.html",
     },
     {
@@ -6107,6 +7556,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=9-wQDe1rtkI",
         },
       ],
+      sessions: [
+        {
+          start: "2021-03-04",
+          end: "2021-03-05",
+          all_day: true,
+          label: "Thu Mar 4",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2021.html",
     },
     {
@@ -6148,6 +7606,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=jy3BthBds9Y",
         },
       ],
+      sessions: [
+        {
+          start: "2021-02-25",
+          end: "2021-02-26",
+          all_day: true,
+          label: "Thu Feb 25",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2021.html",
     },
     {
@@ -6219,6 +7686,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=o8GleU4MQjw",
         },
       ],
+      sessions: [
+        {
+          start: "2021-02-18T11:00",
+          end: "2021-02-18T12:00",
+          all_day: false,
+          label: "Thu Feb 18 · 11:00am",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2021.html",
     },
     {
@@ -6261,6 +7737,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=XLhD9eyDnOc",
         },
       ],
+      sessions: [
+        {
+          start: "2021-02-11T11:00",
+          end: "2021-02-11T12:00",
+          all_day: false,
+          label: "Thu Feb 11 · 11:00am",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2021.html",
     },
     {
@@ -6302,6 +7787,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=EwwGAf2K1uQ",
         },
       ],
+      sessions: [
+        {
+          start: "2021-02-04",
+          end: "2021-02-05",
+          all_day: true,
+          label: "Thu Feb 4",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2021.html",
     },
     {
@@ -6344,6 +7838,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=OufejX1p0qk",
         },
       ],
+      sessions: [
+        {
+          start: "2021-01-28",
+          end: "2021-01-29",
+          all_day: true,
+          label: "Thu Jan 28",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2021.html",
     },
     {
@@ -6385,6 +7888,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=lHqYqS0KkPc",
         },
       ],
+      sessions: [
+        {
+          start: "2020-12-03",
+          end: "2020-12-04",
+          all_day: true,
+          label: "Thu Dec 3",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2020.html",
     },
     {
@@ -6426,6 +7938,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=AgHzF5qpL5A",
         },
       ],
+      sessions: [
+        {
+          start: "2020-11-19T13:30",
+          end: "2020-11-19T14:30",
+          all_day: false,
+          label: "Thu Nov 19 · 1:30pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2020.html",
     },
     {
@@ -6467,6 +7988,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=M9fSJebc8yQ",
         },
       ],
+      sessions: [
+        {
+          start: "2020-11-12",
+          end: "2020-11-13",
+          all_day: true,
+          label: "Thu Nov 12",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2020.html",
     },
     {
@@ -6510,6 +8040,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=LF2zRaOqPBs",
         },
       ],
+      sessions: [
+        {
+          start: "2020-11-05",
+          end: "2020-11-06",
+          all_day: true,
+          label: "Thu Nov 5",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2020.html",
     },
     {
@@ -6551,6 +8090,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=vTXx0MARrVU",
         },
       ],
+      sessions: [
+        {
+          start: "2020-10-26T11:00",
+          end: "2020-10-26T12:00",
+          all_day: false,
+          label: "Mon Oct 26 · 11:00am",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2020.html",
     },
     {
@@ -6592,6 +8140,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=zjKFFGtNxoI",
         },
       ],
+      sessions: [
+        {
+          start: "2020-10-22",
+          end: "2020-10-23",
+          all_day: true,
+          label: "Thu Oct 22",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2020.html",
     },
     {
@@ -6628,6 +8185,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=W00n2l_qz4M",
         },
       ],
+      sessions: [
+        {
+          start: "2020-10-15",
+          end: "2020-10-16",
+          all_day: true,
+          label: "Thu Oct 15",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2020.html",
     },
     {
@@ -6669,6 +8235,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=dCbw-y2gIvA",
         },
       ],
+      sessions: [
+        {
+          start: "2020-10-08",
+          end: "2020-10-09",
+          all_day: true,
+          label: "Thu Oct 8",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2020.html",
     },
     {
@@ -6710,6 +8285,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=u5tQ1Wf2j_k",
         },
       ],
+      sessions: [
+        {
+          start: "2020-10-01",
+          end: "2020-10-02",
+          all_day: true,
+          label: "Thu Oct 1",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2020.html",
     },
     {
@@ -6752,6 +8336,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=09N2DOzPdQk",
         },
       ],
+      sessions: [
+        {
+          start: "2020-09-24",
+          end: "2020-09-25",
+          all_day: true,
+          label: "Thu Sep 24",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2020.html",
     },
     {
@@ -6793,6 +8386,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=2Lvvx4ukCG4",
         },
       ],
+      sessions: [
+        {
+          start: "2020-09-17T13:30",
+          end: "2020-09-17T14:30",
+          all_day: false,
+          label: "Thu Sep 17 · 1:30pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2020.html",
     },
     {
@@ -6830,6 +8432,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=QIzKAsPEEcs",
         },
       ],
+      sessions: [
+        {
+          start: "2020-09-10",
+          end: "2020-09-11",
+          all_day: true,
+          label: "Thu Sep 10",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2020.html",
     },
     {
@@ -6873,6 +8484,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=gGpfrNRxims",
         },
       ],
+      sessions: [
+        {
+          start: "2020-09-03",
+          end: "2020-09-04",
+          all_day: true,
+          label: "Thu Sep 3",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2020.html",
     },
     {
@@ -6915,6 +8535,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=IDwkaI8piEE",
         },
       ],
+      sessions: [
+        {
+          start: "2020-08-27",
+          end: "2020-08-28",
+          all_day: true,
+          label: "Thu Aug 27",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2020.html",
     },
     {
@@ -6956,6 +8585,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=_55Ur_LVWhk",
         },
       ],
+      sessions: [
+        {
+          start: "2020-08-20T18:00",
+          end: "2020-08-20T19:00",
+          all_day: false,
+          label: "Thu Aug 20 · 6:00pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2020.html",
     },
     {
@@ -6997,6 +8635,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=HJUVRR-yOog",
         },
       ],
+      sessions: [
+        {
+          start: "2020-08-13",
+          end: "2020-08-14",
+          all_day: true,
+          label: "Thu Aug 13",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2020.html",
     },
     {
@@ -7038,6 +8685,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=SaoB-NF7wI4",
         },
       ],
+      sessions: [
+        {
+          start: "2020-08-06T13:00",
+          end: "2020-08-06T14:00",
+          all_day: false,
+          label: "Thu Aug 6 · 1:00pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2020.html",
     },
     {
@@ -7079,6 +8735,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=qklkJRVSZfE",
         },
       ],
+      sessions: [
+        {
+          start: "2020-07-30",
+          end: "2020-07-31",
+          all_day: true,
+          label: "Thu Jul 30",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2020.html",
     },
     {
@@ -7120,6 +8785,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=TacmfkADb0I",
         },
       ],
+      sessions: [
+        {
+          start: "2020-07-23",
+          end: "2020-07-24",
+          all_day: true,
+          label: "Thu Jul 23",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2020.html",
     },
     {
@@ -7160,6 +8834,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=z_zmfvWAjcc",
         },
       ],
+      sessions: [
+        {
+          start: "2020-07-16",
+          end: "2020-07-17",
+          all_day: true,
+          label: "Thu Jul 16",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2020.html",
     },
     {
@@ -7201,6 +8884,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=VPqW0yNjovw",
         },
       ],
+      sessions: [
+        {
+          start: "2020-07-09T13:30",
+          end: "2020-07-09T14:30",
+          all_day: false,
+          label: "Thu Jul 9 · 1:30pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2020.html",
     },
     {
@@ -7242,6 +8934,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=NTcjhaZXU2Q",
         },
       ],
+      sessions: [
+        {
+          start: "2020-07-02T13:30",
+          end: "2020-07-02T14:30",
+          all_day: false,
+          label: "Thu Jul 2 · 1:30pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2020.html",
     },
     {
@@ -7283,6 +8984,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=DXHdGSBh0Hg",
         },
       ],
+      sessions: [
+        {
+          start: "2020-06-25T13:00",
+          end: "2020-06-25T14:00",
+          all_day: false,
+          label: "Thu Jun 25 · 1:00pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2020.html",
     },
     {
@@ -7324,6 +9034,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=X6dWRA8vuTA",
         },
       ],
+      sessions: [
+        {
+          start: "2020-06-18",
+          end: "2020-06-19",
+          all_day: true,
+          label: "Thu Jun 18",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2020.html",
     },
     {
@@ -7365,6 +9084,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=eNRlIafIUQE",
         },
       ],
+      sessions: [
+        {
+          start: "2020-06-11T11:00",
+          end: "2020-06-11T12:00",
+          all_day: false,
+          label: "Thu Jun 11 · 11:00am",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2020.html",
     },
     {
@@ -7406,6 +9134,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=MxoRkx0nikQ",
         },
       ],
+      sessions: [
+        {
+          start: "2020-06-04T14:00",
+          end: "2020-06-04T15:00",
+          all_day: false,
+          label: "Thu Jun 4 · 2:00pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2020.html",
     },
     {
@@ -7448,6 +9185,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=FRiqVIrYzVc",
         },
       ],
+      sessions: [
+        {
+          start: "2020-05-28",
+          end: "2020-05-29",
+          all_day: true,
+          label: "Thu May 28",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2020.html",
     },
     {
@@ -7489,6 +9235,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=wfIYgJ_2KKs",
         },
       ],
+      sessions: [
+        {
+          start: "2020-05-21",
+          end: "2020-05-22",
+          all_day: true,
+          label: "Thu May 21",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2020.html",
     },
     {
@@ -7530,6 +9285,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=EepOcxmdUWc",
         },
       ],
+      sessions: [
+        {
+          start: "2020-05-14T11:00",
+          end: "2020-05-14T12:00",
+          all_day: false,
+          label: "Thu May 14 · 11:00am",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2020.html",
     },
     {
@@ -7566,6 +9330,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=NktoSeDUEeM",
         },
       ],
+      sessions: [
+        {
+          start: "2020-05-07",
+          end: "2020-05-08",
+          all_day: true,
+          label: "Thu May 7",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2020.html",
     },
     {
@@ -7602,6 +9375,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=6I2WGdG9rBI",
         },
       ],
+      sessions: [
+        {
+          start: "2020-04-30T14:30",
+          end: "2020-04-30T15:30",
+          all_day: false,
+          label: "Thu Apr 30 · 2:30pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2020.html",
     },
     {
@@ -7639,6 +9421,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=kcT5UHKCYcc",
         },
       ],
+      sessions: [
+        {
+          start: "2020-04-23",
+          end: "2020-04-24",
+          all_day: true,
+          label: "Thu Apr 23",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2020.html",
     },
     {
@@ -7675,6 +9466,15 @@ window.MSEMINAR = {
           url: "https://www.youtube.com/watch?v=Scj12TYBMoA",
         },
       ],
+      sessions: [
+        {
+          start: "2020-04-16",
+          end: "2020-04-17",
+          all_day: true,
+          label: "Thu Apr 16",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2020.html",
     },
     {
@@ -7694,6 +9494,15 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [
+        {
+          start: "2020-04-09",
+          end: "2020-04-10",
+          all_day: true,
+          label: "Thu Apr 9",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2020.html",
     },
     {
@@ -7713,6 +9522,15 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [
+        {
+          start: "2020-04-02",
+          end: "2020-04-03",
+          all_day: true,
+          label: "Thu Apr 2",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2020.html",
     },
     {
@@ -7732,6 +9550,15 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [
+        {
+          start: "2020-03-05",
+          end: "2020-03-06",
+          all_day: true,
+          label: "Thu Mar 5",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2020.html",
     },
     {
@@ -7751,6 +9578,15 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [
+        {
+          start: "2020-02-27",
+          end: "2020-02-28",
+          all_day: true,
+          label: "Thu Feb 27",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2020.html",
     },
     {
@@ -7770,6 +9606,15 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [
+        {
+          start: "2020-02-20",
+          end: "2020-02-21",
+          all_day: true,
+          label: "Thu Feb 20",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2020.html",
     },
     {
@@ -7789,6 +9634,15 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [
+        {
+          start: "2020-02-13",
+          end: "2020-02-14",
+          all_day: true,
+          label: "Thu Feb 13",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2020.html",
     },
     {
@@ -7808,6 +9662,15 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [
+        {
+          start: "2020-02-06",
+          end: "2020-02-07",
+          all_day: true,
+          label: "Thu Feb 6",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2020.html",
     },
     {
@@ -7827,6 +9690,15 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [
+        {
+          start: "2020-01-30",
+          end: "2020-01-31",
+          all_day: true,
+          label: "Thu Jan 30",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2020.html",
     },
     {
@@ -7846,6 +9718,15 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [
+        {
+          start: "2019-12-12",
+          end: "2019-12-13",
+          all_day: true,
+          label: "Thu Dec 12",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2019.html",
     },
     {
@@ -7889,6 +9770,15 @@ window.MSEMINAR = {
         },
       ],
       videos: [],
+      sessions: [
+        {
+          start: "2019-12-03T16:00",
+          end: "2019-12-03T17:00",
+          all_day: false,
+          label: "Tue Dec 3 · 4:00pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2019.html",
     },
     {
@@ -7909,6 +9799,15 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [
+        {
+          start: "2019-11-21",
+          end: "2019-11-22",
+          all_day: true,
+          label: "Thu Nov 21",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2019.html",
     },
     {
@@ -7928,6 +9827,15 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [
+        {
+          start: "2019-11-12T16:00",
+          end: "2019-11-12T17:00",
+          all_day: false,
+          label: "Tue Nov 12 · 4:00pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2019.html",
     },
     {
@@ -7947,6 +9855,15 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [
+        {
+          start: "2019-11-07",
+          end: "2019-11-08",
+          all_day: true,
+          label: "Thu Nov 7",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2019.html",
     },
     {
@@ -7966,6 +9883,15 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [
+        {
+          start: "2019-10-31",
+          end: "2019-11-01",
+          all_day: true,
+          label: "Thu Oct 31",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2019.html",
     },
     {
@@ -7986,6 +9912,15 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [
+        {
+          start: "2019-10-24",
+          end: "2019-10-25",
+          all_day: true,
+          label: "Thu Oct 24",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2019.html",
     },
     {
@@ -8005,6 +9940,15 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [
+        {
+          start: "2019-10-10",
+          end: "2019-10-11",
+          all_day: true,
+          label: "Thu Oct 10",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2019.html",
     },
     {
@@ -8024,6 +9968,15 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [
+        {
+          start: "2019-10-03",
+          end: "2019-10-04",
+          all_day: true,
+          label: "Thu Oct 3",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2019.html",
     },
     {
@@ -8043,6 +9996,15 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [
+        {
+          start: "2019-09-26",
+          end: "2019-09-27",
+          all_day: true,
+          label: "Thu Sep 26",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2019.html",
     },
     {
@@ -8062,6 +10024,15 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [
+        {
+          start: "2019-09-19",
+          end: "2019-09-20",
+          all_day: true,
+          label: "Thu Sep 19",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2019.html",
     },
     {
@@ -8081,6 +10052,15 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [
+        {
+          start: "2019-05-09",
+          end: "2019-05-10",
+          all_day: true,
+          label: "Thu May 9",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2019.html",
     },
     {
@@ -8100,6 +10080,15 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [
+        {
+          start: "2019-05-02",
+          end: "2019-05-03",
+          all_day: true,
+          label: "Thu May 2",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2019.html",
     },
     {
@@ -8119,6 +10108,15 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [
+        {
+          start: "2019-04-25",
+          end: "2019-04-26",
+          all_day: true,
+          label: "Thu Apr 25",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2019.html",
     },
     {
@@ -8138,6 +10136,15 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [
+        {
+          start: "2019-04-18T16:00",
+          end: "2019-04-18T17:00",
+          all_day: false,
+          label: "Thu Apr 18 · 4:00pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2019.html",
     },
     {
@@ -8157,6 +10164,15 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [
+        {
+          start: "2019-04-11",
+          end: "2019-04-12",
+          all_day: true,
+          label: "Thu Apr 11",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2019.html",
     },
     {
@@ -8176,6 +10192,15 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [
+        {
+          start: "2019-04-08T13:30",
+          end: "2019-04-08T14:30",
+          all_day: false,
+          label: "Mon Apr 8 · 1:30pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2019.html",
     },
     {
@@ -8195,6 +10220,15 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [
+        {
+          start: "2019-04-04",
+          end: "2019-04-05",
+          all_day: true,
+          label: "Thu Apr 4",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2019.html",
     },
     {
@@ -8214,6 +10248,15 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [
+        {
+          start: "2019-03-21",
+          end: "2019-03-22",
+          all_day: true,
+          label: "Thu Mar 21",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2019.html",
     },
     {
@@ -8233,6 +10276,15 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [
+        {
+          start: "2019-03-07T16:00",
+          end: "2019-03-07T17:00",
+          all_day: false,
+          label: "Thu Mar 7 · 4:00pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2019.html",
     },
     {
@@ -8252,6 +10304,15 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [
+        {
+          start: "2019-02-21",
+          end: "2019-02-22",
+          all_day: true,
+          label: "Thu Feb 21",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2019.html",
     },
     {
@@ -8271,6 +10332,15 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [
+        {
+          start: "2019-02-07",
+          end: "2019-02-08",
+          all_day: true,
+          label: "Thu Feb 7",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2019.html",
     },
     {
@@ -8290,6 +10360,15 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [
+        {
+          start: "2019-01-31",
+          end: "2019-02-01",
+          all_day: true,
+          label: "Thu Jan 31",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2019.html",
     },
     {
@@ -8309,6 +10388,15 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [
+        {
+          start: "2019-01-24",
+          end: "2019-01-25",
+          all_day: true,
+          label: "Thu Jan 24",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2019.html",
     },
     {
@@ -8328,6 +10416,15 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [
+        {
+          start: "2018-12-06",
+          end: "2018-12-07",
+          all_day: true,
+          label: "Thu Dec 6",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2018.html",
     },
     {
@@ -8347,6 +10444,15 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [
+        {
+          start: "2018-12-05T13:30",
+          end: "2018-12-05T14:30",
+          all_day: false,
+          label: "Wed Dec 5 · 1:30pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2018.html",
     },
     {
@@ -8366,6 +10472,15 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [
+        {
+          start: "2018-12-03T13:30",
+          end: "2018-12-03T14:30",
+          all_day: false,
+          label: "Mon Dec 3 · 1:30pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2018.html",
     },
     {
@@ -8385,6 +10500,15 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [
+        {
+          start: "2018-11-29",
+          end: "2018-11-30",
+          all_day: true,
+          label: "Thu Nov 29",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2018.html",
     },
     {
@@ -8404,6 +10528,15 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [
+        {
+          start: "2018-11-15",
+          end: "2018-11-16",
+          all_day: true,
+          label: "Thu Nov 15",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2018.html",
     },
     {
@@ -8423,6 +10556,15 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [
+        {
+          start: "2018-11-09T13:30",
+          end: "2018-11-09T14:30",
+          all_day: false,
+          label: "Fri Nov 9 · 1:30pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2018.html",
     },
     {
@@ -8448,6 +10590,15 @@ window.MSEMINAR = {
         },
       ],
       videos: [],
+      sessions: [
+        {
+          start: "2018-11-06",
+          end: "2018-11-07",
+          all_day: true,
+          label: "Tue Nov 6",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2018.html",
     },
     {
@@ -8467,6 +10618,15 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [
+        {
+          start: "2018-11-01",
+          end: "2018-11-02",
+          all_day: true,
+          label: "Thu Nov 1",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2018.html",
     },
     {
@@ -8487,6 +10647,15 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [
+        {
+          start: "2018-10-25T16:00",
+          end: "2018-10-25T17:00",
+          all_day: false,
+          label: "Thu Oct 25 · 4:00pm",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2018.html",
     },
     {
@@ -8506,6 +10675,15 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [
+        {
+          start: "2018-10-18",
+          end: "2018-10-19",
+          all_day: true,
+          label: "Thu Oct 18",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2018.html",
     },
     {
@@ -8525,6 +10703,15 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [
+        {
+          start: "2018-10-11",
+          end: "2018-10-12",
+          all_day: true,
+          label: "Thu Oct 11",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2018.html",
     },
     {
@@ -8544,6 +10731,15 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [
+        {
+          start: "2018-10-04",
+          end: "2018-10-05",
+          all_day: true,
+          label: "Thu Oct 4",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2018.html",
     },
     {
@@ -8563,6 +10759,15 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [
+        {
+          start: "2018-09-27",
+          end: "2018-09-28",
+          all_day: true,
+          label: "Thu Sep 27",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2018.html",
     },
     {
@@ -8582,6 +10787,15 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [
+        {
+          start: "2018-09-20",
+          end: "2018-09-21",
+          all_day: true,
+          label: "Thu Sep 20",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2018.html",
     },
     {
@@ -8601,6 +10815,15 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [
+        {
+          start: "2018-09-13",
+          end: "2018-09-14",
+          all_day: true,
+          label: "Thu Sep 13",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2018.html",
     },
     {
@@ -8620,6 +10843,15 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [
+        {
+          start: "2018-09-06",
+          end: "2018-09-07",
+          all_day: true,
+          label: "Thu Sep 6",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2018.html",
     },
     {
@@ -8639,6 +10871,15 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [
+        {
+          start: "2018-04-26",
+          end: "2018-04-27",
+          all_day: true,
+          label: "Thu Apr 26",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2018.html",
     },
     {
@@ -8658,6 +10899,15 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [
+        {
+          start: "2018-04-19",
+          end: "2018-04-20",
+          all_day: true,
+          label: "Thu Apr 19",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2018.html",
     },
     {
@@ -8677,6 +10927,15 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [
+        {
+          start: "2018-04-12",
+          end: "2018-04-13",
+          all_day: true,
+          label: "Thu Apr 12",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2018.html",
     },
     {
@@ -8696,6 +10955,15 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [
+        {
+          start: "2018-03-29",
+          end: "2018-03-30",
+          all_day: true,
+          label: "Thu Mar 29",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2018.html",
     },
     {
@@ -8715,6 +10983,15 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [
+        {
+          start: "2018-03-08",
+          end: "2018-03-09",
+          all_day: true,
+          label: "Thu Mar 8",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2018.html",
     },
     {
@@ -8734,6 +11011,15 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [
+        {
+          start: "2018-03-01",
+          end: "2018-03-02",
+          all_day: true,
+          label: "Thu Mar 1",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2018.html",
     },
     {
@@ -8752,6 +11038,15 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [
+        {
+          start: "2018-02-22",
+          end: "2018-02-23",
+          all_day: true,
+          label: "Thu Feb 22",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2018.html",
     },
     {
@@ -8771,6 +11066,15 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [
+        {
+          start: "2018-02-20",
+          end: "2018-02-21",
+          all_day: true,
+          label: "Tue Feb 20",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2018.html",
     },
     {
@@ -8789,6 +11093,15 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [
+        {
+          start: "2018-02-15",
+          end: "2018-02-16",
+          all_day: true,
+          label: "Thu Feb 15",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2018.html",
     },
     {
@@ -8807,6 +11120,15 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [
+        {
+          start: "2018-02-08",
+          end: "2018-02-09",
+          all_day: true,
+          label: "Thu Feb 8",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2018.html",
     },
     {
@@ -8826,6 +11148,15 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [
+        {
+          start: "2018-02-01",
+          end: "2018-02-02",
+          all_day: true,
+          label: "Thu Feb 1",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2018.html",
     },
     {
@@ -8845,6 +11176,15 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [
+        {
+          start: "2018-01-25",
+          end: "2018-01-26",
+          all_day: true,
+          label: "Thu Jan 25",
+        },
+      ],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2018.html",
     },
     {
@@ -8864,6 +11204,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2015.html",
     },
     {
@@ -8883,6 +11225,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2015.html",
     },
     {
@@ -8902,6 +11246,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2015.html",
     },
     {
@@ -8921,6 +11267,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2015.html",
     },
     {
@@ -8940,6 +11288,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2015.html",
     },
     {
@@ -8959,6 +11309,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2015.html",
     },
     {
@@ -8978,6 +11330,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2015.html",
     },
     {
@@ -8997,6 +11351,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2015.html",
     },
     {
@@ -9016,6 +11372,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2015.html",
     },
     {
@@ -9036,6 +11394,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2015.html",
     },
     {
@@ -9055,6 +11415,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2015.html",
     },
     {
@@ -9074,6 +11436,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2015.html",
     },
     {
@@ -9093,6 +11457,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2015.html",
     },
     {
@@ -9112,6 +11478,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2015.html",
     },
     {
@@ -9131,6 +11499,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2015.html",
     },
     {
@@ -9150,6 +11520,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2015.html",
     },
     {
@@ -9169,6 +11541,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2015.html",
     },
     {
@@ -9188,6 +11562,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2014.html",
     },
     {
@@ -9207,6 +11583,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2014.html",
     },
     {
@@ -9225,6 +11603,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2014.html",
     },
     {
@@ -9244,6 +11624,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2014.html",
     },
     {
@@ -9263,6 +11645,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2014.html",
     },
     {
@@ -9282,6 +11666,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2014.html",
     },
     {
@@ -9302,6 +11688,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2014.html",
     },
     {
@@ -9321,6 +11709,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2014.html",
     },
     {
@@ -9340,6 +11730,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2014.html",
     },
     {
@@ -9359,6 +11751,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2013.html",
     },
     {
@@ -9377,6 +11771,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2013.html",
     },
     {
@@ -9397,6 +11793,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2013.html",
     },
     {
@@ -9415,6 +11813,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2013.html",
     },
     {
@@ -9433,6 +11833,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2013.html",
     },
     {
@@ -9451,6 +11853,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2013.html",
     },
     {
@@ -9470,6 +11874,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2013.html",
     },
     {
@@ -9489,6 +11895,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2013.html",
     },
     {
@@ -9507,6 +11915,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2013.html",
     },
     {
@@ -9526,6 +11936,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2013.html",
     },
     {
@@ -9545,6 +11957,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2013.html",
     },
     {
@@ -9564,6 +11978,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2013.html",
     },
     {
@@ -9583,6 +11999,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2013.html",
     },
     {
@@ -9602,6 +12020,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2013.html",
     },
     {
@@ -9622,6 +12042,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2013.html",
     },
     {
@@ -9641,6 +12063,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2012.html",
     },
     {
@@ -9660,6 +12084,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2012.html",
     },
     {
@@ -9679,6 +12105,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2012.html",
     },
     {
@@ -9704,6 +12132,8 @@ window.MSEMINAR = {
         },
       ],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2012.html",
     },
     {
@@ -9723,6 +12153,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2012.html",
     },
     {
@@ -9742,6 +12174,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2012.html",
     },
     {
@@ -9761,6 +12195,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2012.html",
     },
     {
@@ -9780,6 +12216,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2012.html",
     },
     {
@@ -9799,6 +12237,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2012.html",
     },
     {
@@ -9818,6 +12258,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2012.html",
     },
     {
@@ -9837,6 +12279,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2012.html",
     },
     {
@@ -9856,6 +12300,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2012.html",
     },
     {
@@ -9875,6 +12321,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2012.html",
     },
     {
@@ -9894,6 +12342,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2012.html",
     },
     {
@@ -9913,6 +12363,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2012.html",
     },
     {
@@ -9932,6 +12384,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2012.html",
     },
     {
@@ -9951,6 +12405,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2012.html",
     },
     {
@@ -9969,6 +12425,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2012.html",
     },
     {
@@ -9993,6 +12451,8 @@ window.MSEMINAR = {
         },
       ],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2012.html",
     },
     {
@@ -10012,6 +12472,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2012.html",
     },
     {
@@ -10031,6 +12493,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2012.html",
     },
     {
@@ -10049,6 +12513,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2012.html",
     },
     {
@@ -10068,6 +12534,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2011.html",
     },
     {
@@ -10087,6 +12555,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2011.html",
     },
     {
@@ -10106,6 +12576,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2011.html",
     },
     {
@@ -10124,6 +12596,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2011.html",
     },
     {
@@ -10142,6 +12616,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2011.html",
     },
     {
@@ -10161,6 +12637,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2011.html",
     },
     {
@@ -10180,6 +12658,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2011.html",
     },
     {
@@ -10199,6 +12679,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2011.html",
     },
     {
@@ -10217,6 +12699,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2011.html",
     },
     {
@@ -10236,6 +12720,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2011.html",
     },
     {
@@ -10254,6 +12740,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2011.html",
     },
     {
@@ -10272,6 +12760,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2011.html",
     },
     {
@@ -10291,6 +12781,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2011.html",
     },
     {
@@ -10310,6 +12802,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2011.html",
     },
     {
@@ -10329,6 +12823,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2011.html",
     },
     {
@@ -10348,6 +12844,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2011.html",
     },
     {
@@ -10367,6 +12865,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2011.html",
     },
     {
@@ -10386,6 +12886,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2011.html",
     },
     {
@@ -10405,6 +12907,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2011.html",
     },
     {
@@ -10423,6 +12927,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2011.html",
     },
     {
@@ -10441,6 +12947,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2011.html",
     },
     {
@@ -10459,6 +12967,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2011.html",
     },
     {
@@ -10478,6 +12988,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2011.html",
     },
     {
@@ -10496,6 +13008,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2011.html",
     },
     {
@@ -10515,6 +13029,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2011.html",
     },
     {
@@ -10533,6 +13049,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2011.html",
     },
     {
@@ -10551,6 +13069,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2011.html",
     },
     {
@@ -10570,6 +13090,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2011.html",
     },
     {
@@ -10588,6 +13110,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2010.html",
     },
     {
@@ -10606,6 +13130,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2010.html",
     },
     {
@@ -10624,6 +13150,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2010.html",
     },
     {
@@ -10642,6 +13170,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2010.html",
     },
     {
@@ -10660,6 +13190,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2010.html",
     },
     {
@@ -10678,6 +13210,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2010.html",
     },
     {
@@ -10696,6 +13230,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2010.html",
     },
     {
@@ -10714,6 +13250,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2010.html",
     },
     {
@@ -10732,6 +13270,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2010.html",
     },
     {
@@ -10750,6 +13290,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2010.html",
     },
     {
@@ -10768,6 +13310,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2010.html",
     },
     {
@@ -10786,6 +13330,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2008.html",
     },
     {
@@ -10804,6 +13350,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2008.html",
     },
     {
@@ -10822,6 +13370,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2007.html",
     },
     {
@@ -10840,6 +13390,8 @@ window.MSEMINAR = {
       upcoming: false,
       links: [],
       videos: [],
+      sessions: [],
+      room: "",
       source: "https://www.math.ksu.edu/research/research-centers/m-center/past_seminars/2007.html",
     },
   ],
