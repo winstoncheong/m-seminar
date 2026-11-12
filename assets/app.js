@@ -628,8 +628,8 @@
         "p",
         "cal-note",
         timed
-          ? "Times are Manhattan, Kansas time. The event opens prefilled — review it and save."
-          : "No time of day was listed for this talk, so the event is all day. The event opens prefilled — review it and save.",
+          ? "Times are Kansas local time (Central). Google Calendar keeps that time and shows the event in your own timezone — review it there, then save."
+          : "No time of day was listed for this talk, so the event is all day — review it in Google Calendar, then save.",
       ),
     );
 
