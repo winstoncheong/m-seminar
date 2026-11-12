@@ -16,9 +16,16 @@ import argparse
 import json
 import re
 import sys
-from datetime import date, datetime
+from datetime import date, datetime, timezone
 from pathlib import Path
 from urllib.parse import urljoin
+
+try:  # tzdata ships with most builds; Windows Python may need the tzdata wheel
+    from zoneinfo import ZoneInfo
+
+    LOCAL_TZ = ZoneInfo("America/Chicago")
+except Exception:  # noqa: BLE001 — no tz database: calendars fall back to wall clock
+    LOCAL_TZ = None
 
 sys.path.insert(0, str(Path(__file__).parent))
 from validate import TAG_LABELS, validate  # noqa: E402
@@ -58,6 +65,14 @@ def _stamp(h: int, m: int) -> str:
     return f"{h % 12 or 12}:{m:02d}{'pm' if h >= 12 else 'am'}"
 
 
+def _utc(d: date, hour: int, minute: int) -> str:
+    """UTC stamp for .ics downloads; empty when no tz database is available."""
+    if LOCAL_TZ is None:
+        return ""
+    local = datetime(d.year, d.month, d.day, hour, minute, tzinfo=LOCAL_TZ)
+    return local.astimezone(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
+
+
 def _session(year: int, month: int, day: int, hour=None, minute=None) -> dict | None:
     """One calendar entry; all-day when the source gives no time of day."""
     try:
@@ -72,8 +87,11 @@ def _session(year: int, month: int, day: int, hour=None, minute=None) -> dict | 
     end_h, end_m = divmod(hour * 60 + minute + TALK_MINUTES, 60)
     same_day_end = end_h < 24
     end = date.fromordinal(d.toordinal() + (0 if same_day_end else 1))
+    end_h %= 24
     return {"start": f"{d.isoformat()}T{hour:02d}:{minute:02d}",
-            "end": f"{end.isoformat()}T{end_h % 24:02d}:{end_m:02d}",
+            "end": f"{end.isoformat()}T{end_h:02d}:{end_m:02d}",
+            "start_utc": _utc(d, hour, minute),
+            "end_utc": _utc(end, end_h, end_m),
             "all_day": False,
             "label": f"{label} · {_stamp(hour, minute)}"}
 

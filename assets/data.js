@@ -1,5 +1,5 @@
 window.MSEMINAR = {
-  generated: "2026-11-11 22:06",
+  generated: "2026-11-11 22:14",
   today: "2026-11-11",
   channel: "https://www.youtube.com/@m-seminar_ksu",
   base: "https://www.math.ksu.edu/research/research-centers/m-center",
@@ -340,12 +340,16 @@ window.MSEMINAR = {
         {
           start: "2026-11-18T14:30",
           end: "2026-11-18T15:30",
+          start_utc: "20261118T203000Z",
+          end_utc: "20261118T213000Z",
           all_day: false,
           label: "Wed Nov 18 · 2:30pm",
         },
         {
           start: "2026-11-19T15:30",
           end: "2026-11-19T16:30",
+          start_utc: "20261119T213000Z",
+          end_utc: "20261119T223000Z",
           all_day: false,
           label: "Thu Nov 19 · 3:30pm",
         },
@@ -417,12 +421,16 @@ window.MSEMINAR = {
         {
           start: "2026-11-09T10:00",
           end: "2026-11-09T11:00",
+          start_utc: "20261109T160000Z",
+          end_utc: "20261109T170000Z",
           all_day: false,
           label: "Mon Nov 9 · 10:00am",
         },
         {
           start: "2026-11-10T10:00",
           end: "2026-11-10T11:00",
+          start_utc: "20261110T160000Z",
+          end_utc: "20261110T170000Z",
           all_day: false,
           label: "Tue Nov 10 · 10:00am",
         },
@@ -473,6 +481,8 @@ window.MSEMINAR = {
         {
           start: "2026-11-05T15:30",
           end: "2026-11-05T16:30",
+          start_utc: "20261105T213000Z",
+          end_utc: "20261105T223000Z",
           all_day: false,
           label: "Thu Nov 5 · 3:30pm",
         },
@@ -553,18 +563,24 @@ window.MSEMINAR = {
         {
           start: "2026-10-26T15:30",
           end: "2026-10-26T16:30",
+          start_utc: "20261026T203000Z",
+          end_utc: "20261026T213000Z",
           all_day: false,
           label: "Mon Oct 26 · 3:30pm",
         },
         {
           start: "2026-10-28T11:30",
           end: "2026-10-28T12:30",
+          start_utc: "20261028T163000Z",
+          end_utc: "20261028T173000Z",
           all_day: false,
           label: "Wed Oct 28 · 11:30am",
         },
         {
           start: "2026-10-29T15:30",
           end: "2026-10-29T16:30",
+          start_utc: "20261029T203000Z",
+          end_utc: "20261029T213000Z",
           all_day: false,
           label: "Thu Oct 29 · 3:30pm",
         },
@@ -610,6 +626,8 @@ window.MSEMINAR = {
         {
           start: "2026-10-22T10:00",
           end: "2026-10-22T11:00",
+          start_utc: "20261022T150000Z",
+          end_utc: "20261022T160000Z",
           all_day: false,
           label: "Thu Oct 22 · 10:00am",
         },
@@ -660,6 +678,8 @@ window.MSEMINAR = {
         {
           start: "2026-10-15T10:00",
           end: "2026-10-15T11:00",
+          start_utc: "20261015T150000Z",
+          end_utc: "20261015T160000Z",
           all_day: false,
           label: "Thu Oct 15 · 10:00am",
         },
@@ -710,6 +730,8 @@ window.MSEMINAR = {
         {
           start: "2026-10-08T10:00",
           end: "2026-10-08T11:00",
+          start_utc: "20261008T150000Z",
+          end_utc: "20261008T160000Z",
           all_day: false,
           label: "Thu Oct 8 · 10:00am",
         },
@@ -756,6 +778,8 @@ window.MSEMINAR = {
         {
           start: "2026-10-01T11:30",
           end: "2026-10-01T12:30",
+          start_utc: "20261001T163000Z",
+          end_utc: "20261001T173000Z",
           all_day: false,
           label: "Thu Oct 1 · 11:30am",
         },
@@ -802,6 +826,8 @@ window.MSEMINAR = {
         {
           start: "2026-09-24T13:30",
           end: "2026-09-24T14:30",
+          start_utc: "20260924T183000Z",
+          end_utc: "20260924T193000Z",
           all_day: false,
           label: "Thu Sep 24 · 1:30pm",
         },
@@ -836,6 +862,8 @@ window.MSEMINAR = {
         {
           start: "2026-05-07T11:30",
           end: "2026-05-07T12:30",
+          start_utc: "20260507T163000Z",
+          end_utc: "20260507T173000Z",
           all_day: false,
           label: "Thu May 7 · 11:30am",
         },
@@ -875,6 +903,8 @@ window.MSEMINAR = {
         {
           start: "2026-04-30T10:30",
           end: "2026-04-30T11:30",
+          start_utc: "20260430T153000Z",
+          end_utc: "20260430T163000Z",
           all_day: false,
           label: "Thu Apr 30 · 10:30am",
         },
@@ -920,6 +950,8 @@ window.MSEMINAR = {
         {
           start: "2026-04-21T15:30",
           end: "2026-04-21T16:30",
+          start_utc: "20260421T203000Z",
+          end_utc: "20260421T213000Z",
           all_day: false,
           label: "Tue Apr 21 · 3:30pm",
         },
@@ -966,6 +998,8 @@ window.MSEMINAR = {
         {
           start: "2026-04-16T15:30",
           end: "2026-04-16T16:30",
+          start_utc: "20260416T203000Z",
+          end_utc: "20260416T213000Z",
           all_day: false,
           label: "Thu Apr 16 · 3:30pm",
         },
@@ -1011,6 +1045,8 @@ window.MSEMINAR = {
         {
           start: "2026-04-09T10:30",
           end: "2026-04-09T11:30",
+          start_utc: "20260409T153000Z",
+          end_utc: "20260409T163000Z",
           all_day: false,
           label: "Thu Apr 9 · 10:30am",
         },
@@ -1091,18 +1127,24 @@ window.MSEMINAR = {
         {
           start: "2026-03-30T12:30",
           end: "2026-03-30T13:30",
+          start_utc: "20260330T173000Z",
+          end_utc: "20260330T183000Z",
           all_day: false,
           label: "Mon Mar 30 · 12:30pm",
         },
         {
           start: "2026-04-01T12:30",
           end: "2026-04-01T13:30",
+          start_utc: "20260401T173000Z",
+          end_utc: "20260401T183000Z",
           all_day: false,
           label: "Wed Apr 1 · 12:30pm",
         },
         {
           start: "2026-04-02T15:30",
           end: "2026-04-02T16:30",
+          start_utc: "20260402T203000Z",
+          end_utc: "20260402T213000Z",
           all_day: false,
           label: "Thu Apr 2 · 3:30pm",
         },
@@ -1187,18 +1229,24 @@ window.MSEMINAR = {
         {
           start: "2026-03-23T15:30",
           end: "2026-03-23T16:30",
+          start_utc: "20260323T203000Z",
+          end_utc: "20260323T213000Z",
           all_day: false,
           label: "Mon Mar 23 · 3:30pm",
         },
         {
           start: "2026-03-25T15:30",
           end: "2026-03-25T16:30",
+          start_utc: "20260325T203000Z",
+          end_utc: "20260325T213000Z",
           all_day: false,
           label: "Wed Mar 25 · 3:30pm",
         },
         {
           start: "2026-03-26T15:30",
           end: "2026-03-26T16:30",
+          start_utc: "20260326T203000Z",
+          end_utc: "20260326T213000Z",
           all_day: false,
           label: "Thu Mar 26 · 3:30pm",
         },
@@ -1269,18 +1317,24 @@ window.MSEMINAR = {
         {
           start: "2026-03-09T12:30",
           end: "2026-03-09T13:30",
+          start_utc: "20260309T173000Z",
+          end_utc: "20260309T183000Z",
           all_day: false,
           label: "Mon Mar 9 · 12:30pm",
         },
         {
           start: "2026-03-11T12:30",
           end: "2026-03-11T13:30",
+          start_utc: "20260311T173000Z",
+          end_utc: "20260311T183000Z",
           all_day: false,
           label: "Wed Mar 11 · 12:30pm",
         },
         {
           start: "2026-03-12T11:00",
           end: "2026-03-12T12:00",
+          start_utc: "20260312T160000Z",
+          end_utc: "20260312T170000Z",
           all_day: false,
           label: "Thu Mar 12 · 11:00am",
         },
@@ -1351,18 +1405,24 @@ window.MSEMINAR = {
         {
           start: "2026-03-02T12:30",
           end: "2026-03-02T13:30",
+          start_utc: "20260302T183000Z",
+          end_utc: "20260302T193000Z",
           all_day: false,
           label: "Mon Mar 2 · 12:30pm",
         },
         {
           start: "2026-03-04T12:30",
           end: "2026-03-04T13:30",
+          start_utc: "20260304T183000Z",
+          end_utc: "20260304T193000Z",
           all_day: false,
           label: "Wed Mar 4 · 12:30pm",
         },
         {
           start: "2026-03-05T15:30",
           end: "2026-03-05T16:30",
+          start_utc: "20260305T213000Z",
+          end_utc: "20260305T223000Z",
           all_day: false,
           label: "Thu Mar 5 · 3:30pm",
         },
@@ -1413,6 +1473,8 @@ window.MSEMINAR = {
         {
           start: "2026-02-26T15:30",
           end: "2026-02-26T16:30",
+          start_utc: "20260226T213000Z",
+          end_utc: "20260226T223000Z",
           all_day: false,
           label: "Thu Feb 26 · 3:30pm",
         },
@@ -1441,6 +1503,8 @@ window.MSEMINAR = {
         {
           start: "2026-02-19T15:30",
           end: "2026-02-19T16:30",
+          start_utc: "20260219T213000Z",
+          end_utc: "20260219T223000Z",
           all_day: false,
           label: "Thu Feb 19 · 3:30pm",
         },
@@ -1524,18 +1588,24 @@ window.MSEMINAR = {
         {
           start: "2026-02-09T12:30",
           end: "2026-02-09T13:30",
+          start_utc: "20260209T183000Z",
+          end_utc: "20260209T193000Z",
           all_day: false,
           label: "Mon Feb 9 · 12:30pm",
         },
         {
           start: "2026-02-11T12:30",
           end: "2026-02-11T13:30",
+          start_utc: "20260211T183000Z",
+          end_utc: "20260211T193000Z",
           all_day: false,
           label: "Wed Feb 11 · 12:30pm",
         },
         {
           start: "2026-02-12T15:30",
           end: "2026-02-12T16:30",
+          start_utc: "20260212T213000Z",
+          end_utc: "20260212T223000Z",
           all_day: false,
           label: "Thu Feb 12 · 3:30pm",
         },
@@ -1581,6 +1651,8 @@ window.MSEMINAR = {
         {
           start: "2026-02-05T15:30",
           end: "2026-02-05T16:30",
+          start_utc: "20260205T213000Z",
+          end_utc: "20260205T223000Z",
           all_day: false,
           label: "Thu Feb 5 · 3:30pm",
         },
@@ -1638,6 +1710,8 @@ window.MSEMINAR = {
         {
           start: "2025-12-10T12:30",
           end: "2025-12-10T13:30",
+          start_utc: "20251210T183000Z",
+          end_utc: "20251210T193000Z",
           all_day: false,
           label: "Wed Dec 10 · 12:30pm",
         },
@@ -1716,6 +1790,8 @@ window.MSEMINAR = {
         {
           start: "2025-12-02T15:30",
           end: "2025-12-02T16:30",
+          start_utc: "20251202T213000Z",
+          end_utc: "20251202T223000Z",
           all_day: false,
           label: "Tue Dec 2 · 3:30pm",
         },
@@ -1799,24 +1875,32 @@ window.MSEMINAR = {
         {
           start: "2025-11-17T12:30",
           end: "2025-11-17T13:30",
+          start_utc: "20251117T183000Z",
+          end_utc: "20251117T193000Z",
           all_day: false,
           label: "Mon Nov 17 · 12:30pm",
         },
         {
           start: "2025-11-18T11:30",
           end: "2025-11-18T12:30",
+          start_utc: "20251118T173000Z",
+          end_utc: "20251118T183000Z",
           all_day: false,
           label: "Tue Nov 18 · 11:30am",
         },
         {
           start: "2025-11-19T11:30",
           end: "2025-11-19T12:30",
+          start_utc: "20251119T173000Z",
+          end_utc: "20251119T183000Z",
           all_day: false,
           label: "Wed Nov 19 · 11:30am",
         },
         {
           start: "2025-11-20T11:30",
           end: "2025-11-20T12:30",
+          start_utc: "20251120T173000Z",
+          end_utc: "20251120T183000Z",
           all_day: false,
           label: "Thu Nov 20 · 11:30am",
         },
@@ -1887,6 +1971,8 @@ window.MSEMINAR = {
         {
           start: "2025-11-10T10:00",
           end: "2025-11-10T11:00",
+          start_utc: "20251110T160000Z",
+          end_utc: "20251110T170000Z",
           all_day: false,
           label: "Mon Nov 10 · 10:00am",
         },
@@ -1934,6 +2020,8 @@ window.MSEMINAR = {
         {
           start: "2025-11-06T15:30",
           end: "2025-11-06T16:30",
+          start_utc: "20251106T213000Z",
+          end_utc: "20251106T223000Z",
           all_day: false,
           label: "Thu Nov 6 · 3:30pm",
         },
@@ -1962,6 +2050,8 @@ window.MSEMINAR = {
         {
           start: "2025-10-30T15:00",
           end: "2025-10-30T16:00",
+          start_utc: "20251030T200000Z",
+          end_utc: "20251030T210000Z",
           all_day: false,
           label: "Thu Oct 30 · 3:00pm",
         },
@@ -2007,6 +2097,8 @@ window.MSEMINAR = {
         {
           start: "2025-10-23T15:30",
           end: "2025-10-23T16:30",
+          start_utc: "20251023T203000Z",
+          end_utc: "20251023T213000Z",
           all_day: false,
           label: "Thu Oct 23 · 3:30pm",
         },
@@ -2146,6 +2238,8 @@ window.MSEMINAR = {
         {
           start: "2025-10-06T12:30",
           end: "2025-10-06T13:30",
+          start_utc: "20251006T173000Z",
+          end_utc: "20251006T183000Z",
           all_day: false,
           label: "Mon Oct 6 · 12:30pm",
         },
@@ -2185,6 +2279,8 @@ window.MSEMINAR = {
         {
           start: "2025-10-02T15:30",
           end: "2025-10-02T16:30",
+          start_utc: "20251002T203000Z",
+          end_utc: "20251002T213000Z",
           all_day: false,
           label: "Thu Oct 2 · 3:30pm",
         },
@@ -2219,6 +2315,8 @@ window.MSEMINAR = {
         {
           start: "2025-05-08T10:00",
           end: "2025-05-08T11:00",
+          start_utc: "20250508T150000Z",
+          end_utc: "20250508T160000Z",
           all_day: false,
           label: "Thu May 8 · 10:00am",
         },
@@ -2265,6 +2363,8 @@ window.MSEMINAR = {
         {
           start: "2025-05-01T10:00",
           end: "2025-05-01T11:00",
+          start_utc: "20250501T150000Z",
+          end_utc: "20250501T160000Z",
           all_day: false,
           label: "Thu May 1 · 10:00am",
         },
@@ -2311,6 +2411,8 @@ window.MSEMINAR = {
         {
           start: "2025-04-24T10:00",
           end: "2025-04-24T11:00",
+          start_utc: "20250424T150000Z",
+          end_utc: "20250424T160000Z",
           all_day: false,
           label: "Thu Apr 24 · 10:00am",
         },
@@ -2358,6 +2460,8 @@ window.MSEMINAR = {
         {
           start: "2025-04-16T10:00",
           end: "2025-04-16T11:00",
+          start_utc: "20250416T150000Z",
+          end_utc: "20250416T160000Z",
           all_day: false,
           label: "Wed Apr 16 · 10:00am",
         },
@@ -2405,6 +2509,8 @@ window.MSEMINAR = {
         {
           start: "2025-04-09T10:00",
           end: "2025-04-09T11:00",
+          start_utc: "20250409T150000Z",
+          end_utc: "20250409T160000Z",
           all_day: false,
           label: "Wed Apr 9 · 10:00am",
         },
@@ -2450,6 +2556,8 @@ window.MSEMINAR = {
         {
           start: "2025-04-03T10:00",
           end: "2025-04-03T11:00",
+          start_utc: "20250403T150000Z",
+          end_utc: "20250403T160000Z",
           all_day: false,
           label: "Thu Apr 3 · 10:00am",
         },
@@ -2495,6 +2603,8 @@ window.MSEMINAR = {
         {
           start: "2025-03-27T15:30",
           end: "2025-03-27T16:30",
+          start_utc: "20250327T203000Z",
+          end_utc: "20250327T213000Z",
           all_day: false,
           label: "Thu Mar 27 · 3:30pm",
         },
@@ -2540,6 +2650,8 @@ window.MSEMINAR = {
         {
           start: "2025-03-13T11:00",
           end: "2025-03-13T12:00",
+          start_utc: "20250313T160000Z",
+          end_utc: "20250313T170000Z",
           all_day: false,
           label: "Thu Mar 13 · 11:00am",
         },
@@ -2585,6 +2697,8 @@ window.MSEMINAR = {
         {
           start: "2025-03-06T10:00",
           end: "2025-03-06T11:00",
+          start_utc: "20250306T160000Z",
+          end_utc: "20250306T170000Z",
           all_day: false,
           label: "Thu Mar 6 · 10:00am",
         },
@@ -2631,6 +2745,8 @@ window.MSEMINAR = {
         {
           start: "2025-02-27T10:00",
           end: "2025-02-27T11:00",
+          start_utc: "20250227T160000Z",
+          end_utc: "20250227T170000Z",
           all_day: false,
           label: "Thu Feb 27 · 10:00am",
         },
@@ -2671,6 +2787,8 @@ window.MSEMINAR = {
         {
           start: "2025-02-20T10:00",
           end: "2025-02-20T11:00",
+          start_utc: "20250220T160000Z",
+          end_utc: "20250220T170000Z",
           all_day: false,
           label: "Thu Feb 20 · 10:00am",
         },
@@ -2717,6 +2835,8 @@ window.MSEMINAR = {
         {
           start: "2025-02-13T10:00",
           end: "2025-02-13T11:00",
+          start_utc: "20250213T160000Z",
+          end_utc: "20250213T170000Z",
           all_day: false,
           label: "Thu Feb 13 · 10:00am",
         },
@@ -2767,6 +2887,8 @@ window.MSEMINAR = {
         {
           start: "2025-02-06T10:00",
           end: "2025-02-06T11:00",
+          start_utc: "20250206T160000Z",
+          end_utc: "20250206T170000Z",
           all_day: false,
           label: "Thu Feb 6 · 10:00am",
         },
@@ -2795,6 +2917,8 @@ window.MSEMINAR = {
         {
           start: "2024-12-05T13:00",
           end: "2024-12-05T14:00",
+          start_utc: "20241205T190000Z",
+          end_utc: "20241205T200000Z",
           all_day: false,
           label: "Thu Dec 5 · 1:00pm",
         },
@@ -2841,6 +2965,8 @@ window.MSEMINAR = {
         {
           start: "2024-11-21T10:00",
           end: "2024-11-21T11:00",
+          start_utc: "20241121T160000Z",
+          end_utc: "20241121T170000Z",
           all_day: false,
           label: "Thu Nov 21 · 10:00am",
         },
@@ -2886,6 +3012,8 @@ window.MSEMINAR = {
         {
           start: "2024-11-14T13:00",
           end: "2024-11-14T14:00",
+          start_utc: "20241114T190000Z",
+          end_utc: "20241114T200000Z",
           all_day: false,
           label: "Thu Nov 14 · 1:00pm",
         },
@@ -2932,6 +3060,8 @@ window.MSEMINAR = {
         {
           start: "2024-11-07T10:00",
           end: "2024-11-07T11:00",
+          start_utc: "20241107T160000Z",
+          end_utc: "20241107T170000Z",
           all_day: false,
           label: "Thu Nov 7 · 10:00am",
         },
@@ -2977,6 +3107,8 @@ window.MSEMINAR = {
         {
           start: "2024-10-31T15:30",
           end: "2024-10-31T16:30",
+          start_utc: "20241031T203000Z",
+          end_utc: "20241031T213000Z",
           all_day: false,
           label: "Thu Oct 31 · 3:30pm",
         },
@@ -3022,6 +3154,8 @@ window.MSEMINAR = {
         {
           start: "2024-10-24T10:00",
           end: "2024-10-24T11:00",
+          start_utc: "20241024T150000Z",
+          end_utc: "20241024T160000Z",
           all_day: false,
           label: "Thu Oct 24 · 10:00am",
         },
@@ -3067,6 +3201,8 @@ window.MSEMINAR = {
         {
           start: "2024-10-17T15:30",
           end: "2024-10-17T16:30",
+          start_utc: "20241017T203000Z",
+          end_utc: "20241017T213000Z",
           all_day: false,
           label: "Thu Oct 17 · 3:30pm",
         },
@@ -3112,6 +3248,8 @@ window.MSEMINAR = {
         {
           start: "2024-10-10T10:00",
           end: "2024-10-10T11:00",
+          start_utc: "20241010T150000Z",
+          end_utc: "20241010T160000Z",
           all_day: false,
           label: "Thu Oct 10 · 10:00am",
         },
@@ -3157,6 +3295,8 @@ window.MSEMINAR = {
         {
           start: "2024-10-03T15:30",
           end: "2024-10-03T16:30",
+          start_utc: "20241003T203000Z",
+          end_utc: "20241003T213000Z",
           all_day: false,
           label: "Thu Oct 3 · 3:30pm",
         },
@@ -3202,6 +3342,8 @@ window.MSEMINAR = {
         {
           start: "2024-09-26T15:30",
           end: "2024-09-26T16:30",
+          start_utc: "20240926T203000Z",
+          end_utc: "20240926T213000Z",
           all_day: false,
           label: "Thu Sep 26 · 3:30pm",
         },
@@ -3247,6 +3389,8 @@ window.MSEMINAR = {
         {
           start: "2024-09-12T14:30",
           end: "2024-09-12T15:30",
+          start_utc: "20240912T193000Z",
+          end_utc: "20240912T203000Z",
           all_day: false,
           label: "Thu Sep 12 · 2:30pm",
         },
@@ -3292,6 +3436,8 @@ window.MSEMINAR = {
         {
           start: "2024-09-05T10:00",
           end: "2024-09-05T11:00",
+          start_utc: "20240905T150000Z",
+          end_utc: "20240905T160000Z",
           all_day: false,
           label: "Thu Sep 5 · 10:00am",
         },
@@ -3337,6 +3483,8 @@ window.MSEMINAR = {
         {
           start: "2024-05-02T13:00",
           end: "2024-05-02T14:00",
+          start_utc: "20240502T180000Z",
+          end_utc: "20240502T190000Z",
           all_day: false,
           label: "Thu May 2 · 1:00pm",
         },
@@ -3382,6 +3530,8 @@ window.MSEMINAR = {
         {
           start: "2024-04-25T14:00",
           end: "2024-04-25T15:00",
+          start_utc: "20240425T190000Z",
+          end_utc: "20240425T200000Z",
           all_day: false,
           label: "Thu Apr 25 · 2:00pm",
         },
@@ -3416,6 +3566,8 @@ window.MSEMINAR = {
         {
           start: "2024-04-18T09:00",
           end: "2024-04-18T10:00",
+          start_utc: "20240418T140000Z",
+          end_utc: "20240418T150000Z",
           all_day: false,
           label: "Thu Apr 18 · 9:00am",
         },
@@ -3574,6 +3726,8 @@ window.MSEMINAR = {
         {
           start: "2024-04-04T15:30",
           end: "2024-04-04T16:30",
+          start_utc: "20240404T203000Z",
+          end_utc: "20240404T213000Z",
           all_day: false,
           label: "Thu Apr 4 · 3:30pm",
         },
@@ -3619,6 +3773,8 @@ window.MSEMINAR = {
         {
           start: "2024-03-28T15:30",
           end: "2024-03-28T16:30",
+          start_utc: "20240328T203000Z",
+          end_utc: "20240328T213000Z",
           all_day: false,
           label: "Thu Mar 28 · 3:30pm",
         },
@@ -3664,6 +3820,8 @@ window.MSEMINAR = {
         {
           start: "2024-03-21T14:30",
           end: "2024-03-21T15:30",
+          start_utc: "20240321T193000Z",
+          end_utc: "20240321T203000Z",
           all_day: false,
           label: "Thu Mar 21 · 2:30pm",
         },
@@ -3709,6 +3867,8 @@ window.MSEMINAR = {
         {
           start: "2024-03-07T13:30",
           end: "2024-03-07T14:30",
+          start_utc: "20240307T193000Z",
+          end_utc: "20240307T203000Z",
           all_day: false,
           label: "Thu Mar 7 · 1:30pm",
         },
@@ -3754,6 +3914,8 @@ window.MSEMINAR = {
         {
           start: "2024-02-27T15:30",
           end: "2024-02-27T16:30",
+          start_utc: "20240227T213000Z",
+          end_utc: "20240227T223000Z",
           all_day: false,
           label: "Tue Feb 27 · 3:30pm",
         },
@@ -3920,6 +4082,8 @@ window.MSEMINAR = {
         {
           start: "2024-02-15T13:00",
           end: "2024-02-15T14:00",
+          start_utc: "20240215T190000Z",
+          end_utc: "20240215T200000Z",
           all_day: false,
           label: "Thu Feb 15 · 1:00pm",
         },
@@ -3965,6 +4129,8 @@ window.MSEMINAR = {
         {
           start: "2024-02-08T14:00",
           end: "2024-02-08T15:00",
+          start_utc: "20240208T200000Z",
+          end_utc: "20240208T210000Z",
           all_day: false,
           label: "Thu Feb 8 · 2:00pm",
         },
@@ -4015,6 +4181,8 @@ window.MSEMINAR = {
         {
           start: "2023-12-06T12:30",
           end: "2023-12-06T13:30",
+          start_utc: "20231206T183000Z",
+          end_utc: "20231206T193000Z",
           all_day: false,
           label: "Wed Dec 6 · 12:30pm",
         },
@@ -4060,6 +4228,8 @@ window.MSEMINAR = {
         {
           start: "2023-11-30T11:00",
           end: "2023-11-30T12:00",
+          start_utc: "20231130T170000Z",
+          end_utc: "20231130T180000Z",
           all_day: false,
           label: "Thu Nov 30 · 11:00am",
         },
@@ -4106,6 +4276,8 @@ window.MSEMINAR = {
         {
           start: "2023-11-16T15:30",
           end: "2023-11-16T16:30",
+          start_utc: "20231116T213000Z",
+          end_utc: "20231116T223000Z",
           all_day: false,
           label: "Thu Nov 16 · 3:30pm",
         },
@@ -4151,6 +4323,8 @@ window.MSEMINAR = {
         {
           start: "2023-11-08T14:00",
           end: "2023-11-08T15:00",
+          start_utc: "20231108T200000Z",
+          end_utc: "20231108T210000Z",
           all_day: false,
           label: "Wed Nov 8 · 2:00pm",
         },
@@ -4246,6 +4420,8 @@ window.MSEMINAR = {
         {
           start: "2023-10-30T13:30",
           end: "2023-10-30T14:30",
+          start_utc: "20231030T183000Z",
+          end_utc: "20231030T193000Z",
           all_day: false,
           label: "Mon Oct 30 · 1:30pm",
         },
@@ -4285,6 +4461,8 @@ window.MSEMINAR = {
         {
           start: "2023-10-26T15:30",
           end: "2023-10-26T16:30",
+          start_utc: "20231026T203000Z",
+          end_utc: "20231026T213000Z",
           all_day: false,
           label: "Thu Oct 26 · 3:30pm",
         },
@@ -4401,6 +4579,8 @@ window.MSEMINAR = {
         {
           start: "2023-10-12T13:00",
           end: "2023-10-12T14:00",
+          start_utc: "20231012T180000Z",
+          end_utc: "20231012T190000Z",
           all_day: false,
           label: "Thu Oct 12 · 1:00pm",
         },
@@ -4446,6 +4626,8 @@ window.MSEMINAR = {
         {
           start: "2023-10-05T15:30",
           end: "2023-10-05T16:30",
+          start_utc: "20231005T203000Z",
+          end_utc: "20231005T213000Z",
           all_day: false,
           label: "Thu Oct 5 · 3:30pm",
         },
@@ -4491,6 +4673,8 @@ window.MSEMINAR = {
         {
           start: "2023-09-28T18:00",
           end: "2023-09-28T19:00",
+          start_utc: "20230928T230000Z",
+          end_utc: "20230929T000000Z",
           all_day: false,
           label: "Thu Sep 28 · 6:00pm",
         },
@@ -4536,6 +4720,8 @@ window.MSEMINAR = {
         {
           start: "2023-09-21T16:15",
           end: "2023-09-21T17:15",
+          start_utc: "20230921T211500Z",
+          end_utc: "20230921T221500Z",
           all_day: false,
           label: "Thu Sep 21 · 4:15pm",
         },
@@ -4575,6 +4761,8 @@ window.MSEMINAR = {
         {
           start: "2023-09-14T15:30",
           end: "2023-09-14T16:30",
+          start_utc: "20230914T203000Z",
+          end_utc: "20230914T213000Z",
           all_day: false,
           label: "Thu Sep 14 · 3:30pm",
         },
@@ -4620,6 +4808,8 @@ window.MSEMINAR = {
         {
           start: "2023-05-04T11:00",
           end: "2023-05-04T12:00",
+          start_utc: "20230504T160000Z",
+          end_utc: "20230504T170000Z",
           all_day: false,
           label: "Thu May 4 · 11:00am",
         },
@@ -4665,6 +4855,8 @@ window.MSEMINAR = {
         {
           start: "2023-04-27T12:00",
           end: "2023-04-27T13:00",
+          start_utc: "20230427T170000Z",
+          end_utc: "20230427T180000Z",
           all_day: false,
           label: "Thu Apr 27 · 12:00pm",
         },
@@ -4710,6 +4902,8 @@ window.MSEMINAR = {
         {
           start: "2023-04-20T12:00",
           end: "2023-04-20T13:00",
+          start_utc: "20230420T170000Z",
+          end_utc: "20230420T180000Z",
           all_day: false,
           label: "Thu Apr 20 · 12:00pm",
         },
@@ -4755,6 +4949,8 @@ window.MSEMINAR = {
         {
           start: "2023-04-13T15:30",
           end: "2023-04-13T16:30",
+          start_utc: "20230413T203000Z",
+          end_utc: "20230413T213000Z",
           all_day: false,
           label: "Thu Apr 13 · 3:30pm",
         },
@@ -4800,6 +4996,8 @@ window.MSEMINAR = {
         {
           start: "2023-04-07T11:00",
           end: "2023-04-07T12:00",
+          start_utc: "20230407T160000Z",
+          end_utc: "20230407T170000Z",
           all_day: false,
           label: "Fri Apr 7 · 11:00am",
         },
@@ -4845,6 +5043,8 @@ window.MSEMINAR = {
         {
           start: "2023-03-30T15:30",
           end: "2023-03-30T16:30",
+          start_utc: "20230330T203000Z",
+          end_utc: "20230330T213000Z",
           all_day: false,
           label: "Thu Mar 30 · 3:30pm",
         },
@@ -4890,6 +5090,8 @@ window.MSEMINAR = {
         {
           start: "2023-03-23T15:30",
           end: "2023-03-23T16:30",
+          start_utc: "20230323T203000Z",
+          end_utc: "20230323T213000Z",
           all_day: false,
           label: "Thu Mar 23 · 3:30pm",
         },
@@ -4935,6 +5137,8 @@ window.MSEMINAR = {
         {
           start: "2023-03-09T10:00",
           end: "2023-03-09T11:00",
+          start_utc: "20230309T160000Z",
+          end_utc: "20230309T170000Z",
           all_day: false,
           label: "Thu Mar 9 · 10:00am",
         },
@@ -4980,6 +5184,8 @@ window.MSEMINAR = {
         {
           start: "2023-03-02T15:30",
           end: "2023-03-02T16:30",
+          start_utc: "20230302T213000Z",
+          end_utc: "20230302T223000Z",
           all_day: false,
           label: "Thu Mar 2 · 3:30pm",
         },
@@ -5025,6 +5231,8 @@ window.MSEMINAR = {
         {
           start: "2023-02-23T15:30",
           end: "2023-02-23T16:30",
+          start_utc: "20230223T213000Z",
+          end_utc: "20230223T223000Z",
           all_day: false,
           label: "Thu Feb 23 · 3:30pm",
         },
@@ -5064,6 +5272,8 @@ window.MSEMINAR = {
         {
           start: "2023-02-16T15:30",
           end: "2023-02-16T16:30",
+          start_utc: "20230216T213000Z",
+          end_utc: "20230216T223000Z",
           all_day: false,
           label: "Thu Feb 16 · 3:30pm",
         },
@@ -5109,6 +5319,8 @@ window.MSEMINAR = {
         {
           start: "2023-02-09T15:30",
           end: "2023-02-09T16:30",
+          start_utc: "20230209T213000Z",
+          end_utc: "20230209T223000Z",
           all_day: false,
           label: "Thu Feb 9 · 3:30pm",
         },
@@ -5154,6 +5366,8 @@ window.MSEMINAR = {
         {
           start: "2023-02-01T15:30",
           end: "2023-02-01T16:30",
+          start_utc: "20230201T213000Z",
+          end_utc: "20230201T223000Z",
           all_day: false,
           label: "Wed Feb 1 · 3:30pm",
         },
@@ -5204,6 +5418,8 @@ window.MSEMINAR = {
         {
           start: "2022-12-08T20:00",
           end: "2022-12-08T21:00",
+          start_utc: "20221209T020000Z",
+          end_utc: "20221209T030000Z",
           all_day: false,
           label: "Thu Dec 8 · 8:00pm",
         },
@@ -5249,6 +5465,8 @@ window.MSEMINAR = {
         {
           start: "2022-12-01T10:00",
           end: "2022-12-01T11:00",
+          start_utc: "20221201T160000Z",
+          end_utc: "20221201T170000Z",
           all_day: false,
           label: "Thu Dec 1 · 10:00am",
         },
@@ -5295,6 +5513,8 @@ window.MSEMINAR = {
         {
           start: "2022-11-18T09:00",
           end: "2022-11-18T10:00",
+          start_utc: "20221118T150000Z",
+          end_utc: "20221118T160000Z",
           all_day: false,
           label: "Fri Nov 18 · 9:00am",
         },
@@ -5340,6 +5560,8 @@ window.MSEMINAR = {
         {
           start: "2022-11-10T13:30",
           end: "2022-11-10T14:30",
+          start_utc: "20221110T193000Z",
+          end_utc: "20221110T203000Z",
           all_day: false,
           label: "Thu Nov 10 · 1:30pm",
         },
@@ -5385,6 +5607,8 @@ window.MSEMINAR = {
         {
           start: "2022-11-03T14:00",
           end: "2022-11-03T15:00",
+          start_utc: "20221103T190000Z",
+          end_utc: "20221103T200000Z",
           all_day: false,
           label: "Thu Nov 3 · 2:00pm",
         },
@@ -5430,6 +5654,8 @@ window.MSEMINAR = {
         {
           start: "2022-10-27T10:00",
           end: "2022-10-27T11:00",
+          start_utc: "20221027T150000Z",
+          end_utc: "20221027T160000Z",
           all_day: false,
           label: "Thu Oct 27 · 10:00am",
         },
@@ -5469,6 +5695,8 @@ window.MSEMINAR = {
         {
           start: "2022-10-20T15:30",
           end: "2022-10-20T16:30",
+          start_utc: "20221020T203000Z",
+          end_utc: "20221020T213000Z",
           all_day: false,
           label: "Thu Oct 20 · 3:30pm",
         },
@@ -5515,6 +5743,8 @@ window.MSEMINAR = {
         {
           start: "2022-10-13T12:30",
           end: "2022-10-13T13:30",
+          start_utc: "20221013T173000Z",
+          end_utc: "20221013T183000Z",
           all_day: false,
           label: "Thu Oct 13 · 12:30pm",
         },
@@ -5560,6 +5790,8 @@ window.MSEMINAR = {
         {
           start: "2022-10-07T15:30",
           end: "2022-10-07T16:30",
+          start_utc: "20221007T203000Z",
+          end_utc: "20221007T213000Z",
           all_day: false,
           label: "Fri Oct 7 · 3:30pm",
         },
@@ -5599,6 +5831,8 @@ window.MSEMINAR = {
         {
           start: "2022-09-29T12:30",
           end: "2022-09-29T13:30",
+          start_utc: "20220929T173000Z",
+          end_utc: "20220929T183000Z",
           all_day: false,
           label: "Thu Sep 29 · 12:30pm",
         },
@@ -5627,6 +5861,8 @@ window.MSEMINAR = {
         {
           start: "2022-09-22T15:30",
           end: "2022-09-22T16:30",
+          start_utc: "20220922T203000Z",
+          end_utc: "20220922T213000Z",
           all_day: false,
           label: "Thu Sep 22 · 3:30pm",
         },
@@ -5672,6 +5908,8 @@ window.MSEMINAR = {
         {
           start: "2022-05-05T12:30",
           end: "2022-05-05T13:30",
+          start_utc: "20220505T173000Z",
+          end_utc: "20220505T183000Z",
           all_day: false,
           label: "Thu May 5 · 12:30pm",
         },
@@ -5717,6 +5955,8 @@ window.MSEMINAR = {
         {
           start: "2022-04-28T15:30",
           end: "2022-04-28T16:30",
+          start_utc: "20220428T203000Z",
+          end_utc: "20220428T213000Z",
           all_day: false,
           label: "Thu Apr 28 · 3:30pm",
         },
@@ -5762,6 +6002,8 @@ window.MSEMINAR = {
         {
           start: "2022-04-22T15:30",
           end: "2022-04-22T16:30",
+          start_utc: "20220422T203000Z",
+          end_utc: "20220422T213000Z",
           all_day: false,
           label: "Fri Apr 22 · 3:30pm",
         },
@@ -5807,6 +6049,8 @@ window.MSEMINAR = {
         {
           start: "2022-04-14T15:30",
           end: "2022-04-14T16:30",
+          start_utc: "20220414T203000Z",
+          end_utc: "20220414T213000Z",
           all_day: false,
           label: "Thu Apr 14 · 3:30pm",
         },
@@ -5857,6 +6101,8 @@ window.MSEMINAR = {
         {
           start: "2022-04-08T15:40",
           end: "2022-04-08T16:40",
+          start_utc: "20220408T204000Z",
+          end_utc: "20220408T214000Z",
           all_day: false,
           label: "Fri Apr 8 · 3:40pm",
         },
@@ -5907,6 +6153,8 @@ window.MSEMINAR = {
         {
           start: "2022-03-31T15:30",
           end: "2022-03-31T16:30",
+          start_utc: "20220331T203000Z",
+          end_utc: "20220331T213000Z",
           all_day: false,
           label: "Thu Mar 31 · 3:30pm",
         },
@@ -6001,6 +6249,8 @@ window.MSEMINAR = {
         {
           start: "2022-03-21T13:30",
           end: "2022-03-21T14:30",
+          start_utc: "20220321T183000Z",
+          end_utc: "20220321T193000Z",
           all_day: false,
           label: "Mon Mar 21 · 1:30pm",
         },
@@ -6051,6 +6301,8 @@ window.MSEMINAR = {
         {
           start: "2022-03-10T15:30",
           end: "2022-03-10T16:30",
+          start_utc: "20220310T213000Z",
+          end_utc: "20220310T223000Z",
           all_day: false,
           label: "Thu Mar 10 · 3:30pm",
         },
@@ -6096,6 +6348,8 @@ window.MSEMINAR = {
         {
           start: "2022-03-03T15:30",
           end: "2022-03-03T16:30",
+          start_utc: "20220303T213000Z",
+          end_utc: "20220303T223000Z",
           all_day: false,
           label: "Thu Mar 3 · 3:30pm",
         },
@@ -6141,6 +6395,8 @@ window.MSEMINAR = {
         {
           start: "2022-02-24T17:00",
           end: "2022-02-24T18:00",
+          start_utc: "20220224T230000Z",
+          end_utc: "20220225T000000Z",
           all_day: false,
           label: "Thu Feb 24 · 5:00pm",
         },
@@ -6186,6 +6442,8 @@ window.MSEMINAR = {
         {
           start: "2022-02-18T13:00",
           end: "2022-02-18T14:00",
+          start_utc: "20220218T190000Z",
+          end_utc: "20220218T200000Z",
           all_day: false,
           label: "Fri Feb 18 · 1:00pm",
         },
@@ -6326,6 +6584,8 @@ window.MSEMINAR = {
         {
           start: "2022-02-03T12:00",
           end: "2022-02-03T13:00",
+          start_utc: "20220203T180000Z",
+          end_utc: "20220203T190000Z",
           all_day: false,
           label: "Thu Feb 3 · 12:00pm",
         },
@@ -6371,6 +6631,8 @@ window.MSEMINAR = {
         {
           start: "2022-01-27T15:30",
           end: "2022-01-27T16:30",
+          start_utc: "20220127T213000Z",
+          end_utc: "20220127T223000Z",
           all_day: false,
           label: "Thu Jan 27 · 3:30pm",
         },
@@ -6416,6 +6678,8 @@ window.MSEMINAR = {
         {
           start: "2022-01-21T16:00",
           end: "2022-01-21T17:00",
+          start_utc: "20220121T220000Z",
+          end_utc: "20220121T230000Z",
           all_day: false,
           label: "Fri Jan 21 · 4:00pm",
         },
@@ -6662,6 +6926,8 @@ window.MSEMINAR = {
         {
           start: "2021-11-04T11:00",
           end: "2021-11-04T12:00",
+          start_utc: "20211104T160000Z",
+          end_utc: "20211104T170000Z",
           all_day: false,
           label: "Thu Nov 4 · 11:00am",
         },
@@ -6760,6 +7026,8 @@ window.MSEMINAR = {
         {
           start: "2021-10-25T13:30",
           end: "2021-10-25T14:30",
+          start_utc: "20211025T183000Z",
+          end_utc: "20211025T193000Z",
           all_day: false,
           label: "Mon Oct 25 · 1:30pm",
         },
@@ -6810,6 +7078,8 @@ window.MSEMINAR = {
         {
           start: "2021-10-21T13:00",
           end: "2021-10-21T14:00",
+          start_utc: "20211021T180000Z",
+          end_utc: "20211021T190000Z",
           all_day: false,
           label: "Thu Oct 21 · 1:00pm",
         },
@@ -6863,6 +7133,8 @@ window.MSEMINAR = {
         {
           start: "2021-10-14T13:30",
           end: "2021-10-14T14:30",
+          start_utc: "20211014T183000Z",
+          end_utc: "20211014T193000Z",
           all_day: false,
           label: "Thu Oct 14 · 1:30pm",
         },
@@ -6913,6 +7185,8 @@ window.MSEMINAR = {
         {
           start: "2021-10-07T13:00",
           end: "2021-10-07T14:00",
+          start_utc: "20211007T180000Z",
+          end_utc: "20211007T190000Z",
           all_day: false,
           label: "Thu Oct 7 · 1:00pm",
         },
@@ -7008,6 +7282,8 @@ window.MSEMINAR = {
         {
           start: "2021-09-22T15:30",
           end: "2021-09-22T16:30",
+          start_utc: "20210922T203000Z",
+          end_utc: "20210922T213000Z",
           all_day: false,
           label: "Wed Sep 22 · 3:30pm",
         },
@@ -7058,6 +7334,8 @@ window.MSEMINAR = {
         {
           start: "2021-09-16T16:00",
           end: "2021-09-16T17:00",
+          start_utc: "20210916T210000Z",
+          end_utc: "20210916T220000Z",
           all_day: false,
           label: "Thu Sep 16 · 4:00pm",
         },
@@ -7259,6 +7537,8 @@ window.MSEMINAR = {
         {
           start: "2021-04-15T14:30",
           end: "2021-04-15T15:30",
+          start_utc: "20210415T193000Z",
+          end_utc: "20210415T203000Z",
           all_day: false,
           label: "Thu Apr 15 · 2:30pm",
         },
@@ -7460,6 +7740,8 @@ window.MSEMINAR = {
         {
           start: "2021-03-18T13:30",
           end: "2021-03-18T14:30",
+          start_utc: "20210318T183000Z",
+          end_utc: "20210318T193000Z",
           all_day: false,
           label: "Thu Mar 18 · 1:30pm",
         },
@@ -7690,6 +7972,8 @@ window.MSEMINAR = {
         {
           start: "2021-02-18T11:00",
           end: "2021-02-18T12:00",
+          start_utc: "20210218T170000Z",
+          end_utc: "20210218T180000Z",
           all_day: false,
           label: "Thu Feb 18 · 11:00am",
         },
@@ -7741,6 +8025,8 @@ window.MSEMINAR = {
         {
           start: "2021-02-11T11:00",
           end: "2021-02-11T12:00",
+          start_utc: "20210211T170000Z",
+          end_utc: "20210211T180000Z",
           all_day: false,
           label: "Thu Feb 11 · 11:00am",
         },
@@ -7942,6 +8228,8 @@ window.MSEMINAR = {
         {
           start: "2020-11-19T13:30",
           end: "2020-11-19T14:30",
+          start_utc: "20201119T193000Z",
+          end_utc: "20201119T203000Z",
           all_day: false,
           label: "Thu Nov 19 · 1:30pm",
         },
@@ -8094,6 +8382,8 @@ window.MSEMINAR = {
         {
           start: "2020-10-26T11:00",
           end: "2020-10-26T12:00",
+          start_utc: "20201026T160000Z",
+          end_utc: "20201026T170000Z",
           all_day: false,
           label: "Mon Oct 26 · 11:00am",
         },
@@ -8390,6 +8680,8 @@ window.MSEMINAR = {
         {
           start: "2020-09-17T13:30",
           end: "2020-09-17T14:30",
+          start_utc: "20200917T183000Z",
+          end_utc: "20200917T193000Z",
           all_day: false,
           label: "Thu Sep 17 · 1:30pm",
         },
@@ -8589,6 +8881,8 @@ window.MSEMINAR = {
         {
           start: "2020-08-20T18:00",
           end: "2020-08-20T19:00",
+          start_utc: "20200820T230000Z",
+          end_utc: "20200821T000000Z",
           all_day: false,
           label: "Thu Aug 20 · 6:00pm",
         },
@@ -8689,6 +8983,8 @@ window.MSEMINAR = {
         {
           start: "2020-08-06T13:00",
           end: "2020-08-06T14:00",
+          start_utc: "20200806T180000Z",
+          end_utc: "20200806T190000Z",
           all_day: false,
           label: "Thu Aug 6 · 1:00pm",
         },
@@ -8888,6 +9184,8 @@ window.MSEMINAR = {
         {
           start: "2020-07-09T13:30",
           end: "2020-07-09T14:30",
+          start_utc: "20200709T183000Z",
+          end_utc: "20200709T193000Z",
           all_day: false,
           label: "Thu Jul 9 · 1:30pm",
         },
@@ -8938,6 +9236,8 @@ window.MSEMINAR = {
         {
           start: "2020-07-02T13:30",
           end: "2020-07-02T14:30",
+          start_utc: "20200702T183000Z",
+          end_utc: "20200702T193000Z",
           all_day: false,
           label: "Thu Jul 2 · 1:30pm",
         },
@@ -8988,6 +9288,8 @@ window.MSEMINAR = {
         {
           start: "2020-06-25T13:00",
           end: "2020-06-25T14:00",
+          start_utc: "20200625T180000Z",
+          end_utc: "20200625T190000Z",
           all_day: false,
           label: "Thu Jun 25 · 1:00pm",
         },
@@ -9088,6 +9390,8 @@ window.MSEMINAR = {
         {
           start: "2020-06-11T11:00",
           end: "2020-06-11T12:00",
+          start_utc: "20200611T160000Z",
+          end_utc: "20200611T170000Z",
           all_day: false,
           label: "Thu Jun 11 · 11:00am",
         },
@@ -9138,6 +9442,8 @@ window.MSEMINAR = {
         {
           start: "2020-06-04T14:00",
           end: "2020-06-04T15:00",
+          start_utc: "20200604T190000Z",
+          end_utc: "20200604T200000Z",
           all_day: false,
           label: "Thu Jun 4 · 2:00pm",
         },
@@ -9289,6 +9595,8 @@ window.MSEMINAR = {
         {
           start: "2020-05-14T11:00",
           end: "2020-05-14T12:00",
+          start_utc: "20200514T160000Z",
+          end_utc: "20200514T170000Z",
           all_day: false,
           label: "Thu May 14 · 11:00am",
         },
@@ -9379,6 +9687,8 @@ window.MSEMINAR = {
         {
           start: "2020-04-30T14:30",
           end: "2020-04-30T15:30",
+          start_utc: "20200430T193000Z",
+          end_utc: "20200430T203000Z",
           all_day: false,
           label: "Thu Apr 30 · 2:30pm",
         },
@@ -9774,6 +10084,8 @@ window.MSEMINAR = {
         {
           start: "2019-12-03T16:00",
           end: "2019-12-03T17:00",
+          start_utc: "20191203T220000Z",
+          end_utc: "20191203T230000Z",
           all_day: false,
           label: "Tue Dec 3 · 4:00pm",
         },
@@ -9831,6 +10143,8 @@ window.MSEMINAR = {
         {
           start: "2019-11-12T16:00",
           end: "2019-11-12T17:00",
+          start_utc: "20191112T220000Z",
+          end_utc: "20191112T230000Z",
           all_day: false,
           label: "Tue Nov 12 · 4:00pm",
         },
@@ -10140,6 +10454,8 @@ window.MSEMINAR = {
         {
           start: "2019-04-18T16:00",
           end: "2019-04-18T17:00",
+          start_utc: "20190418T210000Z",
+          end_utc: "20190418T220000Z",
           all_day: false,
           label: "Thu Apr 18 · 4:00pm",
         },
@@ -10196,6 +10512,8 @@ window.MSEMINAR = {
         {
           start: "2019-04-08T13:30",
           end: "2019-04-08T14:30",
+          start_utc: "20190408T183000Z",
+          end_utc: "20190408T193000Z",
           all_day: false,
           label: "Mon Apr 8 · 1:30pm",
         },
@@ -10280,6 +10598,8 @@ window.MSEMINAR = {
         {
           start: "2019-03-07T16:00",
           end: "2019-03-07T17:00",
+          start_utc: "20190307T220000Z",
+          end_utc: "20190307T230000Z",
           all_day: false,
           label: "Thu Mar 7 · 4:00pm",
         },
@@ -10448,6 +10768,8 @@ window.MSEMINAR = {
         {
           start: "2018-12-05T13:30",
           end: "2018-12-05T14:30",
+          start_utc: "20181205T193000Z",
+          end_utc: "20181205T203000Z",
           all_day: false,
           label: "Wed Dec 5 · 1:30pm",
         },
@@ -10476,6 +10798,8 @@ window.MSEMINAR = {
         {
           start: "2018-12-03T13:30",
           end: "2018-12-03T14:30",
+          start_utc: "20181203T193000Z",
+          end_utc: "20181203T203000Z",
           all_day: false,
           label: "Mon Dec 3 · 1:30pm",
         },
@@ -10560,6 +10884,8 @@ window.MSEMINAR = {
         {
           start: "2018-11-09T13:30",
           end: "2018-11-09T14:30",
+          start_utc: "20181109T193000Z",
+          end_utc: "20181109T203000Z",
           all_day: false,
           label: "Fri Nov 9 · 1:30pm",
         },
@@ -10651,6 +10977,8 @@ window.MSEMINAR = {
         {
           start: "2018-10-25T16:00",
           end: "2018-10-25T17:00",
+          start_utc: "20181025T210000Z",
+          end_utc: "20181025T220000Z",
           all_day: false,
           label: "Thu Oct 25 · 4:00pm",
         },

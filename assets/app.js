@@ -561,6 +561,25 @@
     return d.replace(/-/g, "") + "T" + t.replace(":", "") + "00";
   }
 
+  function zoomUrl(t) {
+    const l = (t.links || []).find((x) => x.kind === "zoom");
+    return l ? l.url : "";
+  }
+
+  function detailsText(t) {
+    const out = [];
+    if (t.speaker) out.push(t.speaker + (t.affiliation ? " (" + t.affiliation + ")" : ""));
+    if (t.abstract) {
+      const a = t.abstract.trim();
+      out.push(a.length > 500 ? a.slice(0, 500).replace(/\s+\S*$/, "") + "…" : a);
+    }
+    const zoom = zoomUrl(t);
+    if (zoom && t.room) out.push("In person: " + t.room + ", Kansas State University");
+    if (t.source) out.push("Programme: " + t.source);
+    out.push("Archive: " + location.href.split("#")[0] + "#" + t.id);
+    return out.join("\n\n");
+  }
+
   function calendarUrl(t, s) {
     const p = new URLSearchParams();
     p.set("action", "TEMPLATE");
@@ -572,16 +591,11 @@
         : calStamp(s.start) + "/" + calStamp(s.end),
     );
     if (!s.all_day) p.set("ctz", CAL_TZ);
-    const details = [];
-    if (t.speaker) details.push(t.speaker + (t.affiliation ? " (" + t.affiliation + ")" : ""));
-    if (t.abstract) {
-      const a = t.abstract.trim();
-      details.push(a.length > 500 ? a.slice(0, 500).replace(/\s+\S*$/, "") + "…" : a);
-    }
-    if (t.source) details.push("Programme: " + t.source);
-    details.push("Archive: " + location.href.split("#")[0] + "#" + t.id);
-    p.set("details", details.join("\n\n"));
-    if (t.room) p.set("location", t.room + ", Kansas State University");
+    p.set("details", detailsText(t));
+    // Seminars are on Zoom; a stated room only wins when there is no link.
+    const zoom = zoomUrl(t);
+    if (zoom) p.set("location", zoom);
+    else if (t.room) p.set("location", t.room + ", Kansas State University");
     return "https://calendar.google.com/calendar/render?" + p.toString();
   }
 
@@ -628,10 +642,21 @@
         "p",
         "cal-note",
         timed
-          ? "Times are Kansas local time (Central). Google Calendar keeps that time and shows the event in your own timezone — review it there, then save."
-          : "No time of day was listed for this talk, so the event is all day — review it in Google Calendar, then save.",
+          ? "Times are Kansas local time (Central); Google shows the event in your own timezone. Google's link can't add a reminder — the .ics below carries a 10-minute alert."
+          : "No time of day was listed, so the event is all day. Google's link can't add a reminder — the .ics below carries a 10-minute alert.",
       ),
     );
+
+    // Google's link format cannot carry a reminder, so the alarm lives in an
+    // .ics download instead (Google Calendar honours it on import, as do
+    // Apple Calendar and Outlook).
+    const ics = el("a", "cal-ics", "Download .ics (10-minute alert)");
+    ics.href = "#";
+    ics.addEventListener("click", (e) => {
+      e.preventDefault();
+      downloadIcs(t);
+    });
+    calDialog.appendChild(ics);
 
     const actions = el("div", "cal-actions");
     const close = el("button", "cal-close", "Close");
@@ -641,6 +666,78 @@
     calDialog.appendChild(actions);
 
     if (!calDialog.open) calDialog.showModal();
+  }
+
+  /* RFC 5545 text escaping and 75-octet line folding. */
+  function icsText(s) {
+    return String(s)
+      .replace(/\\/g, "\\\\")
+      .replace(/;/g, "\\;")
+      .replace(/,/g, "\\,")
+      .replace(/\r?\n/g, "\\n");
+  }
+
+  function icsFold(line) {
+    const out = [];
+    let rest = line;
+    while (rest.length > 73) {
+      out.push(rest.slice(0, 73));
+      rest = " " + rest.slice(73);
+    }
+    out.push(rest);
+    return out.join("\r\n");
+  }
+
+  function buildIcs(t) {
+    const stamp = new Date().toISOString().replace(/[-:]/g, "").replace(/\.\d+/, "");
+    const lines = [
+      "BEGIN:VCALENDAR",
+      "VERSION:2.0",
+      "PRODID:-//M-Seminar//K-State archive//EN",
+      "CALSCALE:GREGORIAN",
+      "METHOD:PUBLISH",
+    ];
+    t.sessions.forEach((s, i) => {
+      lines.push("BEGIN:VEVENT");
+      lines.push(`UID:${t.id}-${i}@m-seminar`);
+      lines.push(`DTSTAMP:${stamp}`);
+      if (s.all_day) {
+        lines.push(`DTSTART;VALUE=DATE:${s.start.replace(/-/g, "")}`);
+        lines.push(`DTEND;VALUE=DATE:${s.end.replace(/-/g, "")}`);
+      } else if (s.start_utc) {
+        lines.push(`DTSTART:${s.start_utc}`);
+        lines.push(`DTEND:${s.end_utc}`);
+      } else {
+        // No tz database at build time: name the zone and let the client resolve it.
+        lines.push(`DTSTART;TZID=America/Chicago:${calStamp(s.start)}`);
+        lines.push(`DTEND;TZID=America/Chicago:${calStamp(s.end)}`);
+      }
+      lines.push(`SUMMARY:${icsText("M-Seminar: " + (t.title || t.speaker || "talk"))}`);
+      lines.push(`DESCRIPTION:${icsText(detailsText(t))}`);
+      const zoom = zoomUrl(t);
+      if (zoom) lines.push(`LOCATION:${icsText(zoom)}`);
+      else if (t.room) lines.push(`LOCATION:${icsText(t.room + ", Kansas State University")}`);
+      lines.push("BEGIN:VALARM");
+      lines.push("TRIGGER:-PT10M");
+      lines.push("ACTION:DISPLAY");
+      lines.push(`DESCRIPTION:${icsText("M-Seminar starts in 10 minutes")}`);
+      lines.push("END:VALARM");
+      lines.push("END:VEVENT");
+    });
+    lines.push("END:VCALENDAR");
+    return lines.map(icsFold).join("\r\n") + "\r\n";
+  }
+
+  function downloadIcs(t) {
+    const blob = new Blob([buildIcs(t)], { type: "text/calendar;charset=utf-8" });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = t.id + ".ics";
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+    window.setTimeout(() => URL.revokeObjectURL(url), 2000);
   }
 
   function shortDate(t) {
