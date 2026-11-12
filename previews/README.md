@@ -44,7 +44,11 @@ Files also render via `file://` (CDN math needs network).
 
 The six options shipped as switchable themes in a follow-up PR: one shared DOM
 in `scripts/build.py` + `assets/app.js`, one delta stylesheet each in
-`assets/themes/`, a header picker persisted to `localStorage`. The mockups here
-stay as the design record; do not copy-paste them as production markup — the
-live themes were rebuilt against the real data pipeline (video embeds, tag
-filter, section grouping), so they have already diverged from these files.
+`assets/themes/`, a header picker persisted to `localStorage`.
+
+They were later consolidated again: the picker and `assets/themes/` are gone, and
+`assets/style.css` carries the single design (warm-paper light mode, matching dark
+mode, one light/dark toggle). The mockups here stay as the design record; do not
+copy-paste them as production markup — they predate the real data pipeline (video
+embeds, tag filter, section grouping), so they have already diverged.
+

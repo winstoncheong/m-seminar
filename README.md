@@ -27,8 +27,7 @@ footer says how stale the archive may be.
 ```
   index.html            generated page (open this, or serve the folder)
   assets/
-    style.css           styling (light + dark, with toggle)
-    themes/             one delta stylesheet per site theme (theme picker swaps them)
+    style.css           styling: the whole design, light + dark from one token set
     favicon.svg         header monogram as the tab icon
     app.js              rendering, search, filters, click-to-load video
     data.js             generated: window.MSEMINAR = {...}

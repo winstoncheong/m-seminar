@@ -122,79 +122,20 @@
     }
   }
 
-  const THEME_ORDER = ["auto", "light", "dark"];
   const THEME_GLYPH = { auto: "◐", light: "☀", dark: "☾" };
 
-  /* Site design themes: one shared DOM, one stylesheet each. The picker swaps
-     the #sitetheme-css link; the color-scheme toggle keeps working on top. */
-  const SITE_THEMES = [
-    { slug: "refined-current", label: "Refined current" },
-    { slug: "editorial-serif", label: "Editorial serif" },
-    { slug: "bold-modern", label: "Bold modern" },
-    { slug: "compact-directory", label: "Compact directory" },
-    { slug: "filter-sidebar", label: "Filter sidebar" },
-    { slug: "dark-scholarly", label: "Dark scholarly" },
-  ];
-  const SITE_THEME_KEY = "mseminar-sitetheme";
-  const DEFAULT_SITE_THEME = "refined-current";
-
-  function siteThemeSetting() {
-    try {
-      const t = localStorage.getItem(SITE_THEME_KEY);
-      if (SITE_THEMES.some((x) => x.slug === t)) return t;
-    } catch (e) {
-      /* private mode */
-    }
-    return DEFAULT_SITE_THEME;
-  }
-
-  function applySiteTheme(slug) {
-    const known = SITE_THEMES.some((x) => x.slug === slug);
-    const s = known ? slug : DEFAULT_SITE_THEME;
-    document.body.dataset.sitetheme = s;
-    const link = $("#sitetheme-css");
-    if (link) link.href = "assets/themes/" + s + ".css";
-    try {
-      localStorage.setItem(SITE_THEME_KEY, s);
-    } catch (e) {
-      /* private mode */
-    }
-    const sel = $("#sitetheme");
-    if (sel) sel.value = s;
-    updateStatsBand();
-  }
-
-  /* Bold-modern is the only theme with a stats band; everywhere else the
-     element stays hidden. Counts come from the live payload. */
-  function updateStatsBand() {
-    const band = $("#stats-band");
-    if (!band) return;
-    if (document.body.dataset.sitetheme !== "bold-modern") {
-      band.hidden = true;
-      return;
-    }
-    const c = D.counts;
-    const yrs = (c.years || []).slice().sort();
-    const span = yrs.length ? yrs[0] + "–" + yrs[yrs.length - 1] : "";
-    band.textContent =
-      `${c.talks} talks · ${c.videos} recordings · ${(D.tags || []).length} topics` +
-      (span ? ` · ${span}` : "");
-    band.hidden = false;
-  }
-
-  function themeSetting() {
-    return document.documentElement.dataset.theme || "auto";
+  function resolvedTheme() {
+    const set = document.documentElement.dataset.theme;
+    if (set === "light" || set === "dark") return set;
+    return window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches
+      ? "dark"
+      : "light";
   }
 
   function applyTheme(t) {
     const root = document.documentElement;
-    if (t === "auto") {
-      delete root.dataset.theme;
-      root.style.colorScheme = "light dark";
-    } else {
-      root.dataset.theme = t;
-      root.style.colorScheme = t;
-    }
+    root.dataset.theme = t;
+    root.style.colorScheme = t;
     try {
       localStorage.setItem("mseminar-theme", t);
     } catch (e) {
@@ -204,11 +145,12 @@
   }
 
   function updateThemeButton() {
-    const t = themeSetting();
     const btn = $("#theme-toggle");
     if (!btn) return;
-    btn.textContent = THEME_GLYPH[t] || THEME_GLYPH.auto;
-    const label = "Color theme: " + t + " (click to change)";
+    const now = resolvedTheme();
+    const next = now === "dark" ? "light" : "dark";
+    btn.textContent = THEME_GLYPH[next];
+    const label = `Switch to ${next} mode`;
     btn.title = label;
     btn.setAttribute("aria-label", label);
   }
@@ -222,11 +164,12 @@
     const row = $("#tagRow");
     if (!row) return;
     for (const t of D.tags || []) {
-      const b = el("button", "ttag", `${t.label} (${t.count})`);
+      const b = el("button", "ttag", t.label);
       b.type = "button";
       b.dataset.slug = t.slug;
       b.title = `${t.count} talks`;
       b.setAttribute("aria-pressed", "false");
+      b.appendChild(el("span", "n", String(t.count)));
       b.addEventListener("click", () => toggleTag(t.slug));
       row.appendChild(b);
     }
@@ -296,16 +239,6 @@
       render();
     });
     buildTagRow();
-    const picker = $("#sitetheme");
-    if (picker) {
-      for (const t of SITE_THEMES) {
-        const o = el("option", null, t.label);
-        o.value = t.slug;
-        picker.appendChild(o);
-      }
-      picker.addEventListener("change", (e) => applySiteTheme(e.target.value));
-    }
-    applySiteTheme(siteThemeSetting());
     const initial = tagsFromHash();
     if (initial) state.tags = new Set(initial.filter((s) => tagKnown(s)));
     render();
@@ -333,11 +266,15 @@
     const themeBtn = $("#theme-toggle");
     if (themeBtn) {
       themeBtn.addEventListener("click", () => {
-        const next = THEME_ORDER[(THEME_ORDER.indexOf(themeSetting()) + 1) % THEME_ORDER.length];
-        applyTheme(next);
+        applyTheme(resolvedTheme() === "dark" ? "light" : "dark");
       });
     }
     updateThemeButton();
+    if (window.matchMedia) {
+      window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => {
+        if (!document.documentElement.dataset.theme) updateThemeButton();
+      });
+    }
   }
 
   function renderNext() {
@@ -396,9 +333,9 @@
     $("#empty").hidden = talks.length > 0;
 
     const withVid = talks.filter((t) => t.videos.length).length;
-    let stats =
-      `${talks.length} of ${D.counts.talks} talks · ${withVid} with recordings ` +
-      `· ${D.counts.videos} videos in the archive`;
+    const total = D.counts.talks;
+    const prefix = talks.length === total ? `${total} talks` : `${talks.length} of ${total} talks`;
+    let stats = `${prefix} · ${withVid} with recordings · ${D.counts.videos} videos`;
     if (state.tags.size > 0) {
       const names = [...state.tags].map(tagLabel).join(", ");
       stats += ` · topics (any): ${names}`;
@@ -426,12 +363,36 @@
 
     for (const key of keys) {
       const h = el("h2", "section-head", key);
+      h.appendChild(el("span", "section-count", String(groups.get(key).length)));
       results.appendChild(h);
       for (const t of groups.get(key)) results.appendChild(talkCard(t));
     }
     focusHash();
+    setupClamps();
     if (window.MathJax && MathJax.typesetPromise) {
-      MathJax.typesetPromise().catch(() => {});
+      MathJax.typesetPromise()
+        .then(setupClamps)
+        .catch(() => {});
+    }
+  }
+
+  /* Show "More" only for abstracts that are actually clamped. Do it in batched
+     passes (read all, unclamp all, read all, restore all) so the whole page
+     costs a couple of layouts instead of two per card. */
+  function setupClamps() {
+    const items = [];
+    for (const card of document.querySelectorAll("#results .talk")) {
+      if (card.classList.contains("open")) continue;
+      const abs = card.querySelector(".abstract");
+      const btn = card.querySelector(".abs-toggle");
+      if (abs && btn) items.push({ abs, btn, clamped: abs.clientHeight });
+    }
+    for (const it of items) it.abs.style.webkitLineClamp = "unset";
+    for (const it of items) it.full = it.abs.scrollHeight;
+    for (const it of items) it.abs.style.webkitLineClamp = "";
+    for (const it of items) {
+      if (it.full > it.clamped + 2) it.btn.dataset.tall = "1";
+      it.btn.classList.toggle("is-shown", it.btn.dataset.tall === "1");
     }
   }
 
@@ -447,15 +408,21 @@
     card.id = t.id;
 
     const date = el("div", "talk-date");
-    date.appendChild(el("span", "day", shortDate(t)));
-    date.appendChild(el("span", "season", (t.season || "") + " " + (t.year || "")));
-    card.appendChild(date);
+    if (t.date_iso || t.date_text) {
+      date.appendChild(el("span", "day", shortDate(t)));
+      date.appendChild(el("span", "season", (t.season || "") + " " + (t.year || "")));
+      card.appendChild(date);
+    } else {
+      // No day/month on the source page; the section heading carries the term.
+      card.classList.add("no-date");
+    }
 
     const body = el("div", "talk-body");
+    const lead = el("div", "talk-lead");
     if (t.title) {
       const h = el("h3", "talk-title", t.title);
       linkifyArxiv(h);
-      body.appendChild(h);
+      lead.appendChild(h);
     }
 
     const sp = el("p", "talk-speaker");
@@ -475,7 +442,9 @@
     if (t.upcoming) badges.appendChild(el("span", "badge", "Upcoming"));
     if (t.cancelled) badges.appendChild(el("span", "badge cancelled", "Cancelled"));
     if (badges.childNodes.length) sp.appendChild(badges);
-    body.appendChild(sp);
+    lead.appendChild(sp);
+
+    const meta = el("div", "talk-meta");
 
     if (t.tags && t.tags.length) {
       const ttags = el("div", "ttags");
@@ -492,12 +461,14 @@
         b.addEventListener("click", () => toggleTag(slug));
         ttags.appendChild(b);
       }
-      body.appendChild(ttags);
+      meta.appendChild(ttags);
     }
 
-    if (t.links.length) {
+    // Zoom links are only useful while the talk is still ahead.
+    const links = t.links.filter((l) => l.kind !== "zoom" || t.upcoming);
+    if (links.length) {
       const chips = el("div", "chips");
-      for (const l of t.links) {
+      for (const l of links) {
         const a = el("a", "chip " + l.kind);
         a.href = l.url;
         a.target = "_blank";
@@ -506,47 +477,62 @@
         a.appendChild(document.createTextNode(l.label));
         chips.appendChild(a);
       }
-      body.appendChild(chips);
+      meta.appendChild(chips);
     }
+    if (meta.childNodes.length) lead.appendChild(meta);
+    body.appendChild(lead);
 
+    const main = el("div", "talk-main");
     if (t.abstract) {
       const abs = el("div", "abstract", t.abstract);
       linkifyArxiv(abs);
-      body.appendChild(abs);
-      // Compact-directory clamps abstracts; the toggle opens them. Hidden by
-      // default, shown only by themes that clamp.
-      const more = el("button", "abs-toggle", "Show more");
+      main.appendChild(abs);
+      const more = el("button", "abs-toggle", "More");
       more.type = "button";
       more.addEventListener("click", () => {
         const open = card.classList.toggle("open");
-        more.textContent = open ? "Show less" : "Show more";
+        more.textContent = open ? "Less" : "More";
+        if (window.MathJax && MathJax.typesetPromise) {
+          MathJax.typesetPromise()
+            .then(setupClamps)
+            .catch(() => {});
+        }
       });
-      body.appendChild(more);
+      main.appendChild(more);
     }
 
+    if (t.extra && t.extra.length) {
+      // The Zoom line is stale once the talk is over; skip it like the chip.
+      const extra = t.extra.filter((x) => t.upcoming || !/^zoom link/i.test(x));
+      if (extra.length) {
+        const ex = el("div", "extra");
+        ex.textContent = extra.join(" · ");
+        main.appendChild(ex);
+      }
+    }
+    if (main.childNodes.length) body.appendChild(main);
+
     if (t.videos.length) {
-      body.appendChild(videoBlock(t.videos));
+      const side = el("aside", "talk-side");
+      side.appendChild(videoBlock(t.videos));
+      body.appendChild(side);
+      card.classList.add("has-side");
     } else if (!t.cancelled) {
-      const nov = el(
-        "div",
-        "no-video",
-        t.upcoming ? "Recording not yet available." : "No recording found — ",
-      );
-      if (!t.upcoming) {
-        const a = el("a", null, "check the YouTube channel");
+      const side = el("aside", "talk-side");
+      const nov = el("div", "no-video");
+      if (t.upcoming) {
+        nov.textContent = "Recording not yet available";
+      } else {
+        nov.appendChild(document.createTextNode("No recording — "));
+        const a = el("a", null, "check the channel");
         a.href = D.channel;
         a.target = "_blank";
         a.rel = "noopener";
         nov.appendChild(a);
-        nov.appendChild(document.createTextNode(" for this talk."));
       }
-      body.appendChild(nov);
-    }
-
-    if (t.extra && t.extra.length) {
-      const ex = el("div", "extra");
-      ex.textContent = t.extra.join(" · ");
-      body.appendChild(ex);
+      side.appendChild(nov);
+      body.appendChild(side);
+      card.classList.add("has-side");
     }
 
     card.appendChild(body);
@@ -556,24 +542,72 @@
   function shortDate(t) {
     if (!t.date_iso) return t.date_text ? t.date_text.split(",")[0] : "—";
     const d = new Date(t.date_iso + "T00:00:00");
-    return d.toLocaleDateString(undefined, { month: "short", day: "numeric" });
+    const mon = d.toLocaleDateString(undefined, { month: "short" });
+    const days = [d.getDate()];
+    // "November 18, 19" / "October 26, 28, 29" -> "Nov 18–19" / "Oct 26–29".
+    // Anything after the day list (times, other months) is left to date_text.
+    const rest = (t.date_text || "").match(/^[^,]+,\s*([\d,\s]+)/);
+    if (rest) {
+      for (const part of rest[1].split(",")) {
+        const n = parseInt(part.trim(), 10);
+        if (!(n > days[days.length - 1] && n <= 31)) break;
+        days.push(n);
+      }
+    }
+    return days.length > 1 ? `${mon} ${days[0]}–${days[days.length - 1]}` : `${mon} ${days[0]}`;
+  }
+
+  function fmtDuration(secs) {
+    if (!secs && secs !== 0) return "";
+    const h = Math.floor(secs / 3600);
+    const m = Math.round((secs % 3600) / 60);
+    return h ? `${h}h ${String(m).padStart(2, "0")}m` : `${m}m`;
   }
 
   function videoBlock(videos) {
     const wrap = el("div", "video-block");
+    const media = el("div", "video-media");
+    const side = el("div", "video-side");
     let idx = 0;
+
     const player = el("button", "video-thumb");
     player.type = "button";
     const img = el("img");
     img.loading = "lazy";
     img.alt = "";
     player.appendChild(img);
-    const play = el("span", "play", "▶");
-    player.appendChild(play);
+    player.appendChild(el("span", "play", "▶"));
+    media.appendChild(player);
+
+    side.appendChild(
+      el("span", "video-label", videos.length > 1 ? `${videos.length} parts` : "Recording"),
+    );
+    const note = el("span", "video-note");
+    side.appendChild(note);
+
+    let parts = null;
+    if (videos.length > 1) {
+      parts = el("div", "video-parts");
+      videos.forEach((v, i) => {
+        const b = el("button", "part", "Part " + (v.part || i + 1));
+        b.type = "button";
+        b.addEventListener("click", () => {
+          if (player.isConnected) {
+            setThumb(i);
+            load();
+          } else {
+            setThumb(i);
+          }
+        });
+        parts.appendChild(b);
+      });
+      side.appendChild(parts);
+    }
 
     function setThumb(i) {
       idx = i;
       img.src = videos[i].thumb;
+      note.textContent = fmtDuration(videos[i].duration);
       if (parts) {
         [...parts.children].forEach((c, j) => c.classList.toggle("active", j === i));
       }
@@ -587,28 +621,15 @@
         "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
       frame.allowFullscreen = true;
       player.replaceWith(frame);
+      wrap.classList.add("playing");
+      const card = wrap.closest(".talk");
+      if (card) card.classList.add("playing");
+      setThumb(idx);
     }
     player.addEventListener("click", load);
 
-    let parts = null;
-    if (videos.length > 1) {
-      parts = el("div", "video-parts");
-      videos.forEach((v, i) => {
-        const b = el("button", "part", v.part && videos.length > 1 ? "Part " + v.part : "Play");
-        b.type = "button";
-        b.addEventListener("click", () => {
-          if (player.isConnected) {
-            setThumb(i);
-            load();
-          } else {
-            setThumb(i);
-          }
-        });
-        parts.appendChild(b);
-      });
-    }
-    wrap.appendChild(player);
-    if (parts) wrap.appendChild(parts);
+    wrap.appendChild(media);
+    wrap.appendChild(side);
     setThumb(0);
     return wrap;
   }

@@ -150,7 +150,6 @@ HTML = """<!DOCTYPE html>
 <meta name="description" content="Archive of the K-State M-Seminar: talks, abstracts, slides and video recordings.">
 <link rel="preconnect" href="https://i.ytimg.com">
 <link rel="stylesheet" href="assets/style.css">
-<link id="sitetheme-css" rel="stylesheet" href="assets/themes/refined-current.css">
 <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
 <script>
 // Apply the stored theme before first paint to avoid a flash.
@@ -186,46 +185,42 @@ window.MathJax = {
       <a href="https://www.math.ksu.edu/research/research-centers/m-center/" target="_blank" rel="noopener">M-Center</a>
       <a href="https://www.youtube.com/@m-seminar_ksu" target="_blank" rel="noopener">YouTube</a>
       <a href="https://www.math.ksu.edu/research/research-centers/m-center/seminars.html" target="_blank" rel="noopener">Original page</a>
-      <label class="sitetheme-label">Theme
-        <select id="sitetheme" aria-label="Site theme"></select>
-      </label>
-      <button id="theme-toggle" class="theme-toggle" type="button" title="Color theme">◐</button>
+      <button id="theme-toggle" class="theme-toggle" type="button" title="Toggle dark mode">☾</button>
     </nav>
   </div>
 </header>
 
 <main class="wrap">
-  <p class="standfirst">The programme archive of the K-State M-Seminar · %%YEAR_RANGE%%</p>
   <aside class="disclaimer" role="note">
     <p><span class="disclaimer-tag">Please note</span>This is an unofficial, AI-generated archive. Everything here was put together by an AI agent from information scraped off the public web and then only partially reviewed by a human, so titles, dates, speakers and abstracts may be wrong. Treat the <a href="https://www.math.ksu.edu/research/research-centers/m-center/seminars.html" target="_blank" rel="noopener">official M-Seminar page</a> as the source of truth, and check the "Last built" date below before assuming a listing is current. This site will be updated irregularly.</p>
   </aside>
 
   <section class="hero">
     <p id="next-talk" class="next-talk" hidden></p>
-    <div class="controls">
-      <label class="search">
-        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
-        <input id="q" type="search" placeholder="Search title, speaker, abstract…  (press /)" autocomplete="off">
-      </label>
-      <select id="year" aria-label="Filter by year"><option value="">All years</option></select>
-      <label class="check"><input id="hasVideo" type="checkbox"> With video</label>
-      <label class="check"><input id="upcomingOnly" type="checkbox"> Upcoming</label>
-      <label class="check"><input id="hideCancelled" type="checkbox" checked> Hide cancelled</label>
-      <select id="sort" aria-label="Sort">
-        <option value="new">Newest first</option>
-        <option value="old">Oldest first</option>
-        <option value="speaker">By speaker</option>
-      </select>
+    <div class="listing">
+      <div class="controls">
+        <label class="search">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+          <input id="q" type="search" placeholder="Search title, speaker, abstract…  (press /)" autocomplete="off">
+        </label>
+        <select id="year" aria-label="Filter by year"><option value="">All years</option></select>
+        <select id="sort" aria-label="Sort">
+          <option value="new">Newest first</option>
+          <option value="old">Oldest first</option>
+          <option value="speaker">By speaker</option>
+        </select>
+        <label class="check"><input id="hasVideo" type="checkbox"> With video</label>
+        <label class="check"><input id="upcomingOnly" type="checkbox"> Upcoming</label>
+        <label class="check"><input id="hideCancelled" type="checkbox" checked> Hide cancelled</label>
+      </div>
+      <div id="tagRow" class="tag-row" role="group" aria-label="Filter by topic">
+        <span class="tag-row-label">Topics</span>
+      </div>
+      <p id="stats" class="stats"></p>
+      <section id="results" class="results"></section>
+      <p id="empty" class="empty" hidden>No talks match your filters.</p>
     </div>
-    <div id="tagRow" class="tag-row" role="group" aria-label="Filter by topic">
-      <span class="tag-row-label">Topics (match any):</span>
-    </div>
-    <p id="stats" class="stats"></p>
   </section>
-
-  <p id="stats-band" class="stats-band" hidden></p>
-  <section id="results" class="results"></section>
-  <p id="empty" class="empty" hidden>No talks match your filters.</p>
 </main>
 
 <footer class="site-footer">
@@ -278,10 +273,7 @@ def main() -> None:
     (ASSETS / "data.js").write_text(
         "window.MSEMINAR = " + json.dumps(payload, ensure_ascii=False, indent=2) + ";\n",
         encoding="utf-8")
-    years = payload["counts"]["years"] or []
-    year_range = f"{years[-1]}–{years[0]}" if years else ""
-    html = HTML.replace("%%YEAR_RANGE%%", year_range)
-    (ROOT / "index.html").write_text(html, encoding="utf-8")
+    (ROOT / "index.html").write_text(HTML, encoding="utf-8")
     c = payload["counts"]
     print(f"Wrote index.html + assets/data.js  "
           f"({c['talks']} talks, {c['withVideo']} with video, {c['videos']} recordings)")
